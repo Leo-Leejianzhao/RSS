@@ -28,3 +28,15 @@ jobs:
     - name: Run
       run: |
         python main.py
+    - name: 提交更改
+      run: |
+         git config --local user.email "leejianzhao@gmail.com"
+         git config --local user.name "Leo-Leejianzhao"
+         git add subscribe/v2ray.txt
+         git add subscribe/clash.yml
+         git commit -m "更新订阅链接"
+    - name: 推送更改
+      uses:  ad-m/github-push-action@master
+      with:
+         # github_token: ${{ secrets.TOKEN }}
+         branch: main
