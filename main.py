@@ -1,16 +1,9 @@
 '''
 Author: Leo Lee (leejianzhao@gmail.com)
 Date: 2021-07-18 16:34:45
-LastEditTime: 2021-07-18 16:34:53
+LastEditTime: 2021-07-18 16:43:01
 FilePath: \RSS\main.py
 Description:
-'''
-'''
-Author: Leo Lee (leejianzhao@gmail.com)
-Date: 2021-07-18 11:23:17
-LastEditTime: 2021-07-18 11:47:33
-FilePath: \GFB\main.py
-Description: Great Firewall Breaker
 '''
 
 import requests
@@ -42,15 +35,7 @@ def main(event, context):
     # artUrl = getArticle()
     # getSubscribeUrl(artUrl)
     getSubscribeUrl()
-    # a = dy
-    # content = utils.getLogContent()
-    # wxpusher.sendTopicMessage(
-    #     config["token"],
-    #     '最新VMESS节点',
-    #     content,
-    #     [1832],
-    #     'https://fund.lsj8.ltd'
-    # )
+
 
 
 # def getFeeds():
