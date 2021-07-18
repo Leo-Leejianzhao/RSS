@@ -1,7 +1,7 @@
 '''
 Author: Leo Lee (leejianzhao@gmail.com)
 Date: 2021-07-18 16:34:45
-LastEditTime: 2021-07-18 16:43:01
+LastEditTime: 2021-07-18 18:07:48
 FilePath: \RSS\main.py
 Description:
 '''
@@ -64,16 +64,16 @@ def getSubscribeUrl():
         "GET", v2rayList[len(v2rayList)-1].replace('amp;',''), verify=False)
     clashTxt = requests.request(
         "GET", clashList[len(clashList)-1].replace('amp;',''), verify=False)
-    print(v2rayList)
-    print(clashList)
     dirs = './subscribe'
     if not os.path.exists(dirs):
         os.makedirs(dirs)
     with open(dirs + '/v2ray.txt', 'w') as f:
         f.write(v2rayTxt.text)
+    print(v2rayTxt.text)
     day = time.strftime('%Y.%m.%d',time.localtime(time.time()))
     with open(dirs + '/clash.yml', 'w') as f:
         f.write(clashTxt.text.replace('https://www.mattkaydiary.com',day))
+    print(clashTxt.text)
 #         f.write(clashTxt.text.replace('https://www.mattkaydiary.com','仅供学习，请24小时内删除'))
 
 
