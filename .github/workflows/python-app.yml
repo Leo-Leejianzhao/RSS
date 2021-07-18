@@ -1,0 +1,30 @@
+# This workflow will install Python dependencies, runs the script at 02:40 and 12:40 UTC every day.
+
+name: Python application
+
+on: [push]
+#   schedule:
+#     # - cron: '*/5 * * * *'
+#     # 表达式生成  https://crontab.guru/
+#     # 此处是UTC时间 即北京时间 -8小时
+#     - cron: '40 2,12 * * *'
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.9
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.9
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        # pip install flake8 pytest
+        pip install -r requirements.txt
+    - name: Run
+      run: |
+        python main.py
