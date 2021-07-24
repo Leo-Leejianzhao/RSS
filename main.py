@@ -1,7 +1,7 @@
 '''
 Author: Leo Lee (leejianzhao@gmail.com)
 Date: 2021-07-18 16:34:45
-LastEditTime: 2021-07-22 23:46:45
+LastEditTime: 2021-07-24 16:57:38
 FilePath: \RSS\main.py
 Description:
 '''
@@ -55,29 +55,30 @@ def log(msg):
 def getSubscribeUrl():
     try:
         rss = feedparser.parse('http://feeds.feedburner.com/mattkaydiary/pZjG')
-        current = rss["entries"][3]
+        current = rss["entries"][0]
         v2rayList = re.findall(
             r"v2ray\(若无法更新请开启代理后再拉取\)：(.+?)</div>", current.summary)
         clashList = re.findall(
             r"clash\(若无法更新请开启代理后再拉取\)：(.+?)</div>", current.summary)
-        v2rayTxt = requests.request(
-            "GET", v2rayList[len(v2rayList)-1].replace('amp;',''), verify=False)
-        clashTxt = requests.request(
-            "GET", clashList[len(clashList)-1].replace('amp;',''), verify=False)
-
         if not os.path.exists(dirs):
             os.makedirs(dirs)
-        with open(dirs + '/v2ray.txt', 'w') as f:
-            f.write(v2rayTxt.text)
-        print(v2rayTxt.text)
-        day = time.strftime('%Y.%m.%d',time.localtime(time.time()))
-        with open(dirs + '/clash.yml', 'w',encoding='utf-8') as f:
-            f.write(clashTxt.text.replace('https://www.mattkaydiary.com',day))
+        if v2rayList:
+            v2rayTxt = requests.request(
+                "GET", v2rayList[len(v2rayList)-1].replace('amp;',''), verify=False)
+            with open(dirs + '/v2ray.txt', 'w') as f:
+                f.write(v2rayTxt.text)
+            # print(v2rayTxt.text)
+        if clashList:
+            clashTxt = requests.request(
+                "GET", clashList[len(clashList)-1].replace('amp;',''), verify=False)
+            day = time.strftime('%Y.%m.%d',time.localtime(time.time()))
+            with open(dirs + '/clash.yml', 'w',encoding='utf-8') as f:
+                f.write(clashTxt.text.replace('https://www.mattkaydiary.com',day))
+            # print(clashTxt.text)
     except Exception as e:
         log('RSS load error: '+e.__str__())
 
-    # print(clashTxt.text)
-#         f.write(clashTxt.text.replace('https://www.mattkaydiary.com','仅供学习，请24小时内删除'))
+
 
 # https://github.com/p4gefau1t/trojan-go/issues/132
 # trojan-go://
