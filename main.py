@@ -1,7 +1,7 @@
 '''
 Author: Leo Lee (leejianzhao@gmail.com)
 Date: 2021-07-18 16:34:45
-LastEditTime: 2021-07-24 16:57:38
+LastEditTime: 2021-09-30 23:04:28
 FilePath: \RSS\main.py
 Description:
 '''
@@ -57,9 +57,9 @@ def getSubscribeUrl():
         rss = feedparser.parse('http://feeds.feedburner.com/mattkaydiary/pZjG')
         current = rss["entries"][0]
         v2rayList = re.findall(
-            r"v2ray\(若无法更新请开启代理后再拉取\)：(.+?)</div>", current.summary)
+            r"v2ray\(请开启代理后再拉取\)：(.+?)</div>", current.summary)
         clashList = re.findall(
-            r"clash\(若无法更新请开启代理后再拉取\)：(.+?)</div>", current.summary)
+            r"clash\(请开启代理后再拉取\)：(.+?)</div>", current.summary)
         if not os.path.exists(dirs):
             os.makedirs(dirs)
         if v2rayList:
