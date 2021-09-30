@@ -1,7 +1,7 @@
 '''
 Author: Leo Lee (leejianzhao@gmail.com)
 Date: 2021-07-18 16:34:45
-LastEditTime: 2021-09-30 23:04:28
+LastEditTime: 2021-10-01 01:31:22
 FilePath: \RSS\main.py
 Description:
 '''
@@ -73,7 +73,7 @@ def getSubscribeUrl():
                 "GET", clashList[len(clashList)-1].replace('amp;',''), verify=False)
             day = time.strftime('%Y.%m.%d',time.localtime(time.time()))
             with open(dirs + '/clash.yml', 'w',encoding='utf-8') as f:
-                f.write(clashTxt.text.replace('https://www.mattkaydiary.com',day))
+                f.write(clashTxt.text.replace('mattkaydiary.com',day))
             # print(clashTxt.text)
     except Exception as e:
         log('RSS load error: '+e.__str__())
