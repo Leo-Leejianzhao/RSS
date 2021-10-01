@@ -1,7 +1,7 @@
 '''
 Author: Leo Lee (leejianzhao@gmail.com)
 Date: 2021-07-18 16:34:45
-LastEditTime: 2021-10-01 01:31:22
+LastEditTime: 2021-10-02 00:00:29
 FilePath: \RSS\main.py
 Description:
 '''
@@ -180,15 +180,16 @@ def protocol_decode(proxy_str):
 
 def load_subscribe_url(url):
     v2rayTxt = requests.request("GET", url, verify=False)
-    raw=base64.b64decode(v2rayTxt.text).decode('utf-8').splitlines()
-    return list(map(protocol_decode,raw))
+    return base64.b64decode(v2rayTxt.text).decode('utf-8').splitlines()
+    # return list(map(protocol_decode,raw))
 
 def load_subscribe(file):
     with open(file, 'rb') as f:
         raw=base64.b64decode(f.read()).decode('utf-8').splitlines()
     # print(raw)
     # proxies=map(protocol_decode,raw)
-    return list(map(protocol_decode,raw))
+    # return list(map(protocol_decode,raw))
+    return raw
 
 def gen_clash_subscribe(proxies):
     with open(r"./template/clash_proxy_group.yaml", 'r', encoding='UTF-8') as f:
@@ -204,12 +205,27 @@ def gen_clash_subscribe(proxies):
     with open(r"./subscribe/tmp.yaml",'w', encoding="utf-8") as f:
         yaml.dump(template,f, sort_keys=False)
 
+def gen_v2ray_subscribe(proxies):
+    with open(dirs + '/v2ray_all.txt','wb') as f:
+        f.write(base64.b64encode('\n'.join(proxies).encode('ascii')))
 
 # 主函数入口
 if __name__ == '__main__':
     log("RSS begin...")
-    getSubscribeUrl()
+    # getSubscribeUrl()
     proxies=[]
     proxies.extend(load_subscribe(dirs + '/v2ray.txt'))
-    proxies.extend(load_subscribe_url('https://jiang.netlify.app/'))
-    gen_clash_subscribe(proxies)
+    proxies.extend(load_subscribe_url('https://jiang.netlify.app'))
+    proxies.extend(load_subscribe_url('https://iwxf.netlify.app'))
+    proxies.extend(load_subscribe_url('https://youlianboshi.netlify.com'))
+    proxies.extend(load_subscribe_url('https://fforever.github.io/v2rayfree'))
+    proxies.extend(load_subscribe_url('https://muma16fx.netlify.app'))
+    proxies.extend(load_subscribe_url('https://cdn.jsdelivr.net/gh/fggfffgbg/https-aishangyou.tube-@master/README.md'))
+    proxies.extend(load_subscribe_url('https://freev2ray.netlify.app/'))
+    proxies.extend(load_subscribe_url('https://raw.githubusercontent.com/eycorsican/rule-sets/master/kitsunebi_sub'))
+    proxies.extend(load_subscribe_url('https://sspool.herokuapp.com/vmess/sub'))
+    proxies.extend(load_subscribe_url('https://raw.githubusercontent.com/freefq/free/master/v2'))
+    # proxies.extend(load_subscribe_url(''))
+    # proxies.extend(load_subscribe_url(''))
+    # gen_clash_subscribe(proxies)
+    gen_v2ray_subscribe(proxies)
