@@ -1,7 +1,7 @@
 '''
 Author: Leo Lee (leejianzhao@gmail.com)
 Date: 2021-07-18 16:34:45
-LastEditTime: 2021-10-02 00:00:29
+LastEditTime: 2021-10-02 00:35:37
 FilePath: \RSS\main.py
 Description:
 '''
@@ -212,7 +212,7 @@ def gen_v2ray_subscribe(proxies):
 # 主函数入口
 if __name__ == '__main__':
     log("RSS begin...")
-    # getSubscribeUrl()
+    getSubscribeUrl()
     proxies=[]
     proxies.extend(load_subscribe(dirs + '/v2ray.txt'))
     proxies.extend(load_subscribe_url('https://jiang.netlify.app'))
