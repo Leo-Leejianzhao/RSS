@@ -1,7 +1,7 @@
 '''
 Author: Leo Lee (leejianzhao@gmail.com)
 Date: 2021-07-18 16:34:45
-LastEditTime: 2021-10-02 00:35:37
+LastEditTime: 2021-10-04 08:04:53
 FilePath: \RSS\main.py
 Description:
 '''
@@ -78,7 +78,26 @@ def getSubscribeUrl():
     except Exception as e:
         log('RSS load error: '+e.__str__())
 
-
+def get_mattkaydiary():
+    rss = feedparser.parse('http://feeds.feedburner.com/mattkaydiary/pZjG')
+    current = rss["entries"][0]
+    v2rayList = re.findall(r"v2ray\(请开启代理后再拉取\)：(.+?)</div>", current.summary)
+    clashList = re.findall(r"clash\(请开启代理后再拉取\)：(.+?)</div>", current.summary)
+    if not os.path.exists(dirs):
+        os.makedirs(dirs)
+    if v2rayList:
+        v2rayTxt = requests.request(
+            "GET", v2rayList[len(v2rayList)-1].replace('amp;',''), verify=False)
+        with open(dirs + '/v2ray_mat.txt', 'w') as f:
+            f.write(v2rayTxt.text)
+        # print(v2rayTxt.text)
+    if clashList:
+        clashTxt = requests.request(
+            "GET", clashList[len(clashList)-1].replace('amp;',''), verify=False)
+        day = time.strftime('%Y.%m.%d',time.localtime(time.time()))
+        with open(dirs + '/clash_mat.yml', 'w',encoding='utf-8') as f:
+            f.write(clashTxt.text.replace('mattkaydiary.com',day))
+    return v2rayList[len(v2rayList)-1].replace('amp;','') if v2rayList else None
 
 # https://github.com/p4gefau1t/trojan-go/issues/132
 # trojan-go://
@@ -129,21 +148,22 @@ def protocol_decode(proxy_str):
     elif proxy_str_split[0] == 'vmess':
         try:
             tmp=json.loads(base64.b64decode(proxy_str_split[1]+'=='))
-            proxy={
-                "name": ''.join(random.sample(string.ascii_letters + string.digits, 8)),#tmp["ps"],
-                "type": "vmess",
-                "server": tmp["add"],
-                "port": tmp["port"],
-                "uuid": tmp["id"],
-                "alterId": tmp["aid"],
-                "cipher": "auto" if tmp["type"] == "none" else None,
-                "network": tmp["net"],
-                'ucp':True,
-                'network':tmp['net'],
-                'ws-path':tmp['path'] if tmp.__contains__('path') else None,
-                'ws-headers':{'Host':tmp['host']} if tmp.__contains__('host') else None,
-                "tls": True if tmp["tls"] == "tls" else None,
-            }
+            if tmp["add"]!='127.0.0.1':
+                proxy={
+                    "name": ''.join(random.sample(string.ascii_letters + string.digits, 8)),#tmp["ps"],
+                    "type": "vmess",
+                    "server": tmp["add"],
+                    "port": tmp["port"],
+                    "uuid": tmp["id"],
+                    "alterId": tmp["aid"],
+                    "cipher": "auto",
+                    "network": tmp["net"],
+                    'ucp':True,
+                    'network':tmp['net'],
+                    'ws-path':tmp['path'] if tmp.__contains__('path') else None,
+                    'ws-headers':{'Host':tmp['host']} if tmp.__contains__('host') else None,
+                    "tls": True if tmp["tls"] == "tls" else None,
+                }
         except:
             log('Invalid vmess URL:'+proxy_str)
     elif proxy_str_split[0] == 'ss':
@@ -179,42 +199,50 @@ def protocol_decode(proxy_str):
     return proxy
 
 def load_subscribe_url(url):
+    if not url: return []
+    log('load_subscribe_url: '+url)
     v2rayTxt = requests.request("GET", url, verify=False)
     return base64.b64decode(v2rayTxt.text).decode('utf-8').splitlines()
-    # return list(map(protocol_decode,raw))
 
 def load_subscribe(file):
     with open(file, 'rb') as f:
         raw=base64.b64decode(f.read()).decode('utf-8').splitlines()
-    # print(raw)
-    # proxies=map(protocol_decode,raw)
-    # return list(map(protocol_decode,raw))
     return raw
 
+# def gen_clash_subscribe(proxies):
+#     with open(r"./template/clash_proxy_group.yaml", 'r', encoding='UTF-8') as f:
+#         proxy_groups = yaml.safe_load(f)
+#     # print(proxy_groups)
+#     for p in proxy_groups:
+#         if not p.__contains__('proxies'):
+#             p['proxies']=[n["name"] for n in proxies if n]
+#     with open(r"./template/clash_tmp.yaml", 'r',encoding="utf-8") as f:
+#         template = yaml.safe_load(f)
+#     template["proxies"]=proxies
+#     template["proxy-groups"]=proxy_groups
+#     with open(r"./subscribe/tmp.yaml",'w', encoding="utf-8") as f:
+#         yaml.dump(template,f, sort_keys=False,encoding="utf-8",allow_unicode=True)
+
 def gen_clash_subscribe(proxies):
-    with open(r"./template/clash_proxy_group.yaml", 'r', encoding='UTF-8') as f:
-        proxy_groups = yaml.safe_load(f)
-    # print(proxy_groups)
-    for p in proxy_groups:
-        if not p.__contains__('proxies'):
-            p['proxies']=[n["name"] for n in proxies if n]
-    with open(r"./template/clash_tmp.yaml", 'r',encoding="utf-8") as f:
-        template = yaml.safe_load(f)
-    template["proxies"]=proxies
-    template["proxy-groups"]=proxy_groups
-    with open(r"./subscribe/tmp.yaml",'w', encoding="utf-8") as f:
-        yaml.dump(template,f, sort_keys=False)
+    with open(r"./subscribe/config.yml", 'r', encoding='UTF-8') as f:
+        config = yaml.safe_load(f)
+    config['proxies']=proxies
+    config['proxy-groups'][1]['proxies']=[proxies[i]['name'] for i in range(len(proxies))]
+    with open(r"./subscribe/clash.yml",'w', encoding="utf-8") as f:
+        yaml.dump(config,f, sort_keys=False,encoding="utf-8",allow_unicode=True)
 
 def gen_v2ray_subscribe(proxies):
-    with open(dirs + '/v2ray_all.txt','wb') as f:
+    with open(dirs + '/v2ray.txt','wb') as f:
         f.write(base64.b64encode('\n'.join(proxies).encode('ascii')))
 
 # 主函数入口
 if __name__ == '__main__':
     log("RSS begin...")
-    getSubscribeUrl()
+
     proxies=[]
-    proxies.extend(load_subscribe(dirs + '/v2ray.txt'))
+    # getSubscribeUrl()
+    # proxies.extend(load_subscribe(dirs + '/v2ray.txt'))
+    proxies.extend(load_subscribe_url(get_mattkaydiary()))
     proxies.extend(load_subscribe_url('https://jiang.netlify.app'))
     proxies.extend(load_subscribe_url('https://iwxf.netlify.app'))
     proxies.extend(load_subscribe_url('https://youlianboshi.netlify.com'))
@@ -227,5 +255,5 @@ if __name__ == '__main__':
     proxies.extend(load_subscribe_url('https://raw.githubusercontent.com/freefq/free/master/v2'))
     # proxies.extend(load_subscribe_url(''))
     # proxies.extend(load_subscribe_url(''))
-    # gen_clash_subscribe(proxies)
+    gen_clash_subscribe(list(filter(None,map(protocol_decode,proxies))))
     gen_v2ray_subscribe(proxies)
