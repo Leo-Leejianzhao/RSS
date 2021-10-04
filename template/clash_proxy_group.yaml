@@ -1,0 +1,21 @@
+  - name: 全局选择
+    type: select
+    proxies:
+      - 延迟最低
+      - 失败切换
+      - 手动选择
+      - 负载均衡
+  - name: 手动选择
+    type: select
+  - name: 延迟最低
+    type: url-test
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+  - name: 负载均衡
+    type: load-balance
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+  - name: 失败切换
+    type: fallback
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
