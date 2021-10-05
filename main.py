@@ -1,7 +1,7 @@
 '''
 Author: Leo Lee (leejianzhao@gmail.com)
 Date: 2021-07-18 16:34:45
-LastEditTime: 2021-10-05 23:38:33
+LastEditTime: 2021-10-05 23:56:32
 FilePath: \RSS\main.py
 Description:
 '''
@@ -96,7 +96,7 @@ def get_mattkaydiary():
         clashTxt = requests.request(
             "GET", clashList[len(clashList)-1].replace('amp;',''), verify=False)
         day = time.strftime('%Y.%m.%d',time.localtime(time.time()))
-        with open(dirs + '/clash.yml', 'w',encoding='utf-8') as f:
+        with open(dirs + '/clash_mat.yml', 'w',encoding='utf-8') as f:
             f.write(clashTxt.text.replace('mattkaydiary.com',day))
     return v2rayList[len(v2rayList)-1].replace('amp;','') if v2rayList else None
 
@@ -230,7 +230,7 @@ def gen_clash_subscribe(proxies):
     proxies_name=[proxies[i]['name'] for i in range(len(proxies))]
     config['proxy-groups'][0]['proxies'].extend(proxies_name)
     config['proxy-groups'][1]['proxies']=proxies_name
-    with open(r"./subscribe/clash-all.yml",'w', encoding="utf-8") as f:
+    with open(r"./subscribe/clash.yml",'w', encoding="utf-8") as f:
         yaml.dump(config,f, sort_keys=False,encoding="utf-8",allow_unicode=True)
 
 def gen_v2ray_subscribe(proxies):
