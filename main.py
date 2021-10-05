@@ -1,7 +1,7 @@
 '''
 Author: Leo Lee (leejianzhao@gmail.com)
 Date: 2021-07-18 16:34:45
-LastEditTime: 2021-10-05 22:55:03
+LastEditTime: 2021-10-05 23:10:30
 FilePath: \RSS\main.py
 Description:
 '''
@@ -95,7 +95,7 @@ def get_mattkaydiary():
         clashTxt = requests.request(
             "GET", clashList[len(clashList)-1].replace('amp;',''), verify=False)
         day = time.strftime('%Y.%m.%d',time.localtime(time.time()))
-        with open(dirs + '/clash_mat.yml', 'w',encoding='utf-8') as f:
+        with open(dirs + '/clash.yml', 'w',encoding='utf-8') as f:
             f.write(clashTxt.text.replace('mattkaydiary.com',day))
     return v2rayList[len(v2rayList)-1].replace('amp;','') if v2rayList else None
 
@@ -243,7 +243,7 @@ if __name__ == '__main__':
     # getSubscribeUrl()
     # proxies.extend(load_subscribe(dirs + '/v2ray.txt'))
     proxies.extend(load_subscribe_url(get_mattkaydiary()))
-    gen_clash_subscribe(list(filter(None,map(protocol_decode,proxies))))
+    # gen_clash_subscribe(list(filter(None,map(protocol_decode,proxies))))
     proxies.extend(load_subscribe_url('https://jiang.netlify.app'))
     proxies.extend(load_subscribe_url('https://iwxf.netlify.app'))
     proxies.extend(load_subscribe_url('https://youlianboshi.netlify.com'))
