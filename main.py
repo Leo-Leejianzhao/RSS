@@ -1,7 +1,7 @@
 '''
 Author: Leo Lee (leejianzhao@gmail.com)
 Date: 2021-07-18 16:34:45
-LastEditTime: 2021-10-05 22:48:22
+LastEditTime: 2021-10-05 22:55:03
 FilePath: \RSS\main.py
 Description:
 '''
@@ -254,6 +254,5 @@ if __name__ == '__main__':
     proxies.extend(load_subscribe_url('https://raw.githubusercontent.com/eycorsican/rule-sets/master/kitsunebi_sub'))
     proxies.extend(load_subscribe_url('https://sspool.herokuapp.com/vmess/sub'))
     proxies.extend(load_subscribe_url('https://raw.githubusercontent.com/freefq/free/master/v2'))
-    # proxies.extend(load_subscribe_url(''))
     # proxies.extend(load_subscribe_url(''))
     gen_v2ray_subscribe(proxies)
