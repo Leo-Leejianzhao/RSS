@@ -1,7 +1,7 @@
 '''
 Author: Leo Lee (leejianzhao@gmail.com)
 Date: 2021-07-18 16:34:45
-LastEditTime: 2021-10-05 23:10:30
+LastEditTime: 2021-10-05 23:17:52
 FilePath: \RSS\main.py
 Description:
 '''
@@ -202,7 +202,7 @@ def load_subscribe_url(url):
     if not url: return []
     log('load_subscribe_url: '+url)
     v2rayTxt = requests.request("GET", url, verify=False)
-    return base64.b64decode(v2rayTxt.text).decode('utf-8').splitlines()
+    return base64.b64decode(v2rayTxt.text+'==').decode('utf-8').splitlines()
 
 def load_subscribe(file):
     with open(file, 'rb') as f:
