@@ -1,7 +1,7 @@
 '''
 Author: Leo Lee (leejianzhao@gmail.com)
 Date: 2021-07-18 16:34:45
-LastEditTime: 2021-10-04 08:04:53
+LastEditTime: 2021-10-05 22:33:57
 FilePath: \RSS\main.py
 Description:
 '''
@@ -243,6 +243,7 @@ if __name__ == '__main__':
     # getSubscribeUrl()
     # proxies.extend(load_subscribe(dirs + '/v2ray.txt'))
     proxies.extend(load_subscribe_url(get_mattkaydiary()))
+    gen_clash_subscribe(list(filter(None,map(protocol_decode,proxies))))
     proxies.extend(load_subscribe_url('https://jiang.netlify.app'))
     proxies.extend(load_subscribe_url('https://iwxf.netlify.app'))
     proxies.extend(load_subscribe_url('https://youlianboshi.netlify.com'))
@@ -255,5 +256,4 @@ if __name__ == '__main__':
     proxies.extend(load_subscribe_url('https://raw.githubusercontent.com/freefq/free/master/v2'))
     # proxies.extend(load_subscribe_url(''))
     # proxies.extend(load_subscribe_url(''))
-    gen_clash_subscribe(list(filter(None,map(protocol_decode,proxies))))
     gen_v2ray_subscribe(proxies)
