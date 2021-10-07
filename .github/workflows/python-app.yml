@@ -42,7 +42,9 @@ jobs:
          git config --local user.email "leejianzhao@gmail.com"
          git config --local user.name "Leo-Leejianzhao"
          git add subscribe/v2ray.txt
+         git add subscribe/v2ray_mat.txt
          git add subscribe/clash.yml
+         git add subscribe/clash_mat.yml
          git commit -m "更新订阅链接"
     - name: push
       uses:  ad-m/github-push-action@master
