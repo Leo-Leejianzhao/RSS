@@ -1,7 +1,7 @@
 '''
 Author: Leo Lee (leejianzhao@gmail.com)
 Date: 2021-07-18 16:34:45
-LastEditTime: 2021-10-05 23:56:32
+LastEditTime: 2021-10-07 12:39:03
 FilePath: \RSS\main.py
 Description:
 '''
@@ -162,7 +162,7 @@ def protocol_decode(proxy_str):
                     'ucp':True,
                     'ws-path':tmp.get('path'),
                     'ws-headers':{'Host':tmp['host']} if tmp.__contains__('host') else None,
-                    "tls": True if tmp["tls"] == "tls" else False,
+                    "tls": True if tmp.get("tls") == "tls" else False,
                 }
         except:
             log('Invalid vmess URL:'+proxy_str)
@@ -245,7 +245,7 @@ if __name__ == '__main__':
     # getSubscribeUrl()
     # proxies.extend(load_subscribe(dirs + '/v2ray.txt'))
     proxies.extend(load_subscribe_url(get_mattkaydiary()))
-
+    gen_clash_subscribe(list(filter(None,map(protocol_decode,proxies))))
     proxies.extend(load_subscribe_url('https://jiang.netlify.app'))
     proxies.extend(load_subscribe_url('https://iwxf.netlify.app'))
     proxies.extend(load_subscribe_url('https://youlianboshi.netlify.com'))
@@ -258,4 +258,3 @@ if __name__ == '__main__':
     proxies.extend(load_subscribe_url('https://raw.githubusercontent.com/freefq/free/master/v2'))
     # proxies.extend(load_subscribe_url(''))
     gen_v2ray_subscribe(proxies)
-    gen_clash_subscribe(list(filter(None,map(protocol_decode,proxies))))
