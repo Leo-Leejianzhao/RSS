@@ -94,7 +94,7 @@ def get_mattkaydiary():
         # print(v2rayTxt.text)
     if clashList:
         clashTxt = requests.request(
-            "GET", clashList[len(clashList)-1].replace('amp;',''), verify=False)
+            "GET", clashList[len(clashList)-1].replace('amp;','').strip(), verify=False)
         day = time.strftime('%Y.%m.%d',time.localtime(time.time()))
         with open(dirs + '/clash_mat.yml', 'w',encoding='utf-8') as f:
             f.write(clashTxt.text.replace('mattkaydiary.com',day))
