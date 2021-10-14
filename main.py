@@ -88,7 +88,7 @@ def get_mattkaydiary():
         os.makedirs(dirs)
     if v2rayList:
         v2rayTxt = requests.request(
-            "GET", v2rayList[len(v2rayList)-1].replace('amp;',''), verify=False)
+            "GET", v2rayList[len(v2rayList)-1].replace('amp;','').strip(), verify=False)
         with open(dirs + '/v2ray_mat.txt', 'w') as f:
             f.write(v2rayTxt.text)
         # print(v2rayTxt.text)
