@@ -1,7 +1,7 @@
 '''
 Author: Leo Lee (leejianzhao@gmail.com)
 Date: 2021-07-18 16:34:45
-LastEditTime: 2021-10-14 19:24:01
+LastEditTime: 2021-10-14 19:26:00
 FilePath: \RSS\main.py
 Description:
 '''
@@ -88,7 +88,7 @@ def get_mattkaydiary():
         os.makedirs(dirs)
     if v2rayList:
         v2rayTxt = requests.request(
-            "GET", v2rayList[len(v2rayList)-1].replace('amp;','').strip(), verify=False)
+            "GET", v2rayList[len(v2rayList)-1].replace('amp;', '').strip(), verify=False)
         with open(dirs + '/v2ray_mat.txt', 'w') as f:
             f.write(v2rayTxt.text)
         # print(v2rayTxt.text)
