@@ -1,7 +1,7 @@
 '''
 Author: Leo Lee (leejianzhao@gmail.com)
 Date: 2021-07-18 16:34:45
-LastEditTime: 2021-10-14 19:46:13
+LastEditTime: 2021-10-17 10:17:33
 FilePath: \RSS\main.py
 Description:
 '''
@@ -80,25 +80,34 @@ def getSubscribeUrl():
 
 def get_mattkaydiary():
     log('begin get_mattkaydiary')
-    rss = feedparser.parse('http://feeds.feedburner.com/mattkaydiary/pZjG')
-    current = rss["entries"][0]
-    v2rayList = re.findall(r"v2ray\(请开启代理后再拉取\)：(.+?)</div>", current.summary)
-    clashList = re.findall(r"clash\(请开启代理后再拉取\)：(.+?)</div>", current.summary)
-    if not os.path.exists(dirs):
-        os.makedirs(dirs)
-    if v2rayList:
-        v2rayTxt = requests.request(
-            "GET", v2rayList[len(v2rayList)-1].replace('amp;', '').strip())
-        with open(dirs + '/v2ray_mat.txt', 'w') as f:
-            f.write(v2rayTxt.text)
-        # print(v2rayTxt.text)
-    if clashList:
-        clashTxt = requests.request(
-            "GET", clashList[len(clashList)-1].replace('amp;','').strip(), verify=False)
-        day = time.strftime('%Y.%m.%d',time.localtime(time.time()))
-        with open(dirs + '/clash_mat.yml', 'w',encoding='utf-8') as f:
-            f.write(clashTxt.text.replace('mattkaydiary.com',day))
-    return v2rayList[len(v2rayList)-1].replace('amp;','').strip() if v2rayList else None
+    v2ray_add=None
+    try:
+        rss = feedparser.parse('http://feeds.feedburner.com/mattkaydiary/pZjG')
+        current = rss["entries"][0]
+        v2rayList = re.findall(r"v2ray\(请开启代理后再拉取\)：(.+?)</div>", current.summary)
+        clashList = re.findall(r"clash\(请开启代理后再拉取\)：(.+?)</div>", current.summary)
+        if not os.path.exists(dirs):
+            os.makedirs(dirs)
+        if v2rayList:
+            v2ray_add=v2rayList[len(v2rayList)-1].replace('amp;', '').strip()
+            v2rayTxt = requests.request(
+                "GET", v2ray_add)
+            with open(dirs + '/v2ray_mat.txt', 'w') as f:
+                f.write(v2rayTxt.text)
+            # print(v2rayTxt.text)
+        if clashList:
+            clashTxt = requests.request(
+                "GET", clashList[len(clashList)-1].replace('amp;','').strip(), verify=False)
+            day = time.strftime('%Y.%m.%d',time.localtime(time.time()))
+            with open(dirs + '/clash_mat.yml', 'w',encoding='utf-8') as f:
+                f.write(clashTxt.text.replace('mattkaydiary.com',day))
+    except Exception as e:
+        log('can not get_mattkaydiary:'+e.__str__())
+    return v2ray_add
+
+def IP2name(ip):
+    res=requests.get(f'http://ip-api.com/json/{ip}?fields=country,countryCode,city&lang=zh-CN', timeout=10).json()
+    return f"{ip}@{res['country']}({res['countryCode']})-{res['city']}/"+''.join(random.sample(string.ascii_letters + string.digits, 3))
 
 # https://github.com/p4gefau1t/trojan-go/issues/132
 # trojan-go://
@@ -137,21 +146,24 @@ def protocol_decode(proxy_str):
             #     addr = addr[1:-1]
             # port = int(port)
             proxy={
-                "name"      :   ''.join(random.sample(string.ascii_letters + string.digits, 8)), #urllib.parse.unquote(url.fragment),
+                # "name"      :   ''.join(random.sample(string.ascii_letters + string.digits, 8)), #urllib.parse.unquote(url.fragment),
+                "name"      :   IP2name(server),
                 "type"      :   "trojan",
                 "server"    :   server,
                 "password"  :   password,
                 "port"      :   port,
                 # "sni"       :   server
             }
-        except:
+        except Exception as e:
             log('Invalid trojan URL:'+proxy_str)
+            log(e.__str__())
     elif proxy_str_split[0] == 'vmess':
         try:
             tmp=json.loads(base64.b64decode(proxy_str_split[1]+'=='))
             if tmp["add"]!='127.0.0.1':
                 proxy={
-                    "name": ''.join(random.sample(string.ascii_letters + string.digits, 8)),#tmp["ps"],
+                    # "name": ''.join(random.sample(string.ascii_letters + string.digits, 8)),#tmp["ps"],
+                    "name"      :   IP2name(tmp.get("add")),
                     "type": "vmess",
                     "server": tmp.get("add"),
                     "port": tmp.get("port"),
@@ -164,8 +176,9 @@ def protocol_decode(proxy_str):
                     'ws-headers':{'Host':tmp['host']} if tmp.__contains__('host') else None,
                     "tls": True if tmp.get("tls") == "tls" else False,
                 }
-        except:
+        except Exception as e:
             log('Invalid vmess URL:'+proxy_str)
+            log(e.__str__())
     elif proxy_str_split[0] == 'ss':
         tmp=urllib.parse.urlparse(proxy_str)
         if tmp.username is not None:
@@ -177,7 +190,8 @@ def protocol_decode(proxy_str):
             cipher,other,port=tmp.split(':')
             password,server=other.split('@')
         proxy={
-            "name": ''.join(random.sample(string.ascii_letters + string.digits, 8)), #urllib.parse.unquote(url.fragment),
+            # "name": ''.join(random.sample(string.ascii_letters + string.digits, 8)), #urllib.parse.unquote(url.fragment),
+            "name"      :   IP2name(server),
             "type": "ss",
             "server": server,
             "port": port,
@@ -240,21 +254,20 @@ def gen_v2ray_subscribe(proxies):
 # 主函数入口
 if __name__ == '__main__':
     log("RSS begin...")
-
     proxies=[]
     # getSubscribeUrl()
     # proxies.extend(load_subscribe(dirs + '/v2ray.txt'))
     proxies.extend(load_subscribe_url(get_mattkaydiary()))
     gen_clash_subscribe(list(filter(None,map(protocol_decode,proxies))))
-    proxies.extend(load_subscribe_url('https://jiang.netlify.app'))
-    proxies.extend(load_subscribe_url('https://iwxf.netlify.app'))
-    proxies.extend(load_subscribe_url('https://youlianboshi.netlify.com'))
-    proxies.extend(load_subscribe_url('https://fforever.github.io/v2rayfree'))
-    proxies.extend(load_subscribe_url('https://muma16fx.netlify.app'))
-    proxies.extend(load_subscribe_url('https://cdn.jsdelivr.net/gh/fggfffgbg/https-aishangyou.tube-@master/README.md'))
-    proxies.extend(load_subscribe_url('https://freev2ray.netlify.app/'))
-    proxies.extend(load_subscribe_url('https://raw.githubusercontent.com/eycorsican/rule-sets/master/kitsunebi_sub'))
-    proxies.extend(load_subscribe_url('https://sspool.herokuapp.com/vmess/sub'))
-    proxies.extend(load_subscribe_url('https://raw.githubusercontent.com/freefq/free/master/v2'))
-    # proxies.extend(load_subscribe_url(''))
-    gen_v2ray_subscribe(proxies)
+    # proxies.extend(load_subscribe_url('https://jiang.netlify.app'))
+    # proxies.extend(load_subscribe_url('https://iwxf.netlify.app'))
+    # proxies.extend(load_subscribe_url('https://youlianboshi.netlify.com'))
+    # proxies.extend(load_subscribe_url('https://fforever.github.io/v2rayfree'))
+    # proxies.extend(load_subscribe_url('https://muma16fx.netlify.app'))
+    # proxies.extend(load_subscribe_url('https://cdn.jsdelivr.net/gh/fggfffgbg/https-aishangyou.tube-@master/README.md'))
+    # proxies.extend(load_subscribe_url('https://freev2ray.netlify.app/'))
+    # proxies.extend(load_subscribe_url('https://raw.githubusercontent.com/eycorsican/rule-sets/master/kitsunebi_sub'))
+    # proxies.extend(load_subscribe_url('https://sspool.herokuapp.com/vmess/sub'))
+    # proxies.extend(load_subscribe_url('https://raw.githubusercontent.com/freefq/free/master/v2'))
+    # # proxies.extend(load_subscribe_url(''))
+    # gen_v2ray_subscribe(proxies)
