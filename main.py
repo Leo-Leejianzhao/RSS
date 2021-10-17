@@ -1,7 +1,7 @@
 '''
 Author: Leo Lee (leejianzhao@gmail.com)
 Date: 2021-07-18 16:34:45
-LastEditTime: 2021-10-17 10:17:33
+LastEditTime: 2021-10-17 10:42:02
 FilePath: \RSS\main.py
 Description:
 '''
@@ -106,8 +106,12 @@ def get_mattkaydiary():
     return v2ray_add
 
 def IP2name(ip):
-    res=requests.get(f'http://ip-api.com/json/{ip}?fields=country,countryCode,city&lang=zh-CN', timeout=10).json()
-    return f"{ip}@{res['country']}({res['countryCode']})-{res['city']}/"+''.join(random.sample(string.ascii_letters + string.digits, 3))
+    try:
+        res=requests.get(f'http://ip-api.com/json/{ip}?fields=country,countryCode,city&lang=zh-CN', timeout=10).json()
+        return f"{ip}@{res['country']}({res['countryCode']})-{res['city']}/"+''.join(random.sample(string.ascii_letters + string.digits, 3))
+    except Exception as e:
+        log('IP2name: '+ip+': '+e.__str__())
+        return ''.join(random.sample(string.ascii_letters + string.digits, 8))
 
 # https://github.com/p4gefau1t/trojan-go/issues/132
 # trojan-go://
