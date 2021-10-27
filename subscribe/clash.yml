@@ -5,24 +5,11 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-- name: 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/yZm
+- name: 168.63.137.241@香港(HK)-香港/E2Z
   type: vmess
-  server: 1.transit.t.qjnodeip.xyz
-  port: '41431'
-  uuid: 615505e8-e63c-3bad-b3e7-d5e6cf99387e
-  alterId: '8'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /J5
-  ws-headers:
-    Host: xjp1.dddwda.xyz
-  tls: true
-- name: 20.196.203.225@大韩民国(KR)-首尔特别市/PqA
-  type: vmess
-  server: 20.196.203.225
+  server: 168.63.137.241
   port: '80'
-  uuid: a78c6a5e-252b-31f8-97e4-404ae1b201f8
+  uuid: 804fd78e-848e-3a61-8df6-f335e089a653
   alterId: '2'
   cipher: auto
   network: ws
@@ -31,272 +18,89 @@ proxies:
   ws-headers:
     Host: ''
   tls: false
-- name: 104.18.27.64@美国(US)-紐華克/kLa
+- name: 23.100.109.40@日本(JP)-Osaka/dhw
   type: vmess
-  server: 104.18.27.64
-  port: '443'
-  uuid: 4d88f6a2-aaa9-42b6-afc4-227f89974119
-  alterId: '0'
+  server: 23.100.109.40
+  port: '80'
+  uuid: 804fd78e-848e-3a61-8df6-f335e089a653
+  alterId: '2'
   cipher: auto
   network: ws
   ucp: true
-  ws-path: /The-Great-Awakening_vws
+  ws-path: /
   ws-headers:
-    Host: vincent-jackson2021.ga
-  tls: true
-- name: 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/LDc
+    Host: ''
+  tls: false
+- name: 168.63.202.65@香港(HK)-香港/pej
+  type: vmess
+  server: 168.63.202.65
+  port: '80'
+  uuid: 804fd78e-848e-3a61-8df6-f335e089a653
+  alterId: '3'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: ''
+  tls: false
+- name: 52.163.87.150@新加坡(SG)-Singapore/BOK
+  type: vmess
+  server: 52.163.87.150
+  port: '80'
+  uuid: 804fd78e-848e-3a61-8df6-f335e089a653
+  alterId: '2'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: ''
+  tls: false
+- name: 20.196.203.225@大韩民国(KR)-首尔特别市/bsV
+  type: vmess
+  server: 20.196.203.225
+  port: '80'
+  uuid: 804fd78e-848e-3a61-8df6-f335e089a653
+  alterId: '2'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: ''
+  tls: false
+- name: cw.cwzz.tk@香港(HK)-香港/JAw
+  type: vmess
+  server: cw.cwzz.tk
+  port: '58560'
+  uuid: 804fd78e-848e-3a61-8df6-f335e089a653
+  alterId: '2'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: ''
+  tls: false
+- name: 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/9BA
   type: vmess
   server: 1.transit.t.qjnodeip.xyz
-  port: '20521'
+  port: '61610'
   uuid: 615505e8-e63c-3bad-b3e7-d5e6cf99387e
-  alterId: '8'
+  alterId: '5'
   cipher: auto
   network: ws
   ucp: true
-  ws-path: /Jp03
+  ws-path: /C1zmqibh
   ws-headers:
-    Host: rb2.iuhbhgg.xyz
+    Host: hkyz.iuhbhgg.xyz
   tls: true
-- name: hk2.racernet.link@香港(HK)-中環/Id7
-  type: vmess
-  server: hk2.racernet.link
-  port: '443'
-  uuid: 92e7a42e-e8a6-31b2-bfd8-68f517bd3266
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /racernet
-  ws-headers:
-    Host: ''
-  tls: true
-- name: 120.232.41.42@中国(CN)-Luohu/QBx
-  type: vmess
-  server: 120.232.41.42
-  port: '33332'
-  uuid: dc66f479-7453-33ea-9d7f-9a10e04591bf
-  alterId: '1'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /tnt-us2
-  ws-headers:
-    Host: t.me/vpnhat
-  tls: false
-- name: v1.ssrsub.com@美国(US)-拉斯维加斯/8Bh
-  type: vmess
-  server: v1.ssrsub.com
-  port: '8401'
-  uuid: 6d6d99b0-be8a-43bc-ad73-2fb0f1595793
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /ssrsub
-  ws-headers:
-    Host: ''
-  tls: true
-- name: 104.20.81.240@美国(US)-紐華克/DUn
-  type: vmess
-  server: 104.20.81.240
-  port: '443'
-  uuid: 4d88f6a2-aaa9-42b6-afc4-227f89974119
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /The-Great-Awakening_vws
-  ws-headers:
-    Host: vincent-jackson2021.ga
-  tls: true
-- name: 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/vnj
-  type: vmess
-  server: 1.transit.t.qjnodeip.xyz
-  port: '48404'
-  uuid: 615505e8-e63c-3bad-b3e7-d5e6cf99387e
-  alterId: '8'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /Jp2
-  ws-headers:
-    Host: jp.dadwff.xyz
-  tls: true
-- name: t1.ssrsub.com@美国(US)-拉斯维加斯/lRu
-  type: trojan
-  server: t1.ssrsub.com
-  password: 6d6d99b0-be8a-43bc-ad73-2fb0f1595793
-  port: 8443
-- name: usgia.jjyun.ren@美国(US)-聖荷西/tPe
-  type: vmess
-  server: usgia.jjyun.ren
-  port: '88'
-  uuid: aaa569a4-0750-4ab8-9ca8-c15e2266ab92
-  alterId: '10'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /jjyun
-  ws-headers:
-    Host: ''
-  tls: false
-- name: v1.ssrsub.com@美国(US)-拉斯维加斯/nyQ
-  type: vmess
-  server: v1.ssrsub.com
-  port: '8401'
-  uuid: 5b092e88-82d8-47eb-a7a2-98bcf02754e9
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /ssrsub
-  ws-headers:
-    Host: ''
-  tls: true
-- name: usgia.jjyun.ren@印度(IN)-班加羅爾/Tye
-  type: vmess
-  server: usgia.jjyun.ren
-  port: '88'
-  uuid: 8637cd1e-4620-4737-bb15-9fe37c3543a9
-  alterId: '10'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /jjyun
-  ws-headers:
-    Host: ''
-  tls: false
-- name: 167.88.63.119@美国(US)-亚特兰大/YbB
-  type: ss
-  server: 167.88.63.119
-  port: '7307'
-  password: FoOiGlkAA9yPEGP
-  alterId: 2
-  cipher: aes-256-gcm
-- name: hkml.jjyun.ren@香港(HK)-香港/EnB
-  type: vmess
-  server: hkml.jjyun.ren
-  port: '88'
-  uuid: aaa569a4-0750-4ab8-9ca8-c15e2266ab92
-  alterId: '10'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /jjyun
-  ws-headers:
-    Host: ''
-  tls: false
-- name: cyberpunk2077freedownload.herokuapp.com@美国(US)-Ashburn/Xt0
-  type: vmess
-  server: cyberpunk2077freedownload.herokuapp.com
-  port: '443'
-  uuid: ad806487-2d26-4636-98b6-ab85cc8521f7
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /
-  ws-headers:
-    Host: ''
-  tls: true
-- name: hkml.jjyun.ren@香港(HK)-香港/WcO
-  type: vmess
-  server: hkml.jjyun.ren
-  port: '88'
-  uuid: 257b80ad-1832-482f-97d9-42275c4a79b2
-  alterId: '10'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /jjyun
-  ws-headers:
-    Host: ''
-  tls: false
-- name: kr.52jjyun.top@韩国(KR)-首尔特别市/TZ2
-  type: vmess
-  server: kr.52jjyun.top
-  port: '88'
-  uuid: c8191e5d-c551-4896-8d57-7493da874557
-  alterId: '10'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /jjyun
-  ws-headers:
-    Host: ''
-  tls: false
-- name: us2.futi.online@美国(US)-聖荷西/RwG
-  type: vmess
-  server: us2.futi.online
-  port: '443'
-  uuid: 6a5b2dee-6e88-46db-9275-d8c6e042c3db
-  alterId: '1'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /
-  ws-headers:
-    Host: us2.futi.online
-  tls: true
-- name: 167.88.63.107@美国(US)-亚特兰大/WFK
-  type: ss
-  server: 167.88.63.107
-  port: '2375'
-  password: faBAoD54k87UJG7
-  alterId: 2
-  cipher: aes-256-gcm
-- name: winter-glade-adf0.h25744.workers.dev@美国(US)-紐華克/5If
-  type: vmess
-  server: winter-glade-adf0.h25744.workers.dev
-  port: '443'
-  uuid: ad806487-2d26-4636-98b6-ab85cc8521f7
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /
-  ws-headers:
-    Host: ''
-  tls: true
-- name: us3.futi.online@美国(US)-San Jose/cPD
-  type: vmess
-  server: us3.futi.online
-  port: '443'
-  uuid: 6a5b2dee-6e88-46db-9275-d8c6e042c3db
-  alterId: '1'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /
-  ws-headers:
-    Host: ''
-  tls: true
-- name: 79.110.54.133@美国(US)-拉斯维加斯/aEf
-  type: ss
-  server: 79.110.54.133
-  port: '33148'
-  password: CMduaFXddcQbwNAAs7xFDnc8
-  alterId: 2
-  cipher: aes-256-gcm
-- name: 134.195.196.154@加拿大(CA)-多伦多/Dsw
-  type: ss
-  server: 134.195.196.154
-  port: '2376'
-  password: faBAoD54k87UJG7
-  alterId: 2
-  cipher: aes-256-gcm
-- name: 198.57.27.218@加拿大(CA)-多伦多/fED
-  type: ss
-  server: 198.57.27.218
-  port: '8090'
-  password: PCnnH6SQSnfoS27
-  alterId: 2
-  cipher: aes-256-gcm
-- name: 1.transit.nph.qjnodeip.xyz@中国(CN)-上海/OXD
+- name: 1.transit.nph.qjnodeip.xyz@中国(CN)-上海/Qd5
   type: vmess
   server: 1.transit.nph.qjnodeip.xyz
   port: '30007'
-  uuid: 3c9b6088-6dc6-447b-a0fd-8a0b128ccd93
+  uuid: 077150d3-f73e-4f58-a5a0-0bf6453190fd
   alterId: '0'
   cipher: auto
   network: tcp
@@ -305,343 +109,47 @@ proxies:
   ws-headers:
     Host: ''
   tls: false
-- name: 134.195.198.252@加拿大(CA)-蒙特利尔/gYd
+- name: 167.88.63.119@美国(US)-亚特兰大/yF7
   type: ss
-  server: 134.195.198.252
+  server: 167.88.63.119
   port: '7307'
   password: FoOiGlkAA9yPEGP
   alterId: 2
   cipher: aes-256-gcm
-- name: 198.57.27.241@加拿大(CA)-多伦多/fdA
-  type: ss
-  server: 198.57.27.241
-  port: '7307'
-  password: FoOiGlkAA9yPEGP
-  alterId: 2
-  cipher: aes-256-gcm
-- name: 134.195.196.110@加拿大(CA)-多伦多/lVW
-  type: ss
-  server: 134.195.196.110
-  port: '7307'
-  password: FoOiGlkAA9yPEGP
-  alterId: 2
-  cipher: aes-256-gcm
-- name: ruml.jjyun.ren@俄罗斯(RU)-Zelenograd/9y3
+- name: jp1.nph.qjnodeip.xyz@日本(JP)-大阪市/bwT
   type: vmess
-  server: ruml.jjyun.ren
-  port: '88'
-  uuid: aaa569a4-0750-4ab8-9ca8-c15e2266ab92
-  alterId: '10'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /jjyun
-  ws-headers:
-    Host: ''
-  tls: false
-- name: ruml.jjyun.ren@俄罗斯(RU)-Zelenograd/62O
-  type: vmess
-  server: ruml.jjyun.ren
-  port: '88'
-  uuid: 257b80ad-1832-482f-97d9-42275c4a79b2
-  alterId: '10'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /jjyun
-  ws-headers:
-    Host: ''
-  tls: false
-- name: 198.57.27.225@加拿大(CA)-多伦多/cfO
-  type: ss
-  server: 198.57.27.225
-  port: '7307'
-  password: FoOiGlkAA9yPEGP
-  alterId: 2
-  cipher: aes-256-gcm
-- name: 104.16.168.85@美国(US)-紐華克/okE
-  type: vmess
-  server: 104.16.168.85
-  port: '443'
-  uuid: 4d88f6a2-aaa9-42b6-afc4-227f89974119
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /The-Great-Awakening_vws
-  ws-headers:
-    Host: vincent-jackson2021.ga
-  tls: true
-- name: 104.17.62.78@美国(US)-紐華克/nkz
-  type: vmess
-  server: 104.17.62.78
-  port: '443'
-  uuid: 4d88f6a2-aaa9-42b6-afc4-227f89974119
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /The-Great-Awakening_vws
-  ws-headers:
-    Host: vincent-jackson2021.ga
-  tls: true
-- name: ukml.52jjyun.top@英国(GB)-伦敦/zZC
-  type: vmess
-  server: ukml.52jjyun.top
-  port: '88'
-  uuid: aaa569a4-0750-4ab8-9ca8-c15e2266ab92
-  alterId: '10'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /jjyun
-  ws-headers:
-    Host: ''
-  tls: false
-- name: 46.101.28.98@英国(GB)-伦敦/zd6
-  type: vmess
-  server: 46.101.28.98
-  port: '12222'
-  uuid: 6ae2e994-2018-4f9f-a5bb-4639c14ba05f
+  server: jp1.nph.qjnodeip.xyz
+  port: '80'
+  uuid: 5351b41d-eb0c-415a-bcbd-3c908576684e
   alterId: '1'
   cipher: auto
   network: ws
   ucp: true
-  ws-path: /
-  ws-headers:
-    Host: t.me/vpnhat
-  tls: false
-- name: 134.195.196.147@加拿大(CA)-多伦多/nMH
-  type: ss
-  server: 134.195.196.147
-  port: '7306'
-  password: FoOiGlkAA9yPEGP
-  alterId: 2
-  cipher: aes-256-gcm
-- name: 167.88.63.82@美国(US)-亚特兰大/cl2
-  type: ss
-  server: 167.88.63.82
-  port: '7306'
-  password: FoOiGlkAA9yPEGP
-  alterId: 2
-  cipher: aes-256-gcm
-- name: 167.88.63.11@美国(US)-亚特兰大/1w8
-  type: ss
-  server: 167.88.63.11
-  port: '7307'
-  password: FoOiGlkAA9yPEGP
-  alterId: 2
-  cipher: aes-256-gcm
-- name: 134.195.196.110@加拿大(CA)-多伦多/Afb
-  type: ss
-  server: 134.195.196.110
-  port: '8091'
-  password: PCnnH6SQSnfoS27
-  alterId: 2
-  cipher: aes-256-gcm
-- name: 198.57.27.243@加拿大(CA)-多伦多/vji
-  type: ss
-  server: 198.57.27.243
-  port: '7306'
-  password: FoOiGlkAA9yPEGP
-  alterId: 2
-  cipher: aes-256-gcm
-- name: kr.52jjyun.top@韩国(KR)-首尔特别市/iW6
-  type: vmess
-  server: kr.52jjyun.top
-  port: '88'
-  uuid: 257b80ad-1832-482f-97d9-42275c4a79b2
-  alterId: '10'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /jjyun
+  ws-path: /index
   ws-headers:
     Host: ''
   tls: false
-- name: 198.57.27.241@加拿大(CA)-多伦多/gN4
-  type: ss
-  server: 198.57.27.241
-  port: '2376'
-  password: faBAoD54k87UJG7
-  alterId: 2
-  cipher: aes-256-gcm
-- name: 104.16.166.244@美国(US)-紐華克/kDX
-  type: vmess
-  server: 104.16.166.244
-  port: '443'
-  uuid: 4d88f6a2-aaa9-42b6-afc4-227f89974119
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /The-Great-Awakening_vws
-  ws-headers:
-    Host: vincent-jackson2021.ga
-  tls: true
-- name: 134.195.196.165@加拿大(CA)-多伦多/bH3
-  type: ss
-  server: 134.195.196.165
-  port: '7307'
-  password: FoOiGlkAA9yPEGP
-  alterId: 2
-  cipher: aes-256-gcm
-- name: DpGsiBJK
+- name: 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/KCa
   type: vmess
   server: 1.transit.t.qjnodeip.xyz
-  port: '60649'
-  uuid: 615505e8-e63c-3bad-b3e7-d5e6cf99387e
+  port: '15140'
+  uuid: 1439886a-ecb5-3bbf-bc65-8bfb23d72ea0
   alterId: '8'
   cipher: auto
   network: ws
   ucp: true
-  ws-path: /HGzsmqibHG02Z
+  ws-path: /Ub6w
   ws-headers:
-    Host: dddwda.xyz
+    Host: usa04.dadwff.xyz
   tls: true
-- name: DvcehINp
+- name: 167.88.63.61@美国(US)-亚特兰大/9cl
   type: ss
-  server: 134.195.198.178
-  port: '2376'
-  password: faBAoD54k87UJG7
-  alterId: 2
-  cipher: aes-256-gcm
-- name: aWp4IfHj
-  type: ss
-  server: 167.88.63.119
+  server: 167.88.63.61
   port: '7306'
   password: FoOiGlkAA9yPEGP
   alterId: 2
   cipher: aes-256-gcm
-- name: L0zol1gP
-  type: ss
-  server: 167.88.63.60
-  port: '7306'
-  password: FoOiGlkAA9yPEGP
-  alterId: 2
-  cipher: aes-256-gcm
-- name: pqFtVEYT
-  type: vmess
-  server: jp2.futi.online
-  port: '443'
-  uuid: 6a5b2dee-6e88-46db-9275-d8c6e042c3db
-  alterId: '1'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /
-  ws-headers:
-    Host: ''
-  tls: true
-- name: hOGgC4Bf
-  type: vmess
-  server: jp1.racernet.link
-  port: '443'
-  uuid: 92e7a42e-e8a6-31b2-bfd8-68f517bd3266
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /rhwsqaul
-  ws-headers:
-    Host: ''
-  tls: true
-- name: dml07sLU
-  type: vmess
-  server: ukml.52jjyun.top
-  port: '88'
-  uuid: 8637cd1e-4620-4737-bb15-9fe37c3543a9
-  alterId: '10'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /jjyun
-  ws-headers:
-    Host: ''
-  tls: false
-- name: Tj1rq06h
-  type: ss
-  server: 172.99.190.186
-  port: '2375'
-  password: faBAoD54k87UJG7
-  alterId: 2
-  cipher: aes-256-gcm
-- name: lGXw4uYW
-  type: ss
-  server: 134.195.198.252
-  port: '8090'
-  password: PCnnH6SQSnfoS27
-  alterId: 2
-  cipher: aes-256-gcm
-- name: mx5qB6ZP
-  type: ss
-  server: 134.195.196.110
-  port: '2375'
-  password: faBAoD54k87UJG7
-  alterId: 2
-  cipher: aes-256-gcm
-- name: oKyVN3hx
-  type: vmess
-  server: v10.ssrsub.com
-  port: '158'
-  uuid: 6d6d99b0-be8a-43bc-ad73-2fb0f1595793
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /ssrsub
-  ws-headers:
-    Host: ''
-  tls: true
-- name: ZykIaYVc
-  type: ss
-  server: 167.88.63.89
-  port: '2376'
-  password: faBAoD54k87UJG7
-  alterId: 2
-  cipher: aes-256-gcm
-- name: 04kqzeH8
-  type: vmess
-  server: 104.18.26.165
-  port: '443'
-  uuid: 4d88f6a2-aaa9-42b6-afc4-227f89974119
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /The-Great-Awakening_vws
-  ws-headers:
-    Host: vincent-jackson2021.ga
-  tls: true
-- name: F9g4PpIC
-  type: ss
-  server: 193.118.60.173
-  port: '2375'
-  password: faBAoD54k87UJG7
-  alterId: 2
-  cipher: aes-256-gcm
-- name: px7w0tVD
-  type: ss
-  server: 172.99.190.35
-  port: '7307'
-  password: FoOiGlkAA9yPEGP
-  alterId: 2
-  cipher: aes-256-gcm
-- name: SjmgqDba
-  type: ss
-  server: 134.195.196.133
-  port: '8091'
-  password: PCnnH6SQSnfoS27
-  alterId: 2
-  cipher: aes-256-gcm
-- name: tMzEICyY
-  type: ss
-  server: 38.107.226.241
-  port: '2375'
-  password: faBAoD54k87UJG7
-  alterId: 2
-  cipher: aes-256-gcm
-- name: JE3XFh5p
+- name: uusss1111.liuwei01.tk@美国(US)-紐華克/yS4
   type: vmess
   server: uusss1111.liuwei01.tk
   port: '443'
@@ -654,394 +162,517 @@ proxies:
   ws-headers:
     Host: uusss1111.liuwei01.tk
   tls: true
-- name: PQ3kYuex
-  type: ss
-  server: 193.118.60.171
-  port: '8090'
-  password: PCnnH6SQSnfoS27
-  alterId: 2
-  cipher: aes-256-gcm
-- name: wT5iPeLE
+- name: 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/dlf
   type: vmess
-  server: 104.16.207.196
-  port: '443'
-  uuid: 4d88f6a2-aaa9-42b6-afc4-227f89974119
-  alterId: '0'
+  server: 1.transit.t.qjnodeip.xyz
+  port: '62329'
+  uuid: 1439886a-ecb5-3bbf-bc65-8bfb23d72ea0
+  alterId: '8'
   cipher: auto
   network: ws
   ucp: true
-  ws-path: /The-Great-Awakening_vws
+  ws-path: /usa1Z
   ws-headers:
-    Host: vincent-jackson2021.ga
+    Host: usa03.dadwff.xyz
   tls: true
-- name: XTq7xEBW
+- name: 46.101.28.98@英国(GB)-伦敦/hZi
   type: vmess
-  server: 149.28.222.193
-  port: '80'
-  uuid: 562398c8-cb7f-4850-90eb-2fd17dccb13a
+  server: 46.101.28.98
+  port: '12222'
+  uuid: 6ae2e994-2018-4f9f-a5bb-4639c14ba05f
   alterId: '1'
   cipher: auto
   network: ws
   ucp: true
-  ws-path: /JJkuv3
+  ws-path: /
   ws-headers:
-    Host: ''
+    Host: t.me/vpnhat
   tls: false
-- name: xkQcdRYB
+- name: 167.88.63.28@美国(US)-亚特兰大/zsp
   type: ss
-  server: 193.118.60.174
+  server: 167.88.63.28
+  port: '7307'
+  password: FoOiGlkAA9yPEGP
+  alterId: 2
+  cipher: aes-256-gcm
+- name: 167.88.63.60@美国(US)-亚特兰大/iRO
+  type: ss
+  server: 167.88.63.60
+  port: '7306'
+  password: FoOiGlkAA9yPEGP
+  alterId: 2
+  cipher: aes-256-gcm
+- name: 198.57.27.241@加拿大(CA)-多伦多/bX3
+  type: ss
+  server: 198.57.27.241
+  port: '7307'
+  password: FoOiGlkAA9yPEGP
+  alterId: 2
+  cipher: aes-256-gcm
+- name: 134.195.196.110@加拿大(CA)-多伦多/9Lu
+  type: ss
+  server: 134.195.196.110
+  port: '2375'
+  password: faBAoD54k87UJG7
+  alterId: 2
+  cipher: aes-256-gcm
+- name: 167.88.63.119@美国(US)-亚特兰大/Mjw
+  type: ss
+  server: 167.88.63.119
+  port: '7306'
+  password: FoOiGlkAA9yPEGP
+  alterId: 2
+  cipher: aes-256-gcm
+- name: 167.88.63.89@美国(US)-亚特兰大/nh0
+  type: ss
+  server: 167.88.63.89
   port: '2376'
   password: faBAoD54k87UJG7
   alterId: 2
   cipher: aes-256-gcm
-- name: RiOS8y90
+- name: 38.107.226.238@美国(US)-Ashburn/Q83
   type: ss
-  server: 193.118.60.167
-  port: '8091'
-  password: PCnnH6SQSnfoS27
+  server: 38.107.226.238
+  port: '2375'
+  password: faBAoD54k87UJG7
   alterId: 2
   cipher: aes-256-gcm
-- name: 01scMkxY
-  type: trojan
-  server: t3.ssrsub.com
-  password: 6d6d99b0-be8a-43bc-ad73-2fb0f1595793
-  port: 8443
-- name: hlTKsMjb
+- name: 172.99.190.186@英国(GB)-伦敦/vur
+  type: ss
+  server: 172.99.190.186
+  port: '2375'
+  password: faBAoD54k87UJG7
+  alterId: 2
+  cipher: aes-256-gcm
+- name: twn03.ip4.ddns.acg.photos@台湾(TW)-西屯/Nt2
+  type: vmess
+  server: twn03.ip4.ddns.acg.photos
+  port: '80'
+  uuid: 41204206-0dc0-4f8c-a7bc-215a25079d40
+  alterId: '1'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: ''
+  tls: false
+- name: 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/Hxp
+  type: vmess
+  server: 1.transit.t.qjnodeip.xyz
+  port: '27435'
+  uuid: 615505e8-e63c-3bad-b3e7-d5e6cf99387e
+  alterId: '8'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /JP03W
+  ws-headers:
+    Host: xjp03.cswtw.xyz
+  tls: true
+- name: 134.195.198.178@加拿大(CA)-蒙特利尔/MEf
+  type: ss
+  server: 134.195.198.178
+  port: '2376'
+  password: faBAoD54k87UJG7
+  alterId: 2
+  cipher: aes-256-gcm
+- name: 134.195.196.81@加拿大(CA)-多伦多/alX
   type: ss
   server: 134.195.196.81
   port: '8091'
   password: PCnnH6SQSnfoS27
   alterId: 2
   cipher: aes-256-gcm
-- name: hpsoK9yI
+- name: 198.57.27.225@加拿大(CA)-多伦多/OAD
   type: ss
-  server: 167.88.63.11
+  server: 198.57.27.225
+  port: '7307'
+  password: FoOiGlkAA9yPEGP
+  alterId: 2
+  cipher: aes-256-gcm
+- name: 38.107.226.241@美国(US)-Ashburn/3HX
+  type: ss
+  server: 38.107.226.241
   port: '2375'
   password: faBAoD54k87UJG7
   alterId: 2
   cipher: aes-256-gcm
-- name: dtNfb0is
+- name: 167.88.63.82@美国(US)-亚特兰大/Uni
+  type: ss
+  server: 167.88.63.82
+  port: '7307'
+  password: FoOiGlkAA9yPEGP
+  alterId: 2
+  cipher: aes-256-gcm
+- name: 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/Mhp
   type: vmess
-  server: ukml.52jjyun.top
-  port: '88'
-  uuid: 257b80ad-1832-482f-97d9-42275c4a79b2
-  alterId: '10'
+  server: 1.transit.t.qjnodeip.xyz
+  port: '49676'
+  uuid: 1439886a-ecb5-3bbf-bc65-8bfb23d72ea0
+  alterId: '8'
   cipher: auto
   network: ws
   ucp: true
-  ws-path: /jjyun
+  ws-path: /JS6dq
   ws-headers:
-    Host: ''
-  tls: false
-- name: 2qoNz6Yp
+    Host: xjp2.iuhbhgg.xyz
+  tls: true
+- name: 198.57.27.218@加拿大(CA)-多伦多/yRe
+  type: ss
+  server: 198.57.27.218
+  port: '8090'
+  password: PCnnH6SQSnfoS27
+  alterId: 2
+  cipher: aes-256-gcm
+- name: 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/yGp
   type: vmess
-  server: ruml.jjyun.ren
-  port: '88'
-  uuid: 8637cd1e-4620-4737-bb15-9fe37c3543a9
-  alterId: '10'
+  server: 1.transit.t.qjnodeip.xyz
+  port: '27435'
+  uuid: 1439886a-ecb5-3bbf-bc65-8bfb23d72ea0
+  alterId: '8'
   cipher: auto
   network: ws
   ucp: true
-  ws-path: /jjyun
+  ws-path: /JP03W
   ws-headers:
-    Host: ''
-  tls: false
-- name: kd02VA7Q
-  type: trojan
-  server: t1.ssrsub.com
-  password: 5b092e88-82d8-47eb-a7a2-98bcf02754e9
-  port: 8443
-- name: T3Dhpali
+    Host: xjp03.cswtw.xyz
+  tls: true
+- name: 5.253.207.53@奥地利(AT)-Vienna/V92
+  type: ss
+  server: 5.253.207.53
+  port: '31944'
+  password: aYNeKDMzYQYw4KbUbJA8Wszq
+  alterId: 2
+  cipher: aes-256-gcm
+- name: 134.195.196.133@加拿大(CA)-多伦多/eWj
+  type: ss
+  server: 134.195.196.133
+  port: '7307'
+  password: FoOiGlkAA9yPEGP
+  alterId: 2
+  cipher: aes-256-gcm
+- name: 134.195.196.154@加拿大(CA)-多伦多/XZe
+  type: ss
+  server: 134.195.196.154
+  port: '2376'
+  password: faBAoD54k87UJG7
+  alterId: 2
+  cipher: aes-256-gcm
+- name: 134.195.196.133@加拿大(CA)-多伦多/7JD
+  type: ss
+  server: 134.195.196.133
+  port: '8091'
+  password: PCnnH6SQSnfoS27
+  alterId: 2
+  cipher: aes-256-gcm
+- name: 172.99.190.246@英国(GB)-伦敦/C8o
+  type: ss
+  server: 172.99.190.246
+  port: '2376'
+  password: faBAoD54k87UJG7
+  alterId: 2
+  cipher: aes-256-gcm
+- name: 167.88.63.11@美国(US)-亚特兰大/Nlv
+  type: ss
+  server: 167.88.63.11
+  port: '7307'
+  password: FoOiGlkAA9yPEGP
+  alterId: 2
+  cipher: aes-256-gcm
+- name: 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/yr2
+  type: vmess
+  server: 1.transit.t.qjnodeip.xyz
+  port: '29236'
+  uuid: 1439886a-ecb5-3bbf-bc65-8bfb23d72ea0
+  alterId: '8'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /Jg012
+  ws-headers:
+    Host: jnd01.wxyidc001.space
+  tls: true
+- name: 172.99.190.35@英国(GB)-伦敦/gFS
+  type: ss
+  server: 172.99.190.35
+  port: '7307'
+  password: FoOiGlkAA9yPEGP
+  alterId: 2
+  cipher: aes-256-gcm
+- name: 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/3tK
+  type: vmess
+  server: 1.transit.t.qjnodeip.xyz
+  port: '29236'
+  uuid: 615505e8-e63c-3bad-b3e7-d5e6cf99387e
+  alterId: '8'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /Jg012
+  ws-headers:
+    Host: jnd01.wxyidc001.space
+  tls: true
+- name: 172.99.190.230@英国(GB)-伦敦/Qud
+  type: ss
+  server: 172.99.190.230
+  port: '2375'
+  password: faBAoD54k87UJG7
+  alterId: 2
+  cipher: aes-256-gcm
+- name: 89.238.130.227@英国(GB)-曼彻斯特/L0U
   type: ss
   server: 89.238.130.227
   port: '49339'
   password: suucSeVLmt6PQKAP77NtGw9x
   alterId: 2
   cipher: aes-256-gcm
-- name: YeBcT8nD
-  type: vmess
-  server: ruml.jjyun.ren
-  port: '88'
-  uuid: c8191e5d-c551-4896-8d57-7493da874557
-  alterId: '10'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /jjyun
-  ws-headers:
-    Host: ''
-  tls: false
-- name: br6Tf1FH
-  type: vmess
-  server: 104.16.38.252
-  port: '443'
-  uuid: 4d88f6a2-aaa9-42b6-afc4-227f89974119
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /The-Great-Awakening_vws
-  ws-headers:
-    Host: vincent-jackson2021.ga
-  tls: true
-- name: e2D4HGWQ
+- name: 198.57.27.218@加拿大(CA)-多伦多/xG4
   type: ss
-  server: 134.195.198.250
-  port: '7306'
+  server: 198.57.27.218
+  port: '7307'
   password: FoOiGlkAA9yPEGP
   alterId: 2
   cipher: aes-256-gcm
-- name: uRJN0pnj
+- name: bL6cYyoR
   type: vmess
-  server: ukdll.52jjyun.top
-  port: '80'
-  uuid: c8191e5d-c551-4896-8d57-7493da874557
-  alterId: '10'
+  server: aws.mooncloud.bike
+  port: '10021'
+  uuid: 792f7496-a1e2-4694-96f4-5fbe5e13d68b
+  alterId: '1'
   cipher: auto
   network: ws
   ucp: true
-  ws-path: /jjyun
+  ws-path: /
   ws-headers:
     Host: ''
   tls: false
-- name: 17cPjvoa
+- name: olrQZnxK
   type: ss
   server: 172.99.190.158
   port: '2375'
   password: faBAoD54k87UJG7
   alterId: 2
   cipher: aes-256-gcm
-- name: niWqZLv7
+- name: zpRonvel
   type: ss
-  server: 134.195.196.79
+  server: 134.195.196.110
   port: '8091'
   password: PCnnH6SQSnfoS27
   alterId: 2
   cipher: aes-256-gcm
-- name: thkYHM3f
+- name: vEb130pn
   type: ss
-  server: 38.107.226.149
+  server: 198.57.27.241
   port: '2376'
   password: faBAoD54k87UJG7
   alterId: 2
   cipher: aes-256-gcm
-- name: sFqvp9Y1
+- name: 3TLo76tS
   type: ss
-  server: 167.88.63.108
-  port: '8091'
-  password: PCnnH6SQSnfoS27
+  server: 167.88.63.99
+  port: '2376'
+  password: faBAoD54k87UJG7
   alterId: 2
   cipher: aes-256-gcm
-- name: utWOeKm1
+- name: 9BOfPmMw
   type: ss
-  server: 46.29.218.6
+  server: 134.195.196.110
+  port: '7307'
+  password: FoOiGlkAA9yPEGP
+  alterId: 2
+  cipher: aes-256-gcm
+- name: v1CzOQDX
+  type: ss
+  server: 38.107.226.146
   port: '8090'
   password: PCnnH6SQSnfoS27
   alterId: 2
   cipher: aes-256-gcm
-- name: GvrZ1m2B
+- name: BQSoIN6x
+  type: vmess
+  server: 120.240.86.53
+  port: '28592'
+  uuid: fdc2ac0a-ce39-4b69-ae6a-4cc38643440f
+  alterId: '0'
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: t.me/vpnpool
+  ws-headers:
+    Host: t.me/vpnhat
+  tls: false
+- name: kDXLp6xH
   type: ss
-  server: 46.29.218.6
-  port: '2376'
-  password: faBAoD54k87UJG7
+  server: 66.115.177.141
+  port: '47121'
+  password: CTK8GXFQgKYQErrghPJfZ6tk
   alterId: 2
   cipher: aes-256-gcm
-- name: yhB0AWnV
+- name: T83MICWN
   type: vmess
-  server: ukwx.52jjyun.top
-  port: '80'
-  uuid: 8b76ab3f-e78e-454b-9a70-937c608e49b6
-  alterId: '10'
+  server: azxg.mooncloud.bike
+  port: '10020'
+  uuid: 792f7496-a1e2-4694-96f4-5fbe5e13d68b
+  alterId: '1'
   cipher: auto
   network: ws
   ucp: true
-  ws-path: /jjyun
+  ws-path: /
   ws-headers:
     Host: ''
   tls: false
+- name: 2aSR9zAk
+  type: vmess
+  server: 1.transit.t.qjnodeip.xyz
+  port: '49676'
+  uuid: 615505e8-e63c-3bad-b3e7-d5e6cf99387e
+  alterId: '8'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /JS6dq
+  ws-headers:
+    Host: xjp2.iuhbhgg.xyz
+  tls: true
+- name: go3BhAmQ
+  type: vmess
+  server: 1.transit.t.qjnodeip.xyz
+  port: '61610'
+  uuid: 1439886a-ecb5-3bbf-bc65-8bfb23d72ea0
+  alterId: '5'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /C1zmqibh
+  ws-headers:
+    Host: hkyz.iuhbhgg.xyz
+  tls: true
 proxy-groups:
 - name: 🔰 节点选择
   type: select
   proxies:
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/yZm
-  - 20.196.203.225@大韩民国(KR)-首尔特别市/PqA
-  - 104.18.27.64@美国(US)-紐華克/kLa
-  - 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/LDc
-  - hk2.racernet.link@香港(HK)-中環/Id7
-  - 120.232.41.42@中国(CN)-Luohu/QBx
-  - v1.ssrsub.com@美国(US)-拉斯维加斯/8Bh
-  - 104.20.81.240@美国(US)-紐華克/DUn
-  - 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/vnj
-  - t1.ssrsub.com@美国(US)-拉斯维加斯/lRu
-  - usgia.jjyun.ren@美国(US)-聖荷西/tPe
-  - v1.ssrsub.com@美国(US)-拉斯维加斯/nyQ
-  - usgia.jjyun.ren@印度(IN)-班加羅爾/Tye
-  - 167.88.63.119@美国(US)-亚特兰大/YbB
-  - hkml.jjyun.ren@香港(HK)-香港/EnB
-  - cyberpunk2077freedownload.herokuapp.com@美国(US)-Ashburn/Xt0
-  - hkml.jjyun.ren@香港(HK)-香港/WcO
-  - kr.52jjyun.top@韩国(KR)-首尔特别市/TZ2
-  - us2.futi.online@美国(US)-聖荷西/RwG
-  - 167.88.63.107@美国(US)-亚特兰大/WFK
-  - winter-glade-adf0.h25744.workers.dev@美国(US)-紐華克/5If
-  - us3.futi.online@美国(US)-San Jose/cPD
-  - 79.110.54.133@美国(US)-拉斯维加斯/aEf
-  - 134.195.196.154@加拿大(CA)-多伦多/Dsw
-  - 198.57.27.218@加拿大(CA)-多伦多/fED
-  - 1.transit.nph.qjnodeip.xyz@中国(CN)-上海/OXD
-  - 134.195.198.252@加拿大(CA)-蒙特利尔/gYd
-  - 198.57.27.241@加拿大(CA)-多伦多/fdA
-  - 134.195.196.110@加拿大(CA)-多伦多/lVW
-  - ruml.jjyun.ren@俄罗斯(RU)-Zelenograd/9y3
-  - ruml.jjyun.ren@俄罗斯(RU)-Zelenograd/62O
-  - 198.57.27.225@加拿大(CA)-多伦多/cfO
-  - 104.16.168.85@美国(US)-紐華克/okE
-  - 104.17.62.78@美国(US)-紐華克/nkz
-  - ukml.52jjyun.top@英国(GB)-伦敦/zZC
-  - 46.101.28.98@英国(GB)-伦敦/zd6
-  - 134.195.196.147@加拿大(CA)-多伦多/nMH
-  - 167.88.63.82@美国(US)-亚特兰大/cl2
-  - 167.88.63.11@美国(US)-亚特兰大/1w8
-  - 134.195.196.110@加拿大(CA)-多伦多/Afb
-  - 198.57.27.243@加拿大(CA)-多伦多/vji
-  - kr.52jjyun.top@韩国(KR)-首尔特别市/iW6
-  - 198.57.27.241@加拿大(CA)-多伦多/gN4
-  - 104.16.166.244@美国(US)-紐華克/kDX
-  - 134.195.196.165@加拿大(CA)-多伦多/bH3
-  - DpGsiBJK
-  - DvcehINp
-  - aWp4IfHj
-  - L0zol1gP
-  - pqFtVEYT
-  - hOGgC4Bf
-  - dml07sLU
-  - Tj1rq06h
-  - lGXw4uYW
-  - mx5qB6ZP
-  - oKyVN3hx
-  - ZykIaYVc
-  - 04kqzeH8
-  - F9g4PpIC
-  - px7w0tVD
-  - SjmgqDba
-  - tMzEICyY
-  - JE3XFh5p
-  - PQ3kYuex
-  - wT5iPeLE
-  - XTq7xEBW
-  - xkQcdRYB
-  - RiOS8y90
-  - 01scMkxY
-  - hlTKsMjb
-  - hpsoK9yI
-  - dtNfb0is
-  - 2qoNz6Yp
-  - kd02VA7Q
-  - T3Dhpali
-  - YeBcT8nD
-  - br6Tf1FH
-  - e2D4HGWQ
-  - uRJN0pnj
-  - 17cPjvoa
-  - niWqZLv7
-  - thkYHM3f
-  - sFqvp9Y1
-  - utWOeKm1
-  - GvrZ1m2B
-  - yhB0AWnV
+  - 168.63.137.241@香港(HK)-香港/E2Z
+  - 23.100.109.40@日本(JP)-Osaka/dhw
+  - 168.63.202.65@香港(HK)-香港/pej
+  - 52.163.87.150@新加坡(SG)-Singapore/BOK
+  - 20.196.203.225@大韩民国(KR)-首尔特别市/bsV
+  - cw.cwzz.tk@香港(HK)-香港/JAw
+  - 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/9BA
+  - 1.transit.nph.qjnodeip.xyz@中国(CN)-上海/Qd5
+  - 167.88.63.119@美国(US)-亚特兰大/yF7
+  - jp1.nph.qjnodeip.xyz@日本(JP)-大阪市/bwT
+  - 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/KCa
+  - 167.88.63.61@美国(US)-亚特兰大/9cl
+  - uusss1111.liuwei01.tk@美国(US)-紐華克/yS4
+  - 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/dlf
+  - 46.101.28.98@英国(GB)-伦敦/hZi
+  - 167.88.63.28@美国(US)-亚特兰大/zsp
+  - 167.88.63.60@美国(US)-亚特兰大/iRO
+  - 198.57.27.241@加拿大(CA)-多伦多/bX3
+  - 134.195.196.110@加拿大(CA)-多伦多/9Lu
+  - 167.88.63.119@美国(US)-亚特兰大/Mjw
+  - 167.88.63.89@美国(US)-亚特兰大/nh0
+  - 38.107.226.238@美国(US)-Ashburn/Q83
+  - 172.99.190.186@英国(GB)-伦敦/vur
+  - twn03.ip4.ddns.acg.photos@台湾(TW)-西屯/Nt2
+  - 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/Hxp
+  - 134.195.198.178@加拿大(CA)-蒙特利尔/MEf
+  - 134.195.196.81@加拿大(CA)-多伦多/alX
+  - 198.57.27.225@加拿大(CA)-多伦多/OAD
+  - 38.107.226.241@美国(US)-Ashburn/3HX
+  - 167.88.63.82@美国(US)-亚特兰大/Uni
+  - 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/Mhp
+  - 198.57.27.218@加拿大(CA)-多伦多/yRe
+  - 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/yGp
+  - 5.253.207.53@奥地利(AT)-Vienna/V92
+  - 134.195.196.133@加拿大(CA)-多伦多/eWj
+  - 134.195.196.154@加拿大(CA)-多伦多/XZe
+  - 134.195.196.133@加拿大(CA)-多伦多/7JD
+  - 172.99.190.246@英国(GB)-伦敦/C8o
+  - 167.88.63.11@美国(US)-亚特兰大/Nlv
+  - 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/yr2
+  - 172.99.190.35@英国(GB)-伦敦/gFS
+  - 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/3tK
+  - 172.99.190.230@英国(GB)-伦敦/Qud
+  - 89.238.130.227@英国(GB)-曼彻斯特/L0U
+  - 198.57.27.218@加拿大(CA)-多伦多/xG4
+  - bL6cYyoR
+  - olrQZnxK
+  - zpRonvel
+  - vEb130pn
+  - 3TLo76tS
+  - 9BOfPmMw
+  - v1CzOQDX
+  - BQSoIN6x
+  - kDXLp6xH
+  - T83MICWN
+  - 2aSR9zAk
+  - go3BhAmQ
 - name: ♻️ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/yZm
-  - 20.196.203.225@大韩民国(KR)-首尔特别市/PqA
-  - 104.18.27.64@美国(US)-紐華克/kLa
-  - 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/LDc
-  - hk2.racernet.link@香港(HK)-中環/Id7
-  - 120.232.41.42@中国(CN)-Luohu/QBx
-  - v1.ssrsub.com@美国(US)-拉斯维加斯/8Bh
-  - 104.20.81.240@美国(US)-紐華克/DUn
-  - 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/vnj
-  - t1.ssrsub.com@美国(US)-拉斯维加斯/lRu
-  - usgia.jjyun.ren@美国(US)-聖荷西/tPe
-  - v1.ssrsub.com@美国(US)-拉斯维加斯/nyQ
-  - usgia.jjyun.ren@印度(IN)-班加羅爾/Tye
-  - 167.88.63.119@美国(US)-亚特兰大/YbB
-  - hkml.jjyun.ren@香港(HK)-香港/EnB
-  - cyberpunk2077freedownload.herokuapp.com@美国(US)-Ashburn/Xt0
-  - hkml.jjyun.ren@香港(HK)-香港/WcO
-  - kr.52jjyun.top@韩国(KR)-首尔特别市/TZ2
-  - us2.futi.online@美国(US)-聖荷西/RwG
-  - 167.88.63.107@美国(US)-亚特兰大/WFK
-  - winter-glade-adf0.h25744.workers.dev@美国(US)-紐華克/5If
-  - us3.futi.online@美国(US)-San Jose/cPD
-  - 79.110.54.133@美国(US)-拉斯维加斯/aEf
-  - 134.195.196.154@加拿大(CA)-多伦多/Dsw
-  - 198.57.27.218@加拿大(CA)-多伦多/fED
-  - 1.transit.nph.qjnodeip.xyz@中国(CN)-上海/OXD
-  - 134.195.198.252@加拿大(CA)-蒙特利尔/gYd
-  - 198.57.27.241@加拿大(CA)-多伦多/fdA
-  - 134.195.196.110@加拿大(CA)-多伦多/lVW
-  - ruml.jjyun.ren@俄罗斯(RU)-Zelenograd/9y3
-  - ruml.jjyun.ren@俄罗斯(RU)-Zelenograd/62O
-  - 198.57.27.225@加拿大(CA)-多伦多/cfO
-  - 104.16.168.85@美国(US)-紐華克/okE
-  - 104.17.62.78@美国(US)-紐華克/nkz
-  - ukml.52jjyun.top@英国(GB)-伦敦/zZC
-  - 46.101.28.98@英国(GB)-伦敦/zd6
-  - 134.195.196.147@加拿大(CA)-多伦多/nMH
-  - 167.88.63.82@美国(US)-亚特兰大/cl2
-  - 167.88.63.11@美国(US)-亚特兰大/1w8
-  - 134.195.196.110@加拿大(CA)-多伦多/Afb
-  - 198.57.27.243@加拿大(CA)-多伦多/vji
-  - kr.52jjyun.top@韩国(KR)-首尔特别市/iW6
-  - 198.57.27.241@加拿大(CA)-多伦多/gN4
-  - 104.16.166.244@美国(US)-紐華克/kDX
-  - 134.195.196.165@加拿大(CA)-多伦多/bH3
-  - DpGsiBJK
-  - DvcehINp
-  - aWp4IfHj
-  - L0zol1gP
-  - pqFtVEYT
-  - hOGgC4Bf
-  - dml07sLU
-  - Tj1rq06h
-  - lGXw4uYW
-  - mx5qB6ZP
-  - oKyVN3hx
-  - ZykIaYVc
-  - 04kqzeH8
-  - F9g4PpIC
-  - px7w0tVD
-  - SjmgqDba
-  - tMzEICyY
-  - JE3XFh5p
-  - PQ3kYuex
-  - wT5iPeLE
-  - XTq7xEBW
-  - xkQcdRYB
-  - RiOS8y90
-  - 01scMkxY
-  - hlTKsMjb
-  - hpsoK9yI
-  - dtNfb0is
-  - 2qoNz6Yp
-  - kd02VA7Q
-  - T3Dhpali
-  - YeBcT8nD
-  - br6Tf1FH
-  - e2D4HGWQ
-  - uRJN0pnj
-  - 17cPjvoa
-  - niWqZLv7
-  - thkYHM3f
-  - sFqvp9Y1
-  - utWOeKm1
-  - GvrZ1m2B
-  - yhB0AWnV
+  - 168.63.137.241@香港(HK)-香港/E2Z
+  - 23.100.109.40@日本(JP)-Osaka/dhw
+  - 168.63.202.65@香港(HK)-香港/pej
+  - 52.163.87.150@新加坡(SG)-Singapore/BOK
+  - 20.196.203.225@大韩民国(KR)-首尔特别市/bsV
+  - cw.cwzz.tk@香港(HK)-香港/JAw
+  - 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/9BA
+  - 1.transit.nph.qjnodeip.xyz@中国(CN)-上海/Qd5
+  - 167.88.63.119@美国(US)-亚特兰大/yF7
+  - jp1.nph.qjnodeip.xyz@日本(JP)-大阪市/bwT
+  - 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/KCa
+  - 167.88.63.61@美国(US)-亚特兰大/9cl
+  - uusss1111.liuwei01.tk@美国(US)-紐華克/yS4
+  - 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/dlf
+  - 46.101.28.98@英国(GB)-伦敦/hZi
+  - 167.88.63.28@美国(US)-亚特兰大/zsp
+  - 167.88.63.60@美国(US)-亚特兰大/iRO
+  - 198.57.27.241@加拿大(CA)-多伦多/bX3
+  - 134.195.196.110@加拿大(CA)-多伦多/9Lu
+  - 167.88.63.119@美国(US)-亚特兰大/Mjw
+  - 167.88.63.89@美国(US)-亚特兰大/nh0
+  - 38.107.226.238@美国(US)-Ashburn/Q83
+  - 172.99.190.186@英国(GB)-伦敦/vur
+  - twn03.ip4.ddns.acg.photos@台湾(TW)-西屯/Nt2
+  - 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/Hxp
+  - 134.195.198.178@加拿大(CA)-蒙特利尔/MEf
+  - 134.195.196.81@加拿大(CA)-多伦多/alX
+  - 198.57.27.225@加拿大(CA)-多伦多/OAD
+  - 38.107.226.241@美国(US)-Ashburn/3HX
+  - 167.88.63.82@美国(US)-亚特兰大/Uni
+  - 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/Mhp
+  - 198.57.27.218@加拿大(CA)-多伦多/yRe
+  - 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/yGp
+  - 5.253.207.53@奥地利(AT)-Vienna/V92
+  - 134.195.196.133@加拿大(CA)-多伦多/eWj
+  - 134.195.196.154@加拿大(CA)-多伦多/XZe
+  - 134.195.196.133@加拿大(CA)-多伦多/7JD
+  - 172.99.190.246@英国(GB)-伦敦/C8o
+  - 167.88.63.11@美国(US)-亚特兰大/Nlv
+  - 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/yr2
+  - 172.99.190.35@英国(GB)-伦敦/gFS
+  - 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/3tK
+  - 172.99.190.230@英国(GB)-伦敦/Qud
+  - 89.238.130.227@英国(GB)-曼彻斯特/L0U
+  - 198.57.27.218@加拿大(CA)-多伦多/xG4
+  - bL6cYyoR
+  - olrQZnxK
+  - zpRonvel
+  - vEb130pn
+  - 3TLo76tS
+  - 9BOfPmMw
+  - v1CzOQDX
+  - BQSoIN6x
+  - kDXLp6xH
+  - T83MICWN
+  - 2aSR9zAk
+  - go3BhAmQ
 - name: 🌍 国外媒体
   type: select
   proxies:
