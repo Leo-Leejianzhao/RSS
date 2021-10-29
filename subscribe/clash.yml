@@ -5,352 +5,137 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-- name: cmgz1.racernet.link@中国(CN)-珠海市/N4L
+- name: 10.yyds123.com@香港(HK)-香港/ngJ
   type: vmess
-  server: cmgz1.racernet.link
-  port: '1443'
-  uuid: d03f3b95-e9e0-3b5b-a8e0-7f159ffbb1ec
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /cmgz1
-  ws-headers:
-    Host: ''
-  tls: true
-- name: 104.16.148.48@美国(US)-紐華克/jrv
-  type: vmess
-  server: 104.16.148.48
-  port: '443'
-  uuid: 2ac0acf7-a788-4b3e-a643-3a87368a49dd
-  alterId: '60'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /sadfasf
-  ws-headers:
-    Host: qq13.feiclouddd.me
-  tls: true
-- name: www.garmin.com@美国(US)-紐華克/cts
-  type: vmess
-  server: www.garmin.com
-  port: '443'
-  uuid: 2ac0acf7-a788-4b3e-a643-3a87368a49dd
-  alterId: '60'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /sadfasf
-  ws-headers:
-    Host: qq13.feiclouddd.me
-  tls: true
-- name: 172.67.223.77@美国(US)-紐華克/OFY
-  type: vmess
-  server: 172.67.223.77
-  port: '443'
-  uuid: 2ac0acf7-a788-4b3e-a643-3a87368a49dd
-  alterId: '60'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /sadfasf
-  ws-headers:
-    Host: qq13.feiclouddd.me
-  tls: true
-- name: 1.0.0.0@澳大利亞(AU)-South Brisbane/jOp
-  type: vmess
-  server: 1.0.0.0
-  port: '443'
-  uuid: 2ac0acf7-a788-4b3e-a643-3a87368a49dd
-  alterId: '60'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /sadfasf
-  ws-headers:
-    Host: qq13.feiclouddd.me
-  tls: true
-- name: 104.21.76.229@美国(US)-紐華克/0YF
-  type: vmess
-  server: 104.21.76.229
-  port: '443'
-  uuid: 2ac0acf7-a788-4b3e-a643-3a87368a49dd
-  alterId: '60'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /sadfasf
-  ws-headers:
-    Host: qq13.feiclouddd.me
-  tls: true
-- name: 104.16.14.226@美国(US)-紐華克/9ST
-  type: vmess
-  server: 104.16.14.226
-  port: '443'
-  uuid: d7662dde-1d41-4c35-888b-033f1764b643
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /zeduvws?ed=2048
-  ws-headers:
-    Host: c.1808.cf
-  tls: true
-- name: 104.17.36.178@美国(US)-紐華克/E7k
-  type: vmess
-  server: 104.17.36.178
-  port: '443'
-  uuid: 2ac0acf7-a788-4b3e-a643-3a87368a49dd
-  alterId: '60'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /sadfasf
-  ws-headers:
-    Host: qq13.feiclouddd.me
-  tls: true
-- name: 104.19.45.117@美国(US)-紐華克/uls
-  type: vmess
-  server: 104.19.45.117
-  port: '443'
-  uuid: 2ac0acf7-a788-4b3e-a643-3a87368a49dd
-  alterId: '60'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /sadfasf
-  ws-headers:
-    Host: qq13.feiclouddd.me
-  tls: true
-- name: 104.16.167.138@美国(US)-紐華克/poN
-  type: vmess
-  server: 104.16.167.138
-  port: '443'
-  uuid: 2ac0acf7-a788-4b3e-a643-3a87368a49dd
-  alterId: '60'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /sadfasf
-  ws-headers:
-    Host: qq13.feiclouddd.me
-  tls: true
-- name: 104.21.239.147@美国(US)-华盛顿特区/EjM
-  type: vmess
-  server: 104.21.239.147
-  port: '443'
-  uuid: 2ac0acf7-a788-4b3e-a643-3a87368a49dd
-  alterId: '60'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /sadfasf
-  ws-headers:
-    Host: qq13.feiclouddd.me
-  tls: true
-- name: 104.16.149.48@美国(US)-紐華克/BUG
-  type: vmess
-  server: 104.16.149.48
-  port: '443'
-  uuid: 2ac0acf7-a788-4b3e-a643-3a87368a49dd
-  alterId: '60'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /sadfasf
-  ws-headers:
-    Host: qq13.feiclouddd.me
-  tls: true
-- name: 104.22.44.50@美国(US)-紐華克/HZk
-  type: vmess
-  server: 104.22.44.50
-  port: '443'
-  uuid: 2ac0acf7-a788-4b3e-a643-3a87368a49dd
-  alterId: '60'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /sadfasf
-  ws-headers:
-    Host: qq13.feiclouddd.me
-  tls: true
-- name: usgia.jjyun.ren@美国(US)-聖荷西/y8p
-  type: vmess
-  server: usgia.jjyun.ren
-  port: '88'
-  uuid: b414aede-9fc3-407b-a806-4b1a834b495f
-  alterId: '10'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /jjyun
-  ws-headers:
-    Host: ''
-  tls: false
-- name: jp1.racernet.link@日本(JP)-东京/vJK
-  type: vmess
-  server: jp1.racernet.link
-  port: '443'
-  uuid: d03f3b95-e9e0-3b5b-a8e0-7f159ffbb1ec
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /rhwsqaul
-  ws-headers:
-    Host: ''
-  tls: true
-- name: qq13.feiclouddd.me@美国(US)-洛杉矶/N09
-  type: vmess
-  server: qq13.feiclouddd.me
-  port: '443'
-  uuid: 2ac0acf7-a788-4b3e-a643-3a87368a49dd
-  alterId: '60'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /sadfasf
-  ws-headers:
-    Host: ''
-  tls: true
-- name: 104.20.130.43@美国(US)-紐華克/1xy
-  type: vmess
-  server: 104.20.130.43
-  port: '443'
-  uuid: 2ac0acf7-a788-4b3e-a643-3a87368a49dd
-  alterId: '60'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /sadfasf
-  ws-headers:
-    Host: qq13.feiclouddd.me
-  tls: true
-- name: usgia.jjyun.ren@美国(US)-聖荷西/t6c
-  type: vmess
-  server: usgia.jjyun.ren
-  port: '88'
-  uuid: acafd800-c0fd-4a3d-9fde-bac835eea749
-  alterId: '10'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /jjyun
-  ws-headers:
-    Host: ''
-  tls: false
-- name: 104.18.135.208@美国(US)-紐華克/iNX
-  type: vmess
-  server: 104.18.135.208
-  port: '443'
-  uuid: 2ac0acf7-a788-4b3e-a643-3a87368a49dd
-  alterId: '60'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /sadfasf
-  ws-headers:
-    Host: qq13.feiclouddd.me
-  tls: true
-- name: ruml.jjyun.ren@俄罗斯(RU)-Zelenograd/ndZ
-  type: vmess
-  server: ruml.jjyun.ren
-  port: '88'
-  uuid: b414aede-9fc3-407b-a806-4b1a834b495f
-  alterId: '10'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /jjyun
-  ws-headers:
-    Host: ''
-  tls: false
-- name: 104.16.107.171@美国(US)-紐華克/FN6
-  type: vmess
-  server: 104.16.107.171
-  port: '443'
-  uuid: d7662dde-1d41-4c35-888b-033f1764b643
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /zeduvws?ed=2048
-  ws-headers:
-    Host: c.1808.cf
-  tls: true
-- name: usgia.jjyun.ren@美国(US)-聖荷西/zDk
-  type: vmess
-  server: usgia.jjyun.ren
-  port: '88'
-  uuid: ebbb3fb4-2fb0-4bc6-bb07-b1c45065e6b0
-  alterId: '10'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /jjyun
-  ws-headers:
-    Host: ''
-  tls: false
-- name: ruml.jjyun.ren@俄罗斯(RU)-Zelenograd/CWH
-  type: vmess
-  server: ruml.jjyun.ren
-  port: '88'
-  uuid: acafd800-c0fd-4a3d-9fde-bac835eea749
-  alterId: '10'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /jjyun
-  ws-headers:
-    Host: ''
-  tls: false
-- name: usdll2.jjyun.ren@美国(US)-紐華克/CXP
-  type: vmess
-  server: usdll2.jjyun.ren
+  server: 10.yyds123.com
   port: '80'
-  uuid: ebbb3fb4-2fb0-4bc6-bb07-b1c45065e6b0
-  alterId: '1'
+  uuid: bac18e70-9964-3f99-805a-d809c4bdc6cb
+  alterId: '2'
   cipher: auto
   network: ws
   ucp: true
-  ws-path: /jjyunml
+  ws-path: /ny
   ws-headers:
     Host: ''
   tls: false
-- name: ukml.52jjyun.top@英国(GB)-伦敦/QXF
+- name: vip345.xyz@香港(HK)-香港/b82
   type: vmess
-  server: ukml.52jjyun.top
-  port: '88'
-  uuid: b414aede-9fc3-407b-a806-4b1a834b495f
-  alterId: '10'
+  server: vip345.xyz
+  port: '34725'
+  uuid: bac18e70-9964-3f99-805a-d809c4bdc6cb
+  alterId: '2'
   cipher: auto
   network: ws
   ucp: true
-  ws-path: /jjyun
+  ws-path: /ny
   ws-headers:
     Host: ''
   tls: false
-- name: ruml.jjyun.ren@俄罗斯(RU)-Zelenograd/N3k
+- name: 5.yyds123.com@香港(HK)-香港/ouC
   type: vmess
-  server: ruml.jjyun.ren
-  port: '88'
-  uuid: ebbb3fb4-2fb0-4bc6-bb07-b1c45065e6b0
-  alterId: '10'
+  server: 5.yyds123.com
+  port: '29999'
+  uuid: bac18e70-9964-3f99-805a-d809c4bdc6cb
+  alterId: '2'
   cipher: auto
   network: ws
   ucp: true
-  ws-path: /jjyun
+  ws-path: /ny
   ws-headers:
     Host: ''
   tls: false
-- name: 38.107.226.159@美国(US)-Ashburn/Jc1
-  type: ss
-  server: 38.107.226.159
-  port: '7307'
-  password: FoOiGlkAA9yPEGP
-  alterId: 2
-  cipher: aes-256-gcm
-- name: 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/Cw5
+- name: 7.yyds123.com@香港(HK)-香港/8RE
+  type: vmess
+  server: 7.yyds123.com
+  port: '80'
+  uuid: bac18e70-9964-3f99-805a-d809c4bdc6cb
+  alterId: '2'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /ny
+  ws-headers:
+    Host: ''
+  tls: false
+- name: vip345.xyz@香港(HK)-香港/iDI
+  type: vmess
+  server: vip345.xyz
+  port: '59477'
+  uuid: bac18e70-9964-3f99-805a-d809c4bdc6cb
+  alterId: '2'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /ny
+  ws-headers:
+    Host: ''
+  tls: false
+- name: 8.yyds123.com@香港(HK)-香港/IvL
+  type: vmess
+  server: 8.yyds123.com
+  port: '80'
+  uuid: bac18e70-9964-3f99-805a-d809c4bdc6cb
+  alterId: '2'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /ny
+  ws-headers:
+    Host: ''
+  tls: false
+- name: vip345.xyz@香港(HK)-香港/F0z
+  type: vmess
+  server: vip345.xyz
+  port: '35230'
+  uuid: bac18e70-9964-3f99-805a-d809c4bdc6cb
+  alterId: '2'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /ny
+  ws-headers:
+    Host: ''
+  tls: false
+- name: 4.yyds123.com@香港(HK)-香港/b1K
+  type: vmess
+  server: 4.yyds123.com
+  port: '80'
+  uuid: bac18e70-9964-3f99-805a-d809c4bdc6cb
+  alterId: '2'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /ny
+  ws-headers:
+    Host: ''
+  tls: false
+- name: 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/PjN
+  type: vmess
+  server: 1.transit.t.qjnodeip.xyz
+  port: '62329'
+  uuid: 1439886a-ecb5-3bbf-bc65-8bfb23d72ea0
+  alterId: '8'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /usa1Z
+  ws-headers:
+    Host: usa03.dadwff.xyz
+  tls: true
+- name: 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/cqC
+  type: vmess
+  server: 1.transit.t.qjnodeip.xyz
+  port: '29236'
+  uuid: 615505e8-e63c-3bad-b3e7-d5e6cf99387e
+  alterId: '8'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /Jg012
+  ws-headers:
+    Host: jnd01.wxyidc001.space
+  tls: true
+- name: 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/hzM
   type: vmess
   server: 1.transit.t.qjnodeip.xyz
   port: '49676'
@@ -363,57 +148,11 @@ proxies:
   ws-headers:
     Host: xjp2.iuhbhgg.xyz
   tls: true
-- name: 38.107.226.241@美国(US)-Ashburn/HWu
-  type: ss
-  server: 38.107.226.241
-  port: '2375'
-  password: faBAoD54k87UJG7
-  alterId: 2
-  cipher: aes-256-gcm
-- name: proxy.ac360.ml@中国(CN)-Songjiang/gOI
-  type: vmess
-  server: proxy.ac360.ml
-  port: '8443'
-  uuid: d7662dde-1d41-4c35-888b-033f1764b643
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /zeduvws?ed=2048
-  ws-headers:
-    Host: c.1808.cf
-  tls: true
-- name: wx3.jjyun.ren@美国(US)-紐華克/t0d
-  type: vmess
-  server: wx3.jjyun.ren
-  port: '80'
-  uuid: ebbb3fb4-2fb0-4bc6-bb07-b1c45065e6b0
-  alterId: '1'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /jjyun
-  ws-headers:
-    Host: ''
-  tls: false
-- name: 104.26.9.74@美国(US)-紐華克/sC7
-  type: vmess
-  server: 104.26.9.74
-  port: '443'
-  uuid: f6c1babe-416e-47d1-8726-049678e25c7a
-  alterId: '64'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /sshocean
-  ws-headers:
-    Host: us2.v2rayserv.com
-  tls: true
-- name: 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/IWb
+- name: 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/0UP
   type: vmess
   server: 1.transit.t.qjnodeip.xyz
   port: '27435'
-  uuid: 1439886a-ecb5-3bbf-bc65-8bfb23d72ea0
+  uuid: 615505e8-e63c-3bad-b3e7-d5e6cf99387e
   alterId: '8'
   cipher: auto
   network: ws
@@ -422,99 +161,33 @@ proxies:
   ws-headers:
     Host: xjp03.cswtw.xyz
   tls: true
-- name: ctsh1.racernet.link@中国(CN)-Huangpu/Y7g
+- name: 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/eji
   type: vmess
-  server: ctsh1.racernet.link
-  port: '22080'
-  uuid: d03f3b95-e9e0-3b5b-a8e0-7f159ffbb1ec
-  alterId: '0'
+  server: 1.transit.t.qjnodeip.xyz
+  port: '49676'
+  uuid: 615505e8-e63c-3bad-b3e7-d5e6cf99387e
+  alterId: '8'
   cipher: auto
   network: ws
   ucp: true
-  ws-path: /ctsh1de1
+  ws-path: /JS6dq
   ws-headers:
-    Host: ''
+    Host: xjp2.iuhbhgg.xyz
   tls: true
-- name: 167.88.63.11@美国(US)-亚特兰大/5xh
-  type: ss
-  server: 167.88.63.11
-  port: '2375'
-  password: faBAoD54k87UJG7
-  alterId: 2
-  cipher: aes-256-gcm
-- name: 157.245.151.90@新加坡(SG)-新加坡/tI1
+- name: 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/67Y
   type: vmess
-  server: 157.245.151.90
-  port: '80'
-  uuid: d96115c5-ec25-45a3-bc94-2b813db31e09
-  alterId: '0'
+  server: 1.transit.t.qjnodeip.xyz
+  port: '29236'
+  uuid: 1439886a-ecb5-3bbf-bc65-8bfb23d72ea0
+  alterId: '8'
   cipher: auto
   network: ws
   ucp: true
-  ws-path: /
+  ws-path: /Jg012
   ws-headers:
-    Host: ''
-  tls: false
-- name: 172.99.190.186@英国(GB)-伦敦/UbO
-  type: ss
-  server: 172.99.190.186
-  port: '2375'
-  password: faBAoD54k87UJG7
-  alterId: 2
-  cipher: aes-256-gcm
-- name: 165.232.167.127@新加坡(SG)-新加坡/r7o
-  type: vmess
-  server: 165.232.167.127
-  port: '80'
-  uuid: d96115c5-ec25-45a3-bc94-2b813db31e09
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /
-  ws-headers:
-    Host: ''
-  tls: false
-- name: usdll2.jjyun.ren@美国(US)-紐華克/NCu
-  type: vmess
-  server: usdll2.jjyun.ren
-  port: '80'
-  uuid: acafd800-c0fd-4a3d-9fde-bac835eea749
-  alterId: '1'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /jjyunml
-  ws-headers:
-    Host: ''
-  tls: false
-- name: ukdll.52jjyun.top@英国(GB)-伦敦/7Ml
-  type: vmess
-  server: ukdll.52jjyun.top
-  port: '80'
-  uuid: bf7134c3-914d-4294-8cdf-6eda920d1a42
-  alterId: '10'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /jjyun
-  ws-headers:
-    Host: ''
-  tls: false
-- name: usdll2.jjyun.ren@美国(US)-紐華克/o84
-  type: vmess
-  server: usdll2.jjyun.ren
-  port: '80'
-  uuid: bf7134c3-914d-4294-8cdf-6eda920d1a42
-  alterId: '1'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /jjyunml
-  ws-headers:
-    Host: ''
-  tls: false
-- name: 46.101.28.98@英国(GB)-伦敦/Vab
+    Host: jnd01.wxyidc001.space
+  tls: true
+- name: 46.101.28.98@英国(GB)-伦敦/5of
   type: vmess
   server: 46.101.28.98
   port: '12222'
@@ -527,7 +200,68 @@ proxies:
   ws-headers:
     Host: t.me/vpnhat
   tls: false
-- name: 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/2KG
+- name: 198.57.27.218@加拿大(CA)-多伦多/z3f
+  type: ss
+  server: 198.57.27.218
+  port: '8090'
+  password: PCnnH6SQSnfoS27
+  alterId: 2
+  cipher: aes-256-gcm
+- name: 167.88.63.99@美国(US)-亚特兰大/Eyf
+  type: ss
+  server: 167.88.63.99
+  port: '7306'
+  password: FoOiGlkAA9yPEGP
+  alterId: 2
+  cipher: aes-256-gcm
+- name: hkt.nkeo.top@香港(HK)-大埔/rsE
+  type: vmess
+  server: hkt.nkeo.top
+  port: '48691'
+  uuid: d96115c5-ec25-45a3-bc94-2b813db31e09
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: ''
+  tls: false
+- name: 104.26.9.74@美国(US)-紐華克/n9Q
+  type: vmess
+  server: 104.26.9.74
+  port: '443'
+  uuid: f6c1babe-416e-47d1-8726-049678e25c7a
+  alterId: '64'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /sshocean
+  ws-headers:
+    Host: us2.v2rayserv.com
+  tls: true
+- name: 167.88.63.99@美国(US)-亚特兰大/Ntq
+  type: ss
+  server: 167.88.63.99
+  port: '2376'
+  password: faBAoD54k87UJG7
+  alterId: 2
+  cipher: aes-256-gcm
+- name: 167.88.63.119@美国(US)-亚特兰大/j2c
+  type: ss
+  server: 167.88.63.119
+  port: '7306'
+  password: FoOiGlkAA9yPEGP
+  alterId: 2
+  cipher: aes-256-gcm
+- name: 172.99.190.158@英国(GB)-伦敦/y8W
+  type: ss
+  server: 172.99.190.158
+  port: '2375'
+  password: faBAoD54k87UJG7
+  alterId: 2
+  cipher: aes-256-gcm
+- name: 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/HOZ
   type: vmess
   server: 1.transit.t.qjnodeip.xyz
   port: '17077'
@@ -540,194 +274,57 @@ proxies:
   ws-headers:
     Host: xjp04.cswtw.xyz
   tls: true
-- name: 167.88.63.99@美国(US)-亚特兰大/zP2
+- name: 167.88.63.82@美国(US)-亚特兰大/lNM
   type: ss
-  server: 167.88.63.99
-  port: '2376'
-  password: faBAoD54k87UJG7
-  alterId: 2
-  cipher: aes-256-gcm
-- name: 167.88.63.60@美国(US)-亚特兰大/aN1
-  type: ss
-  server: 167.88.63.60
-  port: '7306'
-  password: FoOiGlkAA9yPEGP
-  alterId: 2
-  cipher: aes-256-gcm
-- name: ukdll.52jjyun.top@英国(GB)-伦敦/prZ
-  type: vmess
-  server: ukdll.52jjyun.top
-  port: '80'
-  uuid: b414aede-9fc3-407b-a806-4b1a834b495f
-  alterId: '10'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /jjyun
-  ws-headers:
-    Host: ''
-  tls: false
-- name: 167.88.63.11@美国(US)-亚特兰大/sgF
-  type: ss
-  server: 167.88.63.11
+  server: 167.88.63.82
   port: '7307'
   password: FoOiGlkAA9yPEGP
   alterId: 2
   cipher: aes-256-gcm
-- name: ukdll.52jjyun.top@英国(GB)-伦敦/2Z8
-  type: vmess
-  server: ukdll.52jjyun.top
-  port: '80'
-  uuid: ebbb3fb4-2fb0-4bc6-bb07-b1c45065e6b0
-  alterId: '10'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /jjyun
-  ws-headers:
-    Host: ''
-  tls: false
-- name: 172.99.190.35@英国(GB)-伦敦/n5f
+- name: 172.99.190.35@英国(GB)-伦敦/61S
   type: ss
   server: 172.99.190.35
   port: '7307'
   password: FoOiGlkAA9yPEGP
   alterId: 2
   cipher: aes-256-gcm
-- name: wx3.jjyun.ren@美国(US)-紐華克/YcS
+- name: 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/7Az
   type: vmess
-  server: wx3.jjyun.ren
-  port: '80'
-  uuid: bf7134c3-914d-4294-8cdf-6eda920d1a42
-  alterId: '1'
+  server: 1.transit.t.qjnodeip.xyz
+  port: '42007'
+  uuid: 1439886a-ecb5-3bbf-bc65-8bfb23d72ea0
+  alterId: '8'
   cipher: auto
   network: ws
   ucp: true
-  ws-path: /jjyun
+  ws-path: /HGz2Z
   ws-headers:
-    Host: ''
-  tls: false
-- name: wx3.jjyun.ren@美国(US)-紐華克/P2J
-  type: vmess
-  server: wx3.jjyun.ren
-  port: '80'
-  uuid: b414aede-9fc3-407b-a806-4b1a834b495f
-  alterId: '1'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /jjyun
-  ws-headers:
-    Host: ''
-  tls: false
-- name: wx3.jjyun.ren@美国(US)-紐華克/iJe
-  type: vmess
-  server: wx3.jjyun.ren
-  port: '80'
-  uuid: fa6ee7b8-6279-4c04-adf3-adbb70f71cf9
-  alterId: '1'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /jjyun
-  ws-headers:
-    Host: ''
-  tls: false
-- name: uswx.52jjyun.top@美国(US)-聖荷西/QfC
-  type: vmess
-  server: uswx.52jjyun.top
-  port: '443'
-  uuid: fa6ee7b8-6279-4c04-adf3-adbb70f71cf9
-  alterId: '10'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /jjyun
-  ws-headers:
-    Host: ''
+    Host: usa05.cswtw.xyz
   tls: true
-- name: krwx.52jjyun.top@韩国(KR)-首尔特别市/aJV
+- name: 120.240.86.53@中国(CN)-深圳市/liF
   type: vmess
-  server: krwx.52jjyun.top
-  port: '22'
-  uuid: fa6ee7b8-6279-4c04-adf3-adbb70f71cf9
-  alterId: '10'
+  server: 120.240.86.53
+  port: '29955'
+  uuid: fdc2ac0a-ce39-4b69-ae6a-4cc38643440f
+  alterId: '0'
   cipher: auto
-  network: ws
+  network: tcp
   ucp: true
-  ws-path: /jjyun
+  ws-path: t.me/vpnpool
   ws-headers:
-    Host: ''
+    Host: t.me/vpnhat
   tls: false
-- name: aws.mooncloud.bike@美国(US)-洛杉矶/OLF
-  type: vmess
-  server: aws.mooncloud.bike
-  port: '10021'
-  uuid: 792f7496-a1e2-4694-96f4-5fbe5e13d68b
-  alterId: '1'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /
-  ws-headers:
-    Host: ''
-  tls: false
-- name: ukml.52jjyun.top@英国(GB)-伦敦/7ZO
-  type: vmess
-  server: ukml.52jjyun.top
-  port: '88'
-  uuid: acafd800-c0fd-4a3d-9fde-bac835eea749
-  alterId: '10'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /jjyun
-  ws-headers:
-    Host: ''
-  tls: false
-- name: ukdll.52jjyun.top@英国(GB)-伦敦/cse
-  type: vmess
-  server: ukdll.52jjyun.top
-  port: '80'
-  uuid: acafd800-c0fd-4a3d-9fde-bac835eea749
-  alterId: '10'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /jjyun
-  ws-headers:
-    Host: ''
-  tls: false
-- name: krwx.52jjyun.top@韩国(KR)-首尔特别市/aBr
-  type: vmess
-  server: krwx.52jjyun.top
-  port: '22'
-  uuid: 8b76ab3f-e78e-454b-9a70-937c608e49b6
-  alterId: '10'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /jjyun
-  ws-headers:
-    Host: ''
-  tls: false
-- name: dgyh.jjyun.ren@美国(US)-紐華克/QXt
-  type: vmess
-  server: dgyh.jjyun.ren
-  port: '80'
-  uuid: acafd800-c0fd-4a3d-9fde-bac835eea749
-  alterId: '1'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /jjyun
-  ws-headers:
-    Host: ''
-  tls: false
-- name: 167.88.63.82@美国(US)-亚特兰大/kza
+- name: 167.88.63.82@美国(US)-亚特兰大/NZy
   type: ss
   server: 167.88.63.82
   port: '7306'
+  password: FoOiGlkAA9yPEGP
+  alterId: 2
+  cipher: aes-256-gcm
+- name: 198.57.27.218@加拿大(CA)-多伦多/MZP
+  type: ss
+  server: 198.57.27.218
+  port: '7307'
   password: FoOiGlkAA9yPEGP
   alterId: 2
   cipher: aes-256-gcm
@@ -737,131 +334,69 @@ proxy-groups:
   proxies:
   - ♻️ 自动选择
   - 🎯 全球直连
-  - cmgz1.racernet.link@中国(CN)-珠海市/N4L
-  - 104.16.148.48@美国(US)-紐華克/jrv
-  - www.garmin.com@美国(US)-紐華克/cts
-  - 172.67.223.77@美国(US)-紐華克/OFY
-  - 1.0.0.0@澳大利亞(AU)-South Brisbane/jOp
-  - 104.21.76.229@美国(US)-紐華克/0YF
-  - 104.16.14.226@美国(US)-紐華克/9ST
-  - 104.17.36.178@美国(US)-紐華克/E7k
-  - 104.19.45.117@美国(US)-紐華克/uls
-  - 104.16.167.138@美国(US)-紐華克/poN
-  - 104.21.239.147@美国(US)-华盛顿特区/EjM
-  - 104.16.149.48@美国(US)-紐華克/BUG
-  - 104.22.44.50@美国(US)-紐華克/HZk
-  - usgia.jjyun.ren@美国(US)-聖荷西/y8p
-  - jp1.racernet.link@日本(JP)-东京/vJK
-  - qq13.feiclouddd.me@美国(US)-洛杉矶/N09
-  - 104.20.130.43@美国(US)-紐華克/1xy
-  - usgia.jjyun.ren@美国(US)-聖荷西/t6c
-  - 104.18.135.208@美国(US)-紐華克/iNX
-  - ruml.jjyun.ren@俄罗斯(RU)-Zelenograd/ndZ
-  - 104.16.107.171@美国(US)-紐華克/FN6
-  - usgia.jjyun.ren@美国(US)-聖荷西/zDk
-  - ruml.jjyun.ren@俄罗斯(RU)-Zelenograd/CWH
-  - usdll2.jjyun.ren@美国(US)-紐華克/CXP
-  - ukml.52jjyun.top@英国(GB)-伦敦/QXF
-  - ruml.jjyun.ren@俄罗斯(RU)-Zelenograd/N3k
-  - 38.107.226.159@美国(US)-Ashburn/Jc1
-  - 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/Cw5
-  - 38.107.226.241@美国(US)-Ashburn/HWu
-  - proxy.ac360.ml@中国(CN)-Songjiang/gOI
-  - wx3.jjyun.ren@美国(US)-紐華克/t0d
-  - 104.26.9.74@美国(US)-紐華克/sC7
-  - 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/IWb
-  - ctsh1.racernet.link@中国(CN)-Huangpu/Y7g
-  - 167.88.63.11@美国(US)-亚特兰大/5xh
-  - 157.245.151.90@新加坡(SG)-新加坡/tI1
-  - 172.99.190.186@英国(GB)-伦敦/UbO
-  - 165.232.167.127@新加坡(SG)-新加坡/r7o
-  - usdll2.jjyun.ren@美国(US)-紐華克/NCu
-  - ukdll.52jjyun.top@英国(GB)-伦敦/7Ml
-  - usdll2.jjyun.ren@美国(US)-紐華克/o84
-  - 46.101.28.98@英国(GB)-伦敦/Vab
-  - 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/2KG
-  - 167.88.63.99@美国(US)-亚特兰大/zP2
-  - 167.88.63.60@美国(US)-亚特兰大/aN1
-  - ukdll.52jjyun.top@英国(GB)-伦敦/prZ
-  - 167.88.63.11@美国(US)-亚特兰大/sgF
-  - ukdll.52jjyun.top@英国(GB)-伦敦/2Z8
-  - 172.99.190.35@英国(GB)-伦敦/n5f
-  - wx3.jjyun.ren@美国(US)-紐華克/YcS
-  - wx3.jjyun.ren@美国(US)-紐華克/P2J
-  - wx3.jjyun.ren@美国(US)-紐華克/iJe
-  - uswx.52jjyun.top@美国(US)-聖荷西/QfC
-  - krwx.52jjyun.top@韩国(KR)-首尔特别市/aJV
-  - aws.mooncloud.bike@美国(US)-洛杉矶/OLF
-  - ukml.52jjyun.top@英国(GB)-伦敦/7ZO
-  - ukdll.52jjyun.top@英国(GB)-伦敦/cse
-  - krwx.52jjyun.top@韩国(KR)-首尔特别市/aBr
-  - dgyh.jjyun.ren@美国(US)-紐華克/QXt
-  - 167.88.63.82@美国(US)-亚特兰大/kza
+  - 10.yyds123.com@香港(HK)-香港/ngJ
+  - vip345.xyz@香港(HK)-香港/b82
+  - 5.yyds123.com@香港(HK)-香港/ouC
+  - 7.yyds123.com@香港(HK)-香港/8RE
+  - vip345.xyz@香港(HK)-香港/iDI
+  - 8.yyds123.com@香港(HK)-香港/IvL
+  - vip345.xyz@香港(HK)-香港/F0z
+  - 4.yyds123.com@香港(HK)-香港/b1K
+  - 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/PjN
+  - 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/cqC
+  - 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/hzM
+  - 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/0UP
+  - 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/eji
+  - 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/67Y
+  - 46.101.28.98@英国(GB)-伦敦/5of
+  - 198.57.27.218@加拿大(CA)-多伦多/z3f
+  - 167.88.63.99@美国(US)-亚特兰大/Eyf
+  - hkt.nkeo.top@香港(HK)-大埔/rsE
+  - 104.26.9.74@美国(US)-紐華克/n9Q
+  - 167.88.63.99@美国(US)-亚特兰大/Ntq
+  - 167.88.63.119@美国(US)-亚特兰大/j2c
+  - 172.99.190.158@英国(GB)-伦敦/y8W
+  - 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/HOZ
+  - 167.88.63.82@美国(US)-亚特兰大/lNM
+  - 172.99.190.35@英国(GB)-伦敦/61S
+  - 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/7Az
+  - 120.240.86.53@中国(CN)-深圳市/liF
+  - 167.88.63.82@美国(US)-亚特兰大/NZy
+  - 198.57.27.218@加拿大(CA)-多伦多/MZP
 - name: ♻️ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - cmgz1.racernet.link@中国(CN)-珠海市/N4L
-  - 104.16.148.48@美国(US)-紐華克/jrv
-  - www.garmin.com@美国(US)-紐華克/cts
-  - 172.67.223.77@美国(US)-紐華克/OFY
-  - 1.0.0.0@澳大利亞(AU)-South Brisbane/jOp
-  - 104.21.76.229@美国(US)-紐華克/0YF
-  - 104.16.14.226@美国(US)-紐華克/9ST
-  - 104.17.36.178@美国(US)-紐華克/E7k
-  - 104.19.45.117@美国(US)-紐華克/uls
-  - 104.16.167.138@美国(US)-紐華克/poN
-  - 104.21.239.147@美国(US)-华盛顿特区/EjM
-  - 104.16.149.48@美国(US)-紐華克/BUG
-  - 104.22.44.50@美国(US)-紐華克/HZk
-  - usgia.jjyun.ren@美国(US)-聖荷西/y8p
-  - jp1.racernet.link@日本(JP)-东京/vJK
-  - qq13.feiclouddd.me@美国(US)-洛杉矶/N09
-  - 104.20.130.43@美国(US)-紐華克/1xy
-  - usgia.jjyun.ren@美国(US)-聖荷西/t6c
-  - 104.18.135.208@美国(US)-紐華克/iNX
-  - ruml.jjyun.ren@俄罗斯(RU)-Zelenograd/ndZ
-  - 104.16.107.171@美国(US)-紐華克/FN6
-  - usgia.jjyun.ren@美国(US)-聖荷西/zDk
-  - ruml.jjyun.ren@俄罗斯(RU)-Zelenograd/CWH
-  - usdll2.jjyun.ren@美国(US)-紐華克/CXP
-  - ukml.52jjyun.top@英国(GB)-伦敦/QXF
-  - ruml.jjyun.ren@俄罗斯(RU)-Zelenograd/N3k
-  - 38.107.226.159@美国(US)-Ashburn/Jc1
-  - 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/Cw5
-  - 38.107.226.241@美国(US)-Ashburn/HWu
-  - proxy.ac360.ml@中国(CN)-Songjiang/gOI
-  - wx3.jjyun.ren@美国(US)-紐華克/t0d
-  - 104.26.9.74@美国(US)-紐華克/sC7
-  - 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/IWb
-  - ctsh1.racernet.link@中国(CN)-Huangpu/Y7g
-  - 167.88.63.11@美国(US)-亚特兰大/5xh
-  - 157.245.151.90@新加坡(SG)-新加坡/tI1
-  - 172.99.190.186@英国(GB)-伦敦/UbO
-  - 165.232.167.127@新加坡(SG)-新加坡/r7o
-  - usdll2.jjyun.ren@美国(US)-紐華克/NCu
-  - ukdll.52jjyun.top@英国(GB)-伦敦/7Ml
-  - usdll2.jjyun.ren@美国(US)-紐華克/o84
-  - 46.101.28.98@英国(GB)-伦敦/Vab
-  - 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/2KG
-  - 167.88.63.99@美国(US)-亚特兰大/zP2
-  - 167.88.63.60@美国(US)-亚特兰大/aN1
-  - ukdll.52jjyun.top@英国(GB)-伦敦/prZ
-  - 167.88.63.11@美国(US)-亚特兰大/sgF
-  - ukdll.52jjyun.top@英国(GB)-伦敦/2Z8
-  - 172.99.190.35@英国(GB)-伦敦/n5f
-  - wx3.jjyun.ren@美国(US)-紐華克/YcS
-  - wx3.jjyun.ren@美国(US)-紐華克/P2J
-  - wx3.jjyun.ren@美国(US)-紐華克/iJe
-  - uswx.52jjyun.top@美国(US)-聖荷西/QfC
-  - krwx.52jjyun.top@韩国(KR)-首尔特别市/aJV
-  - aws.mooncloud.bike@美国(US)-洛杉矶/OLF
-  - ukml.52jjyun.top@英国(GB)-伦敦/7ZO
-  - ukdll.52jjyun.top@英国(GB)-伦敦/cse
-  - krwx.52jjyun.top@韩国(KR)-首尔特别市/aBr
-  - dgyh.jjyun.ren@美国(US)-紐華克/QXt
-  - 167.88.63.82@美国(US)-亚特兰大/kza
+  - 10.yyds123.com@香港(HK)-香港/ngJ
+  - vip345.xyz@香港(HK)-香港/b82
+  - 5.yyds123.com@香港(HK)-香港/ouC
+  - 7.yyds123.com@香港(HK)-香港/8RE
+  - vip345.xyz@香港(HK)-香港/iDI
+  - 8.yyds123.com@香港(HK)-香港/IvL
+  - vip345.xyz@香港(HK)-香港/F0z
+  - 4.yyds123.com@香港(HK)-香港/b1K
+  - 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/PjN
+  - 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/cqC
+  - 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/hzM
+  - 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/0UP
+  - 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/eji
+  - 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/67Y
+  - 46.101.28.98@英国(GB)-伦敦/5of
+  - 198.57.27.218@加拿大(CA)-多伦多/z3f
+  - 167.88.63.99@美国(US)-亚特兰大/Eyf
+  - hkt.nkeo.top@香港(HK)-大埔/rsE
+  - 104.26.9.74@美国(US)-紐華克/n9Q
+  - 167.88.63.99@美国(US)-亚特兰大/Ntq
+  - 167.88.63.119@美国(US)-亚特兰大/j2c
+  - 172.99.190.158@英国(GB)-伦敦/y8W
+  - 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/HOZ
+  - 167.88.63.82@美国(US)-亚特兰大/lNM
+  - 172.99.190.35@英国(GB)-伦敦/61S
+  - 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/7Az
+  - 120.240.86.53@中国(CN)-深圳市/liF
+  - 167.88.63.82@美国(US)-亚特兰大/NZy
+  - 198.57.27.218@加拿大(CA)-多伦多/MZP
 - name: 🌍 国外媒体
   type: select
   proxies:
