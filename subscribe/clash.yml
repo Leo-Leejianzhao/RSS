@@ -5,115 +5,258 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-- name: 10.yyds123.com@香港(HK)-香港/K8E
+- name: 183.232.226.137@中国(CN)-深圳市/Aj7
   type: vmess
-  server: 10.yyds123.com
+  server: 183.232.226.137
+  port: '11116'
+  uuid: f37bcc5b-6071-3588-a25d-d7747e4c648f
+  alterId: '2'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /vvv
+  ws-headers:
+    Host: t.me/vpnhat
+  tls: false
+- name: 120.232.173.88@中国(CN)-深圳市/ANb
+  type: vmess
+  server: 120.232.173.88
+  port: '33532'
+  uuid: fdc2ac0a-ce39-4b69-ae6a-4cc38643440f
+  alterId: '0'
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: t.me/vpnpool
+  ws-headers:
+    Host: t.me/vpnhat
+  tls: false
+- name: 183.232.226.137@中国(CN)-深圳市/wSD
+  type: vmess
+  server: 183.232.226.137
+  port: '11115'
+  uuid: f37bcc5b-6071-3588-a25d-d7747e4c648f
+  alterId: '2'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /vvv
+  ws-headers:
+    Host: t.me/vpnhat
+  tls: false
+- name: 183.232.226.137@中国(CN)-深圳市/q1A
+  type: vmess
+  server: 183.232.226.137
+  port: '11113'
+  uuid: f37bcc5b-6071-3588-a25d-d7747e4c648f
+  alterId: '2'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /vvv
+  ws-headers:
+    Host: t.me/vpnhat
+  tls: false
+- name: 183.232.226.137@中国(CN)-深圳市/5v8
+  type: vmess
+  server: 183.232.226.137
+  port: '16002'
+  uuid: f37bcc5b-6071-3588-a25d-d7747e4c648f
+  alterId: '2'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /vvv
+  ws-headers:
+    Host: t.me/vpnhat
+  tls: false
+- name: 183.232.226.137@中国(CN)-深圳市/9Rq
+  type: vmess
+  server: 183.232.226.137
+  port: '16001'
+  uuid: f37bcc5b-6071-3588-a25d-d7747e4c648f
+  alterId: '2'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /vvv
+  ws-headers:
+    Host: t.me/vpnhat
+  tls: false
+- name: 183.232.226.137@中国(CN)-深圳市/efG
+  type: vmess
+  server: 183.232.226.137
+  port: '11112'
+  uuid: f37bcc5b-6071-3588-a25d-d7747e4c648f
+  alterId: '2'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /vvv
+  ws-headers:
+    Host: t.me/vpnhat
+  tls: false
+- name: usgia.jjyun.ren@美国(US)-聖荷西/fql
+  type: vmess
+  server: usgia.jjyun.ren
+  port: '88'
+  uuid: 17bf25e4-c944-4c1a-8a29-3f72f1d75d8f
+  alterId: '10'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /jjyun
+  ws-headers:
+    Host: ''
+  tls: false
+- name: 183.232.226.137@中国(CN)-深圳市/LsB
+  type: vmess
+  server: 183.232.226.137
+  port: '11110'
+  uuid: f37bcc5b-6071-3588-a25d-d7747e4c648f
+  alterId: '2'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /vvv
+  ws-headers:
+    Host: t.me/vpnhat
+  tls: false
+- name: usgia.jjyun.ren@美国(US)-聖荷西/xLh
+  type: vmess
+  server: usgia.jjyun.ren
+  port: '88'
+  uuid: e0dc26b2-9db5-4d92-98d0-b8cc1bfb23ac
+  alterId: '10'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /jjyun
+  ws-headers:
+    Host: ''
+  tls: false
+- name: 1.transit.nph.qjnodeip.xyz@中国(CN)-Songjiang/Z4v
+  type: vmess
+  server: 1.transit.nph.qjnodeip.xyz
+  port: '30008'
+  uuid: a2cf2ca3-95e7-4067-9e15-3cb7832be81e
+  alterId: '0'
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: ''
+  tls: false
+- name: usgia.jjyun.ren@美国(US)-聖荷西/Q46
+  type: vmess
+  server: usgia.jjyun.ren
+  port: '88'
+  uuid: d59e8d54-4914-4a07-80df-33fe2a7776ac
+  alterId: '10'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /jjyun
+  ws-headers:
+    Host: ''
+  tls: false
+- name: 120.240.86.53@中国(CN)-深圳市/1Tn
+  type: vmess
+  server: 120.240.86.53
+  port: '31262'
+  uuid: fdc2ac0a-ce39-4b69-ae6a-4cc38643440f
+  alterId: '0'
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: t.me/vpnpool
+  ws-headers:
+    Host: t.me/vpnhat
+  tls: false
+- name: 1.transit.nph.qjnodeip.xyz@中国(CN)-Songjiang/UQm
+  type: vmess
+  server: 1.transit.nph.qjnodeip.xyz
+  port: '30004'
+  uuid: ad645efc-a9ba-414b-a2ff-4da652828a75
+  alterId: '0'
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: ''
+  tls: false
+- name: v1-aws-hk-11.niaoyun.online@香港(HK)-香港/sH5
+  type: vmess
+  server: v1-aws-hk-11.niaoyun.online
+  port: '666'
+  uuid: f548911a-d732-3e05-b552-899f3f9a3487
+  alterId: '1'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /niaocloud
+  ws-headers:
+    Host: t.me/vpnpool
+  tls: false
+- name: 1.transit.nph.qjnodeip.xyz@中国(CN)-Songjiang/HNV
+  type: vmess
+  server: 1.transit.nph.qjnodeip.xyz
+  port: '30003'
+  uuid: a2cf2ca3-95e7-4067-9e15-3cb7832be81e
+  alterId: '0'
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: ''
+  tls: false
+- name: v1-aws-hk-11.niaoyun.online@香港(HK)-香港/nA2
+  type: vmess
+  server: v1-aws-hk-11.niaoyun.online
+  port: '666'
+  uuid: 514e9d38-efd0-3c6e-8122-7b124198d53f
+  alterId: '1'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /niaocloud
+  ws-headers:
+    Host: t.me/vpnpool
+  tls: false
+- name: v1-aws-hk-10.niaoyun.online@香港(HK)-香港/LSw
+  type: vmess
+  server: v1-aws-hk-10.niaoyun.online
+  port: '666'
+  uuid: 1d443b77-c5eb-39eb-8b0d-407abb67c02c
+  alterId: '1'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /niaocloud
+  ws-headers:
+    Host: t.me/vpnpool
+  tls: false
+- name: usdll2.jjyun.ren@美国(US)-紐華克/1Ie
+  type: vmess
+  server: usdll2.jjyun.ren
   port: '80'
-  uuid: bac18e70-9964-3f99-805a-d809c4bdc6cb
-  alterId: '2'
+  uuid: 17bf25e4-c944-4c1a-8a29-3f72f1d75d8f
+  alterId: '1'
   cipher: auto
   network: ws
   ucp: true
-  ws-path: /ny
+  ws-path: /jjyunml
   ws-headers:
     Host: ''
   tls: false
-- name: vip345.xyz@香港(HK)-香港/yza
-  type: vmess
-  server: vip345.xyz
-  port: '34725'
-  uuid: bac18e70-9964-3f99-805a-d809c4bdc6cb
-  alterId: '2'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /ny
-  ws-headers:
-    Host: ''
-  tls: false
-- name: 5.yyds123.com@香港(HK)-香港/8r2
-  type: vmess
-  server: 5.yyds123.com
-  port: '29999'
-  uuid: bac18e70-9964-3f99-805a-d809c4bdc6cb
-  alterId: '2'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /ny
-  ws-headers:
-    Host: ''
-  tls: false
-- name: 7.yyds123.com@香港(HK)-香港/nAN
-  type: vmess
-  server: 7.yyds123.com
-  port: '80'
-  uuid: bac18e70-9964-3f99-805a-d809c4bdc6cb
-  alterId: '2'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /ny
-  ws-headers:
-    Host: ''
-  tls: false
-- name: vip345.xyz@香港(HK)-香港/BXE
-  type: vmess
-  server: vip345.xyz
-  port: '59477'
-  uuid: bac18e70-9964-3f99-805a-d809c4bdc6cb
-  alterId: '2'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /ny
-  ws-headers:
-    Host: ''
-  tls: false
-- name: 8.yyds123.com@香港(HK)-香港/lyo
-  type: vmess
-  server: 8.yyds123.com
-  port: '80'
-  uuid: bac18e70-9964-3f99-805a-d809c4bdc6cb
-  alterId: '2'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /ny
-  ws-headers:
-    Host: ''
-  tls: false
-- name: vip345.xyz@香港(HK)-香港/mMt
-  type: vmess
-  server: vip345.xyz
-  port: '35230'
-  uuid: bac18e70-9964-3f99-805a-d809c4bdc6cb
-  alterId: '2'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /ny
-  ws-headers:
-    Host: ''
-  tls: false
-- name: 4.yyds123.com@香港(HK)-香港/Ul2
-  type: vmess
-  server: 4.yyds123.com
-  port: '80'
-  uuid: bac18e70-9964-3f99-805a-d809c4bdc6cb
-  alterId: '2'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /ny
-  ws-headers:
-    Host: ''
-  tls: false
-- name: 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/NOS
+- name: 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/qTL
   type: vmess
   server: 1.transit.t.qjnodeip.xyz
   port: '62329'
-  uuid: 1439886a-ecb5-3bbf-bc65-8bfb23d72ea0
+  uuid: 615505e8-e63c-3bad-b3e7-d5e6cf99387e
   alterId: '8'
   cipher: auto
   network: ws
@@ -122,24 +265,161 @@ proxies:
   ws-headers:
     Host: usa03.dadwff.xyz
   tls: true
-- name: 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/wmP
+- name: 1.transit.nph.qjnodeip.xyz@中国(CN)-Songjiang/y8e
+  type: vmess
+  server: 1.transit.nph.qjnodeip.xyz
+  port: '30005'
+  uuid: 0f66944c-f940-4864-908e-5431ef9fdc51
+  alterId: '0'
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: ''
+  tls: false
+- name: v1-aws-hk-06.niaoyun.online@香港(HK)-香港/YIw
+  type: vmess
+  server: v1-aws-hk-06.niaoyun.online
+  port: '666'
+  uuid: 514e9d38-efd0-3c6e-8122-7b124198d53f
+  alterId: '1'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /niaocloud
+  ws-headers:
+    Host: t.me/vpnpool
+  tls: false
+- name: 1.transit.nph.qjnodeip.xyz@中国(CN)-Songjiang/4iJ
+  type: vmess
+  server: 1.transit.nph.qjnodeip.xyz
+  port: '30007'
+  uuid: ad645efc-a9ba-414b-a2ff-4da652828a75
+  alterId: '0'
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: ''
+  tls: false
+- name: v1-aws-hk-04.niaoyun.online@香港(HK)-香港/Qb0
+  type: vmess
+  server: v1-aws-hk-04.niaoyun.online
+  port: '666'
+  uuid: f548911a-d732-3e05-b552-899f3f9a3487
+  alterId: '1'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /niaocloud
+  ws-headers:
+    Host: t.me/vpnpool
+  tls: false
+- name: v1-aws-hk-15.niaoyun.online@香港(HK)-香港/zDX
+  type: vmess
+  server: v1-aws-hk-15.niaoyun.online
+  port: '666'
+  uuid: 514e9d38-efd0-3c6e-8122-7b124198d53f
+  alterId: '1'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /niaocloud
+  ws-headers:
+    Host: t.me/vpnpool
+  tls: false
+- name: v1-aws-hk-06.niaoyun.online@香港(HK)-香港/p7j
+  type: vmess
+  server: v1-aws-hk-06.niaoyun.online
+  port: '666'
+  uuid: dcbd3481-eb2c-33bc-8cb3-a093b3b4e2bb
+  alterId: '1'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /niaocloud
+  ws-headers:
+    Host: t.me/vpnpool
+  tls: false
+- name: v1-aws-hk-02.niaoyun.online@香港(HK)-香港/3yo
+  type: vmess
+  server: v1-aws-hk-02.niaoyun.online
+  port: '666'
+  uuid: b9cc1e88-5db0-37ff-840a-b882345e22d1
+  alterId: '1'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /niaocloud
+  ws-headers:
+    Host: t.me/vpnpool
+  tls: false
+- name: v1-aws-hk-12.niaoyun.online@香港(HK)-香港/8gF
+  type: vmess
+  server: v1-aws-hk-12.niaoyun.online
+  port: '666'
+  uuid: dcbd3481-eb2c-33bc-8cb3-a093b3b4e2bb
+  alterId: '1'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /niaocloud
+  ws-headers:
+    Host: t.me/vpnpool
+  tls: false
+- name: v1-aws-hk-15.niaoyun.online@香港(HK)-香港/wtR
+  type: vmess
+  server: v1-aws-hk-15.niaoyun.online
+  port: '666'
+  uuid: b9cc1e88-5db0-37ff-840a-b882345e22d1
+  alterId: '1'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /niaocloud
+  ws-headers:
+    Host: t.me/vpnpool
+  tls: false
+- name: 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/xBF
   type: vmess
   server: 1.transit.t.qjnodeip.xyz
-  port: '29236'
+  port: '42007'
   uuid: 615505e8-e63c-3bad-b3e7-d5e6cf99387e
   alterId: '8'
   cipher: auto
   network: ws
   ucp: true
-  ws-path: /Jg012
+  ws-path: /HGz2Z
   ws-headers:
-    Host: jnd01.wxyidc001.space
+    Host: usa05.cswtw.xyz
   tls: true
-- name: 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/b6L
+- name: v1-aws-hk-10.niaoyun.online@香港(HK)-香港/bk7
+  type: vmess
+  server: v1-aws-hk-10.niaoyun.online
+  port: '666'
+  uuid: f548911a-d732-3e05-b552-899f3f9a3487
+  alterId: '1'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /niaocloud
+  ws-headers:
+    Host: t.me/vpnpool
+  tls: false
+- name: 134.195.196.36@加拿大(CA)-多伦多/cMC
+  type: ss
+  server: 134.195.196.36
+  port: '7307'
+  password: FoOiGlkAA9yPEGP
+  alterId: 2
+  cipher: aes-256-gcm
+- name: 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/CTc
   type: vmess
   server: 1.transit.t.qjnodeip.xyz
   port: '49676'
-  uuid: 1439886a-ecb5-3bbf-bc65-8bfb23d72ea0
+  uuid: 615505e8-e63c-3bad-b3e7-d5e6cf99387e
   alterId: '8'
   cipher: auto
   network: ws
@@ -148,7 +428,46 @@ proxies:
   ws-headers:
     Host: xjp2.iuhbhgg.xyz
   tls: true
-- name: 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/2Ie
+- name: 1.transit.nph.qjnodeip.xyz@中国(CN)-Songjiang/52S
+  type: vmess
+  server: 1.transit.nph.qjnodeip.xyz
+  port: '30009'
+  uuid: 4799b571-88d0-48e7-9a22-c63ade6b6c03
+  alterId: '0'
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: ''
+  tls: false
+- name: 52.199.89.79@日本(JP)-东京/Wpk
+  type: vmess
+  server: 52.199.89.79
+  port: '80'
+  uuid: d4cfd5b1-9cfd-4f32-822f-6dfa2423da13
+  alterId: '1'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /air.knayo.in
+  ws-headers:
+    Host: ''
+  tls: false
+- name: 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/CXS
+  type: vmess
+  server: 1.transit.t.qjnodeip.xyz
+  port: '60649'
+  uuid: 615505e8-e63c-3bad-b3e7-d5e6cf99387e
+  alterId: '8'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /HGzsmqibHG02Z
+  ws-headers:
+    Host: dddwda.xyz
+  tls: true
+- name: 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/zQA
   type: vmess
   server: 1.transit.t.qjnodeip.xyz
   port: '27435'
@@ -161,73 +480,20 @@ proxies:
   ws-headers:
     Host: xjp03.cswtw.xyz
   tls: true
-- name: 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/bix
+- name: 3.144.176.174@美国(US)-Dublin/8im
   type: vmess
-  server: 1.transit.t.qjnodeip.xyz
-  port: '49676'
-  uuid: 615505e8-e63c-3bad-b3e7-d5e6cf99387e
-  alterId: '8'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /JS6dq
-  ws-headers:
-    Host: xjp2.iuhbhgg.xyz
-  tls: true
-- name: 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/4sQ
-  type: vmess
-  server: 1.transit.t.qjnodeip.xyz
-  port: '29236'
-  uuid: 1439886a-ecb5-3bbf-bc65-8bfb23d72ea0
-  alterId: '8'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /Jg012
-  ws-headers:
-    Host: jnd01.wxyidc001.space
-  tls: true
-- name: 46.101.28.98@英国(GB)-伦敦/bdR
-  type: vmess
-  server: 46.101.28.98
-  port: '12222'
-  uuid: 6ae2e994-2018-4f9f-a5bb-4639c14ba05f
+  server: 3.144.176.174
+  port: '80'
+  uuid: d4cfd5b1-9cfd-4f32-822f-6dfa2423da13
   alterId: '1'
   cipher: auto
   network: ws
   ucp: true
-  ws-path: /
-  ws-headers:
-    Host: t.me/vpnhat
-  tls: false
-- name: 198.57.27.218@加拿大(CA)-多伦多/96a
-  type: ss
-  server: 198.57.27.218
-  port: '8090'
-  password: PCnnH6SQSnfoS27
-  alterId: 2
-  cipher: aes-256-gcm
-- name: 167.88.63.99@美国(US)-亚特兰大/Y1V
-  type: ss
-  server: 167.88.63.99
-  port: '7306'
-  password: FoOiGlkAA9yPEGP
-  alterId: 2
-  cipher: aes-256-gcm
-- name: hkt.nkeo.top@香港(HK)-大埔/THR
-  type: vmess
-  server: hkt.nkeo.top
-  port: '48691'
-  uuid: d96115c5-ec25-45a3-bc94-2b813db31e09
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /
+  ws-path: /air.knayo.in
   ws-headers:
     Host: ''
   tls: false
-- name: 104.26.9.74@美国(US)-紐華克/Uvg
+- name: 104.26.9.74@美国(US)-紐華克/VuJ
   type: vmess
   server: 104.26.9.74
   port: '443'
@@ -240,91 +506,257 @@ proxies:
   ws-headers:
     Host: us2.v2rayserv.com
   tls: true
-- name: 167.88.63.99@美国(US)-亚特兰大/cxt
+- name: 172.99.190.149@英国(GB)-伦敦/PjB
   type: ss
-  server: 167.88.63.99
-  port: '2376'
-  password: faBAoD54k87UJG7
-  alterId: 2
-  cipher: aes-256-gcm
-- name: 167.88.63.119@美国(US)-亚特兰大/arV
-  type: ss
-  server: 167.88.63.119
+  server: 172.99.190.149
   port: '7306'
   password: FoOiGlkAA9yPEGP
   alterId: 2
   cipher: aes-256-gcm
-- name: 172.99.190.158@英国(GB)-伦敦/H2r
+- name: 172.99.190.139@英国(GB)-伦敦/TOk
+  type: ss
+  server: 172.99.190.139
+  port: '7306'
+  password: FoOiGlkAA9yPEGP
+  alterId: 2
+  cipher: aes-256-gcm
+- name: 172.99.190.158@英国(GB)-伦敦/Tdi
   type: ss
   server: 172.99.190.158
   port: '2375'
   password: faBAoD54k87UJG7
   alterId: 2
   cipher: aes-256-gcm
-- name: 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/Vc1
+- name: 1.transit.nph.qjnodeip.xyz@中国(CN)-Songjiang/fyp
   type: vmess
-  server: 1.transit.t.qjnodeip.xyz
-  port: '17077'
-  uuid: 1439886a-ecb5-3bbf-bc65-8bfb23d72ea0
-  alterId: '8'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /Xjibjp04e
-  ws-headers:
-    Host: xjp04.cswtw.xyz
-  tls: true
-- name: 167.88.63.82@美国(US)-亚特兰大/oCi
-  type: ss
-  server: 167.88.63.82
-  port: '7307'
-  password: FoOiGlkAA9yPEGP
-  alterId: 2
-  cipher: aes-256-gcm
-- name: 172.99.190.35@英国(GB)-伦敦/lrO
-  type: ss
-  server: 172.99.190.35
-  port: '7307'
-  password: FoOiGlkAA9yPEGP
-  alterId: 2
-  cipher: aes-256-gcm
-- name: 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/zMX
-  type: vmess
-  server: 1.transit.t.qjnodeip.xyz
-  port: '42007'
-  uuid: 1439886a-ecb5-3bbf-bc65-8bfb23d72ea0
-  alterId: '8'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /HGz2Z
-  ws-headers:
-    Host: usa05.cswtw.xyz
-  tls: true
-- name: 120.240.86.53@中国(CN)-深圳市/x9U
-  type: vmess
-  server: 120.240.86.53
-  port: '29955'
-  uuid: fdc2ac0a-ce39-4b69-ae6a-4cc38643440f
+  server: 1.transit.nph.qjnodeip.xyz
+  port: '30005'
+  uuid: a2cf2ca3-95e7-4067-9e15-3cb7832be81e
   alterId: '0'
   cipher: auto
   network: tcp
   ucp: true
-  ws-path: t.me/vpnpool
+  ws-path: /
   ws-headers:
-    Host: t.me/vpnhat
+    Host: ''
   tls: false
-- name: 167.88.63.82@美国(US)-亚特兰大/UsB
+- name: 172.99.190.153@英国(GB)-伦敦/aEx
   type: ss
-  server: 167.88.63.82
+  server: 172.99.190.153
+  port: '7307'
+  password: FoOiGlkAA9yPEGP
+  alterId: 2
+  cipher: aes-256-gcm
+- name: ruml.jjyun.ren@俄罗斯(RU)-Zelenograd/GLQ
+  type: vmess
+  server: ruml.jjyun.ren
+  port: '88'
+  uuid: e0dc26b2-9db5-4d92-98d0-b8cc1bfb23ac
+  alterId: '10'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /jjyun
+  ws-headers:
+    Host: ''
+  tls: false
+- name: 9XwNb7KY
+  type: ss
+  server: 134.195.196.50
   port: '7306'
   password: FoOiGlkAA9yPEGP
   alterId: 2
   cipher: aes-256-gcm
-- name: 198.57.27.218@加拿大(CA)-多伦多/C7S
+- name: ubetiJ6F
+  type: vmess
+  server: 1.transit.t.qjnodeip.xyz
+  port: '29236'
+  uuid: 615505e8-e63c-3bad-b3e7-d5e6cf99387e
+  alterId: '8'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /Jg012
+  ws-headers:
+    Host: jnd01.wxyidc001.space
+  tls: true
+- name: gpscnCqj
   type: ss
-  server: 198.57.27.218
+  server: 172.99.190.139
+  port: '2376'
+  password: faBAoD54k87UJG7
+  alterId: 2
+  cipher: aes-256-gcm
+- name: UODpI6Rz
+  type: vmess
+  server: v1-aws-hk-08.niaoyun.online
+  port: '666'
+  uuid: 1d443b77-c5eb-39eb-8b0d-407abb67c02c
+  alterId: '1'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /niaocloud
+  ws-headers:
+    Host: t.me/vpnpool
+  tls: false
+- name: FgOnP82q
+  type: ss
+  server: 172.99.190.35
+  port: '2376'
+  password: faBAoD54k87UJG7
+  alterId: 2
+  cipher: aes-256-gcm
+- name: cYzIGtDO
+  type: ss
+  server: 172.99.190.139
+  port: '8090'
+  password: PCnnH6SQSnfoS27
+  alterId: 2
+  cipher: aes-256-gcm
+- name: UDmc7GWB
+  type: ss
+  server: 172.99.190.35
+  port: '8091'
+  password: PCnnH6SQSnfoS27
+  alterId: 2
+  cipher: aes-256-gcm
+- name: oBNGEude
+  type: vmess
+  server: ruml.jjyun.ren
+  port: '88'
+  uuid: 17bf25e4-c944-4c1a-8a29-3f72f1d75d8f
+  alterId: '10'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /jjyun
+  ws-headers:
+    Host: ''
+  tls: false
+- name: WFDUN0Bf
+  type: vmess
+  server: 1.transit.t.qjnodeip.xyz
+  port: '20250'
+  uuid: 615505e8-e63c-3bad-b3e7-d5e6cf99387e
+  alterId: '8'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /5JSnmsw5sdq
+  ws-headers:
+    Host: ld02.sdhexzy.xyz
+  tls: true
+- name: oCIZihUm
+  type: vmess
+  server: v10.ssrsub.com
+  port: '159'
+  uuid: 52f31fcb-f948-4f71-bca8-795fdcf7b754
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /ssrsub
+  ws-headers:
+    Host: ''
+  tls: true
+- name: W2xyQVI3
+  type: ss
+  server: 134.195.196.36
+  port: '3306'
+  password: Y6R9pAtvxxzmGC
+  alterId: 2
+  cipher: aes-256-gcm
+- name: wDQdrUoT
+  type: vmess
+  server: v1-aws-hk-14.niaoyun.online
+  port: '666'
+  uuid: a2813ede-de11-3a5c-9b78-88513f897491
+  alterId: '1'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /niaocloud
+  ws-headers:
+    Host: t.me/vpnpool
+  tls: false
+- name: TuUN5Vai
+  type: vmess
+  server: 1.transit.t.qjnodeip.xyz
+  port: '61610'
+  uuid: 615505e8-e63c-3bad-b3e7-d5e6cf99387e
+  alterId: '5'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /C1zmqibh
+  ws-headers:
+    Host: hkyz.iuhbhgg.xyz
+  tls: true
+- name: KPaRNIMv
+  type: ss
+  server: 134.195.196.50
+  port: '3306'
+  password: Y6R9pAtvxxzmGC
+  alterId: 2
+  cipher: aes-256-gcm
+- name: BkwLJrFj
+  type: ss
+  server: 167.88.63.11
   port: '7307'
+  password: FoOiGlkAA9yPEGP
+  alterId: 2
+  cipher: aes-256-gcm
+- name: DkP7Z0XY
+  type: vmess
+  server: 183.232.226.137
+  port: '11111'
+  uuid: f37bcc5b-6071-3588-a25d-d7747e4c648f
+  alterId: '2'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /vvv
+  ws-headers:
+    Host: t.me/vpnhat
+  tls: false
+- name: Zs9hjxEk
+  type: vmess
+  server: wx3.jjyun.ren
+  port: '80'
+  uuid: d59e8d54-4914-4a07-80df-33fe2a7776ac
+  alterId: '1'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /jjyun
+  ws-headers:
+    Host: ''
+  tls: false
+- name: Y2M3Xyam
+  type: ss
+  server: 134.195.196.193
+  port: '5004'
+  password: g5MeD6Ft3CWlJId
+  alterId: 2
+  cipher: aes-256-gcm
+- name: EdevkKW4
+  type: vmess
+  server: v10.ssrsub.com
+  port: '159'
+  uuid: f5487ee3-aef5-436f-adf9-673b1afe2ff7
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /ssrsub
+  ws-headers:
+    Host: ''
+  tls: true
+- name: DsA4kp3f
+  type: ss
+  server: 167.88.63.119
+  port: '7306'
   password: FoOiGlkAA9yPEGP
   alterId: 2
   cipher: aes-256-gcm
@@ -334,69 +766,141 @@ proxy-groups:
   proxies:
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 10.yyds123.com@香港(HK)-香港/K8E
-  - vip345.xyz@香港(HK)-香港/yza
-  - 5.yyds123.com@香港(HK)-香港/8r2
-  - 7.yyds123.com@香港(HK)-香港/nAN
-  - vip345.xyz@香港(HK)-香港/BXE
-  - 8.yyds123.com@香港(HK)-香港/lyo
-  - vip345.xyz@香港(HK)-香港/mMt
-  - 4.yyds123.com@香港(HK)-香港/Ul2
-  - 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/NOS
-  - 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/wmP
-  - 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/b6L
-  - 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/2Ie
-  - 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/bix
-  - 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/4sQ
-  - 46.101.28.98@英国(GB)-伦敦/bdR
-  - 198.57.27.218@加拿大(CA)-多伦多/96a
-  - 167.88.63.99@美国(US)-亚特兰大/Y1V
-  - hkt.nkeo.top@香港(HK)-大埔/THR
-  - 104.26.9.74@美国(US)-紐華克/Uvg
-  - 167.88.63.99@美国(US)-亚特兰大/cxt
-  - 167.88.63.119@美国(US)-亚特兰大/arV
-  - 172.99.190.158@英国(GB)-伦敦/H2r
-  - 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/Vc1
-  - 167.88.63.82@美国(US)-亚特兰大/oCi
-  - 172.99.190.35@英国(GB)-伦敦/lrO
-  - 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/zMX
-  - 120.240.86.53@中国(CN)-深圳市/x9U
-  - 167.88.63.82@美国(US)-亚特兰大/UsB
-  - 198.57.27.218@加拿大(CA)-多伦多/C7S
+  - 183.232.226.137@中国(CN)-深圳市/Aj7
+  - 120.232.173.88@中国(CN)-深圳市/ANb
+  - 183.232.226.137@中国(CN)-深圳市/wSD
+  - 183.232.226.137@中国(CN)-深圳市/q1A
+  - 183.232.226.137@中国(CN)-深圳市/5v8
+  - 183.232.226.137@中国(CN)-深圳市/9Rq
+  - 183.232.226.137@中国(CN)-深圳市/efG
+  - usgia.jjyun.ren@美国(US)-聖荷西/fql
+  - 183.232.226.137@中国(CN)-深圳市/LsB
+  - usgia.jjyun.ren@美国(US)-聖荷西/xLh
+  - 1.transit.nph.qjnodeip.xyz@中国(CN)-Songjiang/Z4v
+  - usgia.jjyun.ren@美国(US)-聖荷西/Q46
+  - 120.240.86.53@中国(CN)-深圳市/1Tn
+  - 1.transit.nph.qjnodeip.xyz@中国(CN)-Songjiang/UQm
+  - v1-aws-hk-11.niaoyun.online@香港(HK)-香港/sH5
+  - 1.transit.nph.qjnodeip.xyz@中国(CN)-Songjiang/HNV
+  - v1-aws-hk-11.niaoyun.online@香港(HK)-香港/nA2
+  - v1-aws-hk-10.niaoyun.online@香港(HK)-香港/LSw
+  - usdll2.jjyun.ren@美国(US)-紐華克/1Ie
+  - 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/qTL
+  - 1.transit.nph.qjnodeip.xyz@中国(CN)-Songjiang/y8e
+  - v1-aws-hk-06.niaoyun.online@香港(HK)-香港/YIw
+  - 1.transit.nph.qjnodeip.xyz@中国(CN)-Songjiang/4iJ
+  - v1-aws-hk-04.niaoyun.online@香港(HK)-香港/Qb0
+  - v1-aws-hk-15.niaoyun.online@香港(HK)-香港/zDX
+  - v1-aws-hk-06.niaoyun.online@香港(HK)-香港/p7j
+  - v1-aws-hk-02.niaoyun.online@香港(HK)-香港/3yo
+  - v1-aws-hk-12.niaoyun.online@香港(HK)-香港/8gF
+  - v1-aws-hk-15.niaoyun.online@香港(HK)-香港/wtR
+  - 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/xBF
+  - v1-aws-hk-10.niaoyun.online@香港(HK)-香港/bk7
+  - 134.195.196.36@加拿大(CA)-多伦多/cMC
+  - 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/CTc
+  - 1.transit.nph.qjnodeip.xyz@中国(CN)-Songjiang/52S
+  - 52.199.89.79@日本(JP)-东京/Wpk
+  - 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/CXS
+  - 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/zQA
+  - 3.144.176.174@美国(US)-Dublin/8im
+  - 104.26.9.74@美国(US)-紐華克/VuJ
+  - 172.99.190.149@英国(GB)-伦敦/PjB
+  - 172.99.190.139@英国(GB)-伦敦/TOk
+  - 172.99.190.158@英国(GB)-伦敦/Tdi
+  - 1.transit.nph.qjnodeip.xyz@中国(CN)-Songjiang/fyp
+  - 172.99.190.153@英国(GB)-伦敦/aEx
+  - ruml.jjyun.ren@俄罗斯(RU)-Zelenograd/GLQ
+  - 9XwNb7KY
+  - ubetiJ6F
+  - gpscnCqj
+  - UODpI6Rz
+  - FgOnP82q
+  - cYzIGtDO
+  - UDmc7GWB
+  - oBNGEude
+  - WFDUN0Bf
+  - oCIZihUm
+  - W2xyQVI3
+  - wDQdrUoT
+  - TuUN5Vai
+  - KPaRNIMv
+  - BkwLJrFj
+  - DkP7Z0XY
+  - Zs9hjxEk
+  - Y2M3Xyam
+  - EdevkKW4
+  - DsA4kp3f
 - name: ♻️ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 10.yyds123.com@香港(HK)-香港/K8E
-  - vip345.xyz@香港(HK)-香港/yza
-  - 5.yyds123.com@香港(HK)-香港/8r2
-  - 7.yyds123.com@香港(HK)-香港/nAN
-  - vip345.xyz@香港(HK)-香港/BXE
-  - 8.yyds123.com@香港(HK)-香港/lyo
-  - vip345.xyz@香港(HK)-香港/mMt
-  - 4.yyds123.com@香港(HK)-香港/Ul2
-  - 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/NOS
-  - 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/wmP
-  - 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/b6L
-  - 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/2Ie
-  - 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/bix
-  - 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/4sQ
-  - 46.101.28.98@英国(GB)-伦敦/bdR
-  - 198.57.27.218@加拿大(CA)-多伦多/96a
-  - 167.88.63.99@美国(US)-亚特兰大/Y1V
-  - hkt.nkeo.top@香港(HK)-大埔/THR
-  - 104.26.9.74@美国(US)-紐華克/Uvg
-  - 167.88.63.99@美国(US)-亚特兰大/cxt
-  - 167.88.63.119@美国(US)-亚特兰大/arV
-  - 172.99.190.158@英国(GB)-伦敦/H2r
-  - 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/Vc1
-  - 167.88.63.82@美国(US)-亚特兰大/oCi
-  - 172.99.190.35@英国(GB)-伦敦/lrO
-  - 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/zMX
-  - 120.240.86.53@中国(CN)-深圳市/x9U
-  - 167.88.63.82@美国(US)-亚特兰大/UsB
-  - 198.57.27.218@加拿大(CA)-多伦多/C7S
+  - 183.232.226.137@中国(CN)-深圳市/Aj7
+  - 120.232.173.88@中国(CN)-深圳市/ANb
+  - 183.232.226.137@中国(CN)-深圳市/wSD
+  - 183.232.226.137@中国(CN)-深圳市/q1A
+  - 183.232.226.137@中国(CN)-深圳市/5v8
+  - 183.232.226.137@中国(CN)-深圳市/9Rq
+  - 183.232.226.137@中国(CN)-深圳市/efG
+  - usgia.jjyun.ren@美国(US)-聖荷西/fql
+  - 183.232.226.137@中国(CN)-深圳市/LsB
+  - usgia.jjyun.ren@美国(US)-聖荷西/xLh
+  - 1.transit.nph.qjnodeip.xyz@中国(CN)-Songjiang/Z4v
+  - usgia.jjyun.ren@美国(US)-聖荷西/Q46
+  - 120.240.86.53@中国(CN)-深圳市/1Tn
+  - 1.transit.nph.qjnodeip.xyz@中国(CN)-Songjiang/UQm
+  - v1-aws-hk-11.niaoyun.online@香港(HK)-香港/sH5
+  - 1.transit.nph.qjnodeip.xyz@中国(CN)-Songjiang/HNV
+  - v1-aws-hk-11.niaoyun.online@香港(HK)-香港/nA2
+  - v1-aws-hk-10.niaoyun.online@香港(HK)-香港/LSw
+  - usdll2.jjyun.ren@美国(US)-紐華克/1Ie
+  - 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/qTL
+  - 1.transit.nph.qjnodeip.xyz@中国(CN)-Songjiang/y8e
+  - v1-aws-hk-06.niaoyun.online@香港(HK)-香港/YIw
+  - 1.transit.nph.qjnodeip.xyz@中国(CN)-Songjiang/4iJ
+  - v1-aws-hk-04.niaoyun.online@香港(HK)-香港/Qb0
+  - v1-aws-hk-15.niaoyun.online@香港(HK)-香港/zDX
+  - v1-aws-hk-06.niaoyun.online@香港(HK)-香港/p7j
+  - v1-aws-hk-02.niaoyun.online@香港(HK)-香港/3yo
+  - v1-aws-hk-12.niaoyun.online@香港(HK)-香港/8gF
+  - v1-aws-hk-15.niaoyun.online@香港(HK)-香港/wtR
+  - 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/xBF
+  - v1-aws-hk-10.niaoyun.online@香港(HK)-香港/bk7
+  - 134.195.196.36@加拿大(CA)-多伦多/cMC
+  - 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/CTc
+  - 1.transit.nph.qjnodeip.xyz@中国(CN)-Songjiang/52S
+  - 52.199.89.79@日本(JP)-东京/Wpk
+  - 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/CXS
+  - 1.transit.t.qjnodeip.xyz@中国(CN)-深圳市/zQA
+  - 3.144.176.174@美国(US)-Dublin/8im
+  - 104.26.9.74@美国(US)-紐華克/VuJ
+  - 172.99.190.149@英国(GB)-伦敦/PjB
+  - 172.99.190.139@英国(GB)-伦敦/TOk
+  - 172.99.190.158@英国(GB)-伦敦/Tdi
+  - 1.transit.nph.qjnodeip.xyz@中国(CN)-Songjiang/fyp
+  - 172.99.190.153@英国(GB)-伦敦/aEx
+  - ruml.jjyun.ren@俄罗斯(RU)-Zelenograd/GLQ
+  - 9XwNb7KY
+  - ubetiJ6F
+  - gpscnCqj
+  - UODpI6Rz
+  - FgOnP82q
+  - cYzIGtDO
+  - UDmc7GWB
+  - oBNGEude
+  - WFDUN0Bf
+  - oCIZihUm
+  - W2xyQVI3
+  - wDQdrUoT
+  - TuUN5Vai
+  - KPaRNIMv
+  - BkwLJrFj
+  - DkP7Z0XY
+  - Zs9hjxEk
+  - Y2M3Xyam
+  - EdevkKW4
+  - DsA4kp3f
 - name: 🌍 国外媒体
   type: select
   proxies:
