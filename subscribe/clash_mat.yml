@@ -5,436 +5,356 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '2021.11.06|中国香港特别行政区HKHongkong+SAR+China/Hong+Kong_1', server: az.iganfan.store, port: 12306, type: trojan, password: ganfanbaipiao, sni: baipiao.iganfan.store}
-  - {name: '2021.11.06|美国USUSA/Newark_2', server: 104.16.168.85, port: 443, type: vmess, uuid: 4d88f6a2-aaa9-42b6-afc4-227f89974119, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.ga}}
-  - {name: '2021.11.06|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_3', server: cmgz1.racernet.link, port: 1443, type: vmess, uuid: 95b09c58-719f-38c0-8c56-1a3440796b17, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /cmgz1}
-  - {name: '2021.11.06|澳大利亚AUAustralia/Canberra_4', server: 1.0.0.0, port: 443, type: vmess, uuid: 4d88f6a2-aaa9-42b6-afc4-227f89974119, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.ga}}
-  - {name: '2021.11.06|美国USUSA/San Francisco_5', server: 172.67.186.195, port: 443, type: vmess, uuid: e6397eda-dd27-4832-a693-b3fb156ec0f3, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /233blog, ws-headers: {Host: rn.ddns1312.top}}
-  - {name: '2021.11.06|美国USUSA/Newark_6', server: www.digitalocean.com, port: 443, type: vmess, uuid: 4d88f6a2-aaa9-42b6-afc4-227f89974119, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.ga}}
-  - {name: '2021.11.06|美国USUSA/San Francisco_7', server: 162.159.153.13, port: 443, type: vmess, uuid: 4d88f6a2-aaa9-42b6-afc4-227f89974119, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.ga}}
-  - {name: '2021.11.06|美国USUSA/Newark_8', server: ip.codeforces.live, port: 443, type: vmess, uuid: e6397eda-dd27-4832-a693-b3fb156ec0f3, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /233blog, ws-headers: {Host: rn.ddns1312.top}}
-  - {name: '2021.11.06|美国USUSA/San Francisco_9', server: 172.67.198.236, port: 443, type: vmess, uuid: 4d88f6a2-aaa9-42b6-afc4-227f89974119, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.ga}}
-  - {name: '2021.11.06|美国USUSA/Newark_10', server: 104.19.23.24, port: 443, type: vmess, uuid: 4d88f6a2-aaa9-42b6-afc4-227f89974119, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.ga}}
-  - {name: '2021.11.06|美国USUSA/Newark_11', server: 104.18.26.165, port: 443, type: vmess, uuid: 4d88f6a2-aaa9-42b6-afc4-227f89974119, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.ga}}
-  - {name: '2021.11.06|美国USUSA/Newark_12', server: usc1.futi.online, port: 443, type: vmess, uuid: b35d6f70-8b73-4b25-b9b7-a7e4967fcab2, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us1.futi.online}}
-  - {name: '2021.11.06|韩国KRKorea/Chuncheon-si_13', server: 150.230.252.120, port: 443, type: vmess, uuid: 33a89ab7-cdf4-4eb9-fd1b-aaf6fb3079cb, alterId: 63, cipher: auto, tls: false, network: ws, ws-path: /}
-  - {name: '2021.11.06|日本JPJapan/Tokyo_14', server: jp1.racernet.link, port: 443, type: vmess, uuid: 95b09c58-719f-38c0-8c56-1a3440796b17, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /rhwsqaul}
-  - {name: '2021.11.06|美国USUSA/Newark_15', server: 104.21.36.65, port: 443, type: vmess, uuid: e6397eda-dd27-4832-a693-b3fb156ec0f3, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /233blog, ws-headers: {Host: rn.ddns1312.top}}
-  - {name: '2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_16', server: v1-aws-hk-02.niaoyun.online, port: 666, type: vmess, uuid: f548911a-d732-3e05-b552-899f3f9a3487, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaocloud, ws-headers: {Host: t.me/vpnpool}}
-  - {name: '2021.11.06|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_17', server: 1.transit.t.qjnodeip.xyz, port: 15140, type: vmess, uuid: 1439886a-ecb5-3bbf-bc65-8bfb23d72ea0, alterId: 8, cipher: auto, tls: true, network: ws, ws-path: /Ub6w, ws-headers: {Host: usa04.dadwff.xyz}}
-  - {name: '2021.11.06|澳大利亚AUAustralia/Sydney_18', server: 118.107.244.112, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '2021.11.06|韩国KRKorea/Seoul_19', server: kr.52jjyun.top, port: 88, type: vmess, uuid: 8c7c1292-766c-417d-9bf5-7e12a68ef158, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun}
-  - {name: '2021.11.06|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_20', server: 1.transit.t.qjnodeip.xyz, port: 62329, type: vmess, uuid: 1439886a-ecb5-3bbf-bc65-8bfb23d72ea0, alterId: 8, cipher: auto, tls: true, network: ws, ws-path: /usa1Z, ws-headers: {Host: usa03.dadwff.xyz}}
-  - {name: '2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_21', server: v1-aws-hk-04.niaoyun.online, port: 666, type: vmess, uuid: b9cc1e88-5db0-37ff-840a-b882345e22d1, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaocloud, ws-headers: {Host: t.me/vpnpool}}
-  - {name: '2021.11.06|奥地利ATAustria/Vienna_22', server: 5.253.207.53, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: '2021.11.06|荷兰NLNetherlands/Amsterdam_23', server: 154.84.1.55, port: 443, type: vmess, uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/323127100515, ws-headers: {Host: www.04887294.xyz}}
-  - {name: '2021.11.06|加拿大CACanada/Toronto_24', server: 134.195.196.179, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '2021.11.06|加拿大CACanada/Toronto_25', server: 134.195.196.179, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '2021.11.06|新加坡SGSingapore/Singapore_26', server: sg1.futi.online, port: 443, type: vmess, uuid: b35d6f70-8b73-4b25-b9b7-a7e4967fcab2, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /}
-  - {name: '2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_27', server: hk2.racernet.link, port: 443, type: vmess, uuid: 95b09c58-719f-38c0-8c56-1a3440796b17, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /racernet}
-  - {name: '2021.11.06|加拿大CACanada/Toronto_28', server: 134.195.196.179, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '2021.11.06|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_29', server: 1.transit.t.qjnodeip.xyz, port: 27435, type: vmess, uuid: 1439886a-ecb5-3bbf-bc65-8bfb23d72ea0, alterId: 8, cipher: auto, tls: true, network: ws, ws-path: /JP03W, ws-headers: {Host: xjp03.cswtw.xyz}}
-  - {name: '2021.11.06_30', server: 134.195.196.60, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '2021.11.06|加拿大CACanada/Toronto_31', server: 134.195.196.60, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '2021.11.06|中国香港/中国台湾CNChina/Shanghai/小东的程序未能精准识别可能是中转节点_1', server: sh-hk-01-tr.cdn.savoy.click, port: 12443, type: trojan, password: UiLPqefVfielqkDjEwBV}
+  - {name: '2021.11.06|台湾 5倍速节点香港07 免流80节点 解锁流媒体 流量倍速0.5 用2G只算1G的钱_2', server: 7.yyds123.com, port: 80, type: vmess, uuid: bac18e70-9964-3f99-805a-d809c4bdc6cb, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /ny}
+  - {name: '2021.11.06|台湾 5倍速节点新加坡 2倍速节点_3', server: vip345.xyz, port: 59477, type: vmess, uuid: bac18e70-9964-3f99-805a-d809c4bdc6cb, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /ny}
+  - {name: '2021.11.06|台湾 5倍速节点香港10 免流80节点 流量倍速0.5 用2G只算1G的钱_4', server: 10.yyds123.com, port: 80, type: vmess, uuid: bac18e70-9964-3f99-805a-d809c4bdc6cb, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /ny}
+  - {name: '2021.11.06|台湾 5倍速节点香港06  解锁流媒体 流量倍速0.5 用2G只算1G的钱_5', server: 6.yyds123.com, port: 81, type: vmess, uuid: bac18e70-9964-3f99-805a-d809c4bdc6cb, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /ny}
+  - {name: '2021.11.06|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_6', server: 1.transit.t.qjnodeip.xyz, port: 59075, type: vmess, uuid: 1439886a-ecb5-3bbf-bc65-8bfb23d72ea0, alterId: 8, cipher: auto, tls: true, network: ws, ws-path: /Jb0, ws-headers: {Host: hk07.agahkbbr.xyz}}
+  - {name: '2021.11.06|台湾 5倍速节点日本 2倍速节点_7', server: vip345.xyz, port: 56271, type: vmess, uuid: bac18e70-9964-3f99-805a-d809c4bdc6cb, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /ny}
+  - {name: '2021.11.06|台湾 5倍速节点_8', server: vip345.xyz, port: 35230, type: vmess, uuid: bac18e70-9964-3f99-805a-d809c4bdc6cb, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /ny}
+  - {name: '2021.11.06|中国香港特别行政区HKHongkong+SAR+China/Hong+Kong_9', server: az.iganfan.store, port: 12306, type: trojan, password: ganfanbaipiao, sni: baipiao.iganfan.store}
+  - {name: '2021.11.06|美国USUSA/San Francisco_10', server: uuuss2.liuwei01.tk, port: 443, type: vmess, uuid: d7729364-2135-4af5-aa4f-e1f565a5c23e, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /liuwei, ws-headers: {Host: uuuss2.liuwei01.tk}}
+  - {name: '2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_11', server: v1-aws-hk-11.niaoyun.online, port: 666, type: vmess, uuid: b9cc1e88-5db0-37ff-840a-b882345e22d1, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaocloud, ws-headers: {Host: t.me/vpnpool}}
+  - {name: '2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_12', server: 13.72.197.3, port: 80, type: vmess, uuid: d4cfd5b1-9cfd-4f32-822f-6dfa2423da13, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /air.knayo.in, ws-headers: {Host: pull.free.video.10010.com}}
+  - {name: '2021.11.06|美国USUSA/Los Angeles_13', server: c23s3.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 8, cipher: auto, tls: false, network: tcp, ws-path: /}
+  - {name: '2021.11.06|荷兰NLNetherlands/Amsterdam_14', server: 104.245.96.123, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 8, cipher: auto, tls: false, network: tcp, ws-path: t.me/vpnpool, ws-headers: {Host: t.me/vpnhat}}
+  - {name: '2021.11.06|新加坡SGSingapore/Singapore_15', server: ukdll.52jjyun.top, port: 80, type: vmess, uuid: 2d3da8ad-c555-44f8-b4a0-0899763ce938, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun}
+  - {name: '2021.11.06|韩国KRKorea/Seoul_16', server: kr.52jjyun.top, port: 88, type: vmess, uuid: a67c9248-6b4d-478b-b441-be671cf2fb41, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun}
+  - {name: '2021.11.06|中国香港/中国台湾CNChina/Xicheng/小东的程序未能精准识别可能是中转节点_17', server: 1.transit.nph.qjnodeip.xyz, port: 30006, type: vmess, uuid: cac5dad6-3967-47d1-b05c-1f5542f1f910, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: /}
+  - {name: '2021.11.06|美国USUSA/San Francisco_18', server: usdll2.jjyun.ren, port: 80, type: vmess, uuid: a67c9248-6b4d-478b-b441-be671cf2fb41, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /jjyunml}
+  - {name: '2021.11.06|台湾 5倍速节点新加坡 2倍速节点02_19', server: vip345.xyz, port: 34725, type: vmess, uuid: bac18e70-9964-3f99-805a-d809c4bdc6cb, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /ny}
+  - {name: '2021.11.06|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_20', server: 1.transit.t.qjnodeip.xyz, port: 27435, type: vmess, uuid: 1439886a-ecb5-3bbf-bc65-8bfb23d72ea0, alterId: 8, cipher: auto, tls: true, network: ws, ws-path: /JP03W, ws-headers: {Host: xjp03.cswtw.xyz}}
+  - {name: '2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_21', server: v1-aws-hk-01.niaoyun.online, port: 666, type: vmess, uuid: a2813ede-de11-3a5c-9b78-88513f897491, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaocloud, ws-headers: {Host: t.me/vpnpool}}
+  - {name: '2021.11.06_22', server: 1.transit.t.qjnodeip.xyz, port: 60649, type: vmess, uuid: 1439886a-ecb5-3bbf-bc65-8bfb23d72ea0, alterId: 8, cipher: auto, tls: true, network: ws, ws-path: /HGzsmqibHG02Z, ws-headers: {Host: dddwda.xyz}}
+  - {name: '2021.11.06|台湾 5倍速节点香港08 免流80节点 解锁流媒体 流量倍速0.5 用2G只算1G的钱_23', server: 8.yyds123.com, port: 80, type: vmess, uuid: bac18e70-9964-3f99-805a-d809c4bdc6cb, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /ny}
+  - {name: '2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_24', server: 13.72.197.3, port: 80, type: vmess, uuid: d4cfd5b1-9cfd-4f32-822f-6dfa2423da13, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /air.knayo.in, ws-headers: {Host: shoutingtoutiao3.10010.com}}
+  - {name: '2021.11.06|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_25', server: 1.transit.t.qjnodeip.xyz, port: 22411, type: vmess, uuid: 1439886a-ecb5-3bbf-bc65-8bfb23d72ea0, alterId: 8, cipher: auto, tls: true, network: ws, ws-path: /J02C, ws-headers: {Host: jnd02.wxyidc001.space}}
+  - {name: '2021.11.06|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_26', server: 1.transit.t.qjnodeip.xyz, port: 15140, type: vmess, uuid: 1439886a-ecb5-3bbf-bc65-8bfb23d72ea0, alterId: 8, cipher: auto, tls: true, network: ws, ws-path: /Ub6w, ws-headers: {Host: usa04.dadwff.xyz}}
+  - {name: '2021.11.06|韩国KRKorea/Seoul_27', server: 132.226.172.134, port: 51476, type: vmess, uuid: 7a44d386-e7eb-41d4-92ce-ffbfb32b7957, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: /}
+  - {name: '2021.11.06|德国DEGermany/Frankfurt am Main_28', server: 130.61.120.243, port: 443, type: vmess, uuid: 2974ec92-79ff-42de-9ceb-e917bd25b405, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /114514, ws-headers: {Host: v2.leftvalues.xyz}}
+  - {name: '2021.11.06|台湾 5倍速节点香港02 免流80节点 流量倍速0.5 用2G只算1G的钱_29', server: 2.yyds123.com, port: 80, type: vmess, uuid: bac18e70-9964-3f99-805a-d809c4bdc6cb, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /ny}
+  - {name: '2021.11.06|中国香港/中国台湾CNChina/Xicheng/小东的程序未能精准识别可能是中转节点_30', server: 1.transit.nph.qjnodeip.xyz, port: 30004, type: vmess, uuid: 46486821-3c2f-4f6a-9b56-0605118088aa, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: /}
+  - {name: '2021.11.06|英国GBUnited Kiongdom/London_31', server: 178.62.27.46, port: 39000, type: vmess, uuid: 88b71fbb-9762-36d9-a00d-0fe6d62d6108, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: t.me/vpnhat}}
   - {name: '2021.11.06|加拿大CACanada/Toronto_32', server: 134.195.196.60, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '2021.11.06|美国USUSA/Fremont_33', server: us2.futi.online, port: 443, type: vmess, uuid: b35d6f70-8b73-4b25-b9b7-a7e4967fcab2, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us2.futi.online}}
-  - {name: '2021.11.06|加拿大CACanada/Toronto_34', server: 134.195.196.179, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '2021.11.06|英国GBUnited+Kiongdom/London_35', server: 172.99.190.158, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '2021.11.06|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_36', server: 1.transit.t.qjnodeip.xyz, port: 61610, type: vmess, uuid: 1439886a-ecb5-3bbf-bc65-8bfb23d72ea0, alterId: 5, cipher: auto, tls: true, network: ws, ws-path: /C1zmqibh, ws-headers: {Host: hkyz.iuhbhgg.xyz}}
-  - {name: '2021.11.06|韩国KRKorea/Chuncheon-si_37', server: a.xxyu.xyz, port: 80, type: vmess, uuid: bf1bb7ae-6e5a-402e-fdea-b48dfcd21123, alterId: 63, cipher: auto, tls: false, network: ws, ws-path: /}
-  - {name: '2021.11.06|英国GBUnited+Kiongdom/London_38', server: 172.99.190.153, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '2021.11.06|加拿大CACanada/Toronto_39', server: 134.195.196.50, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '2021.11.06|印度INIndia/Bengaluru_40', server: in1-1.noojat.com, port: 1443, type: trojan, password: 7x42LetRa0}
-  - {name: '2021.11.06|英国GBUnited+Kiongdom/London_41', server: 172.99.190.153, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '2021.11.06|加拿大CACanada/Toronto_42', server: 134.195.196.50, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '2021.11.06|英国GBUnited+Kiongdom/London_43', server: 172.99.190.35, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '2021.11.06|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_44', server: 1.transit.t.qjnodeip.xyz, port: 54952, type: vmess, uuid: 1439886a-ecb5-3bbf-bc65-8bfb23d72ea0, alterId: 5, cipher: auto, tls: true, network: ws, ws-path: /Hkk3Z, ws-headers: {Host: hk03.iuhbhgg.xyz}}
-  - {name: '2021.11.06|加拿大CACanada/Toronto_45', server: 134.195.196.50, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_46', server: hk5.racernet.link, port: 443, type: vmess, uuid: 95b09c58-719f-38c0-8c56-1a3440796b17, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /racernet}
-  - {name: '2021.11.06|中国香港/中国台湾CNChina/Shanghai/小东的程序未能精准识别可能是中转节点_47', server: ctsh1.racernet.link, port: 22080, type: vmess, uuid: 95b09c58-719f-38c0-8c56-1a3440796b17, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ctsh1de1}
-  - {name: '2021.11.06|英国GBUnited+Kiongdom/London_48', server: 172.99.190.139, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '2021.11.06|英国GBUnited+Kiongdom/London_49', server: 172.99.190.149, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_33', server: 52.175.60.185, port: 16542, type: vmess, uuid: d4cfd5b1-9cfd-4f32-822f-6dfa2423da13, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /air.knayo.in}
+  - {name: '2021.11.06|美国USUSA/Dallas_34', server: usdsl.52jjyun.top, port: 80, type: vmess, uuid: a67c9248-6b4d-478b-b441-be671cf2fb41, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun}
+  - {name: '2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_35', server: v1-aws-hk-05.niaoyun.online, port: 666, type: vmess, uuid: b9cc1e88-5db0-37ff-840a-b882345e22d1, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaocloud, ws-headers: {Host: t.me/vpnpool}}
+  - {name: '2021.11.06|加拿大CACanada/Toronto_36', server: 134.195.196.179, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_37', server: v1-aws-hk-11.niaoyun.online, port: 666, type: vmess, uuid: a2813ede-de11-3a5c-9b78-88513f897491, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaocloud, ws-headers: {Host: t.me/vpnpool}}
+  - {name: '2021.11.06|加拿大CACanada/Toronto_38', server: 134.195.196.184, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '2021.11.06|加拿大CACanada/Toronto_39', server: 134.195.196.50, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 2021.11.06|中国香港特别行政区HKHongkong+SAR+China/Hong+Kong_1
-      - 2021.11.06|美国USUSA/Newark_2
-      - 2021.11.06|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_3
-      - 2021.11.06|澳大利亚AUAustralia/Canberra_4
-      - 2021.11.06|美国USUSA/San Francisco_5
-      - 2021.11.06|美国USUSA/Newark_6
-      - 2021.11.06|美国USUSA/San Francisco_7
-      - 2021.11.06|美国USUSA/Newark_8
-      - 2021.11.06|美国USUSA/San Francisco_9
-      - 2021.11.06|美国USUSA/Newark_10
-      - 2021.11.06|美国USUSA/Newark_11
-      - 2021.11.06|美国USUSA/Newark_12
-      - 2021.11.06|韩国KRKorea/Chuncheon-si_13
-      - 2021.11.06|日本JPJapan/Tokyo_14
-      - 2021.11.06|美国USUSA/Newark_15
-      - 2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_16
-      - 2021.11.06|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_17
-      - 2021.11.06|澳大利亚AUAustralia/Sydney_18
-      - 2021.11.06|韩国KRKorea/Seoul_19
+      - 2021.11.06|中国香港/中国台湾CNChina/Shanghai/小东的程序未能精准识别可能是中转节点_1
+      - 2021.11.06|台湾 5倍速节点香港07 免流80节点 解锁流媒体 流量倍速0.5 用2G只算1G的钱_2
+      - 2021.11.06|台湾 5倍速节点新加坡 2倍速节点_3
+      - 2021.11.06|台湾 5倍速节点香港10 免流80节点 流量倍速0.5 用2G只算1G的钱_4
+      - 2021.11.06|台湾 5倍速节点香港06  解锁流媒体 流量倍速0.5 用2G只算1G的钱_5
+      - 2021.11.06|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_6
+      - 2021.11.06|台湾 5倍速节点日本 2倍速节点_7
+      - 2021.11.06|台湾 5倍速节点_8
+      - 2021.11.06|中国香港特别行政区HKHongkong+SAR+China/Hong+Kong_9
+      - 2021.11.06|美国USUSA/San Francisco_10
+      - 2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_11
+      - 2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_12
+      - 2021.11.06|美国USUSA/Los Angeles_13
+      - 2021.11.06|荷兰NLNetherlands/Amsterdam_14
+      - 2021.11.06|新加坡SGSingapore/Singapore_15
+      - 2021.11.06|韩国KRKorea/Seoul_16
+      - 2021.11.06|中国香港/中国台湾CNChina/Xicheng/小东的程序未能精准识别可能是中转节点_17
+      - 2021.11.06|美国USUSA/San Francisco_18
+      - 2021.11.06|台湾 5倍速节点新加坡 2倍速节点02_19
       - 2021.11.06|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_20
       - 2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_21
-      - 2021.11.06|奥地利ATAustria/Vienna_22
-      - 2021.11.06|荷兰NLNetherlands/Amsterdam_23
-      - 2021.11.06|加拿大CACanada/Toronto_24
-      - 2021.11.06|加拿大CACanada/Toronto_25
-      - 2021.11.06|新加坡SGSingapore/Singapore_26
-      - 2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_27
-      - 2021.11.06|加拿大CACanada/Toronto_28
-      - 2021.11.06|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_29
-      - 2021.11.06_30
-      - 2021.11.06|加拿大CACanada/Toronto_31
+      - 2021.11.06_22
+      - 2021.11.06|台湾 5倍速节点香港08 免流80节点 解锁流媒体 流量倍速0.5 用2G只算1G的钱_23
+      - 2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_24
+      - 2021.11.06|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_25
+      - 2021.11.06|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_26
+      - 2021.11.06|韩国KRKorea/Seoul_27
+      - 2021.11.06|德国DEGermany/Frankfurt am Main_28
+      - 2021.11.06|台湾 5倍速节点香港02 免流80节点 流量倍速0.5 用2G只算1G的钱_29
+      - 2021.11.06|中国香港/中国台湾CNChina/Xicheng/小东的程序未能精准识别可能是中转节点_30
+      - 2021.11.06|英国GBUnited Kiongdom/London_31
       - 2021.11.06|加拿大CACanada/Toronto_32
-      - 2021.11.06|美国USUSA/Fremont_33
-      - 2021.11.06|加拿大CACanada/Toronto_34
-      - 2021.11.06|英国GBUnited+Kiongdom/London_35
-      - 2021.11.06|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_36
-      - 2021.11.06|韩国KRKorea/Chuncheon-si_37
-      - 2021.11.06|英国GBUnited+Kiongdom/London_38
+      - 2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_33
+      - 2021.11.06|美国USUSA/Dallas_34
+      - 2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_35
+      - 2021.11.06|加拿大CACanada/Toronto_36
+      - 2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_37
+      - 2021.11.06|加拿大CACanada/Toronto_38
       - 2021.11.06|加拿大CACanada/Toronto_39
-      - 2021.11.06|印度INIndia/Bengaluru_40
-      - 2021.11.06|英国GBUnited+Kiongdom/London_41
-      - 2021.11.06|加拿大CACanada/Toronto_42
-      - 2021.11.06|英国GBUnited+Kiongdom/London_43
-      - 2021.11.06|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_44
-      - 2021.11.06|加拿大CACanada/Toronto_45
-      - 2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_46
-      - 2021.11.06|中国香港/中国台湾CNChina/Shanghai/小东的程序未能精准识别可能是中转节点_47
-      - 2021.11.06|英国GBUnited+Kiongdom/London_48
-      - 2021.11.06|英国GBUnited+Kiongdom/London_49
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 2021.11.06|中国香港特别行政区HKHongkong+SAR+China/Hong+Kong_1
-      - 2021.11.06|美国USUSA/Newark_2
-      - 2021.11.06|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_3
-      - 2021.11.06|澳大利亚AUAustralia/Canberra_4
-      - 2021.11.06|美国USUSA/San Francisco_5
-      - 2021.11.06|美国USUSA/Newark_6
-      - 2021.11.06|美国USUSA/San Francisco_7
-      - 2021.11.06|美国USUSA/Newark_8
-      - 2021.11.06|美国USUSA/San Francisco_9
-      - 2021.11.06|美国USUSA/Newark_10
-      - 2021.11.06|美国USUSA/Newark_11
-      - 2021.11.06|美国USUSA/Newark_12
-      - 2021.11.06|韩国KRKorea/Chuncheon-si_13
-      - 2021.11.06|日本JPJapan/Tokyo_14
-      - 2021.11.06|美国USUSA/Newark_15
-      - 2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_16
-      - 2021.11.06|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_17
-      - 2021.11.06|澳大利亚AUAustralia/Sydney_18
-      - 2021.11.06|韩国KRKorea/Seoul_19
+      - 2021.11.06|中国香港/中国台湾CNChina/Shanghai/小东的程序未能精准识别可能是中转节点_1
+      - 2021.11.06|台湾 5倍速节点香港07 免流80节点 解锁流媒体 流量倍速0.5 用2G只算1G的钱_2
+      - 2021.11.06|台湾 5倍速节点新加坡 2倍速节点_3
+      - 2021.11.06|台湾 5倍速节点香港10 免流80节点 流量倍速0.5 用2G只算1G的钱_4
+      - 2021.11.06|台湾 5倍速节点香港06  解锁流媒体 流量倍速0.5 用2G只算1G的钱_5
+      - 2021.11.06|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_6
+      - 2021.11.06|台湾 5倍速节点日本 2倍速节点_7
+      - 2021.11.06|台湾 5倍速节点_8
+      - 2021.11.06|中国香港特别行政区HKHongkong+SAR+China/Hong+Kong_9
+      - 2021.11.06|美国USUSA/San Francisco_10
+      - 2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_11
+      - 2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_12
+      - 2021.11.06|美国USUSA/Los Angeles_13
+      - 2021.11.06|荷兰NLNetherlands/Amsterdam_14
+      - 2021.11.06|新加坡SGSingapore/Singapore_15
+      - 2021.11.06|韩国KRKorea/Seoul_16
+      - 2021.11.06|中国香港/中国台湾CNChina/Xicheng/小东的程序未能精准识别可能是中转节点_17
+      - 2021.11.06|美国USUSA/San Francisco_18
+      - 2021.11.06|台湾 5倍速节点新加坡 2倍速节点02_19
       - 2021.11.06|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_20
       - 2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_21
-      - 2021.11.06|奥地利ATAustria/Vienna_22
-      - 2021.11.06|荷兰NLNetherlands/Amsterdam_23
-      - 2021.11.06|加拿大CACanada/Toronto_24
-      - 2021.11.06|加拿大CACanada/Toronto_25
-      - 2021.11.06|新加坡SGSingapore/Singapore_26
-      - 2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_27
-      - 2021.11.06|加拿大CACanada/Toronto_28
-      - 2021.11.06|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_29
-      - 2021.11.06_30
-      - 2021.11.06|加拿大CACanada/Toronto_31
+      - 2021.11.06_22
+      - 2021.11.06|台湾 5倍速节点香港08 免流80节点 解锁流媒体 流量倍速0.5 用2G只算1G的钱_23
+      - 2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_24
+      - 2021.11.06|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_25
+      - 2021.11.06|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_26
+      - 2021.11.06|韩国KRKorea/Seoul_27
+      - 2021.11.06|德国DEGermany/Frankfurt am Main_28
+      - 2021.11.06|台湾 5倍速节点香港02 免流80节点 流量倍速0.5 用2G只算1G的钱_29
+      - 2021.11.06|中国香港/中国台湾CNChina/Xicheng/小东的程序未能精准识别可能是中转节点_30
+      - 2021.11.06|英国GBUnited Kiongdom/London_31
       - 2021.11.06|加拿大CACanada/Toronto_32
-      - 2021.11.06|美国USUSA/Fremont_33
-      - 2021.11.06|加拿大CACanada/Toronto_34
-      - 2021.11.06|英国GBUnited+Kiongdom/London_35
-      - 2021.11.06|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_36
-      - 2021.11.06|韩国KRKorea/Chuncheon-si_37
-      - 2021.11.06|英国GBUnited+Kiongdom/London_38
+      - 2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_33
+      - 2021.11.06|美国USUSA/Dallas_34
+      - 2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_35
+      - 2021.11.06|加拿大CACanada/Toronto_36
+      - 2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_37
+      - 2021.11.06|加拿大CACanada/Toronto_38
       - 2021.11.06|加拿大CACanada/Toronto_39
-      - 2021.11.06|印度INIndia/Bengaluru_40
-      - 2021.11.06|英国GBUnited+Kiongdom/London_41
-      - 2021.11.06|加拿大CACanada/Toronto_42
-      - 2021.11.06|英国GBUnited+Kiongdom/London_43
-      - 2021.11.06|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_44
-      - 2021.11.06|加拿大CACanada/Toronto_45
-      - 2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_46
-      - 2021.11.06|中国香港/中国台湾CNChina/Shanghai/小东的程序未能精准识别可能是中转节点_47
-      - 2021.11.06|英国GBUnited+Kiongdom/London_48
-      - 2021.11.06|英国GBUnited+Kiongdom/London_49
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 2021.11.06|中国香港特别行政区HKHongkong+SAR+China/Hong+Kong_1
-      - 2021.11.06|美国USUSA/Newark_2
-      - 2021.11.06|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_3
-      - 2021.11.06|澳大利亚AUAustralia/Canberra_4
-      - 2021.11.06|美国USUSA/San Francisco_5
-      - 2021.11.06|美国USUSA/Newark_6
-      - 2021.11.06|美国USUSA/San Francisco_7
-      - 2021.11.06|美国USUSA/Newark_8
-      - 2021.11.06|美国USUSA/San Francisco_9
-      - 2021.11.06|美国USUSA/Newark_10
-      - 2021.11.06|美国USUSA/Newark_11
-      - 2021.11.06|美国USUSA/Newark_12
-      - 2021.11.06|韩国KRKorea/Chuncheon-si_13
-      - 2021.11.06|日本JPJapan/Tokyo_14
-      - 2021.11.06|美国USUSA/Newark_15
-      - 2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_16
-      - 2021.11.06|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_17
-      - 2021.11.06|澳大利亚AUAustralia/Sydney_18
-      - 2021.11.06|韩国KRKorea/Seoul_19
+      - 2021.11.06|中国香港/中国台湾CNChina/Shanghai/小东的程序未能精准识别可能是中转节点_1
+      - 2021.11.06|台湾 5倍速节点香港07 免流80节点 解锁流媒体 流量倍速0.5 用2G只算1G的钱_2
+      - 2021.11.06|台湾 5倍速节点新加坡 2倍速节点_3
+      - 2021.11.06|台湾 5倍速节点香港10 免流80节点 流量倍速0.5 用2G只算1G的钱_4
+      - 2021.11.06|台湾 5倍速节点香港06  解锁流媒体 流量倍速0.5 用2G只算1G的钱_5
+      - 2021.11.06|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_6
+      - 2021.11.06|台湾 5倍速节点日本 2倍速节点_7
+      - 2021.11.06|台湾 5倍速节点_8
+      - 2021.11.06|中国香港特别行政区HKHongkong+SAR+China/Hong+Kong_9
+      - 2021.11.06|美国USUSA/San Francisco_10
+      - 2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_11
+      - 2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_12
+      - 2021.11.06|美国USUSA/Los Angeles_13
+      - 2021.11.06|荷兰NLNetherlands/Amsterdam_14
+      - 2021.11.06|新加坡SGSingapore/Singapore_15
+      - 2021.11.06|韩国KRKorea/Seoul_16
+      - 2021.11.06|中国香港/中国台湾CNChina/Xicheng/小东的程序未能精准识别可能是中转节点_17
+      - 2021.11.06|美国USUSA/San Francisco_18
+      - 2021.11.06|台湾 5倍速节点新加坡 2倍速节点02_19
       - 2021.11.06|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_20
       - 2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_21
-      - 2021.11.06|奥地利ATAustria/Vienna_22
-      - 2021.11.06|荷兰NLNetherlands/Amsterdam_23
-      - 2021.11.06|加拿大CACanada/Toronto_24
-      - 2021.11.06|加拿大CACanada/Toronto_25
-      - 2021.11.06|新加坡SGSingapore/Singapore_26
-      - 2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_27
-      - 2021.11.06|加拿大CACanada/Toronto_28
-      - 2021.11.06|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_29
-      - 2021.11.06_30
-      - 2021.11.06|加拿大CACanada/Toronto_31
+      - 2021.11.06_22
+      - 2021.11.06|台湾 5倍速节点香港08 免流80节点 解锁流媒体 流量倍速0.5 用2G只算1G的钱_23
+      - 2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_24
+      - 2021.11.06|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_25
+      - 2021.11.06|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_26
+      - 2021.11.06|韩国KRKorea/Seoul_27
+      - 2021.11.06|德国DEGermany/Frankfurt am Main_28
+      - 2021.11.06|台湾 5倍速节点香港02 免流80节点 流量倍速0.5 用2G只算1G的钱_29
+      - 2021.11.06|中国香港/中国台湾CNChina/Xicheng/小东的程序未能精准识别可能是中转节点_30
+      - 2021.11.06|英国GBUnited Kiongdom/London_31
       - 2021.11.06|加拿大CACanada/Toronto_32
-      - 2021.11.06|美国USUSA/Fremont_33
-      - 2021.11.06|加拿大CACanada/Toronto_34
-      - 2021.11.06|英国GBUnited+Kiongdom/London_35
-      - 2021.11.06|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_36
-      - 2021.11.06|韩国KRKorea/Chuncheon-si_37
-      - 2021.11.06|英国GBUnited+Kiongdom/London_38
+      - 2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_33
+      - 2021.11.06|美国USUSA/Dallas_34
+      - 2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_35
+      - 2021.11.06|加拿大CACanada/Toronto_36
+      - 2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_37
+      - 2021.11.06|加拿大CACanada/Toronto_38
       - 2021.11.06|加拿大CACanada/Toronto_39
-      - 2021.11.06|印度INIndia/Bengaluru_40
-      - 2021.11.06|英国GBUnited+Kiongdom/London_41
-      - 2021.11.06|加拿大CACanada/Toronto_42
-      - 2021.11.06|英国GBUnited+Kiongdom/London_43
-      - 2021.11.06|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_44
-      - 2021.11.06|加拿大CACanada/Toronto_45
-      - 2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_46
-      - 2021.11.06|中国香港/中国台湾CNChina/Shanghai/小东的程序未能精准识别可能是中转节点_47
-      - 2021.11.06|英国GBUnited+Kiongdom/London_48
-      - 2021.11.06|英国GBUnited+Kiongdom/London_49
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 2021.11.06|中国香港特别行政区HKHongkong+SAR+China/Hong+Kong_1
-      - 2021.11.06|美国USUSA/Newark_2
-      - 2021.11.06|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_3
-      - 2021.11.06|澳大利亚AUAustralia/Canberra_4
-      - 2021.11.06|美国USUSA/San Francisco_5
-      - 2021.11.06|美国USUSA/Newark_6
-      - 2021.11.06|美国USUSA/San Francisco_7
-      - 2021.11.06|美国USUSA/Newark_8
-      - 2021.11.06|美国USUSA/San Francisco_9
-      - 2021.11.06|美国USUSA/Newark_10
-      - 2021.11.06|美国USUSA/Newark_11
-      - 2021.11.06|美国USUSA/Newark_12
-      - 2021.11.06|韩国KRKorea/Chuncheon-si_13
-      - 2021.11.06|日本JPJapan/Tokyo_14
-      - 2021.11.06|美国USUSA/Newark_15
-      - 2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_16
-      - 2021.11.06|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_17
-      - 2021.11.06|澳大利亚AUAustralia/Sydney_18
-      - 2021.11.06|韩国KRKorea/Seoul_19
+      - 2021.11.06|中国香港/中国台湾CNChina/Shanghai/小东的程序未能精准识别可能是中转节点_1
+      - 2021.11.06|台湾 5倍速节点香港07 免流80节点 解锁流媒体 流量倍速0.5 用2G只算1G的钱_2
+      - 2021.11.06|台湾 5倍速节点新加坡 2倍速节点_3
+      - 2021.11.06|台湾 5倍速节点香港10 免流80节点 流量倍速0.5 用2G只算1G的钱_4
+      - 2021.11.06|台湾 5倍速节点香港06  解锁流媒体 流量倍速0.5 用2G只算1G的钱_5
+      - 2021.11.06|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_6
+      - 2021.11.06|台湾 5倍速节点日本 2倍速节点_7
+      - 2021.11.06|台湾 5倍速节点_8
+      - 2021.11.06|中国香港特别行政区HKHongkong+SAR+China/Hong+Kong_9
+      - 2021.11.06|美国USUSA/San Francisco_10
+      - 2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_11
+      - 2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_12
+      - 2021.11.06|美国USUSA/Los Angeles_13
+      - 2021.11.06|荷兰NLNetherlands/Amsterdam_14
+      - 2021.11.06|新加坡SGSingapore/Singapore_15
+      - 2021.11.06|韩国KRKorea/Seoul_16
+      - 2021.11.06|中国香港/中国台湾CNChina/Xicheng/小东的程序未能精准识别可能是中转节点_17
+      - 2021.11.06|美国USUSA/San Francisco_18
+      - 2021.11.06|台湾 5倍速节点新加坡 2倍速节点02_19
       - 2021.11.06|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_20
       - 2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_21
-      - 2021.11.06|奥地利ATAustria/Vienna_22
-      - 2021.11.06|荷兰NLNetherlands/Amsterdam_23
-      - 2021.11.06|加拿大CACanada/Toronto_24
-      - 2021.11.06|加拿大CACanada/Toronto_25
-      - 2021.11.06|新加坡SGSingapore/Singapore_26
-      - 2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_27
-      - 2021.11.06|加拿大CACanada/Toronto_28
-      - 2021.11.06|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_29
-      - 2021.11.06_30
-      - 2021.11.06|加拿大CACanada/Toronto_31
+      - 2021.11.06_22
+      - 2021.11.06|台湾 5倍速节点香港08 免流80节点 解锁流媒体 流量倍速0.5 用2G只算1G的钱_23
+      - 2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_24
+      - 2021.11.06|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_25
+      - 2021.11.06|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_26
+      - 2021.11.06|韩国KRKorea/Seoul_27
+      - 2021.11.06|德国DEGermany/Frankfurt am Main_28
+      - 2021.11.06|台湾 5倍速节点香港02 免流80节点 流量倍速0.5 用2G只算1G的钱_29
+      - 2021.11.06|中国香港/中国台湾CNChina/Xicheng/小东的程序未能精准识别可能是中转节点_30
+      - 2021.11.06|英国GBUnited Kiongdom/London_31
       - 2021.11.06|加拿大CACanada/Toronto_32
-      - 2021.11.06|美国USUSA/Fremont_33
-      - 2021.11.06|加拿大CACanada/Toronto_34
-      - 2021.11.06|英国GBUnited+Kiongdom/London_35
-      - 2021.11.06|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_36
-      - 2021.11.06|韩国KRKorea/Chuncheon-si_37
-      - 2021.11.06|英国GBUnited+Kiongdom/London_38
+      - 2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_33
+      - 2021.11.06|美国USUSA/Dallas_34
+      - 2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_35
+      - 2021.11.06|加拿大CACanada/Toronto_36
+      - 2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_37
+      - 2021.11.06|加拿大CACanada/Toronto_38
       - 2021.11.06|加拿大CACanada/Toronto_39
-      - 2021.11.06|印度INIndia/Bengaluru_40
-      - 2021.11.06|英国GBUnited+Kiongdom/London_41
-      - 2021.11.06|加拿大CACanada/Toronto_42
-      - 2021.11.06|英国GBUnited+Kiongdom/London_43
-      - 2021.11.06|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_44
-      - 2021.11.06|加拿大CACanada/Toronto_45
-      - 2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_46
-      - 2021.11.06|中国香港/中国台湾CNChina/Shanghai/小东的程序未能精准识别可能是中转节点_47
-      - 2021.11.06|英国GBUnited+Kiongdom/London_48
-      - 2021.11.06|英国GBUnited+Kiongdom/London_49
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 2021.11.06|中国香港特别行政区HKHongkong+SAR+China/Hong+Kong_1
-      - 2021.11.06|美国USUSA/Newark_2
-      - 2021.11.06|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_3
-      - 2021.11.06|澳大利亚AUAustralia/Canberra_4
-      - 2021.11.06|美国USUSA/San Francisco_5
-      - 2021.11.06|美国USUSA/Newark_6
-      - 2021.11.06|美国USUSA/San Francisco_7
-      - 2021.11.06|美国USUSA/Newark_8
-      - 2021.11.06|美国USUSA/San Francisco_9
-      - 2021.11.06|美国USUSA/Newark_10
-      - 2021.11.06|美国USUSA/Newark_11
-      - 2021.11.06|美国USUSA/Newark_12
-      - 2021.11.06|韩国KRKorea/Chuncheon-si_13
-      - 2021.11.06|日本JPJapan/Tokyo_14
-      - 2021.11.06|美国USUSA/Newark_15
-      - 2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_16
-      - 2021.11.06|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_17
-      - 2021.11.06|澳大利亚AUAustralia/Sydney_18
-      - 2021.11.06|韩国KRKorea/Seoul_19
+      - 2021.11.06|中国香港/中国台湾CNChina/Shanghai/小东的程序未能精准识别可能是中转节点_1
+      - 2021.11.06|台湾 5倍速节点香港07 免流80节点 解锁流媒体 流量倍速0.5 用2G只算1G的钱_2
+      - 2021.11.06|台湾 5倍速节点新加坡 2倍速节点_3
+      - 2021.11.06|台湾 5倍速节点香港10 免流80节点 流量倍速0.5 用2G只算1G的钱_4
+      - 2021.11.06|台湾 5倍速节点香港06  解锁流媒体 流量倍速0.5 用2G只算1G的钱_5
+      - 2021.11.06|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_6
+      - 2021.11.06|台湾 5倍速节点日本 2倍速节点_7
+      - 2021.11.06|台湾 5倍速节点_8
+      - 2021.11.06|中国香港特别行政区HKHongkong+SAR+China/Hong+Kong_9
+      - 2021.11.06|美国USUSA/San Francisco_10
+      - 2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_11
+      - 2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_12
+      - 2021.11.06|美国USUSA/Los Angeles_13
+      - 2021.11.06|荷兰NLNetherlands/Amsterdam_14
+      - 2021.11.06|新加坡SGSingapore/Singapore_15
+      - 2021.11.06|韩国KRKorea/Seoul_16
+      - 2021.11.06|中国香港/中国台湾CNChina/Xicheng/小东的程序未能精准识别可能是中转节点_17
+      - 2021.11.06|美国USUSA/San Francisco_18
+      - 2021.11.06|台湾 5倍速节点新加坡 2倍速节点02_19
       - 2021.11.06|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_20
       - 2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_21
-      - 2021.11.06|奥地利ATAustria/Vienna_22
-      - 2021.11.06|荷兰NLNetherlands/Amsterdam_23
-      - 2021.11.06|加拿大CACanada/Toronto_24
-      - 2021.11.06|加拿大CACanada/Toronto_25
-      - 2021.11.06|新加坡SGSingapore/Singapore_26
-      - 2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_27
-      - 2021.11.06|加拿大CACanada/Toronto_28
-      - 2021.11.06|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_29
-      - 2021.11.06_30
-      - 2021.11.06|加拿大CACanada/Toronto_31
+      - 2021.11.06_22
+      - 2021.11.06|台湾 5倍速节点香港08 免流80节点 解锁流媒体 流量倍速0.5 用2G只算1G的钱_23
+      - 2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_24
+      - 2021.11.06|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_25
+      - 2021.11.06|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_26
+      - 2021.11.06|韩国KRKorea/Seoul_27
+      - 2021.11.06|德国DEGermany/Frankfurt am Main_28
+      - 2021.11.06|台湾 5倍速节点香港02 免流80节点 流量倍速0.5 用2G只算1G的钱_29
+      - 2021.11.06|中国香港/中国台湾CNChina/Xicheng/小东的程序未能精准识别可能是中转节点_30
+      - 2021.11.06|英国GBUnited Kiongdom/London_31
       - 2021.11.06|加拿大CACanada/Toronto_32
-      - 2021.11.06|美国USUSA/Fremont_33
-      - 2021.11.06|加拿大CACanada/Toronto_34
-      - 2021.11.06|英国GBUnited+Kiongdom/London_35
-      - 2021.11.06|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_36
-      - 2021.11.06|韩国KRKorea/Chuncheon-si_37
-      - 2021.11.06|英国GBUnited+Kiongdom/London_38
+      - 2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_33
+      - 2021.11.06|美国USUSA/Dallas_34
+      - 2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_35
+      - 2021.11.06|加拿大CACanada/Toronto_36
+      - 2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_37
+      - 2021.11.06|加拿大CACanada/Toronto_38
       - 2021.11.06|加拿大CACanada/Toronto_39
-      - 2021.11.06|印度INIndia/Bengaluru_40
-      - 2021.11.06|英国GBUnited+Kiongdom/London_41
-      - 2021.11.06|加拿大CACanada/Toronto_42
-      - 2021.11.06|英国GBUnited+Kiongdom/London_43
-      - 2021.11.06|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_44
-      - 2021.11.06|加拿大CACanada/Toronto_45
-      - 2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_46
-      - 2021.11.06|中国香港/中国台湾CNChina/Shanghai/小东的程序未能精准识别可能是中转节点_47
-      - 2021.11.06|英国GBUnited+Kiongdom/London_48
-      - 2021.11.06|英国GBUnited+Kiongdom/London_49
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 2021.11.06|中国香港特别行政区HKHongkong+SAR+China/Hong+Kong_1
-      - 2021.11.06|美国USUSA/Newark_2
-      - 2021.11.06|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_3
-      - 2021.11.06|澳大利亚AUAustralia/Canberra_4
-      - 2021.11.06|美国USUSA/San Francisco_5
-      - 2021.11.06|美国USUSA/Newark_6
-      - 2021.11.06|美国USUSA/San Francisco_7
-      - 2021.11.06|美国USUSA/Newark_8
-      - 2021.11.06|美国USUSA/San Francisco_9
-      - 2021.11.06|美国USUSA/Newark_10
-      - 2021.11.06|美国USUSA/Newark_11
-      - 2021.11.06|美国USUSA/Newark_12
-      - 2021.11.06|韩国KRKorea/Chuncheon-si_13
-      - 2021.11.06|日本JPJapan/Tokyo_14
-      - 2021.11.06|美国USUSA/Newark_15
-      - 2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_16
-      - 2021.11.06|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_17
-      - 2021.11.06|澳大利亚AUAustralia/Sydney_18
-      - 2021.11.06|韩国KRKorea/Seoul_19
+      - 2021.11.06|中国香港/中国台湾CNChina/Shanghai/小东的程序未能精准识别可能是中转节点_1
+      - 2021.11.06|台湾 5倍速节点香港07 免流80节点 解锁流媒体 流量倍速0.5 用2G只算1G的钱_2
+      - 2021.11.06|台湾 5倍速节点新加坡 2倍速节点_3
+      - 2021.11.06|台湾 5倍速节点香港10 免流80节点 流量倍速0.5 用2G只算1G的钱_4
+      - 2021.11.06|台湾 5倍速节点香港06  解锁流媒体 流量倍速0.5 用2G只算1G的钱_5
+      - 2021.11.06|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_6
+      - 2021.11.06|台湾 5倍速节点日本 2倍速节点_7
+      - 2021.11.06|台湾 5倍速节点_8
+      - 2021.11.06|中国香港特别行政区HKHongkong+SAR+China/Hong+Kong_9
+      - 2021.11.06|美国USUSA/San Francisco_10
+      - 2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_11
+      - 2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_12
+      - 2021.11.06|美国USUSA/Los Angeles_13
+      - 2021.11.06|荷兰NLNetherlands/Amsterdam_14
+      - 2021.11.06|新加坡SGSingapore/Singapore_15
+      - 2021.11.06|韩国KRKorea/Seoul_16
+      - 2021.11.06|中国香港/中国台湾CNChina/Xicheng/小东的程序未能精准识别可能是中转节点_17
+      - 2021.11.06|美国USUSA/San Francisco_18
+      - 2021.11.06|台湾 5倍速节点新加坡 2倍速节点02_19
       - 2021.11.06|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_20
       - 2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_21
-      - 2021.11.06|奥地利ATAustria/Vienna_22
-      - 2021.11.06|荷兰NLNetherlands/Amsterdam_23
-      - 2021.11.06|加拿大CACanada/Toronto_24
-      - 2021.11.06|加拿大CACanada/Toronto_25
-      - 2021.11.06|新加坡SGSingapore/Singapore_26
-      - 2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_27
-      - 2021.11.06|加拿大CACanada/Toronto_28
-      - 2021.11.06|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_29
-      - 2021.11.06_30
-      - 2021.11.06|加拿大CACanada/Toronto_31
+      - 2021.11.06_22
+      - 2021.11.06|台湾 5倍速节点香港08 免流80节点 解锁流媒体 流量倍速0.5 用2G只算1G的钱_23
+      - 2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_24
+      - 2021.11.06|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_25
+      - 2021.11.06|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_26
+      - 2021.11.06|韩国KRKorea/Seoul_27
+      - 2021.11.06|德国DEGermany/Frankfurt am Main_28
+      - 2021.11.06|台湾 5倍速节点香港02 免流80节点 流量倍速0.5 用2G只算1G的钱_29
+      - 2021.11.06|中国香港/中国台湾CNChina/Xicheng/小东的程序未能精准识别可能是中转节点_30
+      - 2021.11.06|英国GBUnited Kiongdom/London_31
       - 2021.11.06|加拿大CACanada/Toronto_32
-      - 2021.11.06|美国USUSA/Fremont_33
-      - 2021.11.06|加拿大CACanada/Toronto_34
-      - 2021.11.06|英国GBUnited+Kiongdom/London_35
-      - 2021.11.06|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_36
-      - 2021.11.06|韩国KRKorea/Chuncheon-si_37
-      - 2021.11.06|英国GBUnited+Kiongdom/London_38
+      - 2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_33
+      - 2021.11.06|美国USUSA/Dallas_34
+      - 2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_35
+      - 2021.11.06|加拿大CACanada/Toronto_36
+      - 2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_37
+      - 2021.11.06|加拿大CACanada/Toronto_38
       - 2021.11.06|加拿大CACanada/Toronto_39
-      - 2021.11.06|印度INIndia/Bengaluru_40
-      - 2021.11.06|英国GBUnited+Kiongdom/London_41
-      - 2021.11.06|加拿大CACanada/Toronto_42
-      - 2021.11.06|英国GBUnited+Kiongdom/London_43
-      - 2021.11.06|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_44
-      - 2021.11.06|加拿大CACanada/Toronto_45
-      - 2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_46
-      - 2021.11.06|中国香港/中国台湾CNChina/Shanghai/小东的程序未能精准识别可能是中转节点_47
-      - 2021.11.06|英国GBUnited+Kiongdom/London_48
-      - 2021.11.06|英国GBUnited+Kiongdom/London_49
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 2021.11.06|中国香港特别行政区HKHongkong+SAR+China/Hong+Kong_1
-      - 2021.11.06|美国USUSA/Newark_2
-      - 2021.11.06|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_3
-      - 2021.11.06|澳大利亚AUAustralia/Canberra_4
-      - 2021.11.06|美国USUSA/San Francisco_5
-      - 2021.11.06|美国USUSA/Newark_6
-      - 2021.11.06|美国USUSA/San Francisco_7
-      - 2021.11.06|美国USUSA/Newark_8
-      - 2021.11.06|美国USUSA/San Francisco_9
-      - 2021.11.06|美国USUSA/Newark_10
-      - 2021.11.06|美国USUSA/Newark_11
-      - 2021.11.06|美国USUSA/Newark_12
-      - 2021.11.06|韩国KRKorea/Chuncheon-si_13
-      - 2021.11.06|日本JPJapan/Tokyo_14
-      - 2021.11.06|美国USUSA/Newark_15
-      - 2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_16
-      - 2021.11.06|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_17
-      - 2021.11.06|澳大利亚AUAustralia/Sydney_18
-      - 2021.11.06|韩国KRKorea/Seoul_19
+      - 2021.11.06|中国香港/中国台湾CNChina/Shanghai/小东的程序未能精准识别可能是中转节点_1
+      - 2021.11.06|台湾 5倍速节点香港07 免流80节点 解锁流媒体 流量倍速0.5 用2G只算1G的钱_2
+      - 2021.11.06|台湾 5倍速节点新加坡 2倍速节点_3
+      - 2021.11.06|台湾 5倍速节点香港10 免流80节点 流量倍速0.5 用2G只算1G的钱_4
+      - 2021.11.06|台湾 5倍速节点香港06  解锁流媒体 流量倍速0.5 用2G只算1G的钱_5
+      - 2021.11.06|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_6
+      - 2021.11.06|台湾 5倍速节点日本 2倍速节点_7
+      - 2021.11.06|台湾 5倍速节点_8
+      - 2021.11.06|中国香港特别行政区HKHongkong+SAR+China/Hong+Kong_9
+      - 2021.11.06|美国USUSA/San Francisco_10
+      - 2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_11
+      - 2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_12
+      - 2021.11.06|美国USUSA/Los Angeles_13
+      - 2021.11.06|荷兰NLNetherlands/Amsterdam_14
+      - 2021.11.06|新加坡SGSingapore/Singapore_15
+      - 2021.11.06|韩国KRKorea/Seoul_16
+      - 2021.11.06|中国香港/中国台湾CNChina/Xicheng/小东的程序未能精准识别可能是中转节点_17
+      - 2021.11.06|美国USUSA/San Francisco_18
+      - 2021.11.06|台湾 5倍速节点新加坡 2倍速节点02_19
       - 2021.11.06|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_20
       - 2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_21
-      - 2021.11.06|奥地利ATAustria/Vienna_22
-      - 2021.11.06|荷兰NLNetherlands/Amsterdam_23
-      - 2021.11.06|加拿大CACanada/Toronto_24
-      - 2021.11.06|加拿大CACanada/Toronto_25
-      - 2021.11.06|新加坡SGSingapore/Singapore_26
-      - 2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_27
-      - 2021.11.06|加拿大CACanada/Toronto_28
-      - 2021.11.06|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_29
-      - 2021.11.06_30
-      - 2021.11.06|加拿大CACanada/Toronto_31
+      - 2021.11.06_22
+      - 2021.11.06|台湾 5倍速节点香港08 免流80节点 解锁流媒体 流量倍速0.5 用2G只算1G的钱_23
+      - 2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_24
+      - 2021.11.06|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_25
+      - 2021.11.06|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_26
+      - 2021.11.06|韩国KRKorea/Seoul_27
+      - 2021.11.06|德国DEGermany/Frankfurt am Main_28
+      - 2021.11.06|台湾 5倍速节点香港02 免流80节点 流量倍速0.5 用2G只算1G的钱_29
+      - 2021.11.06|中国香港/中国台湾CNChina/Xicheng/小东的程序未能精准识别可能是中转节点_30
+      - 2021.11.06|英国GBUnited Kiongdom/London_31
       - 2021.11.06|加拿大CACanada/Toronto_32
-      - 2021.11.06|美国USUSA/Fremont_33
-      - 2021.11.06|加拿大CACanada/Toronto_34
-      - 2021.11.06|英国GBUnited+Kiongdom/London_35
-      - 2021.11.06|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_36
-      - 2021.11.06|韩国KRKorea/Chuncheon-si_37
-      - 2021.11.06|英国GBUnited+Kiongdom/London_38
+      - 2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_33
+      - 2021.11.06|美国USUSA/Dallas_34
+      - 2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_35
+      - 2021.11.06|加拿大CACanada/Toronto_36
+      - 2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_37
+      - 2021.11.06|加拿大CACanada/Toronto_38
       - 2021.11.06|加拿大CACanada/Toronto_39
-      - 2021.11.06|印度INIndia/Bengaluru_40
-      - 2021.11.06|英国GBUnited+Kiongdom/London_41
-      - 2021.11.06|加拿大CACanada/Toronto_42
-      - 2021.11.06|英国GBUnited+Kiongdom/London_43
-      - 2021.11.06|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_44
-      - 2021.11.06|加拿大CACanada/Toronto_45
-      - 2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_46
-      - 2021.11.06|中国香港/中国台湾CNChina/Shanghai/小东的程序未能精准识别可能是中转节点_47
-      - 2021.11.06|英国GBUnited+Kiongdom/London_48
-      - 2021.11.06|英国GBUnited+Kiongdom/London_49
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -450,55 +370,45 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 2021.11.06|中国香港特别行政区HKHongkong+SAR+China/Hong+Kong_1
-      - 2021.11.06|美国USUSA/Newark_2
-      - 2021.11.06|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_3
-      - 2021.11.06|澳大利亚AUAustralia/Canberra_4
-      - 2021.11.06|美国USUSA/San Francisco_5
-      - 2021.11.06|美国USUSA/Newark_6
-      - 2021.11.06|美国USUSA/San Francisco_7
-      - 2021.11.06|美国USUSA/Newark_8
-      - 2021.11.06|美国USUSA/San Francisco_9
-      - 2021.11.06|美国USUSA/Newark_10
-      - 2021.11.06|美国USUSA/Newark_11
-      - 2021.11.06|美国USUSA/Newark_12
-      - 2021.11.06|韩国KRKorea/Chuncheon-si_13
-      - 2021.11.06|日本JPJapan/Tokyo_14
-      - 2021.11.06|美国USUSA/Newark_15
-      - 2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_16
-      - 2021.11.06|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_17
-      - 2021.11.06|澳大利亚AUAustralia/Sydney_18
-      - 2021.11.06|韩国KRKorea/Seoul_19
+      - 2021.11.06|中国香港/中国台湾CNChina/Shanghai/小东的程序未能精准识别可能是中转节点_1
+      - 2021.11.06|台湾 5倍速节点香港07 免流80节点 解锁流媒体 流量倍速0.5 用2G只算1G的钱_2
+      - 2021.11.06|台湾 5倍速节点新加坡 2倍速节点_3
+      - 2021.11.06|台湾 5倍速节点香港10 免流80节点 流量倍速0.5 用2G只算1G的钱_4
+      - 2021.11.06|台湾 5倍速节点香港06  解锁流媒体 流量倍速0.5 用2G只算1G的钱_5
+      - 2021.11.06|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_6
+      - 2021.11.06|台湾 5倍速节点日本 2倍速节点_7
+      - 2021.11.06|台湾 5倍速节点_8
+      - 2021.11.06|中国香港特别行政区HKHongkong+SAR+China/Hong+Kong_9
+      - 2021.11.06|美国USUSA/San Francisco_10
+      - 2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_11
+      - 2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_12
+      - 2021.11.06|美国USUSA/Los Angeles_13
+      - 2021.11.06|荷兰NLNetherlands/Amsterdam_14
+      - 2021.11.06|新加坡SGSingapore/Singapore_15
+      - 2021.11.06|韩国KRKorea/Seoul_16
+      - 2021.11.06|中国香港/中国台湾CNChina/Xicheng/小东的程序未能精准识别可能是中转节点_17
+      - 2021.11.06|美国USUSA/San Francisco_18
+      - 2021.11.06|台湾 5倍速节点新加坡 2倍速节点02_19
       - 2021.11.06|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_20
       - 2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_21
-      - 2021.11.06|奥地利ATAustria/Vienna_22
-      - 2021.11.06|荷兰NLNetherlands/Amsterdam_23
-      - 2021.11.06|加拿大CACanada/Toronto_24
-      - 2021.11.06|加拿大CACanada/Toronto_25
-      - 2021.11.06|新加坡SGSingapore/Singapore_26
-      - 2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_27
-      - 2021.11.06|加拿大CACanada/Toronto_28
-      - 2021.11.06|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_29
-      - 2021.11.06_30
-      - 2021.11.06|加拿大CACanada/Toronto_31
+      - 2021.11.06_22
+      - 2021.11.06|台湾 5倍速节点香港08 免流80节点 解锁流媒体 流量倍速0.5 用2G只算1G的钱_23
+      - 2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_24
+      - 2021.11.06|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_25
+      - 2021.11.06|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_26
+      - 2021.11.06|韩国KRKorea/Seoul_27
+      - 2021.11.06|德国DEGermany/Frankfurt am Main_28
+      - 2021.11.06|台湾 5倍速节点香港02 免流80节点 流量倍速0.5 用2G只算1G的钱_29
+      - 2021.11.06|中国香港/中国台湾CNChina/Xicheng/小东的程序未能精准识别可能是中转节点_30
+      - 2021.11.06|英国GBUnited Kiongdom/London_31
       - 2021.11.06|加拿大CACanada/Toronto_32
-      - 2021.11.06|美国USUSA/Fremont_33
-      - 2021.11.06|加拿大CACanada/Toronto_34
-      - 2021.11.06|英国GBUnited+Kiongdom/London_35
-      - 2021.11.06|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_36
-      - 2021.11.06|韩国KRKorea/Chuncheon-si_37
-      - 2021.11.06|英国GBUnited+Kiongdom/London_38
+      - 2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_33
+      - 2021.11.06|美国USUSA/Dallas_34
+      - 2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_35
+      - 2021.11.06|加拿大CACanada/Toronto_36
+      - 2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_37
+      - 2021.11.06|加拿大CACanada/Toronto_38
       - 2021.11.06|加拿大CACanada/Toronto_39
-      - 2021.11.06|印度INIndia/Bengaluru_40
-      - 2021.11.06|英国GBUnited+Kiongdom/London_41
-      - 2021.11.06|加拿大CACanada/Toronto_42
-      - 2021.11.06|英国GBUnited+Kiongdom/London_43
-      - 2021.11.06|中国香港/中国台湾CNChina/Guangzhou/小东的程序未能精准识别可能是中转节点_44
-      - 2021.11.06|加拿大CACanada/Toronto_45
-      - 2021.11.06|中国香港特别行政区HKHongkong SAR China/Hong Kong_46
-      - 2021.11.06|中国香港/中国台湾CNChina/Shanghai/小东的程序未能精准识别可能是中转节点_47
-      - 2021.11.06|英国GBUnited+Kiongdom/London_48
-      - 2021.11.06|英国GBUnited+Kiongdom/London_49
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
