@@ -5,102 +5,85 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-- name: IObJqLZY
+- name: 118.107.244.112@澳大利亚(AU)-悉尼/RGt
+  type: ss
+  server: 118.107.244.112
+  port: '7307'
+  password: FoOiGlkAA9yPEGP
+  alterId: 2
+  cipher: aes-256-gcm
+- name: jpa.sttlink.xyz@中国(CN)-深圳市/TsI
   type: vmess
-  server: 4.yyds123.com
-  port: '81'
-  uuid: bac18e70-9964-3f99-805a-d809c4bdc6cb
+  server: jpa.sttlink.xyz
+  port: '20189'
+  uuid: ab60166b-d22d-3ae5-963f-e5867007ff08
   alterId: '2'
   cipher: auto
   network: ws
   ucp: true
-  ws-path: /ny
+  ws-path: /ka
   ws-headers:
     Host: ''
   tls: false
-- name: Cbtagu1G
+- name: kr2.futi.online@韩国(KR)-首尔特别市/Nan
   type: vmess
-  server: 5.yyds123.com
-  port: '29999'
-  uuid: bac18e70-9964-3f99-805a-d809c4bdc6cb
-  alterId: '2'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /ny
-  ws-headers:
-    Host: ''
-  tls: false
-- name: vip345.xyz@美国(US)-堪薩斯城/SHt
-  type: vmess
-  server: vip345.xyz
-  port: '40224'
-  uuid: bac18e70-9964-3f99-805a-d809c4bdc6cb
-  alterId: '2'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /ny
-  ws-headers:
-    Host: ''
-  tls: false
-- name: C7fVYgrX
-  type: vmess
-  server: 3.yyds123.com
-  port: '80'
-  uuid: bac18e70-9964-3f99-805a-d809c4bdc6cb
-  alterId: '2'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /ny
-  ws-headers:
-    Host: ''
-  tls: false
-- name: JMYSnRNr
-  type: vmess
-  server: 8.yyds123.com
-  port: '80'
-  uuid: bac18e70-9964-3f99-805a-d809c4bdc6cb
-  alterId: '2'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /ny
-  ws-headers:
-    Host: ''
-  tls: false
-- name: v1-aws-hk-06.niaoyun.online@香港(HK)-香港/E7l
-  type: vmess
-  server: v1-aws-hk-06.niaoyun.online
-  port: '666'
-  uuid: 514e9d38-efd0-3c6e-8122-7b124198d53f
+  server: kr2.futi.online
+  port: '2063'
+  uuid: 0cab950b-4c7b-4215-836f-c7d46f447eb1
   alterId: '1'
   cipher: auto
   network: ws
   ucp: true
-  ws-path: /niaocloud
+  ws-path: /
   ws-headers:
-    Host: t.me/vpnpool
-  tls: false
-- name: v1-aws-hk-06.niaoyun.online@香港(HK)-香港/ima
+    Host: kr2.futi.online
+  tls: true
+- name: 118.107.244.112@澳大利亚(AU)-悉尼/Jjy
+  type: ss
+  server: 118.107.244.112
+  port: '8091'
+  password: PCnnH6SQSnfoS27
+  alterId: 2
+  cipher: aes-256-gcm
+- name: 139.28.176.53@英国(GB)-曼彻斯特/xmG
+  type: ss
+  server: 139.28.176.53
+  port: '31572'
+  password: n8w4StnbVD9dmXYn4Ajt87EA
+  alterId: 2
+  cipher: aes-256-gcm
+- name: 915ru1.fans8.xyz@俄罗斯(RU)-莫斯科/pX6
   type: vmess
-  server: v1-aws-hk-06.niaoyun.online
-  port: '666'
-  uuid: b9cc1e88-5db0-37ff-840a-b882345e22d1
-  alterId: '1'
+  server: 915ru1.fans8.xyz
+  port: '80'
+  uuid: 5d71207f-1f21-32f1-9035-0f014d4a133c
+  alterId: '2'
   cipher: auto
   network: ws
   ucp: true
-  ws-path: /niaocloud
+  ws-path: /v2ray
   ws-headers:
-    Host: t.me/vpnpool
+    Host: ''
   tls: false
-- name: cm-jm.okvpn.xyz@中国(CN)-深圳市/Kun
+- name: 138.199.40.172@美国(US)-纽约/fNg
+  type: ss
+  server: 138.199.40.172
+  port: '40093'
+  password: x23Z4LGkGDkThZ9Kaz4DURQp
+  alterId: 2
+  cipher: aes-256-gcm
+- name: 176.227.241.22@哥斯达黎加(CR)-聖荷西/wuH
+  type: ss
+  server: 176.227.241.22
+  port: '33992'
+  password: 8n6pwAcrrv2pj6tFY2p3TbQ6
+  alterId: 2
+  cipher: aes-256-gcm
+- name: inapus.mooncloud.bike@美国(US)-洛杉矶/WxJ
   type: vmess
-  server: cm-jm.okvpn.xyz
-  port: '20049'
-  uuid: 70034773-c778-499b-bad9-52b9d953bb6d
+  server: inapus.mooncloud.bike
+  port: '10020'
+  uuid: 792f7496-a1e2-4694-96f4-5fbe5e13d68b
   alterId: '1'
   cipher: auto
   network: ws
@@ -109,37 +92,11 @@ proxies:
   ws-headers:
     Host: ''
   tls: false
-- name: v1-aws-hk-03.niaoyun.online@香港(HK)-香港/zGo
+- name: ukml.52jjyun.top@新加坡(SG)-新加坡/XvP
   type: vmess
-  server: v1-aws-hk-03.niaoyun.online
-  port: '666'
-  uuid: dcbd3481-eb2c-33bc-8cb3-a093b3b4e2bb
-  alterId: '1'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /niaocloud
-  ws-headers:
-    Host: t.me/vpnpool
-  tls: false
-- name: v1-aws-hk-06.niaoyun.online@香港(HK)-香港/dAq
-  type: vmess
-  server: v1-aws-hk-06.niaoyun.online
-  port: '666'
-  uuid: a2813ede-de11-3a5c-9b78-88513f897491
-  alterId: '1'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /niaocloud
-  ws-headers:
-    Host: t.me/vpnpool
-  tls: false
-- name: b9gYUwe4
-  type: vmess
-  server: ruml.jjyun.ren
-  port: '88'
-  uuid: 7e1901a0-2f17-46c6-84fd-0798bda18089
+  server: ukml.52jjyun.top
+  port: '80'
+  uuid: 1eb19a07-1ce2-4410-8349-c85f7d9d560b
   alterId: '10'
   cipher: auto
   network: ws
@@ -148,37 +105,63 @@ proxies:
   ws-headers:
     Host: ''
   tls: false
-- name: vip345.xyz@美国(US)-堪薩斯城/rYJ
+- name: jpa.sttlink.xyz@中国(CN)-深圳市/E9F
   type: vmess
-  server: vip345.xyz
-  port: '35899'
-  uuid: bac18e70-9964-3f99-805a-d809c4bdc6cb
+  server: jpa.sttlink.xyz
+  port: '20189'
+  uuid: ab60166b-d22d-3ae5-963f-e5867007ff08
   alterId: '2'
   cipher: auto
   network: ws
   ucp: true
-  ws-path: /ny
+  ws-path: /ka
   ws-headers:
     Host: ''
   tls: false
-- name: uuuuss22.liuwei01.tk@美国(US)-紐華克/3sZ
+- name: 715hk.fans8.xyz@香港(HK)-中環/XTi
   type: vmess
-  server: uuuuss22.liuwei01.tk
-  port: '443'
-  uuid: d7729364-2135-4af5-aa4f-e1f565a5c23e
-  alterId: '0'
+  server: 715hk.fans8.xyz
+  port: '80'
+  uuid: 5d71207f-1f21-32f1-9035-0f014d4a133c
+  alterId: '2'
   cipher: auto
   network: ws
   ucp: true
-  ws-path: /liuwei
+  ws-path: /v2ray
   ws-headers:
-    Host: uuuuss22.liuwei01.tk
-  tls: true
-- name: kr.52jjyun.top@韩国(KR)-首尔特别市/gMF
+    Host: ''
+  tls: false
+- name: 930tg.fans8.xyz@菲律宾(PH)-马尼拉/lpx
   type: vmess
-  server: kr.52jjyun.top
+  server: 930tg.fans8.xyz
   port: '80'
-  uuid: 55cbe532-efe3-4e52-8ebc-06ef9997d7b6
+  uuid: 5d71207f-1f21-32f1-9035-0f014d4a133c
+  alterId: '2'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /v2ray
+  ws-headers:
+    Host: ''
+  tls: false
+- name: 1104jp.fans8.xyz@日本(JP)-Osaka/8hR
+  type: vmess
+  server: 1104jp.fans8.xyz
+  port: '80'
+  uuid: 5d71207f-1f21-32f1-9035-0f014d4a133c
+  alterId: '2'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /v2ray
+  ws-headers:
+    Host: ''
+  tls: false
+- name: ukml.52jjyun.top@新加坡(SG)-新加坡/0gR
+  type: vmess
+  server: ukml.52jjyun.top
+  port: '80'
+  uuid: 9b72e4cb-7888-4b36-ac2a-3d3c80c5c005
   alterId: '10'
   cipher: auto
   network: ws
@@ -187,277 +170,183 @@ proxies:
   ws-headers:
     Host: ''
   tls: false
-- name: v1-asw-sg-10.niaoyun.online@新加坡(SG)-新加坡/3t0
+- name: 138.199.42.134@美国(US)-芝加哥/fNk
+  type: ss
+  server: 138.199.42.134
+  port: '49653'
+  password: Y9GcTPemHMKEkrfGQPJqFDNr
+  alterId: 2
+  cipher: aes-256-gcm
+- name: us1nhg-node.aiqiche123.com@美国(US)-洛杉矶/Iun
   type: vmess
-  server: v1-asw-sg-10.niaoyun.online
-  port: '666'
-  uuid: a2813ede-de11-3a5c-9b78-88513f897491
-  alterId: '1'
+  server: us1nhg-node.aiqiche123.com
+  port: '13723'
+  uuid: a90597c1-bab3-4217-ad6f-0838675c8634
+  alterId: '10'
   cipher: auto
   network: ws
   ucp: true
-  ws-path: /niaocloud
-  ws-headers:
-    Host: t.me/vpnpool
-  tls: false
-- name: v1-asw-sg-13.niaoyun.online@新加坡(SG)-新加坡/JxO
-  type: vmess
-  server: v1-asw-sg-13.niaoyun.online
-  port: '666'
-  uuid: 514e9d38-efd0-3c6e-8122-7b124198d53f
-  alterId: '1'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /niaocloud
-  ws-headers:
-    Host: t.me/vpnpool
-  tls: false
-- name: sw.oracleusa.ml@美国(US)-芝加哥/pN7
-  type: vmess
-  server: sw.oracleusa.ml
-  port: '443'
-  uuid: d1270d12-76b7-4c4d-97ff-6d6f41a013b0
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /4Y3g3EnSU
+  ws-path: ray
   ws-headers:
     Host: ''
   tls: true
-- name: powerservice.com@美国(US)-紐華克/mCs
+- name: kr3.futi.online@韩国(KR)-首尔特别市/gIR
   type: vmess
-  server: powerservice.com
+  server: kr3.futi.online
+  port: '2053'
+  uuid: 0cab950b-4c7b-4215-836f-c7d46f447eb1
+  alterId: '1'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: ''
+  tls: true
+- name: 23.106.248.19@美国(US)-亚特兰大/THx
+  type: ss
+  server: 23.106.248.19
+  port: '18334'
+  password: ZDYSyKNR8upjg9l36eR3ZySAaaEcOY2CaI0zp5xnX4733eSwqxCFlOTD8BCDFA
+  alterId: 2
+  cipher: chacha20-ietf-poly1305
+- name: 172.67.69.244@美国(US)-紐華克/N1H
+  type: vmess
+  server: 172.67.69.244
   port: '443'
-  uuid: 0764a598-82c4-4b41-ba10-551a625beed5
+  uuid: 119013ea-09ad-48f9-930c-c16056ea95ba
   alterId: '64'
   cipher: auto
   network: ws
   ucp: true
   ws-path: /sshocean
   ws-headers:
-    Host: uk2.v2rayserv.com
+    Host: ru1.v2rayserv.com
   tls: true
-- name: 118.166.42.209@台湾(TW)-新北市/c8R
+- name: in.52jjyun.top@新加坡(SG)-新加坡/kUK
   type: vmess
-  server: 118.166.42.209
-  port: '44480'
-  uuid: bac18e70-9964-3f99-805a-d809c4bdc6cb
+  server: in.52jjyun.top
+  port: '80'
+  uuid: 9b72e4cb-7888-4b36-ac2a-3d3c80c5c005
+  alterId: '10'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /jjyun
+  ws-headers:
+    Host: ''
+  tls: false
+- name: ukdll.52jjyun.top@新加坡(SG)-新加坡/lzO
+  type: vmess
+  server: ukdll.52jjyun.top
+  port: '80'
+  uuid: 1eb19a07-1ce2-4410-8349-c85f7d9d560b
+  alterId: '10'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /jjyun
+  ws-headers:
+    Host: ''
+  tls: false
+- name: 209.58.181.251@新加坡(SG)-Singapore/nBu
+  type: ss
+  server: 209.58.181.251
+  port: '18334'
+  password: Z3eC0KxS8ICjgp2N6OZ94x3DaXwyTRzaSqApFlF5cD3Y73luCYyn8eERDSAaOB
+  alterId: 2
+  cipher: chacha20-ietf-poly1305
+- name: 198.147.22.87@美国(US)-奥兰多/WEu
+  type: ss
+  server: 198.147.22.87
+  port: '39772'
+  password: CUndSZnYsPKcu6Kj8THVMBHD
+  alterId: 2
+  cipher: aes-256-gcm
+- name: 84.17.58.162@意大利(IT)-Milan/4Qq
+  type: ss
+  server: 84.17.58.162
+  port: '33992'
+  password: 8n6pwAcrrv2pj6tFY2p3TbQ6
+  alterId: 2
+  cipher: aes-256-gcm
+- name: 198.147.22.87@美国(US)-奥兰多/J5R
+  type: ss
+  server: 198.147.22.87
+  port: '33998'
+  password: NHwQTPLCfaTMSqTnU3mjcSxe
+  alterId: 2
+  cipher: aes-256-gcm
+- name: 1023sg.fans8.xyz@新加坡(SG)-新加坡/zHq
+  type: vmess
+  server: 1023sg.fans8.xyz
+  port: '80'
+  uuid: 5d71207f-1f21-32f1-9035-0f014d4a133c
   alterId: '2'
   cipher: auto
   network: ws
   ucp: true
-  ws-path: /ny
+  ws-path: /v2ray
   ws-headers:
     Host: ''
   tls: false
-- name: G5mNYB4r
+- name: 138.199.42.170@美国(US)-芝加哥/cTN
+  type: ss
+  server: 138.199.42.170
+  port: '49396'
+  password: BdRWC38L5JUDMTYNNxJGcUwB
+  alterId: 2
+  cipher: aes-256-gcm
+- name: 138.199.42.134@美国(US)-芝加哥/2Tm
+  type: ss
+  server: 138.199.42.134
+  port: '31757'
+  password: wj7nDCuNARchSeKNCN8VFK62
+  alterId: 2
+  cipher: aes-256-gcm
+- name: 1030us.fans8.xyz@美国(US)-洛杉矶/b37
   type: vmess
-  server: ruml.jjyun.ren
-  port: '88'
-  uuid: 55cbe532-efe3-4e52-8ebc-06ef9997d7b6
-  alterId: '10'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /jjyun
-  ws-headers:
-    Host: ''
-  tls: false
-- name: de.52jjyun.top@德国(DE)-法兰克福/IuT
-  type: vmess
-  server: de.52jjyun.top
+  server: 1030us.fans8.xyz
   port: '80'
-  uuid: 55cbe532-efe3-4e52-8ebc-06ef9997d7b6
-  alterId: '10'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /jjyun
-  ws-headers:
-    Host: ''
-  tls: false
-- name: yxnYZbJX
-  type: vmess
-  server: ruml.jjyun.ren
-  port: '88'
-  uuid: 69e8f906-ec15-4fd5-838a-a198a2cbf441
-  alterId: '10'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /jjyun
-  ws-headers:
-    Host: ''
-  tls: false
-- name: de.52jjyun.top@德国(DE)-法兰克福/WTz
-  type: vmess
-  server: de.52jjyun.top
-  port: '80'
-  uuid: bc29ccc1-e656-476b-a9bd-b8340feb2e91
-  alterId: '10'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /jjyun
-  ws-headers:
-    Host: ''
-  tls: false
-- name: vip345.xyz@美国(US)-堪薩斯城/fIh
-  type: vmess
-  server: vip345.xyz
-  port: '32857'
-  uuid: bac18e70-9964-3f99-805a-d809c4bdc6cb
+  uuid: 5d71207f-1f21-32f1-9035-0f014d4a133c
   alterId: '2'
   cipher: auto
   network: ws
   ucp: true
-  ws-path: /ny
+  ws-path: /v2ray
   ws-headers:
     Host: ''
   tls: false
-- name: de.52jjyun.top@德国(DE)-法兰克福/Oaf
+- name: api.ssfree.ru@美国(US)-紐華克/0bp
   type: vmess
-  server: de.52jjyun.top
-  port: '80'
-  uuid: 69e8f906-ec15-4fd5-838a-a198a2cbf441
-  alterId: '10'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /jjyun
-  ws-headers:
-    Host: ''
-  tls: false
-- name: usdsl.52jjyun.top@美国(US)-達拉斯/ksU
-  type: vmess
-  server: usdsl.52jjyun.top
-  port: '80'
-  uuid: 55cbe532-efe3-4e52-8ebc-06ef9997d7b6
-  alterId: '10'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /jjyun
-  ws-headers:
-    Host: ''
-  tls: false
-- name: ru.gfwglass.tk@美国(US)-紐華克/SvB
-  type: vmess
-  server: ru.gfwglass.tk
+  server: api.ssfree.ru
   port: '443'
-  uuid: 8414177f-abd4-4af4-8beb-af4235a09248
-  alterId: '0'
+  uuid: 2b756a3a-48ed-11ec-95b3-000017022008
+  alterId: '64'
   cipher: auto
   network: ws
   ucp: true
-  ws-path: /114514
+  ws-path: /getweather
   ws-headers:
     Host: ''
   tls: true
-- name: de.52jjyun.top@德国(DE)-法兰克福/1Vj
-  type: vmess
-  server: de.52jjyun.top
-  port: '80'
-  uuid: 7e1901a0-2f17-46c6-84fd-0798bda18089
-  alterId: '10'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /jjyun
-  ws-headers:
-    Host: ''
-  tls: false
-- name: usdsl.52jjyun.top@美国(US)-達拉斯/wFg
-  type: vmess
-  server: usdsl.52jjyun.top
-  port: '80'
-  uuid: 7e1901a0-2f17-46c6-84fd-0798bda18089
-  alterId: '10'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /jjyun
-  ws-headers:
-    Host: ''
-  tls: false
-- name: 1.transit.nph.qjnodeip.xyz@中国(CN)-上海浦东/wQU
-  type: vmess
-  server: 1.transit.nph.qjnodeip.xyz
-  port: '30003'
-  uuid: d28a2230-eb9d-4c8b-b474-8a141da09347
-  alterId: '0'
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: /
-  ws-headers:
-    Host: ''
-  tls: false
-- name: 107.150.94.14@土耳其(TR)-伊斯坦布尔/PbO
+- name: 103.254.153.138@新加坡(SG)-新加坡/H6t
   type: ss
-  server: 107.150.94.14
-  port: '38620'
-  password: Kquv5UhvZXNMemAQy8DxZ7qn
+  server: 103.254.153.138
+  port: '18333'
+  password: Z39SqKxx8ZCjcC73nDEleyFDaAwSpYaB03NOlFRR2SCI5TpaYOg4ue3y6AzXD8
   alterId: 2
-  cipher: aes-256-gcm
-- name: vip345.xyz@美国(US)-堪薩斯城/Coi
+  cipher: chacha20-ietf-poly1305
+- name: 1031kr.fans8.xyz@韩国(KR)-首尔特别市/ux9
   type: vmess
-  server: vip345.xyz
-  port: '40071'
-  uuid: bac18e70-9964-3f99-805a-d809c4bdc6cb
+  server: 1031kr.fans8.xyz
+  port: '80'
+  uuid: 5d71207f-1f21-32f1-9035-0f014d4a133c
   alterId: '2'
   cipher: auto
   network: ws
   ucp: true
-  ws-path: /ny
-  ws-headers:
-    Host: ''
-  tls: false
-- name: 107.150.94.14@土耳其(TR)-伊斯坦布尔/L8e
-  type: ss
-  server: 107.150.94.14
-  port: '31764'
-  password: YgusH2MWA8PWc3p2VDsR7AVv
-  alterId: 2
-  cipher: aes-256-gcm
-- name: v7.ssrsub.com@俄罗斯(RU)-Zelenograd/Q4Y
-  type: vmess
-  server: v7.ssrsub.com
-  port: '168'
-  uuid: 92a95e6d-cf89-42ee-8110-66fab6871e2f
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /ssrsub
-  ws-headers:
-    Host: ''
-  tls: true
-- name: v6.ssrsub.com@加拿大(CA)-Old Toronto/y4v
-  type: vmess
-  server: v6.ssrsub.com
-  port: '168'
-  uuid: e54a480c-77e3-41ca-8f8b-17ffb50dbd08
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /ssrsub
-  ws-headers:
-    Host: ''
-  tls: true
-- name: vip345.xyz@美国(US)-堪薩斯城/X12
-  type: vmess
-  server: vip345.xyz
-  port: '33320'
-  uuid: bac18e70-9964-3f99-805a-d809c4bdc6cb
-  alterId: '2'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /ny
+  ws-path: /v2ray
   ws-headers:
     Host: ''
   tls: false
@@ -467,83 +356,77 @@ proxy-groups:
   proxies:
   - ♻️ 自动选择
   - 🎯 全球直连
-  - IObJqLZY
-  - Cbtagu1G
-  - vip345.xyz@美国(US)-堪薩斯城/SHt
-  - C7fVYgrX
-  - JMYSnRNr
-  - v1-aws-hk-06.niaoyun.online@香港(HK)-香港/E7l
-  - v1-aws-hk-06.niaoyun.online@香港(HK)-香港/ima
-  - cm-jm.okvpn.xyz@中国(CN)-深圳市/Kun
-  - v1-aws-hk-03.niaoyun.online@香港(HK)-香港/zGo
-  - v1-aws-hk-06.niaoyun.online@香港(HK)-香港/dAq
-  - b9gYUwe4
-  - vip345.xyz@美国(US)-堪薩斯城/rYJ
-  - uuuuss22.liuwei01.tk@美国(US)-紐華克/3sZ
-  - kr.52jjyun.top@韩国(KR)-首尔特别市/gMF
-  - v1-asw-sg-10.niaoyun.online@新加坡(SG)-新加坡/3t0
-  - v1-asw-sg-13.niaoyun.online@新加坡(SG)-新加坡/JxO
-  - sw.oracleusa.ml@美国(US)-芝加哥/pN7
-  - powerservice.com@美国(US)-紐華克/mCs
-  - 118.166.42.209@台湾(TW)-新北市/c8R
-  - G5mNYB4r
-  - de.52jjyun.top@德国(DE)-法兰克福/IuT
-  - yxnYZbJX
-  - de.52jjyun.top@德国(DE)-法兰克福/WTz
-  - vip345.xyz@美国(US)-堪薩斯城/fIh
-  - de.52jjyun.top@德国(DE)-法兰克福/Oaf
-  - usdsl.52jjyun.top@美国(US)-達拉斯/ksU
-  - ru.gfwglass.tk@美国(US)-紐華克/SvB
-  - de.52jjyun.top@德国(DE)-法兰克福/1Vj
-  - usdsl.52jjyun.top@美国(US)-達拉斯/wFg
-  - 1.transit.nph.qjnodeip.xyz@中国(CN)-上海浦东/wQU
-  - 107.150.94.14@土耳其(TR)-伊斯坦布尔/PbO
-  - vip345.xyz@美国(US)-堪薩斯城/Coi
-  - 107.150.94.14@土耳其(TR)-伊斯坦布尔/L8e
-  - v7.ssrsub.com@俄罗斯(RU)-Zelenograd/Q4Y
-  - v6.ssrsub.com@加拿大(CA)-Old Toronto/y4v
-  - vip345.xyz@美国(US)-堪薩斯城/X12
+  - 118.107.244.112@澳大利亚(AU)-悉尼/RGt
+  - jpa.sttlink.xyz@中国(CN)-深圳市/TsI
+  - kr2.futi.online@韩国(KR)-首尔特别市/Nan
+  - 118.107.244.112@澳大利亚(AU)-悉尼/Jjy
+  - 139.28.176.53@英国(GB)-曼彻斯特/xmG
+  - 915ru1.fans8.xyz@俄罗斯(RU)-莫斯科/pX6
+  - 138.199.40.172@美国(US)-纽约/fNg
+  - 176.227.241.22@哥斯达黎加(CR)-聖荷西/wuH
+  - inapus.mooncloud.bike@美国(US)-洛杉矶/WxJ
+  - ukml.52jjyun.top@新加坡(SG)-新加坡/XvP
+  - jpa.sttlink.xyz@中国(CN)-深圳市/E9F
+  - 715hk.fans8.xyz@香港(HK)-中環/XTi
+  - 930tg.fans8.xyz@菲律宾(PH)-马尼拉/lpx
+  - 1104jp.fans8.xyz@日本(JP)-Osaka/8hR
+  - ukml.52jjyun.top@新加坡(SG)-新加坡/0gR
+  - 138.199.42.134@美国(US)-芝加哥/fNk
+  - us1nhg-node.aiqiche123.com@美国(US)-洛杉矶/Iun
+  - kr3.futi.online@韩国(KR)-首尔特别市/gIR
+  - 23.106.248.19@美国(US)-亚特兰大/THx
+  - 172.67.69.244@美国(US)-紐華克/N1H
+  - in.52jjyun.top@新加坡(SG)-新加坡/kUK
+  - ukdll.52jjyun.top@新加坡(SG)-新加坡/lzO
+  - 209.58.181.251@新加坡(SG)-Singapore/nBu
+  - 198.147.22.87@美国(US)-奥兰多/WEu
+  - 84.17.58.162@意大利(IT)-Milan/4Qq
+  - 198.147.22.87@美国(US)-奥兰多/J5R
+  - 1023sg.fans8.xyz@新加坡(SG)-新加坡/zHq
+  - 138.199.42.170@美国(US)-芝加哥/cTN
+  - 138.199.42.134@美国(US)-芝加哥/2Tm
+  - 1030us.fans8.xyz@美国(US)-洛杉矶/b37
+  - api.ssfree.ru@美国(US)-紐華克/0bp
+  - 103.254.153.138@新加坡(SG)-新加坡/H6t
+  - 1031kr.fans8.xyz@韩国(KR)-首尔特别市/ux9
 - name: ♻️ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - IObJqLZY
-  - Cbtagu1G
-  - vip345.xyz@美国(US)-堪薩斯城/SHt
-  - C7fVYgrX
-  - JMYSnRNr
-  - v1-aws-hk-06.niaoyun.online@香港(HK)-香港/E7l
-  - v1-aws-hk-06.niaoyun.online@香港(HK)-香港/ima
-  - cm-jm.okvpn.xyz@中国(CN)-深圳市/Kun
-  - v1-aws-hk-03.niaoyun.online@香港(HK)-香港/zGo
-  - v1-aws-hk-06.niaoyun.online@香港(HK)-香港/dAq
-  - b9gYUwe4
-  - vip345.xyz@美国(US)-堪薩斯城/rYJ
-  - uuuuss22.liuwei01.tk@美国(US)-紐華克/3sZ
-  - kr.52jjyun.top@韩国(KR)-首尔特别市/gMF
-  - v1-asw-sg-10.niaoyun.online@新加坡(SG)-新加坡/3t0
-  - v1-asw-sg-13.niaoyun.online@新加坡(SG)-新加坡/JxO
-  - sw.oracleusa.ml@美国(US)-芝加哥/pN7
-  - powerservice.com@美国(US)-紐華克/mCs
-  - 118.166.42.209@台湾(TW)-新北市/c8R
-  - G5mNYB4r
-  - de.52jjyun.top@德国(DE)-法兰克福/IuT
-  - yxnYZbJX
-  - de.52jjyun.top@德国(DE)-法兰克福/WTz
-  - vip345.xyz@美国(US)-堪薩斯城/fIh
-  - de.52jjyun.top@德国(DE)-法兰克福/Oaf
-  - usdsl.52jjyun.top@美国(US)-達拉斯/ksU
-  - ru.gfwglass.tk@美国(US)-紐華克/SvB
-  - de.52jjyun.top@德国(DE)-法兰克福/1Vj
-  - usdsl.52jjyun.top@美国(US)-達拉斯/wFg
-  - 1.transit.nph.qjnodeip.xyz@中国(CN)-上海浦东/wQU
-  - 107.150.94.14@土耳其(TR)-伊斯坦布尔/PbO
-  - vip345.xyz@美国(US)-堪薩斯城/Coi
-  - 107.150.94.14@土耳其(TR)-伊斯坦布尔/L8e
-  - v7.ssrsub.com@俄罗斯(RU)-Zelenograd/Q4Y
-  - v6.ssrsub.com@加拿大(CA)-Old Toronto/y4v
-  - vip345.xyz@美国(US)-堪薩斯城/X12
+  - 118.107.244.112@澳大利亚(AU)-悉尼/RGt
+  - jpa.sttlink.xyz@中国(CN)-深圳市/TsI
+  - kr2.futi.online@韩国(KR)-首尔特别市/Nan
+  - 118.107.244.112@澳大利亚(AU)-悉尼/Jjy
+  - 139.28.176.53@英国(GB)-曼彻斯特/xmG
+  - 915ru1.fans8.xyz@俄罗斯(RU)-莫斯科/pX6
+  - 138.199.40.172@美国(US)-纽约/fNg
+  - 176.227.241.22@哥斯达黎加(CR)-聖荷西/wuH
+  - inapus.mooncloud.bike@美国(US)-洛杉矶/WxJ
+  - ukml.52jjyun.top@新加坡(SG)-新加坡/XvP
+  - jpa.sttlink.xyz@中国(CN)-深圳市/E9F
+  - 715hk.fans8.xyz@香港(HK)-中環/XTi
+  - 930tg.fans8.xyz@菲律宾(PH)-马尼拉/lpx
+  - 1104jp.fans8.xyz@日本(JP)-Osaka/8hR
+  - ukml.52jjyun.top@新加坡(SG)-新加坡/0gR
+  - 138.199.42.134@美国(US)-芝加哥/fNk
+  - us1nhg-node.aiqiche123.com@美国(US)-洛杉矶/Iun
+  - kr3.futi.online@韩国(KR)-首尔特别市/gIR
+  - 23.106.248.19@美国(US)-亚特兰大/THx
+  - 172.67.69.244@美国(US)-紐華克/N1H
+  - in.52jjyun.top@新加坡(SG)-新加坡/kUK
+  - ukdll.52jjyun.top@新加坡(SG)-新加坡/lzO
+  - 209.58.181.251@新加坡(SG)-Singapore/nBu
+  - 198.147.22.87@美国(US)-奥兰多/WEu
+  - 84.17.58.162@意大利(IT)-Milan/4Qq
+  - 198.147.22.87@美国(US)-奥兰多/J5R
+  - 1023sg.fans8.xyz@新加坡(SG)-新加坡/zHq
+  - 138.199.42.170@美国(US)-芝加哥/cTN
+  - 138.199.42.134@美国(US)-芝加哥/2Tm
+  - 1030us.fans8.xyz@美国(US)-洛杉矶/b37
+  - api.ssfree.ru@美国(US)-紐華克/0bp
+  - 103.254.153.138@新加坡(SG)-新加坡/H6t
+  - 1031kr.fans8.xyz@韩国(KR)-首尔特别市/ux9
 - name: 🌍 国外媒体
   type: select
   proxies:
