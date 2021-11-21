@@ -5,163 +5,264 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-- name: 5.vip341.xyz@香港(HK)-香港/Hx9
+- name: cm-jm.okvpn.xyz@中国(CN)-深圳市/UG5
   type: vmess
-  server: 5.vip341.xyz
-  port: '29999'
-  uuid: 892db7e4-1e1d-3e24-9f68-55df818e6aa1
+  server: cm-jm.okvpn.xyz
+  port: '20049'
+  uuid: 8aa86d85-aab3-46da-8fe9-406edd995a15
+  alterId: '1'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: cm-jm.okvpn.xyz
+  tls: false
+- name: uuuuss22.liuwei01.tk@美国(US)-紐華克/VxB
+  type: vmess
+  server: uuuuss22.liuwei01.tk
+  port: '443'
+  uuid: d7729364-2135-4af5-aa4f-e1f565a5c23e
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /liuwei
+  ws-headers:
+    Host: ''
+  tls: true
+- name: uuuuss22.liuwei01.tk@美国(US)-紐華克/Tpd
+  type: vmess
+  server: uuuuss22.liuwei01.tk
+  port: '443'
+  uuid: d7729364-2135-4af5-aa4f-e1f565a5c23e
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /liuwei
+  ws-headers:
+    Host: uuuuss22.liuwei01.tk
+  tls: true
+- name: cm-jm.okvpn.xyz@中国(CN)-深圳市/ocI
+  type: vmess
+  server: cm-jm.okvpn.xyz
+  port: '20004'
+  uuid: 8aa86d85-aab3-46da-8fe9-406edd995a15
+  alterId: '1'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: cm-jm.okvpn.xyz
+  tls: false
+- name: usaarm2.oracleusa.ml@美国(US)-紐華克/1c7
+  type: vmess
+  server: usaarm2.oracleusa.ml
+  port: '443'
+  uuid: 13e34585-8988-4808-9819-a9f6ed47e373
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /LXZKNTbTnI
+  ws-headers:
+    Host: usaarm2.oracleusa.ml
+  tls: true
+- name: 37.19.211.40@加拿大(CA)-多伦多/azQ
+  type: ss
+  server: 37.19.211.40
+  port: '37559'
+  password: Qbt22F6JsxzFGqcsK5SaR8q3
+  alterId: 2
+  cipher: aes-256-gcm
+- name: tk.shcn2.tkddns.xyz@香港(HK)-香港/dui
+  type: vmess
+  server: tk.shcn2.tkddns.xyz
+  port: '22642'
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
   alterId: '2'
   cipher: auto
   network: ws
   ucp: true
-  ws-path: /ny
+  ws-path: /
   ws-headers:
-    Host: ''
-  tls: false
-- name: 10.vip341.xyz@香港(HK)-香港/uEC
+    Host: zxjp-b.tkong.cc
+  tls: true
+- name: 37.19.211.43@加拿大(CA)-多伦多/4y6
+  type: ss
+  server: 37.19.211.43
+  port: '49202'
+  password: btzEYXKZxnR7g6H2vFTQK5TD
+  alterId: 2
+  cipher: aes-256-gcm
+- name: 37.19.211.120@加拿大(CA)-多伦多/9Vs
+  type: ss
+  server: 37.19.211.120
+  port: '45329'
+  password: CXSjgD7u7Ar7GxkZ4CgTMUsj
+  alterId: 2
+  cipher: aes-256-gcm
+- name: 37.19.211.138@加拿大(CA)-多伦多/Mcz
+  type: ss
+  server: 37.19.211.138
+  port: '40282'
+  password: Pvvaw486867D2w4yctL2ULTQ
+  alterId: 2
+  cipher: aes-256-gcm
+- name: cm-jm.okvpn.xyz@中国(CN)-深圳市/dOM
   type: vmess
-  server: 10.vip341.xyz
-  port: '80'
-  uuid: 892db7e4-1e1d-3e24-9f68-55df818e6aa1
-  alterId: '2'
+  server: cm-jm.okvpn.xyz
+  port: '20005'
+  uuid: 8aa86d85-aab3-46da-8fe9-406edd995a15
+  alterId: '1'
   cipher: auto
   network: ws
   ucp: true
-  ws-path: /ny
+  ws-path: /
   ws-headers:
-    Host: ''
+    Host: cm-jm.okvpn.xyz
   tls: false
-- name: zz.vip341.xyz@香港(HK)-香港/Gg1
+- name: 37.19.211.115@加拿大(CA)-多伦多/WVd
+  type: ss
+  server: 37.19.211.115
+  port: '41306'
+  password: pzB5Y2twNtqFzWhEbBsPJMjj
+  alterId: 2
+  cipher: aes-256-gcm
+- name: 37.19.211.63@加拿大(CA)-多伦多/gYL
+  type: ss
+  server: 37.19.211.63
+  port: '45291'
+  password: ecfJrNtBZwT748hxJ3ZyzZj2
+  alterId: 2
+  cipher: aes-256-gcm
+- name: 37.19.211.108@加拿大(CA)-多伦多/Y9O
+  type: ss
+  server: 37.19.211.108
+  port: '40093'
+  password: x23Z4LGkGDkThZ9Kaz4DURQp
+  alterId: 2
+  cipher: aes-256-gcm
+- name: 37.19.211.110@加拿大(CA)-多伦多/nAP
+  type: ss
+  server: 37.19.211.110
+  port: '49514'
+  password: dpGjA4GkzV28QPDYzEp94cTe
+  alterId: 2
+  cipher: aes-256-gcm
+- name: 37.19.211.83@加拿大(CA)-多伦多/7aY
+  type: ss
+  server: 37.19.211.83
+  port: '49719'
+  password: 42SjT9vBF6ma9eFF3URaJpQ4
+  alterId: 2
+  cipher: aes-256-gcm
+- name: 37.19.211.113@加拿大(CA)-多伦多/tei
+  type: ss
+  server: 37.19.211.113
+  port: '41738'
+  password: X6yMGXnfUsuKTvEDYZSLPk4d
+  alterId: 2
+  cipher: aes-256-gcm
+- name: 37.19.211.60@加拿大(CA)-多伦多/sgN
+  type: ss
+  server: 37.19.211.60
+  port: '44820'
+  password: jspgz9G3VmvBMCgMUWLBaZHu
+  alterId: 2
+  cipher: aes-256-gcm
+- name: 37.19.211.55@加拿大(CA)-多伦多/Ziw
+  type: ss
+  server: 37.19.211.55
+  port: '46412'
+  password: GEqk9WGyybeyXW97YEdanDYs
+  alterId: 2
+  cipher: aes-256-gcm
+- name: 138.199.42.142@美国(US)-芝加哥/YOj
+  type: ss
+  server: 138.199.42.142
+  port: '31757'
+  password: wj7nDCuNARchSeKNCN8VFK62
+  alterId: 2
+  cipher: aes-256-gcm
+- name: 37.19.211.85@加拿大(CA)-多伦多/Q58
+  type: ss
+  server: 37.19.211.85
+  port: '45746'
+  password: wEsFcHCvbL4eJkL4DZQa7RgR
+  alterId: 2
+  cipher: aes-256-gcm
+- name: 138.199.42.170@美国(US)-芝加哥/qg1
+  type: ss
+  server: 138.199.42.170
+  port: '50024'
+  password: b2jDPHUQxCNa2KmGHZjy7C4B
+  alterId: 2
+  cipher: aes-256-gcm
+- name: 185.76.8.218@斯洛伐克(SK)-布拉迪斯拉发/yVe
+  type: ss
+  server: 185.76.8.218
+  port: '50168'
+  password: WCuz7yrfZSCQQXSNrtGPz2HT
+  alterId: 2
+  cipher: aes-256-gcm
+- name: usaarm2.oracleusa.ml@美国(US)-紐華克/zNB
   type: vmess
-  server: zz.vip341.xyz
-  port: '40224'
-  uuid: 892db7e4-1e1d-3e24-9f68-55df818e6aa1
-  alterId: '2'
+  server: usaarm2.oracleusa.ml
+  port: '443'
+  uuid: 13e34585-8988-4808-9819-a9f6ed47e373
+  alterId: '0'
   cipher: auto
   network: ws
   ucp: true
-  ws-path: /ny
+  ws-path: /LXZKNTbTnI
   ws-headers:
     Host: ''
-  tls: false
-- name: 2.vip341.xyz@香港(HK)-香港/zb9
+  tls: true
+- name: 82.102.16.102@德国(DE)-法兰克福/1M5
+  type: ss
+  server: 82.102.16.102
+  port: '47553'
+  password: t2JnnFqjDMmzWurseJPgBsYY
+  alterId: 2
+  cipher: aes-256-gcm
+- name: 89.46.223.239@荷兰(NL)-哈勒姆/Umu
+  type: ss
+  server: 89.46.223.239
+  port: '35200'
+  password: WBLAbN6AwtV5avBx73hFRLB3
+  alterId: 2
+  cipher: aes-256-gcm
+- name: 138.199.42.142@美国(US)-芝加哥/mhK
+  type: ss
+  server: 138.199.42.142
+  port: '41372'
+  password: 5kGAhC3AmVC35GbruHjSrZf2
+  alterId: 2
+  cipher: aes-256-gcm
+- name: 66.42.105.136@美国(US)-洛杉矶/ayI
   type: vmess
-  server: 2.vip341.xyz
-  port: '80'
-  uuid: 892db7e4-1e1d-3e24-9f68-55df818e6aa1
-  alterId: '2'
+  server: 66.42.105.136
+  port: '2907'
+  uuid: a4dbb36c-4a04-11ec-a8eb-560003b123dd
+  alterId: '0'
   cipher: auto
   network: ws
   ucp: true
-  ws-path: /ny
+  ws-path: /YAKv1Hu8/
   ws-headers:
     Host: ''
   tls: false
-- name: 3.vip341.xyz@香港(HK)-香港/vMH
-  type: vmess
-  server: 3.vip341.xyz
-  port: '80'
-  uuid: 892db7e4-1e1d-3e24-9f68-55df818e6aa1
-  alterId: '2'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /ny
-  ws-headers:
-    Host: ''
-  tls: false
-- name: 7.vip341.xyz@香港(HK)-香港/zTI
-  type: vmess
-  server: 7.vip341.xyz
-  port: '80'
-  uuid: 892db7e4-1e1d-3e24-9f68-55df818e6aa1
-  alterId: '2'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /ny
-  ws-headers:
-    Host: ''
-  tls: false
-- name: 1.vip341.xyz@香港(HK)-香港/VyU
-  type: vmess
-  server: 1.vip341.xyz
-  port: '32580'
-  uuid: 892db7e4-1e1d-3e24-9f68-55df818e6aa1
-  alterId: '2'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /ny
-  ws-headers:
-    Host: ''
-  tls: false
-- name: 6.vip341.xyz@香港(HK)-香港/A0c
-  type: vmess
-  server: 6.vip341.xyz
-  port: '81'
-  uuid: 892db7e4-1e1d-3e24-9f68-55df818e6aa1
-  alterId: '2'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /ny
-  ws-headers:
-    Host: ''
-  tls: false
-- name: 8.vip341.xyz@香港(HK)-香港/mhR
-  type: vmess
-  server: 8.vip341.xyz
-  port: '80'
-  uuid: 892db7e4-1e1d-3e24-9f68-55df818e6aa1
-  alterId: '2'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /ny
-  ws-headers:
-    Host: ''
-  tls: false
-- name: 4.vip341.xyz@香港(HK)-香港/Duq
-  type: vmess
-  server: 4.vip341.xyz
-  port: '81'
-  uuid: 892db7e4-1e1d-3e24-9f68-55df818e6aa1
-  alterId: '2'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /ny
-  ws-headers:
-    Host: ''
-  tls: false
-- name: 5.vip341.xyz@香港(HK)-香港/iEy
-  type: vmess
-  server: 5.vip341.xyz
-  port: '80'
-  uuid: 892db7e4-1e1d-3e24-9f68-55df818e6aa1
-  alterId: '2'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /ny
-  ws-headers:
-    Host: ''
-  tls: false
-- name: zz.vip341.xyz@香港(HK)-香港/eKM
-  type: vmess
-  server: zz.vip341.xyz
-  port: '35899'
-  uuid: 892db7e4-1e1d-3e24-9f68-55df818e6aa1
-  alterId: '2'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /ny
-  ws-headers:
-    Host: ''
-  tls: false
-- name: 172.67.69.244@美国(US)-紐華克/yPH
+- name: 82.102.26.117@意大利(IT)-罗马市/1Yb
+  type: ss
+  server: 82.102.26.117
+  port: '33992'
+  password: 8n6pwAcrrv2pj6tFY2p3TbQ6
+  alterId: 2
+  cipher: aes-256-gcm
+- name: 172.67.69.244@美国(US)-紐華克/oQp
   type: vmess
   server: 172.67.69.244
   port: '443'
@@ -174,106 +275,136 @@ proxies:
   ws-headers:
     Host: ru1.v2rayserv.com
   tls: true
-- name: 37.19.211.79@加拿大(CA)-多伦多/gta
+- name: 37.19.211.115@加拿大(CA)-多伦多/zNo
   type: ss
-  server: 37.19.211.79
-  port: '50168'
-  password: WCuz7yrfZSCQQXSNrtGPz2HT
+  server: 37.19.211.115
+  port: '37473'
+  password: enctdKyJfSu76VqznKwTt6Ap
   alterId: 2
   cipher: aes-256-gcm
-- name: 176.227.241.22@哥斯达黎加(CR)-聖荷西/eQl
+- name: 37.19.211.113@加拿大(CA)-多伦多/G7K
   type: ss
-  server: 176.227.241.22
-  port: '33992'
-  password: 8n6pwAcrrv2pj6tFY2p3TbQ6
+  server: 37.19.211.113
+  port: '31216'
+  password: wJwXatAGZ8xX5K8C7mruf84x
   alterId: 2
   cipher: aes-256-gcm
-- name: sw.gfwglass.tk@美国(US)-芝加哥/4sk
+- name: 37.19.211.120@加拿大(CA)-多伦多/2ej
+  type: ss
+  server: 37.19.211.120
+  port: '33998'
+  password: NHwQTPLCfaTMSqTnU3mjcSxe
+  alterId: 2
+  cipher: aes-256-gcm
+- name: jpa.sttlink.xyz@中国(CN)-深圳市/t9B
   type: vmess
-  server: sw.gfwglass.tk
-  port: '443'
-  uuid: ecf3cf5e-8cb2-43c4-bc4c-1e946f7b87ec
-  alterId: '0'
+  server: jpa.sttlink.xyz
+  port: '20189'
+  uuid: ab60166b-d22d-3ae5-963f-e5867007ff08
+  alterId: '2'
   cipher: auto
   network: ws
   ucp: true
-  ws-path: /d7KnHN
-  ws-headers:
-    Host: ''
-  tls: true
-- name: 149.248.11.253@美国(US)-洛杉矶/qnC
-  type: vmess
-  server: 149.248.11.253
-  port: '44963'
-  uuid: 51a34956-4867-11ec-abf9-560003b0214a
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /lnPFjTta/
+  ws-path: /ka
   ws-headers:
     Host: ''
   tls: false
-- name: t7.ssrsub.com@加拿大(CA)-多伦多/dHf
+- name: 37.19.211.115@加拿大(CA)-多伦多/kaW
+  type: ss
+  server: 37.19.211.115
+  port: '37559'
+  password: Qbt22F6JsxzFGqcsK5SaR8q3
+  alterId: 2
+  cipher: aes-256-gcm
+- name: 37.19.211.40@加拿大(CA)-多伦多/bom
+  type: ss
+  server: 37.19.211.40
+  port: '41992'
+  password: XmQSxDCn5ehpcq6DBYms8FJf
+  alterId: 2
+  cipher: aes-256-gcm
+- name: 37.19.211.60@加拿大(CA)-多伦多/r0M
+  type: ss
+  server: 37.19.211.60
+  port: '45329'
+  password: CXSjgD7u7Ar7GxkZ4CgTMUsj
+  alterId: 2
+  cipher: aes-256-gcm
+- name: 37.19.211.88@加拿大(CA)-多伦多/s3H
+  type: ss
+  server: 37.19.211.88
+  port: '40711'
+  password: rnngxSTJrXWKXHkvrF3npp9B
+  alterId: 2
+  cipher: aes-256-gcm
+- name: 209.58.181.251@新加坡(SG)-Singapore/PfH
+  type: ss
+  server: 209.58.181.251
+  port: '18334'
+  password: Z3eC0KxS8ICjgp2N6OZ94x3DaXwyTRzaSqApFlF5cD3Y73luCYyn8eERDSAaOB
+  alterId: 2
+  cipher: chacha20-ietf-poly1305
+- name: 37.19.211.75@加拿大(CA)-多伦多/skR
+  type: ss
+  server: 37.19.211.75
+  port: '49653'
+  password: Y9GcTPemHMKEkrfGQPJqFDNr
+  alterId: 2
+  cipher: aes-256-gcm
+- name: 37.19.211.83@加拿大(CA)-多伦多/3Xk
+  type: ss
+  server: 37.19.211.83
+  port: '48089'
+  password: apqQgXJyVDsdJMAYV4xspRFK
+  alterId: 2
+  cipher: aes-256-gcm
+- name: 37.19.211.60@加拿大(CA)-多伦多/Y6o
+  type: ss
+  server: 37.19.211.60
+  port: '45948'
+  password: j76EXqJcQhuQTr3EvUf7xaK9
+  alterId: 2
+  cipher: aes-256-gcm
+- name: 37.19.211.120@加拿大(CA)-多伦多/oG8
+  type: ss
+  server: 37.19.211.120
+  port: '34687'
+  password: txmK9WhwP6WPhP7hqSBLVxpN
+  alterId: 2
+  cipher: aes-256-gcm
+- name: t8.ssrsub.com@美国(US)-洛杉矶/HVG
   type: trojan
-  server: t7.ssrsub.com
+  server: t8.ssrsub.com
   password: 0d0a53dd-6a0f-47ac-8d0c-6eca674926b2
   port: 11033
-- name: zz.vip341.xyz@香港(HK)-香港/xJB
+- name: cm-jm.okvpn.xyz@中国(CN)-深圳市/Od8
   type: vmess
-  server: zz.vip341.xyz
-  port: '33320'
-  uuid: 892db7e4-1e1d-3e24-9f68-55df818e6aa1
-  alterId: '2'
+  server: cm-jm.okvpn.xyz
+  port: '20047'
+  uuid: 8aa86d85-aab3-46da-8fe9-406edd995a15
+  alterId: '1'
   cipher: auto
   network: ws
   ucp: true
-  ws-path: /ny
+  ws-path: /
   ws-headers:
-    Host: ''
+    Host: cm-jm.okvpn.xyz
   tls: false
-- name: 89.46.223.239@荷兰(NL)-哈勒姆/O9X
+- name: IoR0xydN
   type: ss
-  server: 89.46.223.239
-  port: '44628'
-  password: VASQbVcukHfdBGmeS9L7Z8TT
+  server: 37.19.211.108
+  port: '40282'
+  password: Pvvaw486867D2w4yctL2ULTQ
   alterId: 2
   cipher: aes-256-gcm
-- name: 82.102.26.117@意大利(IT)-罗马市/R49
+- name: KEjnrV6D
   type: ss
-  server: 82.102.26.117
-  port: '44236'
-  password: FWrXcxPZjJxAN89xLgqY3Acp
+  server: 37.19.211.40
+  port: '35200'
+  password: WBLAbN6AwtV5avBx73hFRLB3
   alterId: 2
   cipher: aes-256-gcm
-- name: 185.76.8.218@斯洛伐克(SK)-布拉迪斯拉发/94Z
-  type: ss
-  server: 185.76.8.218
-  port: '41676'
-  password: z6pH3RyttkRWhJ5tpRyt6dYk
-  alterId: 2
-  cipher: aes-256-gcm
-- name: zz.vip341.xyz@香港(HK)-香港/RvV
-  type: vmess
-  server: zz.vip341.xyz
-  port: '40071'
-  uuid: 892db7e4-1e1d-3e24-9f68-55df818e6aa1
-  alterId: '2'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /ny
-  ws-headers:
-    Host: ''
-  tls: false
-- name: 138.199.42.170@美国(US)-芝加哥/7TA
-  type: ss
-  server: 138.199.42.170
-  port: '49396'
-  password: BdRWC38L5JUDMTYNNxJGcUwB
-  alterId: 2
-  cipher: aes-256-gcm
-- name: v1.babazhuji.com@美国(US)-紐華克/aDR
+- name: 3Kw8mihT
   type: vmess
   server: v1.babazhuji.com
   port: '443'
@@ -286,187 +417,131 @@ proxies:
   ws-headers:
     Host: ''
   tls: true
-- name: 89.46.223.239@荷兰(NL)-哈勒姆/abt
+- name: OghPGlVY
   type: ss
-  server: 89.46.223.239
-  port: '35200'
-  password: WBLAbN6AwtV5avBx73hFRLB3
+  server: 37.19.211.75
+  port: '41676'
+  password: z6pH3RyttkRWhJ5tpRyt6dYk
   alterId: 2
   cipher: aes-256-gcm
-- name: 185.76.8.218@斯洛伐克(SK)-布拉迪斯拉发/A5S
+- name: TfKM5ud2
   type: ss
-  server: 185.76.8.218
-  port: '45329'
-  password: CXSjgD7u7Ar7GxkZ4CgTMUsj
+  server: 37.19.211.115
+  port: '40093'
+  password: x23Z4LGkGDkThZ9Kaz4DURQp
   alterId: 2
   cipher: aes-256-gcm
-- name: 138.199.42.170@美国(US)-芝加哥/wfI
-  type: ss
-  server: 138.199.42.170
-  port: '44236'
-  password: FWrXcxPZjJxAN89xLgqY3Acp
-  alterId: 2
-  cipher: aes-256-gcm
-- name: 185.76.8.218@斯洛伐克(SK)-布拉迪斯拉发/bo4
-  type: ss
-  server: 185.76.8.218
-  port: '47121'
-  password: CTK8GXFQgKYQErrghPJfZ6tk
-  alterId: 2
-  cipher: aes-256-gcm
-- name: 103.108.117.148@印度(IN)-Chennai/syS
-  type: ss
-  server: 103.108.117.148
-  port: '48794'
-  password: r9Q3adc3ru9sfBDPEj4yp6U6
-  alterId: 2
-  cipher: aes-256-gcm
-- name: 23.106.248.19@美国(US)-亚特兰大/80F
-  type: ss
-  server: 23.106.248.19
-  port: '18334'
-  password: ZDYSyKNR8upjg9l36eR3ZySAaaEcOY2CaI0zp5xnX4733eSwqxCFlOTD8BCDFA
-  alterId: 2
-  cipher: chacha20-ietf-poly1305
-- name: 185.76.8.218@斯洛伐克(SK)-布拉迪斯拉发/GFT
-  type: ss
-  server: 185.76.8.218
-  port: '41738'
-  password: X6yMGXnfUsuKTvEDYZSLPk4d
-  alterId: 2
-  cipher: aes-256-gcm
-- name: cs.mlsao.dynv6.net@中国(CN)-长沙/fGe
-  type: vmess
-  server: cs.mlsao.dynv6.net
-  port: '80'
-  uuid: e55ea4af-abf0-4d9c-b306-a6a9579c5895
-  alterId: '1'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /mg3
-  ws-headers:
-    Host: gd.189.cn
-  tls: false
-- name: 185.76.8.218@斯洛伐克(SK)-布拉迪斯拉发/bZI
-  type: ss
-  server: 185.76.8.218
-  port: '49514'
-  password: dpGjA4GkzV28QPDYzEp94cTe
-  alterId: 2
-  cipher: aes-256-gcm
-- name: 138.199.42.170@美国(US)-芝加哥/1lT
-  type: ss
-  server: 138.199.42.170
-  port: '40711'
-  password: rnngxSTJrXWKXHkvrF3npp9B
-  alterId: 2
-  cipher: aes-256-gcm
-- name: 138.199.42.134@美国(US)-芝加哥/f7v
-  type: ss
-  server: 138.199.42.134
-  port: '49653'
-  password: Y9GcTPemHMKEkrfGQPJqFDNr
-  alterId: 2
-  cipher: aes-256-gcm
-- name: api.ssfree.ru@美国(US)-芝加哥/NBc
-  type: vmess
-  server: api.ssfree.ru
-  port: '443'
-  uuid: 55e8ba8c-49b6-11ec-a0f2-000017022008
-  alterId: '64'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /getweather
-  ws-headers:
-    Host: ''
-  tls: true
 proxy-groups:
 - name: 🔰 节点选择
   type: select
   proxies:
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 5.vip341.xyz@香港(HK)-香港/Hx9
-  - 10.vip341.xyz@香港(HK)-香港/uEC
-  - zz.vip341.xyz@香港(HK)-香港/Gg1
-  - 2.vip341.xyz@香港(HK)-香港/zb9
-  - 3.vip341.xyz@香港(HK)-香港/vMH
-  - 7.vip341.xyz@香港(HK)-香港/zTI
-  - 1.vip341.xyz@香港(HK)-香港/VyU
-  - 6.vip341.xyz@香港(HK)-香港/A0c
-  - 8.vip341.xyz@香港(HK)-香港/mhR
-  - 4.vip341.xyz@香港(HK)-香港/Duq
-  - 5.vip341.xyz@香港(HK)-香港/iEy
-  - zz.vip341.xyz@香港(HK)-香港/eKM
-  - 172.67.69.244@美国(US)-紐華克/yPH
-  - 37.19.211.79@加拿大(CA)-多伦多/gta
-  - 176.227.241.22@哥斯达黎加(CR)-聖荷西/eQl
-  - sw.gfwglass.tk@美国(US)-芝加哥/4sk
-  - 149.248.11.253@美国(US)-洛杉矶/qnC
-  - t7.ssrsub.com@加拿大(CA)-多伦多/dHf
-  - zz.vip341.xyz@香港(HK)-香港/xJB
-  - 89.46.223.239@荷兰(NL)-哈勒姆/O9X
-  - 82.102.26.117@意大利(IT)-罗马市/R49
-  - 185.76.8.218@斯洛伐克(SK)-布拉迪斯拉发/94Z
-  - zz.vip341.xyz@香港(HK)-香港/RvV
-  - 138.199.42.170@美国(US)-芝加哥/7TA
-  - v1.babazhuji.com@美国(US)-紐華克/aDR
-  - 89.46.223.239@荷兰(NL)-哈勒姆/abt
-  - 185.76.8.218@斯洛伐克(SK)-布拉迪斯拉发/A5S
-  - 138.199.42.170@美国(US)-芝加哥/wfI
-  - 185.76.8.218@斯洛伐克(SK)-布拉迪斯拉发/bo4
-  - 103.108.117.148@印度(IN)-Chennai/syS
-  - 23.106.248.19@美国(US)-亚特兰大/80F
-  - 185.76.8.218@斯洛伐克(SK)-布拉迪斯拉发/GFT
-  - cs.mlsao.dynv6.net@中国(CN)-长沙/fGe
-  - 185.76.8.218@斯洛伐克(SK)-布拉迪斯拉发/bZI
-  - 138.199.42.170@美国(US)-芝加哥/1lT
-  - 138.199.42.134@美国(US)-芝加哥/f7v
-  - api.ssfree.ru@美国(US)-芝加哥/NBc
+  - cm-jm.okvpn.xyz@中国(CN)-深圳市/UG5
+  - uuuuss22.liuwei01.tk@美国(US)-紐華克/VxB
+  - uuuuss22.liuwei01.tk@美国(US)-紐華克/Tpd
+  - cm-jm.okvpn.xyz@中国(CN)-深圳市/ocI
+  - usaarm2.oracleusa.ml@美国(US)-紐華克/1c7
+  - 37.19.211.40@加拿大(CA)-多伦多/azQ
+  - tk.shcn2.tkddns.xyz@香港(HK)-香港/dui
+  - 37.19.211.43@加拿大(CA)-多伦多/4y6
+  - 37.19.211.120@加拿大(CA)-多伦多/9Vs
+  - 37.19.211.138@加拿大(CA)-多伦多/Mcz
+  - cm-jm.okvpn.xyz@中国(CN)-深圳市/dOM
+  - 37.19.211.115@加拿大(CA)-多伦多/WVd
+  - 37.19.211.63@加拿大(CA)-多伦多/gYL
+  - 37.19.211.108@加拿大(CA)-多伦多/Y9O
+  - 37.19.211.110@加拿大(CA)-多伦多/nAP
+  - 37.19.211.83@加拿大(CA)-多伦多/7aY
+  - 37.19.211.113@加拿大(CA)-多伦多/tei
+  - 37.19.211.60@加拿大(CA)-多伦多/sgN
+  - 37.19.211.55@加拿大(CA)-多伦多/Ziw
+  - 138.199.42.142@美国(US)-芝加哥/YOj
+  - 37.19.211.85@加拿大(CA)-多伦多/Q58
+  - 138.199.42.170@美国(US)-芝加哥/qg1
+  - 185.76.8.218@斯洛伐克(SK)-布拉迪斯拉发/yVe
+  - usaarm2.oracleusa.ml@美国(US)-紐華克/zNB
+  - 82.102.16.102@德国(DE)-法兰克福/1M5
+  - 89.46.223.239@荷兰(NL)-哈勒姆/Umu
+  - 138.199.42.142@美国(US)-芝加哥/mhK
+  - 66.42.105.136@美国(US)-洛杉矶/ayI
+  - 82.102.26.117@意大利(IT)-罗马市/1Yb
+  - 172.67.69.244@美国(US)-紐華克/oQp
+  - 37.19.211.115@加拿大(CA)-多伦多/zNo
+  - 37.19.211.113@加拿大(CA)-多伦多/G7K
+  - 37.19.211.120@加拿大(CA)-多伦多/2ej
+  - jpa.sttlink.xyz@中国(CN)-深圳市/t9B
+  - 37.19.211.115@加拿大(CA)-多伦多/kaW
+  - 37.19.211.40@加拿大(CA)-多伦多/bom
+  - 37.19.211.60@加拿大(CA)-多伦多/r0M
+  - 37.19.211.88@加拿大(CA)-多伦多/s3H
+  - 209.58.181.251@新加坡(SG)-Singapore/PfH
+  - 37.19.211.75@加拿大(CA)-多伦多/skR
+  - 37.19.211.83@加拿大(CA)-多伦多/3Xk
+  - 37.19.211.60@加拿大(CA)-多伦多/Y6o
+  - 37.19.211.120@加拿大(CA)-多伦多/oG8
+  - t8.ssrsub.com@美国(US)-洛杉矶/HVG
+  - cm-jm.okvpn.xyz@中国(CN)-深圳市/Od8
+  - IoR0xydN
+  - KEjnrV6D
+  - 3Kw8mihT
+  - OghPGlVY
+  - TfKM5ud2
 - name: ♻️ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 5.vip341.xyz@香港(HK)-香港/Hx9
-  - 10.vip341.xyz@香港(HK)-香港/uEC
-  - zz.vip341.xyz@香港(HK)-香港/Gg1
-  - 2.vip341.xyz@香港(HK)-香港/zb9
-  - 3.vip341.xyz@香港(HK)-香港/vMH
-  - 7.vip341.xyz@香港(HK)-香港/zTI
-  - 1.vip341.xyz@香港(HK)-香港/VyU
-  - 6.vip341.xyz@香港(HK)-香港/A0c
-  - 8.vip341.xyz@香港(HK)-香港/mhR
-  - 4.vip341.xyz@香港(HK)-香港/Duq
-  - 5.vip341.xyz@香港(HK)-香港/iEy
-  - zz.vip341.xyz@香港(HK)-香港/eKM
-  - 172.67.69.244@美国(US)-紐華克/yPH
-  - 37.19.211.79@加拿大(CA)-多伦多/gta
-  - 176.227.241.22@哥斯达黎加(CR)-聖荷西/eQl
-  - sw.gfwglass.tk@美国(US)-芝加哥/4sk
-  - 149.248.11.253@美国(US)-洛杉矶/qnC
-  - t7.ssrsub.com@加拿大(CA)-多伦多/dHf
-  - zz.vip341.xyz@香港(HK)-香港/xJB
-  - 89.46.223.239@荷兰(NL)-哈勒姆/O9X
-  - 82.102.26.117@意大利(IT)-罗马市/R49
-  - 185.76.8.218@斯洛伐克(SK)-布拉迪斯拉发/94Z
-  - zz.vip341.xyz@香港(HK)-香港/RvV
-  - 138.199.42.170@美国(US)-芝加哥/7TA
-  - v1.babazhuji.com@美国(US)-紐華克/aDR
-  - 89.46.223.239@荷兰(NL)-哈勒姆/abt
-  - 185.76.8.218@斯洛伐克(SK)-布拉迪斯拉发/A5S
-  - 138.199.42.170@美国(US)-芝加哥/wfI
-  - 185.76.8.218@斯洛伐克(SK)-布拉迪斯拉发/bo4
-  - 103.108.117.148@印度(IN)-Chennai/syS
-  - 23.106.248.19@美国(US)-亚特兰大/80F
-  - 185.76.8.218@斯洛伐克(SK)-布拉迪斯拉发/GFT
-  - cs.mlsao.dynv6.net@中国(CN)-长沙/fGe
-  - 185.76.8.218@斯洛伐克(SK)-布拉迪斯拉发/bZI
-  - 138.199.42.170@美国(US)-芝加哥/1lT
-  - 138.199.42.134@美国(US)-芝加哥/f7v
-  - api.ssfree.ru@美国(US)-芝加哥/NBc
+  - cm-jm.okvpn.xyz@中国(CN)-深圳市/UG5
+  - uuuuss22.liuwei01.tk@美国(US)-紐華克/VxB
+  - uuuuss22.liuwei01.tk@美国(US)-紐華克/Tpd
+  - cm-jm.okvpn.xyz@中国(CN)-深圳市/ocI
+  - usaarm2.oracleusa.ml@美国(US)-紐華克/1c7
+  - 37.19.211.40@加拿大(CA)-多伦多/azQ
+  - tk.shcn2.tkddns.xyz@香港(HK)-香港/dui
+  - 37.19.211.43@加拿大(CA)-多伦多/4y6
+  - 37.19.211.120@加拿大(CA)-多伦多/9Vs
+  - 37.19.211.138@加拿大(CA)-多伦多/Mcz
+  - cm-jm.okvpn.xyz@中国(CN)-深圳市/dOM
+  - 37.19.211.115@加拿大(CA)-多伦多/WVd
+  - 37.19.211.63@加拿大(CA)-多伦多/gYL
+  - 37.19.211.108@加拿大(CA)-多伦多/Y9O
+  - 37.19.211.110@加拿大(CA)-多伦多/nAP
+  - 37.19.211.83@加拿大(CA)-多伦多/7aY
+  - 37.19.211.113@加拿大(CA)-多伦多/tei
+  - 37.19.211.60@加拿大(CA)-多伦多/sgN
+  - 37.19.211.55@加拿大(CA)-多伦多/Ziw
+  - 138.199.42.142@美国(US)-芝加哥/YOj
+  - 37.19.211.85@加拿大(CA)-多伦多/Q58
+  - 138.199.42.170@美国(US)-芝加哥/qg1
+  - 185.76.8.218@斯洛伐克(SK)-布拉迪斯拉发/yVe
+  - usaarm2.oracleusa.ml@美国(US)-紐華克/zNB
+  - 82.102.16.102@德国(DE)-法兰克福/1M5
+  - 89.46.223.239@荷兰(NL)-哈勒姆/Umu
+  - 138.199.42.142@美国(US)-芝加哥/mhK
+  - 66.42.105.136@美国(US)-洛杉矶/ayI
+  - 82.102.26.117@意大利(IT)-罗马市/1Yb
+  - 172.67.69.244@美国(US)-紐華克/oQp
+  - 37.19.211.115@加拿大(CA)-多伦多/zNo
+  - 37.19.211.113@加拿大(CA)-多伦多/G7K
+  - 37.19.211.120@加拿大(CA)-多伦多/2ej
+  - jpa.sttlink.xyz@中国(CN)-深圳市/t9B
+  - 37.19.211.115@加拿大(CA)-多伦多/kaW
+  - 37.19.211.40@加拿大(CA)-多伦多/bom
+  - 37.19.211.60@加拿大(CA)-多伦多/r0M
+  - 37.19.211.88@加拿大(CA)-多伦多/s3H
+  - 209.58.181.251@新加坡(SG)-Singapore/PfH
+  - 37.19.211.75@加拿大(CA)-多伦多/skR
+  - 37.19.211.83@加拿大(CA)-多伦多/3Xk
+  - 37.19.211.60@加拿大(CA)-多伦多/Y6o
+  - 37.19.211.120@加拿大(CA)-多伦多/oG8
+  - t8.ssrsub.com@美国(US)-洛杉矶/HVG
+  - cm-jm.okvpn.xyz@中国(CN)-深圳市/Od8
+  - IoR0xydN
+  - KEjnrV6D
+  - 3Kw8mihT
+  - OghPGlVY
+  - TfKM5ud2
 - name: 🌍 国外媒体
   type: select
   proxies:
