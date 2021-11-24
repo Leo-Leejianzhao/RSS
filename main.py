@@ -1,7 +1,7 @@
 '''
 Author: Leo Lee (leejianzhao@gmail.com)
 Date: 2021-07-18 16:34:45
-LastEditTime: 2021-10-17 11:13:20
+LastEditTime: 2021-11-24 21:16:51
 FilePath: \RSS\main.py
 Description:
 '''
@@ -111,7 +111,7 @@ def IP2name(ip):
         return f"{ip}@{res['country']}({res['countryCode']})-{res['city']}/"+''.join(random.sample(string.ascii_letters + string.digits, 3))
     except Exception as e:
         log('IP2name: '+ip+': '+e.__str__())
-        return ''.join(random.sample(string.ascii_letters + string.digits, 8))
+        return ip+''.join(random.sample(string.ascii_letters + string.digits, 8))
 
 # https://github.com/p4gefau1t/trojan-go/issues/132
 # trojan-go://
@@ -219,8 +219,13 @@ def protocol_decode(proxy_str):
 def load_subscribe_url(url):
     if not url: return []
     log('begin load_subscribe_url: '+url)
-    v2rayTxt = requests.request("GET", url, verify=False)
-    return base64.b64decode(v2rayTxt.text+'==').decode('utf-8').splitlines()
+    try:
+        v2rayTxt = requests.request("GET", url, verify=False)
+        return base64.b64decode(v2rayTxt.text+'==').decode('utf-8').splitlines()
+    except Exception as e:
+        log('load_subscribe_url: '+url+': '+e.__str__())
+        return []
+
 
 def load_subscribe(file):
     with open(file, 'rb') as f:
@@ -268,7 +273,7 @@ if __name__ == '__main__':
     proxies.extend(load_subscribe_url('https://youlianboshi.netlify.com'))
     proxies.extend(load_subscribe_url('https://fforever.github.io/v2rayfree'))
     proxies.extend(load_subscribe_url('https://muma16fx.netlify.app'))
-    proxies.extend(load_subscribe_url('https://cdn.jsdelivr.net/gh/fggfffgbg/https-aishangyou.tube-@master/README.md'))
+    # proxies.extend(load_subscribe_url('https://cdn.jsdelivr.net/gh/fggfffgbg/https-aishangyou.tube-@master/README.md'))
     proxies.extend(load_subscribe_url('https://freev2ray.netlify.app/'))
     proxies.extend(load_subscribe_url('https://raw.githubusercontent.com/eycorsican/rule-sets/master/kitsunebi_sub'))
     proxies.extend(load_subscribe_url('https://sspool.herokuapp.com/vmess/sub'))
