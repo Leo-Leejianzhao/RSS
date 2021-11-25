@@ -1,7 +1,7 @@
 '''
 Author: Leo Lee (leejianzhao@gmail.com)
 Date: 2021-07-18 16:34:45
-LastEditTime: 2021-11-25 23:04:47
+LastEditTime: 2021-11-25 23:42:05
 FilePath: \RSS\main.py
 Description:
 '''
@@ -138,29 +138,30 @@ def protocol_decode(proxy_str):
     # url = urllib.parse.urlparse(proxy_str)
     proxy_str_split=proxy_str.split('://')
     if proxy_str_split[0] == 'trojan':
-        try:
-            tmp=urllib.parse.urlparse(proxy_str)
-            server=tmp.hostname
-            port=tmp.port
-            password=tmp.username
-            # password, addr_port = proxy_str_split[1].split('@')
-            # password = urllib.parse.unquote(password)
-            # addr, port = addr_port.rsplit(':', 1)
-            # if addr[0] == '[':
-            #     addr = addr[1:-1]
-            # port = int(port)
-            proxy={
-                # "name"      :   ''.join(random.sample(string.ascii_letters + string.digits, 8)), #urllib.parse.unquote(url.fragment),
-                "name"      :   IP2name(server),
-                "type"      :   "trojan",
-                "server"    :   server,
-                "password"  :   password,
-                "port"      :   port,
-                # "sni"       :   server
-            }
-        except Exception as e:
-            log('Invalid trojan URL:'+proxy_str)
-            log(e.__str__())
+        pass
+        # try:
+        #     tmp=urllib.parse.urlparse(proxy_str)
+        #     server=tmp.hostname
+        #     port=tmp.port
+        #     password=tmp.username
+        #     # password, addr_port = proxy_str_split[1].split('@')
+        #     # password = urllib.parse.unquote(password)
+        #     # addr, port = addr_port.rsplit(':', 1)
+        #     # if addr[0] == '[':
+        #     #     addr = addr[1:-1]
+        #     # port = int(port)
+        #     proxy={
+        #         # "name"      :   ''.join(random.sample(string.ascii_letters + string.digits, 8)), #urllib.parse.unquote(url.fragment),
+        #         "name"      :   IP2name(server),
+        #         "type"      :   "trojan",
+        #         "server"    :   server,
+        #         "password"  :   password,
+        #         "port"      :   port,
+        #         # "sni"       :   server
+        #     }
+        # except Exception as e:
+        #     log('Invalid trojan URL:'+proxy_str)
+        #     log(e.__str__())
     elif proxy_str_split[0] == 'vmess':
         try:
             tmp=json.loads(base64.b64decode(proxy_str_split[1]+'=='))
