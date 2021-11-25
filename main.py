@@ -1,7 +1,7 @@
 '''
 Author: Leo Lee (leejianzhao@gmail.com)
 Date: 2021-07-18 16:34:45
-LastEditTime: 2021-11-24 21:16:51
+LastEditTime: 2021-11-25 23:00:00
 FilePath: \RSS\main.py
 Description:
 '''
@@ -110,7 +110,7 @@ def IP2name(ip):
         res=requests.get(f'http://ip-api.com/json/{ip}?fields=country,countryCode,city&lang=zh-CN', timeout=10).json()
         return f"{ip}@{res['country']}({res['countryCode']})-{res['city']}/"+''.join(random.sample(string.ascii_letters + string.digits, 3))
     except Exception as e:
-        log('IP2name: '+ip+': '+e.__str__())
+        log('IP2name: '+ip+': '+e.__str__()+'\nres='+res)
         return ip+''.join(random.sample(string.ascii_letters + string.digits, 8))
 
 # https://github.com/p4gefau1t/trojan-go/issues/132
@@ -267,7 +267,7 @@ if __name__ == '__main__':
     # getSubscribeUrl()
     # proxies.extend(load_subscribe(dirs + '/v2ray.txt'))
     proxies.extend(load_subscribe_url(get_mattkaydiary()))
-    gen_clash_subscribe(list(filter(None,map(protocol_decode,proxies))))
+    # gen_clash_subscribe(list(filter(None,map(protocol_decode,proxies))))
     proxies.extend(load_subscribe_url('https://jiang.netlify.app'))
     proxies.extend(load_subscribe_url('https://iwxf.netlify.app'))
     proxies.extend(load_subscribe_url('https://youlianboshi.netlify.com'))
@@ -279,4 +279,5 @@ if __name__ == '__main__':
     proxies.extend(load_subscribe_url('https://sspool.herokuapp.com/vmess/sub'))
     proxies.extend(load_subscribe_url('https://raw.githubusercontent.com/freefq/free/master/v2'))
     # proxies.extend(load_subscribe_url(''))
+    gen_clash_subscribe(list(filter(None,map(protocol_decode,proxies))))
     gen_v2ray_subscribe(proxies)
