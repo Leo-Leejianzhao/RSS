@@ -1,7 +1,7 @@
 '''
 Author: Leo Lee (leejianzhao@gmail.com)
 Date: 2021-07-18 16:34:45
-LastEditTime: 2021-11-25 23:42:05
+LastEditTime: 2021-12-22 23:07:11
 FilePath: \RSS\main.py
 Description:
 '''
@@ -105,13 +105,17 @@ def get_mattkaydiary():
         log('can not get_mattkaydiary:'+e.__str__())
     return v2ray_add
 
+# def IP2name(ip):
+#     try:
+#         res=requests.get(f'http://ip-api.com/json/{ip}?fields=country,countryCode,city&lang=zh-CN', timeout=10).json()
+#         return f"{ip}@{res['country']}({res['countryCode']})-{res['city']}/"+''.join(random.sample(string.ascii_letters + string.digits, 3))
+#     except Exception as e:
+#         log('IP2name: '+ip+': '+e.__str__())
+#         return ip+''.join(random.sample(string.ascii_letters + string.digits, 8))
+
 def IP2name(ip):
-    try:
-        res=requests.get(f'http://ip-api.com/json/{ip}?fields=country,countryCode,city&lang=zh-CN', timeout=10).json()
-        return f"{ip}@{res['country']}({res['countryCode']})-{res['city']}/"+''.join(random.sample(string.ascii_letters + string.digits, 3))
-    except Exception as e:
-        log('IP2name: '+ip+': '+e.__str__())
-        return ip+''.join(random.sample(string.ascii_letters + string.digits, 8))
+    return ip+''.join(random.sample(string.ascii_letters + string.digits, 8))
+
 
 # https://github.com/p4gefau1t/trojan-go/issues/132
 # trojan-go://
@@ -194,16 +198,17 @@ def protocol_decode(proxy_str):
             tmp=base64.b64decode(tmp.netloc+'==').decode()
             cipher,other,port=tmp.split(':')
             password,server=other.split('@')
-        proxy={
-            # "name": ''.join(random.sample(string.ascii_letters + string.digits, 8)), #urllib.parse.unquote(url.fragment),
-            "name"      :   IP2name(server),
-            "type": "ss",
-            "server": server,
-            "port": port,
-            "password": password,
-            "alterId": 2,
-            "cipher": cipher,
-        }
+        if cipher and password and server and port:
+            proxy={
+                # "name": ''.join(random.sample(string.ascii_letters + string.digits, 8)), #urllib.parse.unquote(url.fragment),
+                "name"      :   IP2name(server),
+                "type": "ss",
+                "server": server,
+                "port": port,
+                "password": password,
+                "alterId": 2,
+                "cipher": cipher,
+            }
     elif proxy_str_split[0] == 'ssr':
         #todo
         #   - name: "ssr"
