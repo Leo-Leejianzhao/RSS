@@ -1,7 +1,7 @@
 '''
 Author: Leo Lee (leejianzhao@gmail.com)
 Date: 2021-07-18 16:34:45
-LastEditTime: 2021-12-22 23:07:11
+LastEditTime: 2022-02-23 22:08:58
 FilePath: \RSS\main.py
 Description:
 '''
@@ -277,11 +277,11 @@ if __name__ == '__main__':
     proxies.extend(load_subscribe_url('https://jiang.netlify.app'))
     proxies.extend(load_subscribe_url('https://iwxf.netlify.app'))
     proxies.extend(load_subscribe_url('https://youlianboshi.netlify.com'))
-    proxies.extend(load_subscribe_url('https://fforever.github.io/v2rayfree'))
-    proxies.extend(load_subscribe_url('https://muma16fx.netlify.app'))
+    # proxies.extend(load_subscribe_url('https://fforever.github.io/v2rayfree'))
+    # proxies.extend(load_subscribe_url('https://muma16fx.netlify.app'))
     # proxies.extend(load_subscribe_url('https://cdn.jsdelivr.net/gh/fggfffgbg/https-aishangyou.tube-@master/README.md'))
-    proxies.extend(load_subscribe_url('https://freev2ray.netlify.app/'))
-    proxies.extend(load_subscribe_url('https://raw.githubusercontent.com/eycorsican/rule-sets/master/kitsunebi_sub'))
+    # proxies.extend(load_subscribe_url('https://freev2ray.netlify.app/'))
+    # proxies.extend(load_subscribe_url('https://raw.githubusercontent.com/eycorsican/rule-sets/master/kitsunebi_sub'))
     proxies.extend(load_subscribe_url('https://sspool.herokuapp.com/vmess/sub'))
     proxies.extend(load_subscribe_url('https://raw.githubusercontent.com/freefq/free/master/v2'))
     # proxies.extend(load_subscribe_url(''))
