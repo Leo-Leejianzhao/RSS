@@ -1,7 +1,7 @@
 '''
 Author: Leo Lee (leejianzhao@gmail.com)
 Date: 2021-07-18 16:34:45
-LastEditTime: 2022-02-23 22:08:58
+LastEditTime: 2022-03-24 08:32:11
 FilePath: \RSS\main.py
 Description:
 '''
@@ -183,7 +183,7 @@ def protocol_decode(proxy_str):
                     'ucp':True,
                     'ws-path':tmp.get('path'),
                     'ws-headers':{'Host':tmp['host']} if tmp.__contains__('host') else None,
-                    "tls": True if tmp.get("tls") == "tls" else False,
+                    "tls": True if tmp.get("tls") == "tls" or tmp.get("net") == "h2"else False,
                 }
         except Exception as e:
             log('Invalid vmess URL:'+proxy_str)
