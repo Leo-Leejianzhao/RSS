@@ -5,183 +5,271 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-- name: cloudflare.xrenblog.com-LrKV42tk
+- name: node.774.gs-6nudeflb
   type: vmess
-  server: cloudflare.xrenblog.com
-  port: '443'
-  uuid: 6c175d1a-a57f-4881-a471-173eb139694b
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /xrenblog/
-  ws-headers:
-    Host: ipv6.xrenblog.com
-  tls: true
-- name: hk2100.azzico.website-5tdKaQBM
-  type: vmess
-  server: hk2100.azzico.website
-  port: 11576
-  uuid: aeb9cfff-b25f-34e9-a0e9-e95d1292a1bc
-  alterId: 1
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: jpc5271.azzico.website-OxFcjR0N
-  type: vmess
-  server: jpc5271.azzico.website
-  port: 11562
-  uuid: aeb9cfff-b25f-34e9-a0e9-e95d1292a1bc
-  alterId: 2
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: cloudflare.xrenblog.com-37w9TfNM
-  type: vmess
-  server: cloudflare.xrenblog.com
-  port: 443
-  uuid: 6c175d1a-a57f-4881-a471-173eb139694b
+  server: node.774.gs
+  port: 8443
+  uuid: 28f6159e-ed46-4bfe-b893-0e7531c28143
   alterId: 0
   cipher: auto
   network: ws
   ucp: true
-  ws-path: /xrenblog/
-  ws-headers:
-    Host: ipv6.xrenblog.com
-  tls: true
-- name: 139.162.122.205-Y1fTyHuJ
-  type: vmess
-  server: 139.162.122.205
-  port: '3845'
-  uuid: 76d5c6e3-c74c-3406-b9e8-9859d0a71c56
-  alterId: '0'
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: /TS/recharge/tzUrl.html
-  ws-headers:
-    Host: 139.162.122.205
-  tls: false
-- name: 0320hk567.fans8.xyz-EpROhGbI
-  type: vmess
-  server: 0320hk567.fans8.xyz
-  port: 443
-  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
-  alterId: 2
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /ray
-  ws-headers:
-    Host: 0320hk567.fans8.xyz
-  tls: true
-- name: 0320jp.fans8.xyz-MvXWQRKx
-  type: vmess
-  server: 0320jp.fans8.xyz
-  port: 443
-  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
-  alterId: 2
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /ray
-  ws-headers:
-    Host: 0320jp.fans8.xyz
-  tls: true
-- name: h3.shopbuy.club-dtNLe19K
-  type: vmess
-  server: h3.shopbuy.club
-  port: '443'
-  uuid: 92261659-55a6-4b43-85d2-d3d3f30ca8eb
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /KoUJaiN8
-  ws-headers:
-    Host: h3.shopbuy.club
-  tls: true
-- name: 0316ro.fans8.xyz-wcN0jlp4
-  type: vmess
-  server: 0316ro.fans8.xyz
-  port: 443
-  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
-  alterId: 2
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /nl
-  ws-headers:
-    Host: 0316ro.fans8.xyz
-  tls: true
-- name: 150.230.43.65-StQRxfXE
-  type: vmess
-  server: 150.230.43.65
-  port: '14564'
-  uuid: 1556e040-31d3-4c47-b0d2-ddf888010b4e
-  alterId: '0'
-  cipher: auto
-  network: tcp
-  ucp: true
   ws-path: /
   ws-headers:
-    Host: 150.230.43.65
+    Host: node.774.gs
+  tls: true
+- name: 119.147.20.236-ht4HXg3z
+  type: vmess
+  server: 119.147.20.236
+  port: 38701
+  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
+  alterId: 1
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /hls/cctv5phd.m3u8
+  ws-headers:
+    Host: ingress-i1.onebox6.org
   tls: false
-- name: 169.197.142.99-TghG8Lpn
-  type: ss
-  server: 169.197.142.99
-  port: 443
-  password: pKEW8JPByTVTLtM
-  alterId: 2
-  cipher: aes-256-gcm
-- name: 134.195.196.51-uWfXoysQ
-  type: ss
-  server: 134.195.196.51
-  port: 8888
-  password: Y6R9pAtvxxzmGC
-  alterId: 2
-  cipher: aes-256-gcm
+- name: 120.240.48.19-ji5hUYL6
+  type: vmess
+  server: 120.240.48.19
+  port: 38106
+  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
+  alterId: 1
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /hls/cctv5phd.m3u8
+  ws-headers:
+    Host: 120.240.48.19
+  tls: false
+- name: 207.246.94.28-SHPA0p9c
+  type: vmess
+  server: 207.246.94.28
+  port: 42383
+  uuid: 4773dfdc-9c85-4873-8720-ce8cf5f74f7c
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: 120.240.48.20-1gFp397V
+  type: vmess
+  server: 120.240.48.20
+  port: 38101
+  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
+  alterId: 1
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /hls/cctv5phd.m3u8
+  ws-headers:
+    Host: t.me/vpnhat
+  tls: false
+- name: 120.240.48.20-Jv3okNXh
+  type: vmess
+  server: 120.240.48.20
+  port: 38102
+  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
+  alterId: 1
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /hls/cctv5phd.m3u8
+  ws-headers:
+    Host: t.me/vpnhat
+  tls: false
+- name: 120.240.48.20-7RB4yQ0m
+  type: vmess
+  server: 120.240.48.20
+  port: 38106
+  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
+  alterId: 1
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /hls/cctv5phd.m3u8
+  ws-headers:
+    Host: t.me/vpnhat
+  tls: false
+- name: in-v1.sdgdn.com-2YbfwQT0
+  type: vmess
+  server: in-v1.sdgdn.com
+  port: 50401
+  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+  alterId: 1
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /hls/cctv5phd.m3u8
+  ws-headers:
+    Host: ''
+  tls: false
+- name: 113.240.72.211-ADQwN50c
+  type: vmess
+  server: 113.240.72.211
+  port: 50206
+  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+  alterId: 1
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /hls/cctv5phd.m3u8
+  ws-headers:
+    Host: telegram.channel.p2psharing
+  tls: false
+- name: 101.230.149.29-UFnW1zJt
+  type: vmess
+  server: 101.230.149.29
+  port: 38106
+  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
+  alterId: 1
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /hls/cctv5phd.m3u8
+  ws-headers:
+    Host: www.ivpnpro.net
+  tls: false
+- name: 120.240.48.19-6votN5MJ
+  type: vmess
+  server: 120.240.48.19
+  port: 38201
+  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
+  alterId: 1
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /hls/cctv5phd.m3u8
+  ws-headers:
+    Host: ingress-i1.onebox6.org
+  tls: false
+- name: in-v1.sdgdn.com-hRTYLm7x
+  type: vmess
+  server: in-v1.sdgdn.com
+  port: 50207
+  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+  alterId: 1
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /hls/cctv5phd.m3u8
+  ws-headers:
+    Host: in-v1.sdgdn.com
+  tls: false
+- name: in-v1.sdgdn.com-QPWCBfuo
+  type: vmess
+  server: in-v1.sdgdn.com
+  port: 50301
+  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+  alterId: 1
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /hls/cctv5phd.m3u8
+  ws-headers:
+    Host: in-v1.sdgdn.com
+  tls: false
+- name: ingress-i1.onebox6.org-M18mJUpL
+  type: vmess
+  server: ingress-i1.onebox6.org
+  port: 38106
+  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
+  alterId: 1
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /hls/cctv5phd.m3u8
+  ws-headers:
+    Host: www.ivpnpro.net
+  tls: false
+- name: ingress-i1.onebox6.org-QEz4jxyF
+  type: vmess
+  server: ingress-i1.onebox6.org
+  port: '38106'
+  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
+  alterId: '1'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /hls/cctv5phd.m3u8
+  ws-headers:
+    Host: www.ivpnpro.net
+  tls: false
+- name: 101.230.149.29-Ma1wtdvl
+  type: vmess
+  server: 101.230.149.29
+  port: '38106'
+  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
+  alterId: '1'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /hls/cctv5phd.m3u8
+  ws-headers:
+    Host: ''
+  tls: false
+- name: 120.240.48.19-0hFNTt26
+  type: vmess
+  server: 120.240.48.19
+  port: '38106'
+  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
+  alterId: '1'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /hls/cctv5phd.m3u8
+  ws-headers:
+    Host: ''
+  tls: false
 proxy-groups:
 - name: 🔰 节点选择
   type: select
   proxies:
   - ♻️ 自动选择
   - 🎯 全球直连
-  - cloudflare.xrenblog.com-LrKV42tk
-  - hk2100.azzico.website-5tdKaQBM
-  - jpc5271.azzico.website-OxFcjR0N
-  - cloudflare.xrenblog.com-37w9TfNM
-  - 139.162.122.205-Y1fTyHuJ
-  - 0320hk567.fans8.xyz-EpROhGbI
-  - 0320jp.fans8.xyz-MvXWQRKx
-  - h3.shopbuy.club-dtNLe19K
-  - 0316ro.fans8.xyz-wcN0jlp4
-  - 150.230.43.65-StQRxfXE
-  - 169.197.142.99-TghG8Lpn
-  - 134.195.196.51-uWfXoysQ
+  - node.774.gs-6nudeflb
+  - 119.147.20.236-ht4HXg3z
+  - 120.240.48.19-ji5hUYL6
+  - 207.246.94.28-SHPA0p9c
+  - 120.240.48.20-1gFp397V
+  - 120.240.48.20-Jv3okNXh
+  - 120.240.48.20-7RB4yQ0m
+  - in-v1.sdgdn.com-2YbfwQT0
+  - 113.240.72.211-ADQwN50c
+  - 101.230.149.29-UFnW1zJt
+  - 120.240.48.19-6votN5MJ
+  - in-v1.sdgdn.com-hRTYLm7x
+  - in-v1.sdgdn.com-QPWCBfuo
+  - ingress-i1.onebox6.org-M18mJUpL
+  - ingress-i1.onebox6.org-QEz4jxyF
+  - 101.230.149.29-Ma1wtdvl
+  - 120.240.48.19-0hFNTt26
 - name: ♻️ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - cloudflare.xrenblog.com-LrKV42tk
-  - hk2100.azzico.website-5tdKaQBM
-  - jpc5271.azzico.website-OxFcjR0N
-  - cloudflare.xrenblog.com-37w9TfNM
-  - 139.162.122.205-Y1fTyHuJ
-  - 0320hk567.fans8.xyz-EpROhGbI
-  - 0320jp.fans8.xyz-MvXWQRKx
-  - h3.shopbuy.club-dtNLe19K
-  - 0316ro.fans8.xyz-wcN0jlp4
-  - 150.230.43.65-StQRxfXE
-  - 169.197.142.99-TghG8Lpn
-  - 134.195.196.51-uWfXoysQ
+  - node.774.gs-6nudeflb
+  - 119.147.20.236-ht4HXg3z
+  - 120.240.48.19-ji5hUYL6
+  - 207.246.94.28-SHPA0p9c
+  - 120.240.48.20-1gFp397V
+  - 120.240.48.20-Jv3okNXh
+  - 120.240.48.20-7RB4yQ0m
+  - in-v1.sdgdn.com-2YbfwQT0
+  - 113.240.72.211-ADQwN50c
+  - 101.230.149.29-UFnW1zJt
+  - 120.240.48.19-6votN5MJ
+  - in-v1.sdgdn.com-hRTYLm7x
+  - in-v1.sdgdn.com-QPWCBfuo
+  - ingress-i1.onebox6.org-M18mJUpL
+  - ingress-i1.onebox6.org-QEz4jxyF
+  - 101.230.149.29-Ma1wtdvl
+  - 120.240.48.19-0hFNTt26
 - name: 🌍 国外媒体
   type: select
   proxies:
