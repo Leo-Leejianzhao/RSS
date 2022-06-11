@@ -189,26 +189,30 @@ def protocol_decode(proxy_str):
             log('Invalid vmess URL:'+proxy_str)
             log(e.__str__())
     elif proxy_str_split[0] == 'ss':
-        tmp=urllib.parse.urlparse(proxy_str)
-        if tmp.username is not None:
-            server=tmp.hostname
-            port=tmp.port
-            cipher,password=base64.b64decode(tmp.username+'==').decode().split(':')
-        else:
-            tmp=base64.b64decode(tmp.netloc+'==').decode()
-            cipher,other,port=tmp.split(':')
-            password,server=other.split('@')
-        if cipher and password and server and port:
-            proxy={
-                # "name": ''.join(random.sample(string.ascii_letters + string.digits, 8)), #urllib.parse.unquote(url.fragment),
-                "name"      :   IP2name(server),
-                "type": "ss",
-                "server": server,
-                "port": port,
-                "password": password,
-                "alterId": 2,
-                "cipher": cipher,
-            }
+        try:
+            tmp=urllib.parse.urlparse(proxy_str)
+            if tmp.username is not None:
+                server=tmp.hostname
+                port=tmp.port
+                cipher,password=base64.b64decode(tmp.username+'==').decode().split(':')
+            else:
+                tmp=base64.b64decode(tmp.netloc+'==').decode()
+                cipher,other,port=tmp.split(':')
+                password,server=other.split('@')
+            if cipher and password and server and port:
+                proxy={
+                    # "name": ''.join(random.sample(string.ascii_letters + string.digits, 8)), #urllib.parse.unquote(url.fragment),
+                    "name"      :   IP2name(server),
+                    "type": "ss",
+                    "server": server,
+                    "port": port,
+                    "password": password,
+                    "alterId": 2,
+                    "cipher": cipher,
+                }
+        except Exception as e:
+            log('Invalid vmess URL:'+proxy_str)
+            log(e.__str__())
     elif proxy_str_split[0] == 'ssr':
         #todo
         #   - name: "ssr"
