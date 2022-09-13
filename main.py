@@ -281,6 +281,13 @@ if __name__ == '__main__':
     # proxies.extend(load_subscribe_url('https://jiang.netlify.app'))
     proxies.extend(load_subscribe_url('https://iwxf.netlify.app'))
     proxies.extend(load_subscribe_url('https://youlianboshi.netlify.com'))
+    
+    proxies.extend(load_subscribe_url('https://sspool.herokuapp.com/ss/sub'))
+    proxies.extend(load_subscribe_url('https://sspool.herokuapp.com/sip002/sub'))
+    proxies.extend(load_subscribe_url('https://sspool.herokuapp.com/ssr/sub'))
+    proxies.extend(load_subscribe_url('https://sspool.herokuapp.com/vmess/sub'))
+    proxies.extend(load_subscribe_url('https://sspool.herokuapp.com/trojan/sub'))
+    
     # proxies.extend(load_subscribe_url('https://fforever.github.io/v2rayfree'))
     # proxies.extend(load_subscribe_url('https://muma16fx.netlify.app'))
     # proxies.extend(load_subscribe_url('https://cdn.jsdelivr.net/gh/fggfffgbg/https-aishangyou.tube-@master/README.md'))
