@@ -278,7 +278,7 @@ if __name__ == '__main__':
     # proxies.extend(load_subscribe(dirs + '/v2ray.txt'))
     proxies.extend(load_subscribe_url(get_mattkaydiary()))
     # gen_clash_subscribe(list(filter(None,map(protocol_decode,proxies))))
-    proxies.extend(load_subscribe_url('https://jiang.netlify.app'))
+    //proxies.extend(load_subscribe_url('https://jiang.netlify.app'))
     proxies.extend(load_subscribe_url('https://iwxf.netlify.app'))
     proxies.extend(load_subscribe_url('https://youlianboshi.netlify.com'))
     # proxies.extend(load_subscribe_url('https://fforever.github.io/v2rayfree'))
