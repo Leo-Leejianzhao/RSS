@@ -283,7 +283,7 @@ if __name__ == '__main__':
     proxies.extend(load_subscribe_url('https://youlianboshi.netlify.com'))
     
     proxies.extend(load_subscribe_url('https://sspool.herokuapp.com/ss/sub'))
-    proxies.extend(load_subscribe_url('https://sspool.herokuapp.com/sip002/sub'))
+    # proxies.extend(load_subscribe_url('https://sspool.herokuapp.com/sip002/sub'))
     proxies.extend(load_subscribe_url('https://sspool.herokuapp.com/ssr/sub'))
     proxies.extend(load_subscribe_url('https://sspool.herokuapp.com/vmess/sub'))
     proxies.extend(load_subscribe_url('https://sspool.herokuapp.com/trojan/sub'))
