@@ -268,7 +268,7 @@ def gen_clash_subscribe(proxies):
 
 def gen_v2ray_subscribe(proxies):
     with open(dirs + '/v2ray.txt','wb') as f:
-        f.write(base64.b64encode('\n'.join(proxies).encode('ascii')))
+        f.write(base64.b64encode('\n'.join(proxies)))
 
 # 主函数入口
 if __name__ == '__main__':
@@ -299,5 +299,7 @@ if __name__ == '__main__':
     proxies.extend(load_subscribe_url('https://sspool.herokuapp.com/vmess/sub'))
     proxies.extend(load_subscribe_url('https://raw.githubusercontent.com/freefq/free/master/v2'))
     # proxies.extend(load_subscribe_url(''))
-    gen_clash_subscribe(list(filter(None,map(protocol_decode,proxies))))
+    
     gen_v2ray_subscribe(proxies)
+    gen_clash_subscribe(list(filter(None,map(protocol_decode,proxies))))
+    
