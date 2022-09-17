@@ -268,7 +268,7 @@ def gen_clash_subscribe(proxies):
 
 def gen_v2ray_subscribe(proxies):
     with open(dirs + '/v2ray.txt','wb') as f:
-        f.write(base64.b64encode('\n'.join(proxies)))
+        f.write(base64.b64encode('\n'.join(proxies)).encode('utf-8'))
 
 # 主函数入口
 if __name__ == '__main__':
