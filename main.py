@@ -290,7 +290,7 @@ if __name__ == '__main__':
     
     proxies.extend(load_subscribe_url('https://shadowshare.v2cross.com/publicserver/servers/temp/ud4HOnWAsQxBmSIl'))
     
-    proxies.extend(load_subscribe_url('https://shadowshare.v2cross.com/servers/temp/UBYH4poxq5LJbv9d'))
+    proxies.extend(load_subscribe_url('https://shadowshare.v2cross.com/servers/temp/1serUMhJ90f3Vkgv'))
     
     # proxies.extend(load_subscribe_url('https://fforever.github.io/v2rayfree'))
     # proxies.extend(load_subscribe_url('https://muma16fx.netlify.app'))
