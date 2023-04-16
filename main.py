@@ -290,7 +290,7 @@ if __name__ == '__main__':
     
     proxies.extend(load_subscribe_url('https://shadowshare.v2cross.com/publicserver/servers/temp/ud4HOnWAsQxBmSIl'))
     
-    proxies.extend(load_subscribe_url('https://9527521.xyz/config/Bhg2SaEjkTH3tCOp'))
+    proxies.extend(load_subscribe_url('https://sub.id9.cc/sub?target=v2ray&url=https://9527521.xyz/config/gHOovtk8qfji4Tur&insert=false'))
     
     # proxies.extend(load_subscribe_url('https://fforever.github.io/v2rayfree'))
     # proxies.extend(load_subscribe_url('https://muma16fx.netlify.app'))
