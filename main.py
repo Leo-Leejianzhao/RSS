@@ -284,11 +284,11 @@ if __name__ == '__main__':
     proxies.extend(load_subscribe_url('https://iwxf.netlify.app'))
     proxies.extend(load_subscribe_url('https://youlianboshi.netlify.com'))
     
-    proxies.extend(load_subscribe_url('https://sspool.herokuapp.com/ss/sub'))
+    # proxies.extend(load_subscribe_url('https://sspool.herokuapp.com/ss/sub'))
     # proxies.extend(load_subscribe_url('https://sspool.herokuapp.com/sip002/sub'))
-    proxies.extend(load_subscribe_url('https://sspool.herokuapp.com/ssr/sub'))
-    proxies.extend(load_subscribe_url('https://sspool.herokuapp.com/vmess/sub'))
-    proxies.extend(load_subscribe_url('https://sspool.herokuapp.com/trojan/sub'))
+    # proxies.extend(load_subscribe_url('https://sspool.herokuapp.com/ssr/sub'))
+    # proxies.extend(load_subscribe_url('https://sspool.herokuapp.com/vmess/sub'))
+    # proxies.extend(load_subscribe_url('https://sspool.herokuapp.com/trojan/sub'))
     
     proxies.extend(load_subscribe_url('https://shadowshare.v2cross.com/publicserver/servers/temp/ud4HOnWAsQxBmSIl'))   
     
@@ -298,7 +298,7 @@ if __name__ == '__main__':
     # proxies.extend(load_subscribe_url('https://cdn.jsdelivr.net/gh/fggfffgbg/https-aishangyou.tube-@master/README.md'))
     # proxies.extend(load_subscribe_url('https://freev2ray.netlify.app/'))
     # proxies.extend(load_subscribe_url('https://raw.githubusercontent.com/eycorsican/rule-sets/master/kitsunebi_sub'))
-    proxies.extend(load_subscribe_url('https://sspool.herokuapp.com/vmess/sub'))
+
     proxies.extend(load_subscribe_url('https://raw.githubusercontent.com/freefq/free/master/v2'))
     # proxies.extend(load_subscribe_url(''))
     proxies.extend(load_subscribe_url('https://sub.id9.cc/sub?target=v2ray&url=https://9527521.xyz/config/rFlJUad7X2smVieZ&insert=false'))
