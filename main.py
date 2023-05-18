@@ -231,7 +231,9 @@ def load_subscribe_url(url):
     log('begin load_subscribe_url: '+url)
     try:
         v2rayTxt = requests.request("GET", url, verify=False)
-        return base64.b64decode(v2rayTxt.text+'==').decode('utf-8').splitlines()
+        sub=base64.b64decode(v2rayTxt.text+'==').decode('utf-8').splitlines()
+        log(f'{url} import {len(sub)} servers')
+        return sub
     except Exception as e:
         log('load_subscribe_url: '+url+': '+e.__str__())
         return []
