@@ -276,7 +276,7 @@ if __name__ == '__main__':
     proxies=[]
     # getSubscribeUrl()
     # proxies.extend(load_subscribe(dirs + '/v2ray.txt'))
-    proxies.extend(load_subscribe_url(get_mattkaydiary()))
+    # proxies.extend(load_subscribe_url(get_mattkaydiary()))
     # gen_clash_subscribe(list(filter(None,map(protocol_decode,proxies))))
     # proxies.extend(load_subscribe_url('https://jiang.netlify.app'))
     proxies.extend(load_subscribe_url('https://iwxf.netlify.app'))
@@ -288,9 +288,8 @@ if __name__ == '__main__':
     proxies.extend(load_subscribe_url('https://sspool.herokuapp.com/vmess/sub'))
     proxies.extend(load_subscribe_url('https://sspool.herokuapp.com/trojan/sub'))
     
-    proxies.extend(load_subscribe_url('https://shadowshare.v2cross.com/publicserver/servers/temp/ud4HOnWAsQxBmSIl'))
+    proxies.extend(load_subscribe_url('https://shadowshare.v2cross.com/publicserver/servers/temp/ud4HOnWAsQxBmSIl'))   
     
-    proxies.extend(load_subscribe_url('https://sub.id9.cc/sub?target=v2ray&url=https://9527521.xyz/config/rFlJUad7X2smVieZ&insert=false'))
     
     # proxies.extend(load_subscribe_url('https://fforever.github.io/v2rayfree'))
     # proxies.extend(load_subscribe_url('https://muma16fx.netlify.app'))
@@ -300,7 +299,9 @@ if __name__ == '__main__':
     proxies.extend(load_subscribe_url('https://sspool.herokuapp.com/vmess/sub'))
     proxies.extend(load_subscribe_url('https://raw.githubusercontent.com/freefq/free/master/v2'))
     # proxies.extend(load_subscribe_url(''))
-    
+    proxies.extend(load_subscribe_url('https://sub.id9.cc/sub?target=v2ray&url=https://9527521.xyz/config/rFlJUad7X2smVieZ&insert=false'))
+    proxies.extend(load_subscribe_url('https://xn--wbs186a7vao45a8qd.v50.one/api/v1/client/subscribe?token=9249ef731acd8c150e656f6e4b77700f'))
+
     gen_v2ray_subscribe(proxies)
     gen_clash_subscribe(list(filter(None,map(protocol_decode,proxies))))
     
