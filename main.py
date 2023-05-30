@@ -305,7 +305,7 @@ if __name__ == '__main__':
     proxies.extend(load_subscribe_url('https://web.anqi.ml/api/v1/client/subscribe?token=21e483aa1e50e796f543b9d63b4a27d1'))
     
     localtime = time.localtime(time.time())
-    proxies.extend(load_subscribe_url(f"https://v2rayshare.com/wp-content/uploads/2023/05/2023{localtime.tm_mon:02}{localtime.tm_mday:02}.txt")
+    proxies.extend(load_subscribe_url(f"https://v2rayshare.com/wp-content/uploads/2023/05/2023{localtime.tm_mon:02}{localtime.tm_mday:02}.txt"))
 
     gen_v2ray_subscribe(proxies)
     gen_clash_subscribe(list(filter(None,map(protocol_decode,proxies))))
