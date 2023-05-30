@@ -4,18 +4,168 @@ allow-lan: true
 mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
-proxies: []
+proxies:
+- name: 202.79.172.53PxiAFu36
+  type: vmess
+  server: 202.79.172.53
+  port: 443
+  uuid: 30216206-14b7-40e7-995d-61c1219ba584
+  alterId: '64'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /path/220128071100
+  ws-headers:
+    Host: ''
+  tls: true
+- name: cf.noaries.dewSO9gmMf
+  type: vmess
+  server: cf.noaries.de
+  port: 2082
+  uuid: 67c5ce45-7b48-473e-bf25-e4c830b0ed24
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /aries?ed=2048
+  ws-headers:
+    Host: dedipath2.iiio.wiki
+  tls: false
+- name: 172.67.147.749KF4eZaW
+  type: vmess
+  server: 172.67.147.74
+  port: '2052'
+  uuid: 0227edc4-8735-4370-ac42-4e8147920f0b
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /qwer10
+  ws-headers:
+    Host: tou.vtcss.top
+  tls: false
+- name: 103.21.244.43eO0gwsHx
+  type: vmess
+  server: 103.21.244.43
+  port: 8080
+  uuid: c5c9844d-050e-44f1-cb6d-ec5166772631
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /qwer
+  ws-headers:
+    Host: zslbs.vtcss.top
+  tls: false
+- name: 172.66.43.240yqVItXDL
+  type: vmess
+  server: 172.66.43.240
+  port: '443'
+  uuid: 12612e87-8003-44a8-b4e8-ec4a325e9016
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /ou
+  ws-headers:
+    Host: z.zorro.tk
+  tls: true
+- name: 178.239.171.103lh5E0RQw
+  type: vmess
+  server: 178.239.171.103
+  port: 80
+  uuid: 61280f80-cd25-4c7b-8e5a-b1560617047a
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /T5t5p1DPeSIooUZfEmkFAYfTxZ
+  ws-headers:
+    Host: ''
+  tls: false
+- name: lv.nscdn.eu.orgqwVkpsNi
+  type: vmess
+  server: lv.nscdn.eu.org
+  port: 80
+  uuid: c65dc0ad-dee8-4e43-869d-ef4f11bc66df
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: lv.nscdn.eu.org
+  tls: false
+- name: mg.txy.a.node1.jijio.stream8WBN25vm
+  type: vmess
+  server: mg.txy.a.node1.jijio.stream
+  port: 38999
+  uuid: adc570f1-d591-4a5a-93f0-0013bba3f116
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /wesad
+  ws-headers:
+    Host: mg.txy.a.node1.jijio.stream
+  tls: true
+- name: 172.67.156.138oKpvwmPj
+  type: vmess
+  server: 172.67.156.138
+  port: 443
+  uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /speedtest
+  ws-headers:
+    Host: Kansas.kotick.site
+  tls: true
+- name: oci.donpau.comvsCrJwf9
+  type: vmess
+  server: oci.donpau.com
+  port: 443
+  uuid: 3C02DC15-56AE-7889-8936-9A2EA8FF8666
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /cone
+  ws-headers:
+    Host: oci.donpau.com
+  tls: true
 proxy-groups:
 - name: 🔰 节点选择
   type: select
   proxies:
   - ♻️ 自动选择
   - 🎯 全球直连
+  - 202.79.172.53PxiAFu36
+  - cf.noaries.dewSO9gmMf
+  - 172.67.147.749KF4eZaW
+  - 103.21.244.43eO0gwsHx
+  - 172.66.43.240yqVItXDL
+  - 178.239.171.103lh5E0RQw
+  - lv.nscdn.eu.orgqwVkpsNi
+  - mg.txy.a.node1.jijio.stream8WBN25vm
+  - 172.67.156.138oKpvwmPj
+  - oci.donpau.comvsCrJwf9
 - name: ♻️ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
-  proxies: []
+  proxies:
+  - 202.79.172.53PxiAFu36
+  - cf.noaries.dewSO9gmMf
+  - 172.67.147.749KF4eZaW
+  - 103.21.244.43eO0gwsHx
+  - 172.66.43.240yqVItXDL
+  - 178.239.171.103lh5E0RQw
+  - lv.nscdn.eu.orgqwVkpsNi
+  - mg.txy.a.node1.jijio.stream8WBN25vm
+  - 172.67.156.138oKpvwmPj
+  - oci.donpau.comvsCrJwf9
 - name: 🌍 国外媒体
   type: select
   proxies:
