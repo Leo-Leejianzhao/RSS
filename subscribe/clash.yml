@@ -5,33 +5,84 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-- name: 202.79.172.53PxiAFu36
+- name: 104.21.53.35qc9EdX2z
   type: vmess
-  server: 202.79.172.53
-  port: 443
-  uuid: 30216206-14b7-40e7-995d-61c1219ba584
-  alterId: '64'
+  server: 104.21.53.35
+  port: '80'
+  uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa
+  alterId: '0'
   cipher: auto
   network: ws
   ucp: true
-  ws-path: /path/220128071100
+  ws-path: /yxzbp
   ws-headers:
-    Host: ''
-  tls: true
-- name: cf.noaries.dewSO9gmMf
+    Host: buyvm1.yxjnode.com
+  tls: false
+- name: cf.yxjnode.com5AcaI90J
   type: vmess
-  server: cf.noaries.de
-  port: 2082
-  uuid: 67c5ce45-7b48-473e-bf25-e4c830b0ed24
+  server: cf.yxjnode.com
+  port: '80'
+  uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /yxzbp
+  ws-headers:
+    Host: dp3.yxjnode.com
+  tls: false
+- name: 107.167.29.229tjJuxOK5
+  type: vmess
+  server: 107.167.29.229
+  port: 46321
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: cdn.noice.idlC7XHoKf
+  type: vmess
+  server: cdn.noice.id
+  port: 80
+  uuid: 8bb07c55-0ef5-4d69-b131-fd9bab420ae8
   alterId: 0
   cipher: auto
   network: ws
   ucp: true
-  ws-path: /aries?ed=2048
+  ws-path: /v2ray
   ws-headers:
-    Host: dedipath2.iiio.wiki
+    Host: 8fhq6a.aiossh.my.id
   tls: false
-- name: 172.67.147.749KF4eZaW
+- name: 8.v2-ray.cyouFbt1hy2A
+  type: vmess
+  server: 8.v2-ray.cyou
+  port: '23608'
+  uuid: 0dd19d20-ec86-3680-b256-87237bafa89e
+  alterId: '2'
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: 8.v2-ray.cyou
+  tls: false
+- name: tech.noaries.deKqisg9Qr
+  type: vmess
+  server: tech.noaries.de
+  port: '80'
+  uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /shirker
+  ws-headers:
+    Host: nl.sharecentrepro.com
+  tls: false
+- name: 172.67.147.7460qaPB4R
   type: vmess
   server: 172.67.147.74
   port: '2052'
@@ -44,49 +95,95 @@ proxies:
   ws-headers:
     Host: tou.vtcss.top
   tls: false
-- name: 103.21.244.43eO0gwsHx
+- name: 172.67.156.138NFeCmQiO
   type: vmess
-  server: 103.21.244.43
-  port: 8080
-  uuid: c5c9844d-050e-44f1-cb6d-ec5166772631
+  server: 172.67.156.138
+  port: 443
+  uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
   alterId: 0
   cipher: auto
   network: ws
   ucp: true
-  ws-path: /qwer
+  ws-path: /speedtest
   ws-headers:
-    Host: zslbs.vtcss.top
-  tls: false
-- name: 172.66.43.240yqVItXDL
+    Host: Kansas.kotick.site
+  tls: true
+- name: 36.134.16.171rYe4LF0C
   type: vmess
-  server: 172.66.43.240
-  port: '443'
-  uuid: 12612e87-8003-44a8-b4e8-ec4a325e9016
+  server: 36.134.16.171
+  port: '11023'
+  uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc
+  alterId: '0'
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: ''
+  tls: false
+- name: 45.131.248.140XG0FtrCJ
+  type: vmess
+  server: 45.131.248.140
+  port: 50068
+  uuid: 557e532e-de4a-4b3e-9fb2-5d355ccb5da9
   alterId: '0'
   cipher: auto
   network: ws
   ucp: true
-  ws-path: /ou
+  ws-path: /
   ws-headers:
-    Host: z.zorro.tk
-  tls: true
-- name: 178.239.171.103lh5E0RQw
+    Host: 45.131.248.140
+  tls: false
+- name: 193.108.118.79L2oqsA6J
+  type: ss
+  server: 193.108.118.79
+  port: 8090
+  password: PCnnH6SQSnfoS27
+  alterId: 2
+  cipher: aes-256-gcm
+- name: v133.toddns.gq35W7PjKc
   type: vmess
-  server: 178.239.171.103
+  server: v133.toddns.gq
   port: 80
-  uuid: 61280f80-cd25-4c7b-8e5a-b1560617047a
+  uuid: cd1836ed-78be-3dcb-9fb1-9d2a4bdfecb8
   alterId: 0
   cipher: auto
   network: ws
   ucp: true
-  ws-path: /T5t5p1DPeSIooUZfEmkFAYfTxZ
+  ws-path: /v133PDXkklxLEcOvD
+  ws-headers:
+    Host: v133.toddns.gq
+  tls: false
+- name: 83.142.225.20TLtpY2WM
+  type: vmess
+  server: 83.142.225.20
+  port: 49920
+  uuid: 5267ca71-97e6-44c8-8fb5-9fe4afe0954e
+  alterId: '64'
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: /
   ws-headers:
     Host: ''
   tls: false
-- name: lv.nscdn.eu.orgqwVkpsNi
+- name: 23.224.171.67cSQwsmp7
+  type: vmess
+  server: 23.224.171.67
+  port: 49813
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: '64'
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: ''
+  tls: false
+- name: lv.nscdn.eu.orgfwjTE5dX
   type: vmess
   server: lv.nscdn.eu.org
-  port: 80
+  port: '80'
   uuid: c65dc0ad-dee8-4e43-869d-ef4f11bc66df
   alterId: '0'
   cipher: auto
@@ -96,44 +193,161 @@ proxies:
   ws-headers:
     Host: lv.nscdn.eu.org
   tls: false
-- name: mg.txy.a.node1.jijio.stream8WBN25vm
+- name: 162.159.142.105rxdAcpnl
   type: vmess
-  server: mg.txy.a.node1.jijio.stream
-  port: 38999
-  uuid: adc570f1-d591-4a5a-93f0-0013bba3f116
+  server: 162.159.142.105
+  port: '443'
+  uuid: 0e560598-7069-40aa-ac31-559bca3842d7
   alterId: '0'
   cipher: auto
   network: ws
   ucp: true
-  ws-path: /wesad
+  ws-path: /gvweb9759
   ws-headers:
-    Host: mg.txy.a.node1.jijio.stream
+    Host: seargo.anqi.ml
   tls: true
-- name: 172.67.156.138oKpvwmPj
+- name: 172.67.37.161pg8Qsl6h
   type: vmess
-  server: 172.67.156.138
-  port: 443
-  uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
+  server: 172.67.37.161
+  port: '443'
+  uuid: 0e560598-7069-40aa-ac31-559bca3842d7
   alterId: '0'
   cipher: auto
   network: ws
   ucp: true
-  ws-path: /speedtest
+  ws-path: /gvweb9759
   ws-headers:
-    Host: Kansas.kotick.site
+    Host: seargo.anqi.ml
   tls: true
-- name: oci.donpau.comvsCrJwf9
+- name: 172.67.84.396Ygc8uzP
   type: vmess
-  server: oci.donpau.com
-  port: 443
-  uuid: 3C02DC15-56AE-7889-8936-9A2EA8FF8666
+  server: 172.67.84.39
+  port: '443'
+  uuid: 0e560598-7069-40aa-ac31-559bca3842d7
   alterId: '0'
   cipher: auto
   network: ws
   ucp: true
-  ws-path: /cone
+  ws-path: /gvweb9759
   ws-headers:
-    Host: oci.donpau.com
+    Host: seargo.anqi.ml
+  tls: true
+- name: 104.16.70.244wWGP4kXE
+  type: vmess
+  server: 104.16.70.244
+  port: '443'
+  uuid: 0e560598-7069-40aa-ac31-559bca3842d7
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /gvweb9759
+  ws-headers:
+    Host: seargo.anqi.ml
+  tls: true
+- name: 172.67.51.210d2yGK9WL
+  type: vmess
+  server: 172.67.51.210
+  port: '443'
+  uuid: 0e560598-7069-40aa-ac31-559bca3842d7
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /gvweb9759
+  ws-headers:
+    Host: seargo.anqi.ml
+  tls: true
+- name: 162.159.242.212hnoYywAk
+  type: vmess
+  server: 162.159.242.212
+  port: '443'
+  uuid: 0e560598-7069-40aa-ac31-559bca3842d7
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /gvweb9759
+  ws-headers:
+    Host: seargo.anqi.ml
+  tls: true
+- name: 2606:4700:3029:2c14:cc8d:ee7d:ebac:8d87B7L2sV1y
+  type: vmess
+  server: 2606:4700:3029:2c14:cc8d:ee7d:ebac:8d87
+  port: '443'
+  uuid: 0e560598-7069-40aa-ac31-559bca3842d7
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /gvweb9759
+  ws-headers:
+    Host: seargo.anqi.ml
+  tls: true
+- name: 2606:4700:3029:1951:f428:a90d:36e0:1e07EvBIdb7F
+  type: vmess
+  server: 2606:4700:3029:1951:f428:a90d:36e0:1e07
+  port: '443'
+  uuid: 0e560598-7069-40aa-ac31-559bca3842d7
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /gvweb9759
+  ws-headers:
+    Host: seargo.anqi.ml
+  tls: true
+- name: 172.67.104.140fdcU7NEC
+  type: vmess
+  server: 172.67.104.140
+  port: '443'
+  uuid: 0e560598-7069-40aa-ac31-559bca3842d7
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /gvweb9759
+  ws-headers:
+    Host: seargo.anqi.ml
+  tls: true
+- name: 172.67.159.62Rz37Ltv4
+  type: vmess
+  server: 172.67.159.62
+  port: '443'
+  uuid: 0e560598-7069-40aa-ac31-559bca3842d7
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /gvweb9759
+  ws-headers:
+    Host: seargo.anqi.ml
+  tls: true
+- name: 172.67.216.4dWsxMJSD
+  type: vmess
+  server: 172.67.216.4
+  port: '443'
+  uuid: 0e560598-7069-40aa-ac31-559bca3842d7
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /gvweb9759
+  ws-headers:
+    Host: seargo.anqi.ml
+  tls: true
+- name: 172.67.98.189Y4LxsPfe
+  type: vmess
+  server: 172.67.98.189
+  port: '443'
+  uuid: 0e560598-7069-40aa-ac31-559bca3842d7
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /gvweb9759
+  ws-headers:
+    Host: seargo.anqi.ml
   tls: true
 proxy-groups:
 - name: 🔰 节点选择
@@ -141,31 +355,65 @@ proxy-groups:
   proxies:
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 202.79.172.53PxiAFu36
-  - cf.noaries.dewSO9gmMf
-  - 172.67.147.749KF4eZaW
-  - 103.21.244.43eO0gwsHx
-  - 172.66.43.240yqVItXDL
-  - 178.239.171.103lh5E0RQw
-  - lv.nscdn.eu.orgqwVkpsNi
-  - mg.txy.a.node1.jijio.stream8WBN25vm
-  - 172.67.156.138oKpvwmPj
-  - oci.donpau.comvsCrJwf9
+  - 104.21.53.35qc9EdX2z
+  - cf.yxjnode.com5AcaI90J
+  - 107.167.29.229tjJuxOK5
+  - cdn.noice.idlC7XHoKf
+  - 8.v2-ray.cyouFbt1hy2A
+  - tech.noaries.deKqisg9Qr
+  - 172.67.147.7460qaPB4R
+  - 172.67.156.138NFeCmQiO
+  - 36.134.16.171rYe4LF0C
+  - 45.131.248.140XG0FtrCJ
+  - 193.108.118.79L2oqsA6J
+  - v133.toddns.gq35W7PjKc
+  - 83.142.225.20TLtpY2WM
+  - 23.224.171.67cSQwsmp7
+  - lv.nscdn.eu.orgfwjTE5dX
+  - 162.159.142.105rxdAcpnl
+  - 172.67.37.161pg8Qsl6h
+  - 172.67.84.396Ygc8uzP
+  - 104.16.70.244wWGP4kXE
+  - 172.67.51.210d2yGK9WL
+  - 162.159.242.212hnoYywAk
+  - 2606:4700:3029:2c14:cc8d:ee7d:ebac:8d87B7L2sV1y
+  - 2606:4700:3029:1951:f428:a90d:36e0:1e07EvBIdb7F
+  - 172.67.104.140fdcU7NEC
+  - 172.67.159.62Rz37Ltv4
+  - 172.67.216.4dWsxMJSD
+  - 172.67.98.189Y4LxsPfe
 - name: ♻️ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 202.79.172.53PxiAFu36
-  - cf.noaries.dewSO9gmMf
-  - 172.67.147.749KF4eZaW
-  - 103.21.244.43eO0gwsHx
-  - 172.66.43.240yqVItXDL
-  - 178.239.171.103lh5E0RQw
-  - lv.nscdn.eu.orgqwVkpsNi
-  - mg.txy.a.node1.jijio.stream8WBN25vm
-  - 172.67.156.138oKpvwmPj
-  - oci.donpau.comvsCrJwf9
+  - 104.21.53.35qc9EdX2z
+  - cf.yxjnode.com5AcaI90J
+  - 107.167.29.229tjJuxOK5
+  - cdn.noice.idlC7XHoKf
+  - 8.v2-ray.cyouFbt1hy2A
+  - tech.noaries.deKqisg9Qr
+  - 172.67.147.7460qaPB4R
+  - 172.67.156.138NFeCmQiO
+  - 36.134.16.171rYe4LF0C
+  - 45.131.248.140XG0FtrCJ
+  - 193.108.118.79L2oqsA6J
+  - v133.toddns.gq35W7PjKc
+  - 83.142.225.20TLtpY2WM
+  - 23.224.171.67cSQwsmp7
+  - lv.nscdn.eu.orgfwjTE5dX
+  - 162.159.142.105rxdAcpnl
+  - 172.67.37.161pg8Qsl6h
+  - 172.67.84.396Ygc8uzP
+  - 104.16.70.244wWGP4kXE
+  - 172.67.51.210d2yGK9WL
+  - 162.159.242.212hnoYywAk
+  - 2606:4700:3029:2c14:cc8d:ee7d:ebac:8d87B7L2sV1y
+  - 2606:4700:3029:1951:f428:a90d:36e0:1e07EvBIdb7F
+  - 172.67.104.140fdcU7NEC
+  - 172.67.159.62Rz37Ltv4
+  - 172.67.216.4dWsxMJSD
+  - 172.67.98.189Y4LxsPfe
 - name: 🌍 国外媒体
   type: select
   proxies:
