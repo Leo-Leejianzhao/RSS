@@ -5,101 +5,22 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-- name: 8x69c3-8080.csb.appSLsiyGTq
+- name: a7d4813550c2.sanfen004.meUSR3wWKx
   type: vmess
-  server: 8x69c3-8080.csb.app
-  port: 443
-  uuid: 42bedd62-b62d-4681-a6b2-c9f3669a8454
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /vmabcd
-  ws-headers:
-    Host: ''
-  tls: true
-- name: 202.108.15.135KIXTuJDh
-  type: vmess
-  server: 202.108.15.135
-  port: 443
-  uuid: 06a28663-4320-4a31-ab98-0ef8c1ef546b
+  server: a7d4813550c2.sanfen004.me
+  port: 29033
+  uuid: 92316c61-06ee-4097-aabf-b9bb34396e62
   alterId: 0
   cipher: auto
-  network: ws
+  network: tcp
   ucp: true
-  ws-path: /cec6f2
-  ws-headers:
-    Host: ttk.731808.tk
-  tls: true
-- name: 159.223.94.1568zsNd29p
-  type: vmess
-  server: 159.223.94.156
-  port: 80
-  uuid: 533724ad-58ef-4147-88dc-9da523c15fc4
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /anti13.zingfast.vn
-  ws-headers:
-    Host: ''
+  ws-path: null
+  ws-headers: null
   tls: false
-- name: ns1.v2-vip.funsZqF19kW
+- name: 192.74.234.185xcsgbFqC
   type: vmess
-  server: ns1.v2-vip.fun
-  port: '80'
-  uuid: 8abe9496-5e24-4e49-b566-dcf86116017d
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /i99LgvSaslbsPLLQQ7j6Z
-  ws-headers:
-    Host: de5.irteh.fun
-  tls: false
-- name: xt.ylks01.eu.org6FjO59eJ
-  type: vmess
-  server: xt.ylks01.eu.org
-  port: 2095
-  uuid: b710770a-fdaf-41fb-bbe4-68a6c41e2605
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /blue
-  ws-headers:
-    Host: ''
-  tls: false
-- name: cf-lt.sharecentre.onlinetcjXhgLi
-  type: vmess
-  server: cf-lt.sharecentre.online
-  port: 443
-  uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef
-  alterId: 0
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /shirker
-  ws-headers:
-    Host: ca.ilovescp.com
-  tls: true
-- name: cf-yd-dns.sharecentre.onlinejKzyZETc
-  type: vmess
-  server: cf-yd-dns.sharecentre.online
-  port: '80'
-  uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /shirker
-  ws-headers:
-    Host: dp3.scproxy.top
-  tls: false
-- name: 45.153.203.89cORavHWQ
-  type: vmess
-  server: 45.153.203.89
-  port: 41632
+  server: 192.74.234.185
+  port: 51322
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   alterId: '64'
   cipher: auto
@@ -109,7 +30,20 @@ proxies:
   ws-headers:
     Host: ''
   tls: false
-- name: 23.225.9.1984guBYSU1
+- name: 104.208.84.11595ZzyRuh
+  type: vmess
+  server: 104.208.84.115
+  port: '443'
+  uuid: 35ff16c4-b60c-4fce-abd8-1864138084ad
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: 104.208.84.115
+  tls: false
+- name: 23.225.9.198tpXZvR9C
   type: vmess
   server: 23.225.9.198
   port: 50002
@@ -122,10 +56,23 @@ proxies:
   ws-headers:
     Host: ''
   tls: false
-- name: 170.178.167.149pj9svHQr
+- name: jp4.d4995a2eb9b4.sanfen004.meFDvelkGm
   type: vmess
-  server: 170.178.167.149
-  port: 50002
+  server: jp4.d4995a2eb9b4.sanfen004.me
+  port: 443
+  uuid: aa2c8122-d188-489f-88b9-b4af51b9ab9b
+  alterId: '0'
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: ''
+  tls: true
+- name: 140.99.140.158twmUujAs
+  type: vmess
+  server: 140.99.140.158
+  port: 57172
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   alterId: '64'
   cipher: auto
@@ -135,59 +82,92 @@ proxies:
   ws-headers:
     Host: ''
   tls: false
-- name: www.96110.store5T4oHQJE
+- name: 162.159.25.51pjkbYzCZ
   type: vmess
-  server: www.96110.store
-  port: 80
-  uuid: d366449d-d24c-4c24-9d8e-6252c6a556b7
+  server: 162.159.25.51
+  port: 8080
+  uuid: d5382631-aae1-486d-842a-de48274dd0d7
   alterId: 0
   cipher: auto
   network: ws
   ucp: true
+  ws-path: /qwer
+  ws-headers:
+    Host: uxx.vtcss.top
+  tls: false
+- name: 104.16.183.1013iPhGpdY
+  type: vmess
+  server: 104.16.183.101
+  port: 443
+  uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /P6kpn5UKG40MNLK2
+  ws-headers:
+    Host: pWghljmnknq.janbaroon.com
+  tls: true
+- name: cm1-nc.go001.buzzkox9ZYdz
+  type: ss
+  server: cm1-nc.go001.buzz
+  port: 19584
+  password: 5dffba42-4be9-447e-a6d5-61567a360e70
+  alterId: 2
+  cipher: chacha20-ietf-poly1305
+- name: 140.99.128.11485Q2VRr1
+  type: vmess
+  server: 140.99.128.114
+  port: 58455
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: '64'
+  cipher: auto
+  network: tcp
+  ucp: true
   ws-path: /
   ws-headers:
-    Host: sg1.doinb.tk
+    Host: ''
   tls: false
-- name: vus4.0bad.comIOF83Nfj
+- name: 137.175.11.145XNuHUs0z
   type: vmess
-  server: vus4.0bad.com
-  port: 443
-  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  server: 137.175.11.145
+  port: 33002
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: '64'
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: /speedtest
+  ws-headers:
+    Host: v2ray.online
+  tls: false
+- name: 36.156.198.43OS6PryWX
+  type: vmess
+  server: 36.156.198.43
+  port: '50034'
+  uuid: 9e7b2986-fabf-4711-9e35-de67ba13dbef
   alterId: '0'
   cipher: auto
-  network: ws
+  network: tcp
   ucp: true
-  ws-path: /chat
+  ws-path: ''
   ws-headers:
     Host: ''
-  tls: true
-- name: ns1.v2-vip.funC5IUDZV7
-  type: vmess
-  server: ns1.v2-vip.fun
-  port: '80'
-  uuid: 8abe9496-5e24-4e49-b566-dcf86116017d
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /i99LgvSaslbsPLLQQ7j6Z
-  ws-headers:
-    Host: de5.irteh.fun
   tls: false
-- name: cf.yxjnode.comMKxS8hji
+- name: 45.153.203.899EN5Hb0V
   type: vmess
-  server: cf.yxjnode.com
-  port: '80'
-  uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa
-  alterId: '0'
+  server: 45.153.203.89
+  port: 41632
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: '64'
   cipher: auto
-  network: ws
+  network: tcp
   ucp: true
-  ws-path: /yxzbp
+  ws-path: /
   ws-headers:
-    Host: dp1.yxjnode.com
+    Host: ''
   tls: false
-- name: 86.wowogg.cyouiN8hpVJ4
+- name: 86.wowogg.cyouchrQbvgR
   type: vmess
   server: 86.wowogg.cyou
   port: '52286'
@@ -200,7 +180,7 @@ proxies:
   ws-headers:
     Host: 86.wowogg.cyou
   tls: false
-- name: v2ray.online2awY0NLb
+- name: v2ray.onlineWItsQBY2
   type: vmess
   server: v2ray.online
   port: '443'
@@ -213,7 +193,7 @@ proxies:
   ws-headers:
     Host: Kansas.v2ray.online
   tls: true
-- name: 112.132.215.189Bm8KDEz9
+- name: 112.132.215.1897yT5xFzr
   type: vmess
   server: 112.132.215.189
   port: '50002'
@@ -226,7 +206,7 @@ proxies:
   ws-headers:
     Host: ''
   tls: false
-- name: ns1.v2-vip.fundfyL06Nl
+- name: ns1.v2-vip.funZSpNqGfO
   type: vmess
   server: ns1.v2-vip.fun
   port: '80'
@@ -239,7 +219,7 @@ proxies:
   ws-headers:
     Host: de5.irteh.fun
   tls: false
-- name: cf-yd-dns.sharecentre.onlinejKCsSqPt
+- name: cf-yd-dns.sharecentre.onlinex5rQkvOX
   type: vmess
   server: cf-yd-dns.sharecentre.online
   port: '80'
@@ -252,7 +232,7 @@ proxies:
   ws-headers:
     Host: dp3.scproxy.top
   tls: false
-- name: 104.31.16.282fiCNBjs
+- name: 104.31.16.28GNA3tysC
   type: vmess
   server: 104.31.16.28
   port: '80'
@@ -265,7 +245,7 @@ proxies:
   ws-headers:
     Host: ca4.tehme2.fun
   tls: false
-- name: cf-lt.sharecentre.onlinedoeXYMvN
+- name: cf-lt.sharecentre.onlineBPbVKeSA
   type: vmess
   server: cf-lt.sharecentre.online
   port: '80'
@@ -278,7 +258,7 @@ proxies:
   ws-headers:
     Host: do.sharecentrepro.com
   tls: false
-- name: 23.227.38.99bGsxf0zd
+- name: 23.227.38.997Q3iz9vF
   type: vmess
   server: 23.227.38.99
   port: '443'
@@ -291,7 +271,7 @@ proxies:
   ws-headers:
     Host: 1.freek1.xyz
   tls: true
-- name: cf-dx-dns.sharecentre.onlinezZjLKr4b
+- name: cf-dx-dns.sharecentre.onlineqUuENpZO
   type: vmess
   server: cf-dx-dns.sharecentre.online
   port: '80'
@@ -304,7 +284,7 @@ proxies:
   ws-headers:
     Host: dp1.scproxy.top
   tls: false
-- name: cf-lt.sharecentre.online8w4VPmLb
+- name: cf-lt.sharecentre.onlineyNbWU1es
   type: vmess
   server: cf-lt.sharecentre.online
   port: '80'
@@ -317,7 +297,7 @@ proxies:
   ws-headers:
     Host: nl.sharecentrepro.com
   tls: false
-- name: cf-lt.sharecentre.onlineisNK1wSq
+- name: cf-lt.sharecentre.onlineCu9UkGDR
   type: vmess
   server: cf-lt.sharecentre.online
   port: '80'
@@ -330,7 +310,7 @@ proxies:
   ws-headers:
     Host: sw.sharecentrepro.com
   tls: false
-- name: cf-lt.sharecentre.onlineKEyjYFSH
+- name: cf-lt.sharecentre.online7oAZxHXn
   type: vmess
   server: cf-lt.sharecentre.online
   port: '80'
@@ -343,7 +323,7 @@ proxies:
   ws-headers:
     Host: hk-hytron.ilovescp.com
   tls: false
-- name: cf-lt.sharecentre.onlineuvKWRf8H
+- name: cf-lt.sharecentre.onlineAfzabPkw
   type: vmess
   server: cf-lt.sharecentre.online
   port: '80'
@@ -356,7 +336,7 @@ proxies:
   ws-headers:
     Host: ca.ilovescp.com
   tls: false
-- name: cf-lt.sharecentre.onlinezBu8lget
+- name: cf-lt.sharecentre.online1lFO6DoB
   type: vmess
   server: cf-lt.sharecentre.online
   port: '80'
@@ -369,7 +349,7 @@ proxies:
   ws-headers:
     Host: lv1.sharecentrepro.org
   tls: false
-- name: cf-lt.sharecentre.onlineNaJkMQmf
+- name: cf-lt.sharecentre.onliner4DJegvq
   type: vmess
   server: cf-lt.sharecentre.online
   port: '80'
@@ -382,7 +362,7 @@ proxies:
   ws-headers:
     Host: lv2.sharecentrepro.org
   tls: false
-- name: cf-lt.sharecentre.onlineTlubh7WJ
+- name: cf-lt.sharecentre.onlinezwE7Zl1k
   type: vmess
   server: cf-lt.sharecentre.online
   port: '80'
@@ -395,7 +375,7 @@ proxies:
   ws-headers:
     Host: lv3.sharecentrepro.org
   tls: false
-- name: cf-lt.sharecentre.onlinetkPRJ8ej
+- name: cf-lt.sharecentre.onlineBfNSX1R0
   type: vmess
   server: cf-lt.sharecentre.online
   port: '80'
@@ -408,7 +388,7 @@ proxies:
   ws-headers:
     Host: dp1.scproxy.top
   tls: false
-- name: cf-lt.sharecentre.onlineab1jtORP
+- name: cf-lt.sharecentre.onlinedHPJBwfR
   type: vmess
   server: cf-lt.sharecentre.online
   port: '80'
@@ -421,7 +401,7 @@ proxies:
   ws-headers:
     Host: dp3.scproxy.top
   tls: false
-- name: cf-lt.sharecentre.onlinedZphgAN2
+- name: cf-lt.sharecentre.onlineyRTcgDd9
   type: vmess
   server: cf-lt.sharecentre.online
   port: '80'
@@ -434,7 +414,7 @@ proxies:
   ws-headers:
     Host: dp4.scproxy.top
   tls: false
-- name: 104.21.77.15yaiNEbp9
+- name: 104.21.77.150Kv6iwQF
   type: vmess
   server: 104.21.77.15
   port: '2086'
@@ -447,7 +427,7 @@ proxies:
   ws-headers:
     Host: tou.vtcss.top
   tls: false
-- name: 104.31.16.58uEKyX8zp
+- name: 104.31.16.589HsK78gC
   type: vmess
   server: 104.31.16.58
   port: '443'
@@ -460,7 +440,7 @@ proxies:
   ws-headers:
     Host: Mci-Rightel-talia-mokhaberat.irancell-irancell.website
   tls: true
-- name: ovhsdza.76898102.xyzBQ6ypTwS
+- name: ovhsdza.76898102.xyzWDgh75jb
   type: vmess
   server: ovhsdza.76898102.xyz
   port: '2052'
@@ -473,7 +453,7 @@ proxies:
   ws-headers:
     Host: ovhsdz.76898102.xyz
   tls: false
-- name: ovhsdza.76898102.xyzdIuGkXxH
+- name: ovhsdza.76898102.xyzSEZ5G8lH
   type: vmess
   server: ovhsdza.76898102.xyz
   port: '2052'
@@ -486,7 +466,7 @@ proxies:
   ws-headers:
     Host: ovhsdz.76898102.xyz
   tls: false
-- name: cdnjs.comucoCLXwU
+- name: cdnjs.com2p37rSPN
   type: vmess
   server: cdnjs.com
   port: '443'
@@ -499,7 +479,7 @@ proxies:
   ws-headers:
     Host: Kansas.kotick.site
   tls: true
-- name: 104.17.216.390wlK9EaQ
+- name: 104.17.216.39ZL9D2d54
   type: vmess
   server: 104.17.216.39
   port: '2096'
@@ -512,7 +492,7 @@ proxies:
   ws-headers:
     Host: x1.ylks01.eu.org
   tls: true
-- name: 104.19.204.9fCuNT2jZ
+- name: 104.19.204.96n2oBCqk
   type: vmess
   server: 104.19.204.9
   port: '8080'
@@ -525,7 +505,7 @@ proxies:
   ws-headers:
     Host: tou.vtcss.top
   tls: false
-- name: dl.v001sssv.pw1Rukhivp
+- name: dl.v001sssv.pwJwAtePZF
   type: vmess
   server: dl.v001sssv.pw
   port: '80'
@@ -538,7 +518,7 @@ proxies:
   ws-headers:
     Host: dl.v001sssv.pw
   tls: false
-- name: quiz.vidio.comu3FpVKMg
+- name: quiz.vidio.comoKj734pR
   type: vmess
   server: quiz.vidio.com
   port: '443'
@@ -551,7 +531,7 @@ proxies:
   ws-headers:
     Host: dynamic-sg2b.obfs.xyz
   tls: true
-- name: cf.yxjnode.comShe2dFoy
+- name: cf.yxjnode.comojndzNYU
   type: vmess
   server: cf.yxjnode.com
   port: '80'
@@ -564,7 +544,7 @@ proxies:
   ws-headers:
     Host: dp1.yxjnode.com
   tls: false
-- name: 104.19.251.120F0klo2YG
+- name: 104.19.251.120NOthTWni
   type: vmess
   server: 104.19.251.120
   port: '2083'
@@ -577,7 +557,7 @@ proxies:
   ws-headers:
     Host: x1.ylks01.eu.org
   tls: true
-- name: 162.159.243.235f2u5ecdk
+- name: 162.159.243.2351a6DYvxw
   type: vmess
   server: 162.159.243.235
   port: '443'
@@ -590,7 +570,7 @@ proxies:
   ws-headers:
     Host: dedi2.1808.cf
   tls: true
-- name: cf-lt.sharecentre.onlineAGlZ7Jqp
+- name: cf-lt.sharecentre.onlineMyCARGhE
   type: vmess
   server: cf-lt.sharecentre.online
   port: '80'
@@ -603,7 +583,7 @@ proxies:
   ws-headers:
     Host: ssrsub.v01.ssrsub.com
   tls: false
-- name: www.digitalocean.comofGFx6yX
+- name: www.digitalocean.comrRlbUfxS
   type: vmess
   server: www.digitalocean.com
   port: '80'
@@ -616,7 +596,7 @@ proxies:
   ws-headers:
     Host: ssrsub.v01.ssrsub.com
   tls: false
-- name: cf-lt.sharecentre.onlinev2HsmnG7
+- name: cf-lt.sharecentre.onlineoAcQCbts
   type: vmess
   server: cf-lt.sharecentre.online
   port: '80'
@@ -629,7 +609,7 @@ proxies:
   ws-headers:
     Host: ssrsub.v02.ssrsub.com
   tls: false
-- name: www.digitalocean.comzQPcyuHZ
+- name: www.digitalocean.comYpa2U1rc
   type: vmess
   server: www.digitalocean.com
   port: '80'
@@ -642,7 +622,7 @@ proxies:
   ws-headers:
     Host: ssrsub.v02.ssrsub.com
   tls: false
-- name: cf-lt.sharecentre.onlinetP7QqaBc
+- name: cf-lt.sharecentre.onlinergVvASdR
   type: vmess
   server: cf-lt.sharecentre.online
   port: '80'
@@ -655,7 +635,7 @@ proxies:
   ws-headers:
     Host: ssrsub.v03.ssrsub.com
   tls: false
-- name: www.digitalocean.comUTXRbgWy
+- name: www.digitalocean.comG8hid7sQ
   type: vmess
   server: www.digitalocean.com
   port: '80'
@@ -674,113 +654,111 @@ proxy-groups:
   proxies:
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 8x69c3-8080.csb.appSLsiyGTq
-  - 202.108.15.135KIXTuJDh
-  - 159.223.94.1568zsNd29p
-  - ns1.v2-vip.funsZqF19kW
-  - xt.ylks01.eu.org6FjO59eJ
-  - cf-lt.sharecentre.onlinetcjXhgLi
-  - cf-yd-dns.sharecentre.onlinejKzyZETc
-  - 45.153.203.89cORavHWQ
-  - 23.225.9.1984guBYSU1
-  - 170.178.167.149pj9svHQr
-  - www.96110.store5T4oHQJE
-  - vus4.0bad.comIOF83Nfj
-  - ns1.v2-vip.funC5IUDZV7
-  - cf.yxjnode.comMKxS8hji
-  - 86.wowogg.cyouiN8hpVJ4
-  - v2ray.online2awY0NLb
-  - 112.132.215.189Bm8KDEz9
-  - ns1.v2-vip.fundfyL06Nl
-  - cf-yd-dns.sharecentre.onlinejKCsSqPt
-  - 104.31.16.282fiCNBjs
-  - cf-lt.sharecentre.onlinedoeXYMvN
-  - 23.227.38.99bGsxf0zd
-  - cf-dx-dns.sharecentre.onlinezZjLKr4b
-  - cf-lt.sharecentre.online8w4VPmLb
-  - cf-lt.sharecentre.onlineisNK1wSq
-  - cf-lt.sharecentre.onlineKEyjYFSH
-  - cf-lt.sharecentre.onlineuvKWRf8H
-  - cf-lt.sharecentre.onlinezBu8lget
-  - cf-lt.sharecentre.onlineNaJkMQmf
-  - cf-lt.sharecentre.onlineTlubh7WJ
-  - cf-lt.sharecentre.onlinetkPRJ8ej
-  - cf-lt.sharecentre.onlineab1jtORP
-  - cf-lt.sharecentre.onlinedZphgAN2
-  - 104.21.77.15yaiNEbp9
-  - 104.31.16.58uEKyX8zp
-  - ovhsdza.76898102.xyzBQ6ypTwS
-  - ovhsdza.76898102.xyzdIuGkXxH
-  - cdnjs.comucoCLXwU
-  - 104.17.216.390wlK9EaQ
-  - 104.19.204.9fCuNT2jZ
-  - dl.v001sssv.pw1Rukhivp
-  - quiz.vidio.comu3FpVKMg
-  - cf.yxjnode.comShe2dFoy
-  - 104.19.251.120F0klo2YG
-  - 162.159.243.235f2u5ecdk
-  - cf-lt.sharecentre.onlineAGlZ7Jqp
-  - www.digitalocean.comofGFx6yX
-  - cf-lt.sharecentre.onlinev2HsmnG7
-  - www.digitalocean.comzQPcyuHZ
-  - cf-lt.sharecentre.onlinetP7QqaBc
-  - www.digitalocean.comUTXRbgWy
+  - a7d4813550c2.sanfen004.meUSR3wWKx
+  - 192.74.234.185xcsgbFqC
+  - 104.208.84.11595ZzyRuh
+  - 23.225.9.198tpXZvR9C
+  - jp4.d4995a2eb9b4.sanfen004.meFDvelkGm
+  - 140.99.140.158twmUujAs
+  - 162.159.25.51pjkbYzCZ
+  - 104.16.183.1013iPhGpdY
+  - cm1-nc.go001.buzzkox9ZYdz
+  - 140.99.128.11485Q2VRr1
+  - 137.175.11.145XNuHUs0z
+  - 36.156.198.43OS6PryWX
+  - 45.153.203.899EN5Hb0V
+  - 86.wowogg.cyouchrQbvgR
+  - v2ray.onlineWItsQBY2
+  - 112.132.215.1897yT5xFzr
+  - ns1.v2-vip.funZSpNqGfO
+  - cf-yd-dns.sharecentre.onlinex5rQkvOX
+  - 104.31.16.28GNA3tysC
+  - cf-lt.sharecentre.onlineBPbVKeSA
+  - 23.227.38.997Q3iz9vF
+  - cf-dx-dns.sharecentre.onlineqUuENpZO
+  - cf-lt.sharecentre.onlineyNbWU1es
+  - cf-lt.sharecentre.onlineCu9UkGDR
+  - cf-lt.sharecentre.online7oAZxHXn
+  - cf-lt.sharecentre.onlineAfzabPkw
+  - cf-lt.sharecentre.online1lFO6DoB
+  - cf-lt.sharecentre.onliner4DJegvq
+  - cf-lt.sharecentre.onlinezwE7Zl1k
+  - cf-lt.sharecentre.onlineBfNSX1R0
+  - cf-lt.sharecentre.onlinedHPJBwfR
+  - cf-lt.sharecentre.onlineyRTcgDd9
+  - 104.21.77.150Kv6iwQF
+  - 104.31.16.589HsK78gC
+  - ovhsdza.76898102.xyzWDgh75jb
+  - ovhsdza.76898102.xyzSEZ5G8lH
+  - cdnjs.com2p37rSPN
+  - 104.17.216.39ZL9D2d54
+  - 104.19.204.96n2oBCqk
+  - dl.v001sssv.pwJwAtePZF
+  - quiz.vidio.comoKj734pR
+  - cf.yxjnode.comojndzNYU
+  - 104.19.251.120NOthTWni
+  - 162.159.243.2351a6DYvxw
+  - cf-lt.sharecentre.onlineMyCARGhE
+  - www.digitalocean.comrRlbUfxS
+  - cf-lt.sharecentre.onlineoAcQCbts
+  - www.digitalocean.comYpa2U1rc
+  - cf-lt.sharecentre.onlinergVvASdR
+  - www.digitalocean.comG8hid7sQ
 - name: ♻️ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 8x69c3-8080.csb.appSLsiyGTq
-  - 202.108.15.135KIXTuJDh
-  - 159.223.94.1568zsNd29p
-  - ns1.v2-vip.funsZqF19kW
-  - xt.ylks01.eu.org6FjO59eJ
-  - cf-lt.sharecentre.onlinetcjXhgLi
-  - cf-yd-dns.sharecentre.onlinejKzyZETc
-  - 45.153.203.89cORavHWQ
-  - 23.225.9.1984guBYSU1
-  - 170.178.167.149pj9svHQr
-  - www.96110.store5T4oHQJE
-  - vus4.0bad.comIOF83Nfj
-  - ns1.v2-vip.funC5IUDZV7
-  - cf.yxjnode.comMKxS8hji
-  - 86.wowogg.cyouiN8hpVJ4
-  - v2ray.online2awY0NLb
-  - 112.132.215.189Bm8KDEz9
-  - ns1.v2-vip.fundfyL06Nl
-  - cf-yd-dns.sharecentre.onlinejKCsSqPt
-  - 104.31.16.282fiCNBjs
-  - cf-lt.sharecentre.onlinedoeXYMvN
-  - 23.227.38.99bGsxf0zd
-  - cf-dx-dns.sharecentre.onlinezZjLKr4b
-  - cf-lt.sharecentre.online8w4VPmLb
-  - cf-lt.sharecentre.onlineisNK1wSq
-  - cf-lt.sharecentre.onlineKEyjYFSH
-  - cf-lt.sharecentre.onlineuvKWRf8H
-  - cf-lt.sharecentre.onlinezBu8lget
-  - cf-lt.sharecentre.onlineNaJkMQmf
-  - cf-lt.sharecentre.onlineTlubh7WJ
-  - cf-lt.sharecentre.onlinetkPRJ8ej
-  - cf-lt.sharecentre.onlineab1jtORP
-  - cf-lt.sharecentre.onlinedZphgAN2
-  - 104.21.77.15yaiNEbp9
-  - 104.31.16.58uEKyX8zp
-  - ovhsdza.76898102.xyzBQ6ypTwS
-  - ovhsdza.76898102.xyzdIuGkXxH
-  - cdnjs.comucoCLXwU
-  - 104.17.216.390wlK9EaQ
-  - 104.19.204.9fCuNT2jZ
-  - dl.v001sssv.pw1Rukhivp
-  - quiz.vidio.comu3FpVKMg
-  - cf.yxjnode.comShe2dFoy
-  - 104.19.251.120F0klo2YG
-  - 162.159.243.235f2u5ecdk
-  - cf-lt.sharecentre.onlineAGlZ7Jqp
-  - www.digitalocean.comofGFx6yX
-  - cf-lt.sharecentre.onlinev2HsmnG7
-  - www.digitalocean.comzQPcyuHZ
-  - cf-lt.sharecentre.onlinetP7QqaBc
-  - www.digitalocean.comUTXRbgWy
+  - a7d4813550c2.sanfen004.meUSR3wWKx
+  - 192.74.234.185xcsgbFqC
+  - 104.208.84.11595ZzyRuh
+  - 23.225.9.198tpXZvR9C
+  - jp4.d4995a2eb9b4.sanfen004.meFDvelkGm
+  - 140.99.140.158twmUujAs
+  - 162.159.25.51pjkbYzCZ
+  - 104.16.183.1013iPhGpdY
+  - cm1-nc.go001.buzzkox9ZYdz
+  - 140.99.128.11485Q2VRr1
+  - 137.175.11.145XNuHUs0z
+  - 36.156.198.43OS6PryWX
+  - 45.153.203.899EN5Hb0V
+  - 86.wowogg.cyouchrQbvgR
+  - v2ray.onlineWItsQBY2
+  - 112.132.215.1897yT5xFzr
+  - ns1.v2-vip.funZSpNqGfO
+  - cf-yd-dns.sharecentre.onlinex5rQkvOX
+  - 104.31.16.28GNA3tysC
+  - cf-lt.sharecentre.onlineBPbVKeSA
+  - 23.227.38.997Q3iz9vF
+  - cf-dx-dns.sharecentre.onlineqUuENpZO
+  - cf-lt.sharecentre.onlineyNbWU1es
+  - cf-lt.sharecentre.onlineCu9UkGDR
+  - cf-lt.sharecentre.online7oAZxHXn
+  - cf-lt.sharecentre.onlineAfzabPkw
+  - cf-lt.sharecentre.online1lFO6DoB
+  - cf-lt.sharecentre.onliner4DJegvq
+  - cf-lt.sharecentre.onlinezwE7Zl1k
+  - cf-lt.sharecentre.onlineBfNSX1R0
+  - cf-lt.sharecentre.onlinedHPJBwfR
+  - cf-lt.sharecentre.onlineyRTcgDd9
+  - 104.21.77.150Kv6iwQF
+  - 104.31.16.589HsK78gC
+  - ovhsdza.76898102.xyzWDgh75jb
+  - ovhsdza.76898102.xyzSEZ5G8lH
+  - cdnjs.com2p37rSPN
+  - 104.17.216.39ZL9D2d54
+  - 104.19.204.96n2oBCqk
+  - dl.v001sssv.pwJwAtePZF
+  - quiz.vidio.comoKj734pR
+  - cf.yxjnode.comojndzNYU
+  - 104.19.251.120NOthTWni
+  - 162.159.243.2351a6DYvxw
+  - cf-lt.sharecentre.onlineMyCARGhE
+  - www.digitalocean.comrRlbUfxS
+  - cf-lt.sharecentre.onlineoAcQCbts
+  - www.digitalocean.comYpa2U1rc
+  - cf-lt.sharecentre.onlinergVvASdR
+  - www.digitalocean.comG8hid7sQ
 - name: 🌍 国外媒体
   type: select
   proxies:
