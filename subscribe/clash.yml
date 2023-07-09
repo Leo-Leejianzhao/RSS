@@ -5,61 +5,48 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-- name: 173.245.58.130cVn0exQL
+- name: 142.4.100.42cSCzIHbs
   type: vmess
-  server: 173.245.58.130
-  port: 80
-  uuid: 9572d691-e27a-4f54-ef4d-57600a785b55
+  server: 142.4.100.42
+  port: 45009
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: '64'
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: ''
+  tls: false
+- name: 198.2.203.54Tm48RKEd
+  type: vmess
+  server: 198.2.203.54
+  port: 44672
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: '64'
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: ''
+  tls: false
+- name: 190.93.244.1179Heu8d0j
+  type: vmess
+  server: 190.93.244.117
+  port: 2052
+  uuid: 3cd4f859-1048-4fdf-d8d8-4dbfaa9e8a80
   alterId: 0
   cipher: auto
   network: ws
   ucp: true
-  ws-path: /qwer00
+  ws-path: /qwer0
   ws-headers:
     Host: txx.vtcss.top
   tls: false
-- name: 140.99.148.536uiNbojT
+- name: 45.92.160.1386g1jsXtk
   type: vmess
-  server: 140.99.148.53
-  port: 47839
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: '64'
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: /
-  ws-headers:
-    Host: ''
-  tls: false
-- name: 140.99.77.25gbLWjh2a
-  type: vmess
-  server: 140.99.77.25
-  port: 50332
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: '64'
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: /
-  ws-headers:
-    Host: ''
-  tls: false
-- name: ns1.v2-vip.funh940lCQr
-  type: vmess
-  server: ns1.v2-vip.fun
-  port: '80'
-  uuid: 8abe9496-5e24-4e49-b566-dcf86116017d
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /i99LgvSaslbsPLLQQ7j6Z
-  ws-headers:
-    Host: de5.irteh.fun
-  tls: false
-- name: 45.92.160.134482Be5Ca
-  type: vmess
-  server: 45.92.160.134
+  server: 45.92.160.138
   port: 53602
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   alterId: '64'
@@ -70,23 +57,23 @@ proxies:
   ws-headers:
     Host: ''
   tls: false
-- name: cf3.992688.xyzgI2m6izd
+- name: 142.4.99.91zV5YZbPR
   type: vmess
-  server: cf3.992688.xyz
-  port: 8080
-  uuid: b0b12ae2-346c-488b-8d1e-9f3afb8fead5
-  alterId: '0'
+  server: 142.4.99.91
+  port: 43379
+  uuid: b65da4af-a12a-4a59-9316-4549e12ba62c
+  alterId: '64'
   cipher: auto
-  network: ws
+  network: tcp
   ucp: true
   ws-path: /
   ws-headers:
-    Host: hax.992688.xyz
+    Host: ''
   tls: false
-- name: 51.195.35.1510uQCI2Sg
+- name: 199.188.105.141L4ESBypW
   type: vmess
-  server: 51.195.35.151
-  port: 49982
+  server: 199.188.105.141
+  port: 45009
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   alterId: '64'
   cipher: auto
@@ -96,111 +83,7 @@ proxies:
   ws-headers:
     Host: ''
   tls: false
-- name: 140.99.77.12FLzHKqk1
-  type: vmess
-  server: 140.99.77.12
-  port: '54774'
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: '64'
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: /
-  ws-headers:
-    Host: ''
-  tls: false
-- name: 104.31.16.2896s4SlFB
-  type: vmess
-  server: 104.31.16.28
-  port: 80
-  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /IOebhLMhl1CTbFHbL95myfRX2
-  ws-headers:
-    Host: ca4.tehme2.fun
-  tls: false
-- name: 156.225.67.111vAui2tnz
-  type: vmess
-  server: 156.225.67.111
-  port: 43126
-  uuid: b8df3ef1-887f-4ee4-855f-4f80416c2464
-  alterId: '64'
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: /
-  ws-headers:
-    Host: ''
-  tls: false
-- name: 198.41.212.130d4kYLpRH
-  type: vmess
-  server: 198.41.212.130
-  port: 8880
-  uuid: dbb471fd-c7ef-4599-871c-b4ed72cca498
-  alterId: 0
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /qwer01
-  ws-headers:
-    Host: txx.vtcss.top
-  tls: false
-- name: 142.4.112.1AmPvBl1z
-  type: vmess
-  server: 142.4.112.1
-  port: 51091
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: '64'
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: /
-  ws-headers:
-    Host: ''
-  tls: false
-- name: 86.wowogg.cyouGxVUJvLj
-  type: vmess
-  server: 86.wowogg.cyou
-  port: '52286'
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
-  alterId: '2'
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: ''
-  ws-headers:
-    Host: 86.wowogg.cyou
-  tls: false
-- name: cz.hug1013.merP19v0BT
-  type: vmess
-  server: cz.hug1013.me
-  port: '8880'
-  uuid: 8075ec18-25ca-4677-930a-867898c4cf9f
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /kyoma?ed=2048
-  ws-headers:
-    Host: cz.hug1013.me
-  tls: false
-- name: 112.132.215.189bi874ohl
-  type: vmess
-  server: 112.132.215.189
-  port: '50002'
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: '64'
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: /
-  ws-headers:
-    Host: ''
-  tls: false
-- name: ns1.v2-vip.fun6Cfoa0Nx
+- name: ns1.v2-vip.funGdBULI4n
   type: vmess
   server: ns1.v2-vip.fun
   port: '80'
@@ -213,176 +96,33 @@ proxies:
   ws-headers:
     Host: de5.irteh.fun
   tls: false
-- name: cf-yd-dns.sharecentre.online1GmyDsd6
+- name: 104.19.23.96RcnAyC0x
   type: vmess
-  server: cf-yd-dns.sharecentre.online
-  port: '80'
-  uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef
+  server: 104.19.23.96
+  port: 2052
+  uuid: 3cd4f859-1048-4fdf-d8d8-4dbfaa9e8a80
   alterId: '0'
   cipher: auto
   network: ws
   ucp: true
-  ws-path: /shirker
+  ws-path: /qwer0
   ws-headers:
-    Host: dp3.scproxy.top
+    Host: txx.vtcss.top
   tls: false
-- name: 104.31.16.28CRNvhcB1
+- name: 45.153.203.87bPufrdqX
   type: vmess
-  server: 104.31.16.28
-  port: '80'
-  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
-  alterId: '0'
+  server: 45.153.203.87
+  port: 41632
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: '64'
   cipher: auto
-  network: ws
+  network: tcp
   ucp: true
-  ws-path: /IOebhLMhl1CTbFHbL95myfRX2
+  ws-path: /
   ws-headers:
-    Host: ca4.tehme2.fun
+    Host: ''
   tls: false
-- name: cf-lt.sharecentre.onlinewbS7kE3p
-  type: vmess
-  server: cf-lt.sharecentre.online
-  port: '80'
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /shirker
-  ws-headers:
-    Host: nl.sharecentrepro.com
-  tls: false
-- name: 23.227.38.992SbYTrf5
-  type: vmess
-  server: 23.227.38.99
-  port: '443'
-  uuid: 86d37526-5758-4cec-862f-df404b313086
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /3G6WPDL7
-  ws-headers:
-    Host: 1.freek1.xyz
-  tls: true
-- name: 104.31.16.45vmOzZyxT
-  type: vmess
-  server: 104.31.16.45
-  port: '80'
-  uuid: 2fcc2939-7dcf-4741-aa03-825bc40e23fd
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /CZfczvtieCZXdOlgWhgDLX
-  ws-headers:
-    Host: de3.irteh.fun
-  tls: false
-- name: cf-lt.sharecentre.onlineWYz8c1he
-  type: vmess
-  server: cf-lt.sharecentre.online
-  port: '80'
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /shirker
-  ws-headers:
-    Host: uk1.scproxy.top
-  tls: false
-- name: cf-lt.sharecentre.online2UKMDRh6
-  type: vmess
-  server: cf-lt.sharecentre.online
-  port: '80'
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /shirker
-  ws-headers:
-    Host: do.sharecentrepro.com
-  tls: false
-- name: cf-lt.sharecentre.onlineuE1SrpkP
-  type: vmess
-  server: cf-lt.sharecentre.online
-  port: '80'
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /shirker
-  ws-headers:
-    Host: hk-hytron.ilovescp.com
-  tls: false
-- name: cf-lt.sharecentre.onlineLBEwQgkn
-  type: vmess
-  server: cf-lt.sharecentre.online
-  port: '80'
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /shirker
-  ws-headers:
-    Host: lv1.sharecentrepro.org
-  tls: false
-- name: cf-lt.sharecentre.onlineH74VudNE
-  type: vmess
-  server: cf-lt.sharecentre.online
-  port: '80'
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /shirker
-  ws-headers:
-    Host: lv2.sharecentrepro.org
-  tls: false
-- name: cf-lt.sharecentre.onlineFyuZKzHO
-  type: vmess
-  server: cf-lt.sharecentre.online
-  port: '80'
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /shirker
-  ws-headers:
-    Host: lv3.sharecentrepro.org
-  tls: false
-- name: cf-lt.sharecentre.onlineeBUX6Z3l
-  type: vmess
-  server: cf-lt.sharecentre.online
-  port: '80'
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /shirker
-  ws-headers:
-    Host: dp1.scproxy.top
-  tls: false
-- name: cf-lt.sharecentre.onlineEdoSf0Ks
-  type: vmess
-  server: cf-lt.sharecentre.online
-  port: '80'
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /shirker
-  ws-headers:
-    Host: dp3.scproxy.top
-  tls: false
-- name: cf-lt.sharecentre.onlinefeKmyaMW
+- name: cf-lt.sharecentre.onlinecRvTdjmp
   type: vmess
   server: cf-lt.sharecentre.online
   port: '80'
@@ -395,7 +135,319 @@ proxies:
   ws-headers:
     Host: dp4.scproxy.top
   tls: false
-- name: cf-lt.sharecentre.onlineQ8UWvm7A
+- name: 51.195.35.14712bymx6G
+  type: vmess
+  server: 51.195.35.147
+  port: 49982
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: '64'
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: ''
+  tls: false
+- name: 45.136.235.11H46gxQwy
+  type: vmess
+  server: 45.136.235.11
+  port: 41632
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: '64'
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: ''
+  tls: false
+- name: 156.225.67.111kOHB3sNu
+  type: vmess
+  server: 156.225.67.111
+  port: 43126
+  uuid: b8df3ef1-887f-4ee4-855f-4f80416c2464
+  alterId: '64'
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: ''
+  tls: false
+- name: 140.99.49.56jBQd0abY
+  type: vmess
+  server: 140.99.49.56
+  port: 55602
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: '64'
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: ''
+  tls: false
+- name: 142.4.99.88RXQesuph
+  type: vmess
+  server: 142.4.99.88
+  port: 43379
+  uuid: b65da4af-a12a-4a59-9316-4549e12ba62c
+  alterId: '64'
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: ''
+  tls: false
+- name: 45.153.203.85LIGQ4gJ2
+  type: vmess
+  server: 45.153.203.85
+  port: 41632
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: '64'
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: ''
+  tls: false
+- name: 86.wowogg.cyouU6kr4CYi
+  type: vmess
+  server: 86.wowogg.cyou
+  port: '52286'
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: '2'
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: ''
+  ws-headers:
+    Host: 86.wowogg.cyou
+  tls: false
+- name: cz.hug1013.meoMApiJlI
+  type: vmess
+  server: cz.hug1013.me
+  port: '8880'
+  uuid: 8075ec18-25ca-4677-930a-867898c4cf9f
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /kyoma?ed=2048
+  ws-headers:
+    Host: cz.hug1013.me
+  tls: false
+- name: 112.132.215.189X2FLwmsq
+  type: vmess
+  server: 112.132.215.189
+  port: '50002'
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: '64'
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: ''
+  tls: false
+- name: ns1.v2-vip.fun7z2ykjtK
+  type: vmess
+  server: ns1.v2-vip.fun
+  port: '80'
+  uuid: 8abe9496-5e24-4e49-b566-dcf86116017d
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /i99LgvSaslbsPLLQQ7j6Z
+  ws-headers:
+    Host: de5.irteh.fun
+  tls: false
+- name: cf-yd-dns.sharecentre.onlineDXKcZwy8
+  type: vmess
+  server: cf-yd-dns.sharecentre.online
+  port: '80'
+  uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /shirker
+  ws-headers:
+    Host: dp3.scproxy.top
+  tls: false
+- name: 104.31.16.28D1MPJgp2
+  type: vmess
+  server: 104.31.16.28
+  port: '80'
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /IOebhLMhl1CTbFHbL95myfRX2
+  ws-headers:
+    Host: ca4.tehme2.fun
+  tls: false
+- name: cf-lt.sharecentre.onlinezN8iQdbp
+  type: vmess
+  server: cf-lt.sharecentre.online
+  port: '80'
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /shirker
+  ws-headers:
+    Host: nl.sharecentrepro.com
+  tls: false
+- name: 23.227.38.99zAJiR9cQ
+  type: vmess
+  server: 23.227.38.99
+  port: '443'
+  uuid: 86d37526-5758-4cec-862f-df404b313086
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /3G6WPDL7
+  ws-headers:
+    Host: 1.freek1.xyz
+  tls: true
+- name: 104.31.16.45iC9uLyg0
+  type: vmess
+  server: 104.31.16.45
+  port: '80'
+  uuid: 2fcc2939-7dcf-4741-aa03-825bc40e23fd
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /CZfczvtieCZXdOlgWhgDLX
+  ws-headers:
+    Host: de3.irteh.fun
+  tls: false
+- name: cf-lt.sharecentre.onlineUc16CJeN
+  type: vmess
+  server: cf-lt.sharecentre.online
+  port: '80'
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /shirker
+  ws-headers:
+    Host: uk1.scproxy.top
+  tls: false
+- name: cf-lt.sharecentre.onlineKos7iZcG
+  type: vmess
+  server: cf-lt.sharecentre.online
+  port: '80'
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /shirker
+  ws-headers:
+    Host: do.sharecentrepro.com
+  tls: false
+- name: cf-lt.sharecentre.onlineOyIEscTG
+  type: vmess
+  server: cf-lt.sharecentre.online
+  port: '80'
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /shirker
+  ws-headers:
+    Host: hk-hytron.ilovescp.com
+  tls: false
+- name: cf-lt.sharecentre.online4RoYV9KC
+  type: vmess
+  server: cf-lt.sharecentre.online
+  port: '80'
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /shirker
+  ws-headers:
+    Host: lv1.sharecentrepro.org
+  tls: false
+- name: cf-lt.sharecentre.onlineKx1f6EIl
+  type: vmess
+  server: cf-lt.sharecentre.online
+  port: '80'
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /shirker
+  ws-headers:
+    Host: lv2.sharecentrepro.org
+  tls: false
+- name: cf-lt.sharecentre.onlineiAwn3deQ
+  type: vmess
+  server: cf-lt.sharecentre.online
+  port: '80'
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /shirker
+  ws-headers:
+    Host: lv3.sharecentrepro.org
+  tls: false
+- name: cf-lt.sharecentre.onlineScUA2oJ7
+  type: vmess
+  server: cf-lt.sharecentre.online
+  port: '80'
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /shirker
+  ws-headers:
+    Host: dp1.scproxy.top
+  tls: false
+- name: cf-lt.sharecentre.onlinelgt0mETi
+  type: vmess
+  server: cf-lt.sharecentre.online
+  port: '80'
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /shirker
+  ws-headers:
+    Host: dp3.scproxy.top
+  tls: false
+- name: cf-lt.sharecentre.onlineuJIW2OjP
+  type: vmess
+  server: cf-lt.sharecentre.online
+  port: '80'
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /shirker
+  ws-headers:
+    Host: dp4.scproxy.top
+  tls: false
+- name: cf-lt.sharecentre.onlineFnZDEYKp
   type: vmess
   server: cf-lt.sharecentre.online
   port: '80'
@@ -408,7 +460,7 @@ proxies:
   ws-headers:
     Host: ca.ilovescp.com
   tls: false
-- name: 108.186.116.175LMR6XG35
+- name: 108.186.116.175bo0uGzNl
   type: vmess
   server: 108.186.116.175
   port: '55005'
@@ -421,7 +473,7 @@ proxies:
   ws-headers:
     Host: ''
   tls: false
-- name: 107.167.16.85czxuakEj
+- name: 107.167.16.85O5BVGkg1
   type: vmess
   server: 107.167.16.85
   port: '45689'
@@ -434,7 +486,7 @@ proxies:
   ws-headers:
     Host: ''
   tls: false
-- name: speedip.eu.orgxq9o1Z5J
+- name: speedip.eu.orgNWfD2AZG
   type: vmess
   server: speedip.eu.org
   port: '2052'
@@ -447,7 +499,7 @@ proxies:
   ws-headers:
     Host: nl_nat.v50.one
   tls: false
-- name: sooya.biz.id3LjdRtsH
+- name: sooya.biz.id8lbqrCaY
   type: vmess
   server: sooya.biz.id
   port: '443'
@@ -460,7 +512,7 @@ proxies:
   ws-headers:
     Host: asia1.oceis.net
   tls: true
-- name: 173.245.58.66ZGQmdIRx
+- name: 173.245.58.66oZfqziMc
   type: vmess
   server: 173.245.58.66
   port: '2087'
@@ -473,7 +525,7 @@ proxies:
   ws-headers:
     Host: uxx.vtcss.top
   tls: true
-- name: cf.yxjnode.comt93UICqf
+- name: cf.yxjnode.comS81QjDbi
   type: vmess
   server: cf.yxjnode.com
   port: '80'
@@ -486,7 +538,7 @@ proxies:
   ws-headers:
     Host: dp1.yxjnode.com
   tls: false
-- name: datacenter.cm.01.biqibao.siteJ8KL2Bbo
+- name: datacenter.cm.01.biqibao.siteFti2R09a
   type: vmess
   server: datacenter.cm.01.biqibao.site
   port: '2052'
@@ -499,7 +551,7 @@ proxies:
   ws-headers:
     Host: detacenter.01.biqibao.site
   tls: false
-- name: dl.v001sssv.pw9kwA1bvf
+- name: dl.v001sssv.pw2B3XyNep
   type: vmess
   server: dl.v001sssv.pw
   port: '80'
@@ -512,7 +564,7 @@ proxies:
   ws-headers:
     Host: dl.v001sssv.pw
   tls: false
-- name: cf-lt.sharecentre.onlinemfUbGdzM
+- name: cf-lt.sharecentre.onlinesREY7Qqu
   type: vmess
   server: cf-lt.sharecentre.online
   port: '80'
@@ -525,7 +577,7 @@ proxies:
   ws-headers:
     Host: ssrsub.v01.ssrsub.com
   tls: false
-- name: cf.515188.xyzx1zKeImr
+- name: cf.515188.xyzlmspHECN
   type: vmess
   server: cf.515188.xyz
   port: '80'
@@ -538,7 +590,7 @@ proxies:
   ws-headers:
     Host: ssrsub.v01.ssrsub.com
   tls: false
-- name: cf-lt.sharecentre.onlineJSGR9Xv8
+- name: cf-lt.sharecentre.onlinePi8WIslV
   type: vmess
   server: cf-lt.sharecentre.online
   port: '80'
@@ -551,7 +603,7 @@ proxies:
   ws-headers:
     Host: ssrsub.v02.ssrsub.com
   tls: false
-- name: cf.515188.xyzAZ0vuVfO
+- name: cf.515188.xyzbBRhFtsq
   type: vmess
   server: cf.515188.xyz
   port: '80'
@@ -564,7 +616,7 @@ proxies:
   ws-headers:
     Host: ssrsub.v02.ssrsub.com
   tls: false
-- name: cf-lt.sharecentre.onlineNngDOTbm
+- name: cf-lt.sharecentre.onlineh6mJKSMT
   type: vmess
   server: cf-lt.sharecentre.online
   port: '80'
@@ -577,7 +629,7 @@ proxies:
   ws-headers:
     Host: ssrsub.v03.ssrsub.com
   tls: false
-- name: cf.515188.xyzQBH5P0ZF
+- name: cf.515188.xyzg9FCOjxo
   type: vmess
   server: cf.515188.xyz
   port: '80'
@@ -596,101 +648,109 @@ proxy-groups:
   proxies:
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 173.245.58.130cVn0exQL
-  - 140.99.148.536uiNbojT
-  - 140.99.77.25gbLWjh2a
-  - ns1.v2-vip.funh940lCQr
-  - 45.92.160.134482Be5Ca
-  - cf3.992688.xyzgI2m6izd
-  - 51.195.35.1510uQCI2Sg
-  - 140.99.77.12FLzHKqk1
-  - 104.31.16.2896s4SlFB
-  - 156.225.67.111vAui2tnz
-  - 198.41.212.130d4kYLpRH
-  - 142.4.112.1AmPvBl1z
-  - 86.wowogg.cyouGxVUJvLj
-  - cz.hug1013.merP19v0BT
-  - 112.132.215.189bi874ohl
-  - ns1.v2-vip.fun6Cfoa0Nx
-  - cf-yd-dns.sharecentre.online1GmyDsd6
-  - 104.31.16.28CRNvhcB1
-  - cf-lt.sharecentre.onlinewbS7kE3p
-  - 23.227.38.992SbYTrf5
-  - 104.31.16.45vmOzZyxT
-  - cf-lt.sharecentre.onlineWYz8c1he
-  - cf-lt.sharecentre.online2UKMDRh6
-  - cf-lt.sharecentre.onlineuE1SrpkP
-  - cf-lt.sharecentre.onlineLBEwQgkn
-  - cf-lt.sharecentre.onlineH74VudNE
-  - cf-lt.sharecentre.onlineFyuZKzHO
-  - cf-lt.sharecentre.onlineeBUX6Z3l
-  - cf-lt.sharecentre.onlineEdoSf0Ks
-  - cf-lt.sharecentre.onlinefeKmyaMW
-  - cf-lt.sharecentre.onlineQ8UWvm7A
-  - 108.186.116.175LMR6XG35
-  - 107.167.16.85czxuakEj
-  - speedip.eu.orgxq9o1Z5J
-  - sooya.biz.id3LjdRtsH
-  - 173.245.58.66ZGQmdIRx
-  - cf.yxjnode.comt93UICqf
-  - datacenter.cm.01.biqibao.siteJ8KL2Bbo
-  - dl.v001sssv.pw9kwA1bvf
-  - cf-lt.sharecentre.onlinemfUbGdzM
-  - cf.515188.xyzx1zKeImr
-  - cf-lt.sharecentre.onlineJSGR9Xv8
-  - cf.515188.xyzAZ0vuVfO
-  - cf-lt.sharecentre.onlineNngDOTbm
-  - cf.515188.xyzQBH5P0ZF
+  - 142.4.100.42cSCzIHbs
+  - 198.2.203.54Tm48RKEd
+  - 190.93.244.1179Heu8d0j
+  - 45.92.160.1386g1jsXtk
+  - 142.4.99.91zV5YZbPR
+  - 199.188.105.141L4ESBypW
+  - ns1.v2-vip.funGdBULI4n
+  - 104.19.23.96RcnAyC0x
+  - 45.153.203.87bPufrdqX
+  - cf-lt.sharecentre.onlinecRvTdjmp
+  - 51.195.35.14712bymx6G
+  - 45.136.235.11H46gxQwy
+  - 156.225.67.111kOHB3sNu
+  - 140.99.49.56jBQd0abY
+  - 142.4.99.88RXQesuph
+  - 45.153.203.85LIGQ4gJ2
+  - 86.wowogg.cyouU6kr4CYi
+  - cz.hug1013.meoMApiJlI
+  - 112.132.215.189X2FLwmsq
+  - ns1.v2-vip.fun7z2ykjtK
+  - cf-yd-dns.sharecentre.onlineDXKcZwy8
+  - 104.31.16.28D1MPJgp2
+  - cf-lt.sharecentre.onlinezN8iQdbp
+  - 23.227.38.99zAJiR9cQ
+  - 104.31.16.45iC9uLyg0
+  - cf-lt.sharecentre.onlineUc16CJeN
+  - cf-lt.sharecentre.onlineKos7iZcG
+  - cf-lt.sharecentre.onlineOyIEscTG
+  - cf-lt.sharecentre.online4RoYV9KC
+  - cf-lt.sharecentre.onlineKx1f6EIl
+  - cf-lt.sharecentre.onlineiAwn3deQ
+  - cf-lt.sharecentre.onlineScUA2oJ7
+  - cf-lt.sharecentre.onlinelgt0mETi
+  - cf-lt.sharecentre.onlineuJIW2OjP
+  - cf-lt.sharecentre.onlineFnZDEYKp
+  - 108.186.116.175bo0uGzNl
+  - 107.167.16.85O5BVGkg1
+  - speedip.eu.orgNWfD2AZG
+  - sooya.biz.id8lbqrCaY
+  - 173.245.58.66oZfqziMc
+  - cf.yxjnode.comS81QjDbi
+  - datacenter.cm.01.biqibao.siteFti2R09a
+  - dl.v001sssv.pw2B3XyNep
+  - cf-lt.sharecentre.onlinesREY7Qqu
+  - cf.515188.xyzlmspHECN
+  - cf-lt.sharecentre.onlinePi8WIslV
+  - cf.515188.xyzbBRhFtsq
+  - cf-lt.sharecentre.onlineh6mJKSMT
+  - cf.515188.xyzg9FCOjxo
 - name: ♻️ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 173.245.58.130cVn0exQL
-  - 140.99.148.536uiNbojT
-  - 140.99.77.25gbLWjh2a
-  - ns1.v2-vip.funh940lCQr
-  - 45.92.160.134482Be5Ca
-  - cf3.992688.xyzgI2m6izd
-  - 51.195.35.1510uQCI2Sg
-  - 140.99.77.12FLzHKqk1
-  - 104.31.16.2896s4SlFB
-  - 156.225.67.111vAui2tnz
-  - 198.41.212.130d4kYLpRH
-  - 142.4.112.1AmPvBl1z
-  - 86.wowogg.cyouGxVUJvLj
-  - cz.hug1013.merP19v0BT
-  - 112.132.215.189bi874ohl
-  - ns1.v2-vip.fun6Cfoa0Nx
-  - cf-yd-dns.sharecentre.online1GmyDsd6
-  - 104.31.16.28CRNvhcB1
-  - cf-lt.sharecentre.onlinewbS7kE3p
-  - 23.227.38.992SbYTrf5
-  - 104.31.16.45vmOzZyxT
-  - cf-lt.sharecentre.onlineWYz8c1he
-  - cf-lt.sharecentre.online2UKMDRh6
-  - cf-lt.sharecentre.onlineuE1SrpkP
-  - cf-lt.sharecentre.onlineLBEwQgkn
-  - cf-lt.sharecentre.onlineH74VudNE
-  - cf-lt.sharecentre.onlineFyuZKzHO
-  - cf-lt.sharecentre.onlineeBUX6Z3l
-  - cf-lt.sharecentre.onlineEdoSf0Ks
-  - cf-lt.sharecentre.onlinefeKmyaMW
-  - cf-lt.sharecentre.onlineQ8UWvm7A
-  - 108.186.116.175LMR6XG35
-  - 107.167.16.85czxuakEj
-  - speedip.eu.orgxq9o1Z5J
-  - sooya.biz.id3LjdRtsH
-  - 173.245.58.66ZGQmdIRx
-  - cf.yxjnode.comt93UICqf
-  - datacenter.cm.01.biqibao.siteJ8KL2Bbo
-  - dl.v001sssv.pw9kwA1bvf
-  - cf-lt.sharecentre.onlinemfUbGdzM
-  - cf.515188.xyzx1zKeImr
-  - cf-lt.sharecentre.onlineJSGR9Xv8
-  - cf.515188.xyzAZ0vuVfO
-  - cf-lt.sharecentre.onlineNngDOTbm
-  - cf.515188.xyzQBH5P0ZF
+  - 142.4.100.42cSCzIHbs
+  - 198.2.203.54Tm48RKEd
+  - 190.93.244.1179Heu8d0j
+  - 45.92.160.1386g1jsXtk
+  - 142.4.99.91zV5YZbPR
+  - 199.188.105.141L4ESBypW
+  - ns1.v2-vip.funGdBULI4n
+  - 104.19.23.96RcnAyC0x
+  - 45.153.203.87bPufrdqX
+  - cf-lt.sharecentre.onlinecRvTdjmp
+  - 51.195.35.14712bymx6G
+  - 45.136.235.11H46gxQwy
+  - 156.225.67.111kOHB3sNu
+  - 140.99.49.56jBQd0abY
+  - 142.4.99.88RXQesuph
+  - 45.153.203.85LIGQ4gJ2
+  - 86.wowogg.cyouU6kr4CYi
+  - cz.hug1013.meoMApiJlI
+  - 112.132.215.189X2FLwmsq
+  - ns1.v2-vip.fun7z2ykjtK
+  - cf-yd-dns.sharecentre.onlineDXKcZwy8
+  - 104.31.16.28D1MPJgp2
+  - cf-lt.sharecentre.onlinezN8iQdbp
+  - 23.227.38.99zAJiR9cQ
+  - 104.31.16.45iC9uLyg0
+  - cf-lt.sharecentre.onlineUc16CJeN
+  - cf-lt.sharecentre.onlineKos7iZcG
+  - cf-lt.sharecentre.onlineOyIEscTG
+  - cf-lt.sharecentre.online4RoYV9KC
+  - cf-lt.sharecentre.onlineKx1f6EIl
+  - cf-lt.sharecentre.onlineiAwn3deQ
+  - cf-lt.sharecentre.onlineScUA2oJ7
+  - cf-lt.sharecentre.onlinelgt0mETi
+  - cf-lt.sharecentre.onlineuJIW2OjP
+  - cf-lt.sharecentre.onlineFnZDEYKp
+  - 108.186.116.175bo0uGzNl
+  - 107.167.16.85O5BVGkg1
+  - speedip.eu.orgNWfD2AZG
+  - sooya.biz.id8lbqrCaY
+  - 173.245.58.66oZfqziMc
+  - cf.yxjnode.comS81QjDbi
+  - datacenter.cm.01.biqibao.siteFti2R09a
+  - dl.v001sssv.pw2B3XyNep
+  - cf-lt.sharecentre.onlinesREY7Qqu
+  - cf.515188.xyzlmspHECN
+  - cf-lt.sharecentre.onlinePi8WIslV
+  - cf.515188.xyzbBRhFtsq
+  - cf-lt.sharecentre.onlineh6mJKSMT
+  - cf.515188.xyzg9FCOjxo
 - name: 🌍 国外媒体
   type: select
   proxies:
