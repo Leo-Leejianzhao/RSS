@@ -352,6 +352,8 @@ if __name__ == '__main__':
     proxies.extend(load_subscribe_url('https://web.anqi.ml/api/v1/client/subscribe?token=21e483aa1e50e796f543b9d63b4a27d1'))
     
     proxies.extend(load_subscribe_url('https://raw.githubusercontent.com/ssrsub/ssr/master/V2Ray'))
+    proxies.extend(load_subscribe_url('https://sub.marsix.cc/api/v1/client/subscribe?token=f6f817ddb0c62fdbaff1c90c9a074c45'))
+    proxies.extend(load_subscribe_url('https://getinfo.bigwatermelon.org/api/v1/client/subscribe?token=8fe4290ba47b6fe0e207ead380a2396a'))
 
     localtime = time.localtime(time.time())
     proxies.extend(load_subscribe_url(f"https://v2rayshare.com/wp-content/uploads/2023/05/2023{localtime.tm_mon:02}{localtime.tm_mday:02}.txt"))
