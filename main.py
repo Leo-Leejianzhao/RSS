@@ -346,7 +346,7 @@ if __name__ == '__main__':
     # proxies.extend(load_subscribe_url('https://raw.githubusercontent.com/freefq/free/master/v2'))
 
 
-    proxies.extend(load_subscribe_url('https://sub.id9.cc/sub?target=v2ray&url=https://9527521.xyz/config/nP9rmwMgilB6W2kX&insert=false'))
+    proxies.extend(load_subscribe_url('https://sub.xeton.dev/sub?target=v2ray&url=https://9527521.xyz/config/r619xXVEup802SRh&insert=false'))
     # proxies.extend(load_subscribe_url('https://xn--wbs186a7vao45a8qd.v50.one/api/v1/client/subscribe?token=9249ef731acd8c150e656f6e4b77700f'))
     proxies.extend(load_subscribe_url('https://raw.fastgit.org/Pawdroid/Free-servers/main/sub'))
     # proxies.extend(load_subscribe_url('https://web.anqi.ml/api/v1/client/subscribe?token=21e483aa1e50e796f543b9d63b4a27d1'))
