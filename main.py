@@ -357,8 +357,13 @@ if __name__ == '__main__':
 
     proxies.extend(load_subscribe_url('https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt'))
 
-    localtime = time.localtime(time.time())
-    proxies.extend(load_subscribe_url(f"https://v2rayshare.com/wp-content/uploads/{localtime.tm_year:04}/{localtime.tm_mon:02}/{localtime.tm_year:04}{localtime.tm_mon:02}{localtime.tm_mday:02}.txt"))
+    now=datetime.date.today()
+    proxies.extend(load_subscribe_url(f"https://v2rayshare.com/wp-content/uploads/{now.year:04}/{now.month:02}/{now.year:04}{now.month:02}{now.day:02}.txt"))
+    now+=datetime.timedelta(days=1)
+    proxies.extend(load_subscribe_url(f"https://v2rayshare.com/wp-content/uploads/{now.year:04}/{now.month:02}/{now.year:04}{now.month:02}{now.day:02}.txt"))
+    
+    # localtime = time.localtime(time.time())
+    # proxies.extend(load_subscribe_url(f"https://v2rayshare.com/wp-content/uploads/{localtime.tm_year:04}/{localtime.tm_mon:02}/{localtime.tm_year:04}{localtime.tm_mon:02}{localtime.tm_mday:02}.txt"))
     # proxies.extend(manual_input())
 
     gen_v2ray_subscribe(proxies)
