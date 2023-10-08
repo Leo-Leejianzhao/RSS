@@ -5,150 +5,46 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-- name: 142.4.110.1443GJADj2a
+- name: singapore.comDjTnivJ8
   type: vmess
-  server: 142.4.110.144
-  port: 30000
-  uuid: 68d238ce-3ca1-46dc-b833-a0916c829ad3
-  alterId: '64'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /path/1696598013851
-  ws-headers:
-    Host: www.28251658.xyz
-  tls: true
-- name: 172.67.139.6dsYZyvwJ
-  type: vmess
-  server: 172.67.139.6
-  port: 8880
-  uuid: 67a341a7-5ae7-4d92-edad-9e8db87ce165
+  server: singapore.com
+  port: '80'
+  uuid: bffa23aa-ae0a-4c02-af77-2a14c8c0b81c
   alterId: '0'
   cipher: auto
   network: ws
   ucp: true
-  ws-path: /
+  ws-path: /api/v3/download.getFile
   ws-headers:
-    Host: vcus1.vpn66.eu.org
+    Host: ssrsub.v001.ssrsub.com
   tls: false
-- name: 45.199.138.222RI35qKV8
+- name: cf-lt.sharecentre.online9HutvVAj
   type: vmess
-  server: 45.199.138.222
-  port: '30000'
-  uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf
-  alterId: '64'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /path/1696251693048
-  ws-headers:
-    Host: www.19229362.xyz
-  tls: true
-- name: 162.159.152.66nQyNIrV
-  type: vmess
-  server: 162.159.152.6
-  port: '2052'
-  uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
+  server: cf-lt.sharecentre.online
+  port: '80'
+  uuid: bffa23aa-ae0a-4c02-af77-2a14c8c0b81c
   alterId: '0'
   cipher: auto
   network: ws
   ucp: true
-  ws-path: /
+  ws-path: /api/v3/download.getFile
   ws-headers:
-    Host: lu.wx.alue.link
+    Host: ssrsub.v03.ssrsub.com
   tls: false
-- name: 198.2.202.84LyAKomT5
+- name: ns1.v2-vip.funH1qKzlt0
   type: vmess
-  server: 198.2.202.84
-  port: 443
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /path/1694859605321
-  ws-headers:
-    Host: www.65825524.xyz
-  tls: true
-- name: 172.67.221.18JIrc08Se
-  type: vmess
-  server: 172.67.221.18
-  port: 8880
-  uuid: 67a341a7-5ae7-4d92-edad-9e8db87ce165
+  server: ns1.v2-vip.fun
+  port: '80'
+  uuid: bffa23aa-ae0a-4c02-af77-2a14c8c0b81c
   alterId: '0'
   cipher: auto
   network: ws
   ucp: true
-  ws-path: /
+  ws-path: /api/v3/download.getFile
   ws-headers:
-    Host: vcus1.vpn66.eu.org
+    Host: ssrsub.v001.ssrsub.com
   tls: false
-- name: 38.63.0.80ZbigGusy
-  type: vmess
-  server: 38.63.0.80
-  port: 30000
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: '64'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /path/1696598013851
-  ws-headers:
-    Host: www.19458162.xyz
-  tls: true
-- name: 112.29.94.22eHkRQsXJ
-  type: vmess
-  server: 112.29.94.22
-  port: '53737'
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: '64'
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: ''
-  ws-headers:
-    Host: ''
-  tls: false
-- name: sub.ssrsub.comkbWMRY2S
-  type: vmess
-  server: sub.ssrsub.com
-  port: '52286'
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
-  alterId: '2'
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: ''
-  ws-headers:
-    Host: 86.wowogg.cyou
-  tls: false
-- name: 142.4.110.144ySoFbcKY
-  type: vmess
-  server: 142.4.110.144
-  port: '30000'
-  uuid: 68d238ce-3ca1-46dc-b833-a0916c829ad3
-  alterId: '64'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /path/1696598013851
-  ws-headers:
-    Host: www.28251658.xyz
-  tls: true
-- name: cf.yx.alue.linkoLtherM8
-  type: vmess
-  server: cf.yx.alue.link
-  port: '2052'
-  uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /
-  ws-headers:
-    Host: us.wx.alue.link
-  tls: false
-- name: 67.21.90.5H0KXQzv1
+- name: 67.21.90.5k1doulCD
   type: vmess
   server: 67.21.90.5
   port: '443'
@@ -161,98 +57,7 @@ proxies:
   ws-headers:
     Host: www.75409854.xyz
   tls: true
-- name: www.speedtest.netrk4LRybf
-  type: vmess
-  server: www.speedtest.net
-  port: '80'
-  uuid: bf75108e-7bec-4fe0-8db9-3d4985dd3bd6
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /
-  ws-headers:
-    Host: it1.xv2ray.net
-  tls: false
-- name: www.speedtest.netR82gxOb6
-  type: vmess
-  server: www.speedtest.net
-  port: '80'
-  uuid: 62515af2-1dd9-467b-9dd3-774abefb6a62
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /
-  ws-headers:
-    Host: hu1.xv2ray.net
-  tls: false
-- name: fd.shabijichang.comUenhsxZR
-  type: vmess
-  server: fd.shabijichang.com
-  port: '80'
-  uuid: 5e48a497-f4ae-4129-afd6-ba26d75b792a
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /
-  ws-headers:
-    Host: mrb.shabijichang.com
-  tls: false
-- name: 45.199.138.222IaAdZSYq
-  type: vmess
-  server: 45.199.138.222
-  port: '30000'
-  uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf
-  alterId: '64'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /path/1696251693048
-  ws-headers:
-    Host: www.19229362.xyz
-  tls: true
-- name: 45.199.138.1525T0XvAfL
-  type: vmess
-  server: 45.199.138.152
-  port: '30000'
-  uuid: 418048af-a293-4b99-9b0c-98ca4690dd24
-  alterId: '64'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /path/1696598013851
-  ws-headers:
-    Host: www.32522178.xyz
-  tls: true
-- name: fd.shabijichang.comEGWj3VSx
-  type: vmess
-  server: fd.shabijichang.com
-  port: '80'
-  uuid: 81fc114e-44d7-44c7-9912-942453b03154
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /
-  ws-headers:
-    Host: ms.shabijichang.com
-  tls: false
-- name: 162.159.253.28YlDgPN2f
-  type: vmess
-  server: 162.159.253.28
-  port: '80'
-  uuid: 073360d9-72cb-4ba5-9a40-8ac6cd918356
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /
-  ws-headers:
-    Host: sls.shabijichang.com
-  tls: false
-- name: 172.67.87.197HX7Ypf1v
+- name: 172.67.87.197mNu5VFWv
   type: vmess
   server: 172.67.87.197
   port: '80'
@@ -265,420 +70,25 @@ proxies:
   ws-headers:
     Host: ylsl.shabijichang.com
   tls: false
-- name: singapore.comiou0fhTH
+- name: 172.67.128.217WntEDzbH
   type: vmess
-  server: singapore.com
-  port: '8080'
-  uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d
+  server: 172.67.128.217
+  port: '80'
+  uuid: 3cf8cbb6-e544-4d50-9a3f-5a3c03a9f23c
   alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /api/v3/download.getFile
-  ws-headers:
-    Host: ssrsub.v01.ssrsub.com
-  tls: false
-- name: ns1.v2-vip.funypu2zGUE
-  type: vmess
-  server: ns1.v2-vip.fun
-  port: '8080'
-  uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /api/v3/download.getFile
-  ws-headers:
-    Host: ssrsub.v01.ssrsub.com
-  tls: false
-- name: cf-lt.sharecentre.online2AqbFzX6
-  type: vmess
-  server: cf-lt.sharecentre.online
-  port: '8080'
-  uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /api/v3/download.getFile
-  ws-headers:
-    Host: ssrsub.v01.ssrsub.com
-  tls: false
-- name: singapore.comSUOge9do
-  type: vmess
-  server: singapore.com
-  port: '8080'
-  uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /api/v3/download.getFile
-  ws-headers:
-    Host: ssrsub.v03.ssrsub.com
-  tls: false
-- name: ns1.v2-vip.fun6OU9Mpd8
-  type: vmess
-  server: ns1.v2-vip.fun
-  port: '8080'
-  uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /api/v3/download.getFile
-  ws-headers:
-    Host: ssrsub.v03.ssrsub.com
-  tls: false
-- name: cf-lt.sharecentre.onlineaCjqW6xI
-  type: vmess
-  server: cf-lt.sharecentre.online
-  port: '8080'
-  uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /api/v3/download.getFile
-  ws-headers:
-    Host: ssrsub.v03.ssrsub.com
-  tls: false
-- name: singapore.comzTvdsASK
-  type: vmess
-  server: singapore.com
-  port: '8080'
-  uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /api/v3/download.getFile
-  ws-headers:
-    Host: ssrsub.v001.ssrsub.com
-  tls: false
-- name: ns1.v2-vip.funAkUbc6Ym
-  type: vmess
-  server: ns1.v2-vip.fun
-  port: '8080'
-  uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /api/v3/download.getFile
-  ws-headers:
-    Host: ssrsub.v001.ssrsub.com
-  tls: false
-- name: cf-lt.sharecentre.online9XweWSc6
-  type: vmess
-  server: cf-lt.sharecentre.online
-  port: '8080'
-  uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /api/v3/download.getFile
-  ws-headers:
-    Host: ssrsub.v001.ssrsub.com
-  tls: false
-- name: singapore.comKMtBkma3
-  type: vmess
-  server: singapore.com
-  port: '8080'
-  uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /api/v3/download.getFile
-  ws-headers:
-    Host: ssrsub.v002.ssrsub.com
-  tls: false
-- name: ns1.v2-vip.funto3unWYh
-  type: vmess
-  server: ns1.v2-vip.fun
-  port: '8080'
-  uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /api/v3/download.getFile
-  ws-headers:
-    Host: ssrsub.v002.ssrsub.com
-  tls: false
-- name: cf-lt.sharecentre.online48bKtvLN
-  type: vmess
-  server: cf-lt.sharecentre.online
-  port: '8080'
-  uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /api/v3/download.getFile
-  ws-headers:
-    Host: ssrsub.v002.ssrsub.com
-  tls: false
-- name: singapore.comWCZNHYag
-  type: vmess
-  server: singapore.com
-  port: '8080'
-  uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /api/v3/download.getFile
-  ws-headers:
-    Host: ssrsub.v003.ssrsub.com
-  tls: false
-- name: ns1.v2-vip.fun2sixoHOk
-  type: vmess
-  server: ns1.v2-vip.fun
-  port: '8080'
-  uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /api/v3/download.getFile
-  ws-headers:
-    Host: ssrsub.v003.ssrsub.com
-  tls: false
-- name: cf-lt.sharecentre.onlinel5fhVWDr
-  type: vmess
-  server: cf-lt.sharecentre.online
-  port: '8080'
-  uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /api/v3/download.getFile
-  ws-headers:
-    Host: ssrsub.v003.ssrsub.com
-  tls: false
-- name: singapore.comHwvZYDbp
-  type: vmess
-  server: singapore.com
-  port: '8080'
-  uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /api/v3/download.getFile
-  ws-headers:
-    Host: ssrsub.v004.ssrsub.com
-  tls: false
-- name: ns1.v2-vip.funj8XbIxv9
-  type: vmess
-  server: ns1.v2-vip.fun
-  port: '8080'
-  uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /api/v3/download.getFile
-  ws-headers:
-    Host: ssrsub.v004.ssrsub.com
-  tls: false
-- name: cf-lt.sharecentre.onlineQERyMWqr
-  type: vmess
-  server: cf-lt.sharecentre.online
-  port: '8080'
-  uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /api/v3/download.getFile
-  ws-headers:
-    Host: ssrsub.v004.ssrsub.com
-  tls: false
-- name: singapore.com2PfSgyC1
-  type: vmess
-  server: singapore.com
-  port: '8080'
-  uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /api/v3/download.getFile
-  ws-headers:
-    Host: ssrsub.v005.ssrsub.com
-  tls: false
-- name: ns1.v2-vip.funzhkxlXt9
-  type: vmess
-  server: ns1.v2-vip.fun
-  port: '8080'
-  uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /api/v3/download.getFile
-  ws-headers:
-    Host: ssrsub.v005.ssrsub.com
-  tls: false
-- name: cf-lt.sharecentre.onlineQr5YWJOx
-  type: vmess
-  server: cf-lt.sharecentre.online
-  port: '8080'
-  uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /api/v3/download.getFile
-  ws-headers:
-    Host: ssrsub.v005.ssrsub.com
-  tls: false
-- name: singapore.comTBRghFlK
-  type: vmess
-  server: singapore.com
-  port: '8080'
-  uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /api/v3/download.getFile
-  ws-headers:
-    Host: ssrsub.v006.ssrsub.com
-  tls: false
-- name: ns1.v2-vip.funlOkcTxo4
-  type: vmess
-  server: ns1.v2-vip.fun
-  port: '8080'
-  uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /api/v3/download.getFile
-  ws-headers:
-    Host: ssrsub.v006.ssrsub.com
-  tls: false
-- name: cf-lt.sharecentre.onlinexYca7r1O
-  type: vmess
-  server: cf-lt.sharecentre.online
-  port: '8080'
-  uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /api/v3/download.getFile
-  ws-headers:
-    Host: ssrsub.v006.ssrsub.com
-  tls: false
-- name: 216.52.183.243FOHgSfr8
-  type: ss
-  server: 216.52.183.243
-  port: 1001
-  password: 83XvX4Vo%*3a
-  alterId: 2
-  cipher: aes-128-gcm
-- name: fd.shabijichang.comP1zuNfUE
-  type: vmess
-  server: fd.shabijichang.com
-  port: 80
-  uuid: 5e48a497-f4ae-4129-afd6-ba26d75b792a
-  alterId: 0
   cipher: auto
   network: ws
   ucp: true
   ws-path: /
   ws-headers:
-    Host: mrb.shabijichang.com
+    Host: sdgrm.shabijichang.com
   tls: false
-- name: yd1.992688.xyzXyFeSjbA
-  type: vmess
-  server: yd1.992688.xyz
-  port: 8880
-  uuid: 2fc248d5-7c81-471d-c2cf-a14e7f5aed2d
-  alterId: 0
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /?ed=2048
-  ws-headers:
-    Host: vceu3.vpn66.eu.org
-  tls: false
-- name: 5.161.191.195mKAj3bTJ
-  type: vmess
-  server: 5.161.191.195
-  port: 2083
-  uuid: 1c5cd450-a5cc-4803-d0ef-1ea424cc4ba2
-  alterId: 0
-  cipher: auto
-  network: http
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: 67.21.90.5mjtyxUXr
-  type: vmess
-  server: 67.21.90.5
-  port: 443
-  uuid: 28dd6c26-05a5-4bba-8a5d-052b70ac13b2
-  alterId: 64
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /path/1694429908748
-  ws-headers: null
-  tls: true
-- name: lax.asoul-diana.xyzZFv0dN67
-  type: vmess
-  server: lax.asoul-diana.xyz
-  port: 443
-  uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682
-  alterId: 0
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /acetaffy
-  ws-headers:
-    Host: lax.asoul-diana.xyz
-  tls: true
-- name: cf.yx.alue.linktjxmcVZK
-  type: vmess
-  server: cf.yx.alue.link
-  port: 2052
-  uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
-  alterId: 0
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /
-  ws-headers:
-    Host: us.wx.alue.link
-  tls: false
-- name: 112.29.156.248dDIEsuU8
-  type: vmess
-  server: 112.29.156.248
-  port: 61001
-  uuid: d531ebd3-64d7-3ccb-b49e-e2bfbdf70dfc
-  alterId: 0
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /dabai.in
-  ws-headers:
-    Host: a.cn-db.top
-  tls: false
-- name: 104.16.68.38F2gSZHqB
+- name: 104.16.68.38VB1SCuzo
   type: vmess
   server: 104.16.68.38
-  port: 2052
+  port: '2052'
   uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
-  alterId: 0
+  alterId: '0'
   cipher: auto
   network: ws
   ucp: true
@@ -686,110 +96,155 @@ proxies:
   ws-headers:
     Host: lu.wx.alue.link
   tls: false
-- name: lt1.992688.xyzb6uAUe3C
+- name: 183.240.232.82SQ4YmCVv
   type: vmess
-  server: lt1.992688.xyz
-  port: 8880
-  uuid: 2fc248d5-7c81-471d-c2cf-a14e7f5aed2d
-  alterId: 0
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /?ed=2048
-  ws-headers:
-    Host: vceu3.vpn66.eu.org
-  tls: false
-- name: 112.29.156.251m9wCTn40
-  type: vmess
-  server: 112.29.156.251
-  port: 61004
-  uuid: d531ebd3-64d7-3ccb-b49e-e2bfbdf70dfc
-  alterId: 0
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /dabai.in
-  ws-headers:
-    Host: a.db-link.in
-  tls: false
-- name: www.speedtest.netRPq6jkHp
-  type: vmess
-  server: www.speedtest.net
-  port: 80
-  uuid: 62515af2-1dd9-467b-9dd3-774abefb6a62
-  alterId: 0
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /
-  ws-headers:
-    Host: hu1.xv2ray.net
-  tls: false
-- name: 89.185.84.178orCNWJc1
-  type: ss
-  server: 89.185.84.178
-  port: 46135
-  password: iGZdlsmpNxy4QCGu2CJCKw
-  alterId: 2
-  cipher: chacha20-ietf-poly1305
-- name: 92.118.149.115xugS0dDa
-  type: vmess
-  server: 92.118.149.115
-  port: 25131
-  uuid: ece8262a-141f-42f6-8dcf-e9b7a2028086
-  alterId: 0
+  server: 183.240.232.82
+  port: '40158'
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: '64'
   cipher: auto
   network: tcp
   ucp: true
-  ws-path: null
-  ws-headers: null
+  ws-path: /
+  ws-headers:
+    Host: ''
   tls: false
-- name: 162.159.143.72NsVEGS1d
+- name: 112.29.94.22A2CTv9Mc
   type: vmess
-  server: 162.159.143.72
-  port: 80
-  uuid: fab552f9-3c92-44ed-c086-08d631ee44ee
-  alterId: 0
+  server: 112.29.94.22
+  port: '53737'
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: '64'
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: ''
+  tls: false
+- name: 172.67.32.83sLlvAd1Z
+  type: vmess
+  server: 172.67.32.83
+  port: '80'
+  uuid: 01754500-e814-447e-967a-5a4045fc388a
+  alterId: '0'
   cipher: auto
   network: ws
   ucp: true
   ws-path: /
   ws-headers:
-    Host: xui2.xuwu996.eu.org
+    Host: sls.shabijichang.com
   tls: false
-- name: singapore.com6Q7qt0f2
+- name: 941.outline-vpn.cloud8L5Sb0uK
   type: vmess
-  server: singapore.com
-  port: 80
-  uuid: bffa23aa-ae0a-4c02-af77-2a14c8c0b81c
-  alterId: 0
+  server: 941.outline-vpn.cloud
+  port: '80'
+  uuid: a1a676e4-016e-4bf0-96fe-4b6aaf53abc2
+  alterId: '0'
   cipher: auto
   network: ws
   ucp: true
-  ws-path: /api/v3/download.getFile
+  ws-path: /
   ws-headers:
-    Host: ssrsub.v002.ssrsub.com
+    Host: bl.shabijichang.com
   tls: false
-- name: usshs2.gophers.gayw3psN1ho
-  type: ss
-  server: usshs2.gophers.gay
-  port: 20800
-  password: f5d95005-be14-40fc-bedc-e4a1133a5701
-  alterId: 2
-  cipher: chacha20-ietf-poly1305
-- name: 155.248.198.71dOAmvKpt
-  type: ss
-  server: 155.248.198.71
-  port: 20800
-  password: f5d95005-be14-40fc-bedc-e4a1133a5701
-  alterId: 2
-  cipher: chacha20-ietf-poly1305
-- name: 45.199.138.2223jc8Pgh4
+- name: 198.2.202.84lwQ20Oka
+  type: vmess
+  server: 198.2.202.84
+  port: '443'
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: '64'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /path/1694859605321
+  ws-headers:
+    Host: www.65825524.xyz
+  tls: true
+- name: cf.yx.alue.linkbBgOANoq
+  type: vmess
+  server: cf.yx.alue.link
+  port: '2052'
+  uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: lu.wx.alue.link
+  tls: false
+- name: 172.64.199.158oYqiVT17
+  type: vmess
+  server: 172.64.199.158
+  port: '80'
+  uuid: 2e495227-58e3-4bea-a273-7a17bd8a804b
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: wnd.shabijichang.com
+  tls: false
+- name: 104.16.117.47qRcJxZoV
+  type: vmess
+  server: 104.16.117.47
+  port: '80'
+  uuid: e8cc06f6-0eff-4c07-9038-8c640650a2ce
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: jdf.shabijichang.com
+  tls: false
+- name: 92.118.149.11556vuBPyA
+  type: vmess
+  server: 92.118.149.115
+  port: '25131'
+  uuid: ece8262a-141f-42f6-8dcf-e9b7a2028086
+  alterId: '0'
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: ''
+  tls: false
+- name: 183.240.232.82jcq8Hk54
+  type: vmess
+  server: 183.240.232.82
+  port: '39971'
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: '64'
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: ''
+  tls: false
+- name: fhc.shabijichang.com57uw2lMT
+  type: vmess
+  server: fhc.shabijichang.com
+  port: '80'
+  uuid: 5e48a497-f4ae-4129-afd6-ba26d75b792a
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: fhc.shabijichang.com
+  tls: false
+- name: 45.199.138.222OUX2n8xI
   type: vmess
   server: 45.199.138.222
-  port: 30000
+  port: '30000'
   uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf
-  alterId: 64
+  alterId: '64'
   cipher: auto
   network: ws
   ucp: true
@@ -797,7 +252,358 @@ proxies:
   ws-headers:
     Host: www.19229362.xyz
   tls: true
-- name: cf.yx.alue.linklQiwNPgF
+- name: fd.shabijichang.comA5Xk2jx9
+  type: vmess
+  server: fd.shabijichang.com
+  port: '80'
+  uuid: 073360d9-72cb-4ba5-9a40-8ac6cd918356
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: jdf.shabijichang.com
+  tls: false
+- name: bvtqw-1093-v2-1.d-kcd.tuil.xyzQbicVsp8
+  type: vmess
+  server: bvtqw-1093-v2-1.d-kcd.tuil.xyz
+  port: '888'
+  uuid: b00a4568-6396-44c6-8697-f1d1600ba9fd
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: cdn.cjhh.lol
+  tls: true
+- name: 183.233.187.214VXn9oPut
+  type: vmess
+  server: 183.233.187.214
+  port: '51165'
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: '64'
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: ''
+  tls: false
+- name: wnd.shabijichang.comUyrhD3Gu
+  type: vmess
+  server: wnd.shabijichang.com
+  port: '80'
+  uuid: 53701585-591f-48a3-9515-8831ed0524ac
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: wnd.shabijichang.com
+  tls: false
+- name: hkt.123ddns.xyz7jUKDtir
+  type: vmess
+  server: hkt.123ddns.xyz
+  port: '55455'
+  uuid: d2ce45e6-9f22-492d-d81d-d639067a7583
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: hkt.123ddns.xyz
+  tls: true
+- name: yd1.992688.xyz3byWmw4R
+  type: vmess
+  server: yd1.992688.xyz
+  port: '8880'
+  uuid: 2fc248d5-7c81-471d-c2cf-a14e7f5aed2d
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /?ed=2048
+  ws-headers:
+    Host: vceu3.vpn66.eu.org
+  tls: false
+- name: 23.108.100.103thT5Ys0X
+  type: vmess
+  server: 23.108.100.103
+  port: '443'
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: '64'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /footers
+  ws-headers:
+    Host: www.40587333.xyz
+  tls: true
+- name: api.jquery.como23uDhTR
+  type: vmess
+  server: api.jquery.com
+  port: '443'
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /oliv.beauty:443/linkvws
+  ws-headers:
+    Host: sub.yifenjichang.top
+  tls: true
+- name: 23.108.100.101I0WRszLQ
+  type: vmess
+  server: 23.108.100.101
+  port: '443'
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: '64'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /footers
+  ws-headers:
+    Host: ''
+  tls: true
+- name: zzfyo-1094-v2-0.d-cmi.iote.bondkz4SGnio
+  type: vmess
+  server: zzfyo-1094-v2-0.d-cmi.iote.bond
+  port: '888'
+  uuid: b00a4568-6396-44c6-8697-f1d1600ba9fd
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /je5x3pBN1vez3NQudNkB
+  ws-headers:
+    Host: cdn.cjhh.lol
+  tls: true
+- name: pzl.p237875155.buzzLJIoevs3
+  type: vmess
+  server: pzl.p237875155.buzz
+  port: '443'
+  uuid: 9b78b7fe-47a3-41eb-d695-22692ac835a0
+  alterId: '1'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /pzl237875155
+  ws-headers:
+    Host: pzl.p237875155.buzz
+  tls: true
+- name: 172.67.69.247m4jGoNwn
+  type: vmess
+  server: 172.67.69.247
+  port: '8880'
+  uuid: 67a341a7-5ae7-4d92-edad-9e8db87ce165
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: vcus1.vpn66.eu.org
+  tls: false
+- name: 172.67.221.18XGbuf24L
+  type: vmess
+  server: 172.67.221.18
+  port: '8880'
+  uuid: 67a341a7-5ae7-4d92-edad-9e8db87ce165
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: vcus1.vpn66.eu.org
+  tls: false
+- name: 172.67.161.181xlzsgh19
+  type: vmess
+  server: 172.67.161.181
+  port: '8880'
+  uuid: 67a341a7-5ae7-4d92-edad-9e8db87ce165
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: vcus1.vpn66.eu.org
+  tls: false
+- name: 190.93.245.179qZWL5p21
+  type: vmess
+  server: 190.93.245.179
+  port: '80'
+  uuid: 545e2bdb-ac6d-428f-82c7-7966be8d9ebc
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: xn2.shabijichang.com
+  tls: false
+- name: 162.159.152.6mgYRA4iG
+  type: vmess
+  server: 162.159.152.6
+  port: '2052'
+  uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: lu.wx.alue.link
+  tls: false
+- name: 198.2.202.84nWOJxqzp
+  type: vmess
+  server: 198.2.202.84
+  port: '443'
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: '64'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: www.65825524.xyz
+  tls: true
+- name: hkt.123ddns.xyztWDUl2Tp
+  type: vmess
+  server: hkt.123ddns.xyz
+  port: '55455'
+  uuid: d2ce45e6-9f22-492d-d81d-d639067a7583
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: hkt.123ddns.xyz
+  tls: true
+- name: 45.199.138.222gOVn8iTw
+  type: vmess
+  server: 45.199.138.222
+  port: '30000'
+  uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf
+  alterId: '64'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /path/1696251693048
+  ws-headers:
+    Host: www.19229362.xyz
+  tls: true
+- name: 67.21.90.54pFyJCjS
+  type: vmess
+  server: 67.21.90.5
+  port: '443'
+  uuid: 28dd6c26-05a5-4bba-8a5d-052b70ac13b2
+  alterId: '64'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /path/1694429908748
+  ws-headers:
+    Host: www.75409854.xyz
+  tls: true
+- name: 183.233.187.214ed6lT7CB
+  type: vmess
+  server: 183.233.187.214
+  port: '51165'
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: '64'
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: ''
+  tls: false
+- name: zzfyo-1094-v2-0.d-cmi.iote.bondujSz8x4E
+  type: vmess
+  server: zzfyo-1094-v2-0.d-cmi.iote.bond
+  port: '888'
+  uuid: b00a4568-6396-44c6-8697-f1d1600ba9fd
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: cdn.cjhh.lol
+  tls: true
+- name: twpaopao.gfwisbest.xyzkd75wslJ
+  type: vmess
+  server: twpaopao.gfwisbest.xyz
+  port: 60982
+  uuid: 4811dbb8-2f9b-3289-8fac-05f6daf7cb19
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: ''
+  ws-headers:
+    Host: ''
+  tls: false
+- name: 162.159.142.237IKEjQxe0
+  type: vmess
+  server: 162.159.142.237
+  port: 80
+  uuid: 08380f4a-0310-4660-a5f9-430cf8faa04a
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /1654431
+  ws-headers:
+    Host: jp3-7fw9rgyfdqg5roq2.xn--9kq476ja.com
+  tls: false
+- name: vn9.4gspeed.meGRWgmhI7
+  type: vmess
+  server: vn9.4gspeed.me
+  port: '80'
+  uuid: 93bbb190-beb1-46e2-94e3-cf92e8b42ee4
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /4gspeed.me
+  ws-headers:
+    Host: dl.kgvn.garenanow.com
+  tls: false
+- name: 172.67.63.75Yh0k29e1
+  type: vmess
+  server: 172.67.63.75
+  port: '80'
+  uuid: 2e495227-58e3-4bea-a273-7a17bd8a804b
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: jdf.shabijichang.com
+  tls: false
+- name: 172.64.199.158lg4cPYUe
+  type: vmess
+  server: 172.64.199.158
+  port: '80'
+  uuid: 2e495227-58e3-4bea-a273-7a17bd8a804b
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: wnd.shabijichang.com
+  tls: false
+- name: cf.yx.alue.linkGswrnmvi
   type: vmess
   server: cf.yx.alue.link
   port: '2052'
@@ -810,7 +616,697 @@ proxies:
   ws-headers:
     Host: us.wx.alue.link
   tls: false
-- name: lt1.992688.xyzZDAyPVmx
+- name: datacenter.ct.01.biqibao.siteYoE8zilG
+  type: vmess
+  server: datacenter.ct.01.biqibao.site
+  port: '2052'
+  uuid: 21d36f86-53ab-4218-a740-9c70511f85d0
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /public?ed=4096
+  ws-headers:
+    Host: de.biqibao.site
+  tls: false
+- name: sub.ssrsub.comOlmyD7IV
+  type: vmess
+  server: sub.ssrsub.com
+  port: '52286'
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: '2'
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: ''
+  ws-headers:
+    Host: 86.wowogg.cyou
+  tls: false
+- name: 142.4.110.144sRMUnPal
+  type: vmess
+  server: 142.4.110.144
+  port: '30000'
+  uuid: 68d238ce-3ca1-46dc-b833-a0916c829ad3
+  alterId: '64'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /path/1696598013851
+  ws-headers:
+    Host: www.28251658.xyz
+  tls: true
+- name: cf.yx.alue.linkcPVY8nHw
+  type: vmess
+  server: cf.yx.alue.link
+  port: '2052'
+  uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: us.wx.alue.link
+  tls: false
+- name: 67.21.90.5m8fFTW62
+  type: vmess
+  server: 67.21.90.5
+  port: '443'
+  uuid: 28dd6c26-05a5-4bba-8a5d-052b70ac13b2
+  alterId: '64'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /path/1694429908748
+  ws-headers:
+    Host: www.75409854.xyz
+  tls: true
+- name: www.speedtest.netlYUCS5uM
+  type: vmess
+  server: www.speedtest.net
+  port: '80'
+  uuid: bf75108e-7bec-4fe0-8db9-3d4985dd3bd6
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: it1.xv2ray.net
+  tls: false
+- name: www.speedtest.netNE19ZYJK
+  type: vmess
+  server: www.speedtest.net
+  port: '80'
+  uuid: 62515af2-1dd9-467b-9dd3-774abefb6a62
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: hu1.xv2ray.net
+  tls: false
+- name: fd.shabijichang.comTZJUfuvp
+  type: vmess
+  server: fd.shabijichang.com
+  port: '80'
+  uuid: 5e48a497-f4ae-4129-afd6-ba26d75b792a
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: mrb.shabijichang.com
+  tls: false
+- name: 45.199.138.222x0iqwouy
+  type: vmess
+  server: 45.199.138.222
+  port: '30000'
+  uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf
+  alterId: '64'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /path/1696251693048
+  ws-headers:
+    Host: www.19229362.xyz
+  tls: true
+- name: 45.199.138.152VqmxMnkY
+  type: vmess
+  server: 45.199.138.152
+  port: '30000'
+  uuid: 418048af-a293-4b99-9b0c-98ca4690dd24
+  alterId: '64'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /path/1696598013851
+  ws-headers:
+    Host: www.32522178.xyz
+  tls: true
+- name: fd.shabijichang.com4W5BT7JI
+  type: vmess
+  server: fd.shabijichang.com
+  port: '80'
+  uuid: 81fc114e-44d7-44c7-9912-942453b03154
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: ms.shabijichang.com
+  tls: false
+- name: 162.159.253.280TvXFfbI
+  type: vmess
+  server: 162.159.253.28
+  port: '80'
+  uuid: 073360d9-72cb-4ba5-9a40-8ac6cd918356
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: sls.shabijichang.com
+  tls: false
+- name: 172.67.87.197eW3NnxDU
+  type: vmess
+  server: 172.67.87.197
+  port: '80'
+  uuid: a5696a03-1c9f-4018-9510-58e7bfbb5f5f
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: ylsl.shabijichang.com
+  tls: false
+- name: singapore.com0CLfoIQ6
+  type: vmess
+  server: singapore.com
+  port: '8080'
+  uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /api/v3/download.getFile
+  ws-headers:
+    Host: ssrsub.v01.ssrsub.com
+  tls: false
+- name: ns1.v2-vip.funUXPMi4Iv
+  type: vmess
+  server: ns1.v2-vip.fun
+  port: '8080'
+  uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /api/v3/download.getFile
+  ws-headers:
+    Host: ssrsub.v01.ssrsub.com
+  tls: false
+- name: cf-lt.sharecentre.onlineUHQPl7Di
+  type: vmess
+  server: cf-lt.sharecentre.online
+  port: '8080'
+  uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /api/v3/download.getFile
+  ws-headers:
+    Host: ssrsub.v01.ssrsub.com
+  tls: false
+- name: singapore.comrZygDViC
+  type: vmess
+  server: singapore.com
+  port: '8080'
+  uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /api/v3/download.getFile
+  ws-headers:
+    Host: ssrsub.v03.ssrsub.com
+  tls: false
+- name: ns1.v2-vip.funp0Z5NGoT
+  type: vmess
+  server: ns1.v2-vip.fun
+  port: '8080'
+  uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /api/v3/download.getFile
+  ws-headers:
+    Host: ssrsub.v03.ssrsub.com
+  tls: false
+- name: cf-lt.sharecentre.online6du3wVY0
+  type: vmess
+  server: cf-lt.sharecentre.online
+  port: '8080'
+  uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /api/v3/download.getFile
+  ws-headers:
+    Host: ssrsub.v03.ssrsub.com
+  tls: false
+- name: singapore.comC5RVybrZ
+  type: vmess
+  server: singapore.com
+  port: '8080'
+  uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /api/v3/download.getFile
+  ws-headers:
+    Host: ssrsub.v001.ssrsub.com
+  tls: false
+- name: ns1.v2-vip.funEgQ9bPRo
+  type: vmess
+  server: ns1.v2-vip.fun
+  port: '8080'
+  uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /api/v3/download.getFile
+  ws-headers:
+    Host: ssrsub.v001.ssrsub.com
+  tls: false
+- name: cf-lt.sharecentre.onlineOj387RPF
+  type: vmess
+  server: cf-lt.sharecentre.online
+  port: '8080'
+  uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /api/v3/download.getFile
+  ws-headers:
+    Host: ssrsub.v001.ssrsub.com
+  tls: false
+- name: singapore.comubpQE8s1
+  type: vmess
+  server: singapore.com
+  port: '8080'
+  uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /api/v3/download.getFile
+  ws-headers:
+    Host: ssrsub.v002.ssrsub.com
+  tls: false
+- name: ns1.v2-vip.funKXnbRpgJ
+  type: vmess
+  server: ns1.v2-vip.fun
+  port: '8080'
+  uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /api/v3/download.getFile
+  ws-headers:
+    Host: ssrsub.v002.ssrsub.com
+  tls: false
+- name: cf-lt.sharecentre.onlinesMxuCa5m
+  type: vmess
+  server: cf-lt.sharecentre.online
+  port: '8080'
+  uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /api/v3/download.getFile
+  ws-headers:
+    Host: ssrsub.v002.ssrsub.com
+  tls: false
+- name: singapore.comufsimI4T
+  type: vmess
+  server: singapore.com
+  port: '8080'
+  uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /api/v3/download.getFile
+  ws-headers:
+    Host: ssrsub.v003.ssrsub.com
+  tls: false
+- name: ns1.v2-vip.fun6C8r9Xjg
+  type: vmess
+  server: ns1.v2-vip.fun
+  port: '8080'
+  uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /api/v3/download.getFile
+  ws-headers:
+    Host: ssrsub.v003.ssrsub.com
+  tls: false
+- name: cf-lt.sharecentre.onlineUAoe9yMR
+  type: vmess
+  server: cf-lt.sharecentre.online
+  port: '8080'
+  uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /api/v3/download.getFile
+  ws-headers:
+    Host: ssrsub.v003.ssrsub.com
+  tls: false
+- name: singapore.com7zD1rgAe
+  type: vmess
+  server: singapore.com
+  port: '8080'
+  uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /api/v3/download.getFile
+  ws-headers:
+    Host: ssrsub.v004.ssrsub.com
+  tls: false
+- name: ns1.v2-vip.funwUpqjy1J
+  type: vmess
+  server: ns1.v2-vip.fun
+  port: '8080'
+  uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /api/v3/download.getFile
+  ws-headers:
+    Host: ssrsub.v004.ssrsub.com
+  tls: false
+- name: cf-lt.sharecentre.onlinec7vSm1Mp
+  type: vmess
+  server: cf-lt.sharecentre.online
+  port: '8080'
+  uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /api/v3/download.getFile
+  ws-headers:
+    Host: ssrsub.v004.ssrsub.com
+  tls: false
+- name: singapore.com3buNV7C5
+  type: vmess
+  server: singapore.com
+  port: '8080'
+  uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /api/v3/download.getFile
+  ws-headers:
+    Host: ssrsub.v005.ssrsub.com
+  tls: false
+- name: ns1.v2-vip.funb5RYyJwr
+  type: vmess
+  server: ns1.v2-vip.fun
+  port: '8080'
+  uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /api/v3/download.getFile
+  ws-headers:
+    Host: ssrsub.v005.ssrsub.com
+  tls: false
+- name: cf-lt.sharecentre.online92WrEApe
+  type: vmess
+  server: cf-lt.sharecentre.online
+  port: '8080'
+  uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /api/v3/download.getFile
+  ws-headers:
+    Host: ssrsub.v005.ssrsub.com
+  tls: false
+- name: singapore.comr8Y9kZJh
+  type: vmess
+  server: singapore.com
+  port: '8080'
+  uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /api/v3/download.getFile
+  ws-headers:
+    Host: ssrsub.v006.ssrsub.com
+  tls: false
+- name: ns1.v2-vip.funXkiCDpxr
+  type: vmess
+  server: ns1.v2-vip.fun
+  port: '8080'
+  uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /api/v3/download.getFile
+  ws-headers:
+    Host: ssrsub.v006.ssrsub.com
+  tls: false
+- name: cf-lt.sharecentre.onlinepG81RoIn
+  type: vmess
+  server: cf-lt.sharecentre.online
+  port: '8080'
+  uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /api/v3/download.getFile
+  ws-headers:
+    Host: ssrsub.v006.ssrsub.com
+  tls: false
+- name: dx1.992688.xyz9K7uZ3gt
+  type: vmess
+  server: dx1.992688.xyz
+  port: 8880
+  uuid: 2fc248d5-7c81-471d-c2cf-a14e7f5aed2d
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /?ed=2048
+  ws-headers:
+    Host: vceu3.vpn66.eu.org
+  tls: false
+- name: fd.shabijichang.comrI2Z3aLx
+  type: vmess
+  server: fd.shabijichang.com
+  port: 80
+  uuid: 5e48a497-f4ae-4129-afd6-ba26d75b792a
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: mrb.shabijichang.com
+  tls: false
+- name: 216.52.183.243r5XfzmqH
+  type: ss
+  server: 216.52.183.243
+  port: 1001
+  password: 83XvX4Vo%*3a
+  alterId: 2
+  cipher: aes-128-gcm
+- name: yd1.992688.xyziv9sRMeg
+  type: vmess
+  server: yd1.992688.xyz
+  port: 8880
+  uuid: 2fc248d5-7c81-471d-c2cf-a14e7f5aed2d
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /?ed=2048
+  ws-headers:
+    Host: vceu3.vpn66.eu.org
+  tls: false
+- name: 103.48.169.166crwxeM02
+  type: vmess
+  server: 103.48.169.166
+  port: 57754
+  uuid: a783230b-cd66-4492-9517-7f6cf569e1c9
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /vm?ed=2048
+  ws-headers:
+    Host: ylsl.kxking.eu.org
+  tls: true
+- name: 198.244.231.25YGHxFmDj
+  type: ss
+  server: 198.244.231.25
+  port: 443
+  password: asdKkaskJKfnsa
+  alterId: 2
+  cipher: aes-256-cfb
+- name: lt1.992688.xyzrvFtqZzn
+  type: vmess
+  server: lt1.992688.xyz
+  port: 8880
+  uuid: 2fc248d5-7c81-471d-c2cf-a14e7f5aed2d
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /?ed=2048
+  ws-headers:
+    Host: vceu3.vpn66.eu.org
+  tls: false
+- name: singapore.com7jymvnUF
+  type: vmess
+  server: singapore.com
+  port: 8080
+  uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /api/v3/download.getFile
+  ws-headers:
+    Host: ssrsub.v01.ssrsub.com
+  tls: false
+- name: 45.199.138.191YG9Ep3ZK
+  type: vmess
+  server: 45.199.138.191
+  port: 30000
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /path/1696251522438
+  ws-headers:
+    Host: www.42077230.xyz
+  tls: true
+- name: 67.21.90.5pf39DCkW
+  type: vmess
+  server: 67.21.90.5
+  port: 443
+  uuid: 28dd6c26-05a5-4bba-8a5d-052b70ac13b2
+  alterId: 64
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /path/1694429908748
+  ws-headers: null
+  tls: true
+- name: www.speedtest.net0Z684ApJ
+  type: vmess
+  server: www.speedtest.net
+  port: 80
+  uuid: bf75108e-7bec-4fe0-8db9-3d4985dd3bd6
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: it1.xv2ray.net
+  tls: false
+- name: 46caadb.f2.gladns.com9ehKvjzT
+  type: vmess
+  server: 46caadb.f2.gladns.com
+  port: 3331
+  uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /s/46caadb.fm.apple.com:60980
+  ws-headers:
+    Host: 46caadb.f2.gladns.com
+  tls: true
+- name: 162.159.152.6AWyjwRiu
+  type: vmess
+  server: 162.159.152.6
+  port: 2052
+  uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: lu.wx.alue.link
+  tls: false
+- name: cold-dawn-9246.fly.devmUVHFPcs
+  type: vmess
+  server: cold-dawn-9246.fly.dev
+  port: 443
+  uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm
+  ws-headers:
+    Host: cold-dawn-9246.fly.dev
+  tls: true
+- name: ukld2.gophers.gayWjQlyLJZ
+  type: ss
+  server: ukld2.gophers.gay
+  port: 20600
+  password: f5d95005-be14-40fc-bedc-e4a1133a5701
+  alterId: 2
+  cipher: chacha20-ietf-poly1305
+- name: 195.181.166.170s1YCX3iI
+  type: ss
+  server: 195.181.166.170
+  port: 443
+  password: asdKkaskJKfnsa
+  alterId: 2
+  cipher: aes-256-cfb
+- name: 45.199.138.152xu5XiNPI
+  type: vmess
+  server: 45.199.138.152
+  port: 30000
+  uuid: 418048af-a293-4b99-9b0c-98ca4690dd24
+  alterId: 64
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /path/1696598013851
+  ws-headers:
+    Host: www.32522178.xyz
+  tls: true
+- name: cf.yx.alue.linkotbVNvM3
+  type: vmess
+  server: cf.yx.alue.link
+  port: '2052'
+  uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: us.wx.alue.link
+  tls: false
+- name: lt1.992688.xyzZCrANFyq
   type: vmess
   server: lt1.992688.xyz
   port: '8880'
@@ -823,14 +1319,14 @@ proxies:
   ws-headers:
     Host: vceu3.vpn66.eu.org
   tls: false
-- name: ukld2.gophers.gayT4iJHskj
+- name: ukld2.gophers.gaypVQSTdYx
   type: ss
   server: ukld2.gophers.gay
   port: 20600
   password: f5d95005-be14-40fc-bedc-e4a1133a5701
   alterId: 2
   cipher: chacha20-ietf-poly1305
-- name: 45.199.138.191cS4yQMIF
+- name: 45.199.138.191rbySBocd
   type: vmess
   server: 45.199.138.191
   port: '30000'
@@ -843,7 +1339,7 @@ proxies:
   ws-headers:
     Host: www.42077230.xyz
   tls: true
-- name: yd1.992688.xyzzDBSFHUG
+- name: yd1.992688.xyzTcLNSnmO
   type: vmess
   server: yd1.992688.xyz
   port: '8880'
@@ -856,7 +1352,7 @@ proxies:
   ws-headers:
     Host: vceu3.vpn66.eu.org
   tls: false
-- name: 5.161.191.195WxVQtBCX
+- name: 5.161.191.195FY5mqKTv
   type: vmess
   server: 5.161.191.195
   port: '2083'
@@ -869,7 +1365,7 @@ proxies:
   ws-headers:
     Host: ''
   tls: false
-- name: dx1.992688.xyzXZF5d2sJ
+- name: dx1.992688.xyznmUrbQKl
   type: vmess
   server: dx1.992688.xyz
   port: '8880'
@@ -882,14 +1378,14 @@ proxies:
   ws-headers:
     Host: vceu3.vpn66.eu.org
   tls: false
-- name: 216.52.183.243qW0bO71r
+- name: 216.52.183.243XqROtT9m
   type: ss
   server: 216.52.183.243
   port: 1001
   password: 83XvX4Vo%*3a
   alterId: 2
   cipher: aes-128-gcm
-- name: fd.shabijichang.comxrqsEhCV
+- name: fd.shabijichang.comk8GA0CgO
   type: vmess
   server: fd.shabijichang.com
   port: '80'
@@ -902,7 +1398,7 @@ proxies:
   ws-headers:
     Host: mrb.shabijichang.com
   tls: false
-- name: singapore.coml7LSU49t
+- name: singapore.comk9C1BIam
   type: vmess
   server: singapore.com
   port: '8080'
@@ -915,35 +1411,35 @@ proxies:
   ws-headers:
     Host: ssrsub.v01.ssrsub.com
   tls: false
-- name: usshs2.gophers.gayGyPuTcZJ
+- name: usshs2.gophers.gay2NQbOBph
   type: ss
   server: usshs2.gophers.gay
   port: 20800
   password: f5d95005-be14-40fc-bedc-e4a1133a5701
   alterId: 2
   cipher: chacha20-ietf-poly1305
-- name: 51.159.221.203Ykyzhcwj
+- name: 51.159.221.203E0bX6fBN
   type: ss
   server: 51.159.221.203
   port: 443
   password: asdKkaskJKfnsa
   alterId: 2
   cipher: aes-256-cfb
-- name: 198.244.231.25IYFHoasP
+- name: 198.244.231.25Ojc6FGUH
   type: ss
   server: 198.244.231.25
   port: 443
   password: asdKkaskJKfnsa
   alterId: 2
   cipher: aes-256-cfb
-- name: 51.159.221.222x3wQSzfg
+- name: 51.159.221.222X4TlzcSs
   type: ss
   server: 51.159.221.222
   port: 443
   password: asdKkaskJKfnsa
   alterId: 2
   cipher: aes-256-cfb
-- name: 45.199.138.222IrgU28Xp
+- name: 45.199.138.222bpD2Zo9d
   type: vmess
   server: 45.199.138.222
   port: '30000'
@@ -956,7 +1452,7 @@ proxies:
   ws-headers:
     Host: www.19229362.xyz
   tls: true
-- name: 103.48.169.166MVrQwYLO
+- name: 103.48.169.166vbKSyEqG
   type: vmess
   server: 103.48.169.166
   port: '57754'
@@ -969,7 +1465,7 @@ proxies:
   ws-headers:
     Host: ylsl.kxking.eu.org
   tls: true
-- name: 67.21.90.5bHZAEuln
+- name: 67.21.90.5KbFUtXAB
   type: vmess
   server: 67.21.90.5
   port: '443'
@@ -982,7 +1478,7 @@ proxies:
   ws-headers:
     Host: ''
   tls: true
-- name: 104.16.68.38LtWq18en
+- name: 104.16.68.38yRoiQrUc
   type: vmess
   server: 104.16.68.38
   port: '2052'
@@ -995,7 +1491,7 @@ proxies:
   ws-headers:
     Host: lu.wx.alue.link
   tls: false
-- name: 104.17.88.2529YobgSZH
+- name: 104.17.88.252WuAeOXTd
   type: vmess
   server: 104.17.88.252
   port: '2082'
@@ -1008,7 +1504,7 @@ proxies:
   ws-headers:
     Host: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev
   tls: false
-- name: 112.29.156.248H3pZAiV6
+- name: 112.29.156.248ybnqZSI6
   type: vmess
   server: 112.29.156.248
   port: '61001'
@@ -1021,7 +1517,7 @@ proxies:
   ws-headers:
     Host: a.cn-db.top
   tls: false
-- name: dx1.992688.xyzO3iMuNT0
+- name: dx1.992688.xyzLI7Yg1TZ
   type: vmess
   server: dx1.992688.xyz
   port: '8880'
@@ -1034,7 +1530,7 @@ proxies:
   ws-headers:
     Host: vceu3.vpn66.eu.org
   tls: false
-- name: lax.asoul-diana.xyz4ZE8M2mH
+- name: lax.asoul-diana.xyzrY0BWMHk
   type: vmess
   server: lax.asoul-diana.xyz
   port: '443'
@@ -1047,7 +1543,7 @@ proxies:
   ws-headers:
     Host: lax.asoul-diana.xyz
   tls: true
-- name: lt1.992688.xyzUzWaSCMw
+- name: lt1.992688.xyztmaq5xuI
   type: vmess
   server: lt1.992688.xyz
   port: '8880'
@@ -1060,7 +1556,7 @@ proxies:
   ws-headers:
     Host: vceu3.vpn66.eu.org
   tls: false
-- name: 45.199.138.222BGvpQanr
+- name: 45.199.138.222BzhUDJ3F
   type: vmess
   server: 45.199.138.222
   port: '30000'
@@ -1073,7 +1569,7 @@ proxies:
   ws-headers:
     Host: www.19229362.xyz
   tls: true
-- name: 45.199.138.191B24PvOLa
+- name: 45.199.138.191aZRzdvE3
   type: vmess
   server: 45.199.138.191
   port: '30000'
@@ -1086,7 +1582,7 @@ proxies:
   ws-headers:
     Host: www.42077230.xyz
   tls: true
-- name: yd1.992688.xyzxf1JkIKL
+- name: yd1.992688.xyzkIxqulpz
   type: vmess
   server: yd1.992688.xyz
   port: '8880'
@@ -1099,7 +1595,7 @@ proxies:
   ws-headers:
     Host: vceu3.vpn66.eu.org
   tls: false
-- name: fd.shabijichang.comOYvJmiWG
+- name: fd.shabijichang.comn3EuPlUi
   type: vmess
   server: fd.shabijichang.com
   port: '80'
@@ -1112,14 +1608,14 @@ proxies:
   ws-headers:
     Host: mrb.shabijichang.com
   tls: false
-- name: 216.52.183.243lJ1PUnvg
+- name: 216.52.183.243J8B2fTrZ
   type: ss
   server: 216.52.183.243
   port: 1001
   password: 83XvX4Vo%*3a
   alterId: 2
   cipher: aes-128-gcm
-- name: 67.21.90.5TOhADPH6
+- name: 67.21.90.5jBMRQzZd
   type: vmess
   server: 67.21.90.5
   port: '443'
@@ -1132,7 +1628,7 @@ proxies:
   ws-headers:
     Host: ''
   tls: true
-- name: cf.yx.alue.linkg7J1i2nI
+- name: cf.yx.alue.linkARxLKpcP
   type: vmess
   server: cf.yx.alue.link
   port: '2052'
@@ -1145,21 +1641,21 @@ proxies:
   ws-headers:
     Host: us.wx.alue.link
   tls: false
-- name: 155.248.198.71V8epi3AL
+- name: 155.248.198.719pUFo4OP
   type: ss
   server: 155.248.198.71
   port: 20800
   password: f5d95005-be14-40fc-bedc-e4a1133a5701
   alterId: 2
   cipher: chacha20-ietf-poly1305
-- name: usshs2.gophers.gayzQRs3UES
+- name: usshs2.gophers.gayvehojYsu
   type: ss
   server: usshs2.gophers.gay
   port: 20800
   password: f5d95005-be14-40fc-bedc-e4a1133a5701
   alterId: 2
   cipher: chacha20-ietf-poly1305
-- name: 162.159.143.72rfFtLol0
+- name: 162.159.143.72kb1mFJup
   type: vmess
   server: 162.159.143.72
   port: '80'
@@ -1172,7 +1668,7 @@ proxies:
   ws-headers:
     Host: xui2.xuwu996.eu.org
   tls: false
-- name: www.speedtest.netIvCGt17k
+- name: www.speedtest.net7KjyFXYr
   type: vmess
   server: www.speedtest.net
   port: '80'
@@ -1185,7 +1681,7 @@ proxies:
   ws-headers:
     Host: hu1.xv2ray.net
   tls: false
-- name: singapore.comlNPsBRfS
+- name: singapore.com1G5IrLbs
   type: vmess
   server: singapore.com
   port: '80'
@@ -1204,207 +1700,283 @@ proxy-groups:
   proxies:
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 142.4.110.1443GJADj2a
-  - 172.67.139.6dsYZyvwJ
-  - 45.199.138.222RI35qKV8
-  - 162.159.152.66nQyNIrV
-  - 198.2.202.84LyAKomT5
-  - 172.67.221.18JIrc08Se
-  - 38.63.0.80ZbigGusy
-  - 112.29.94.22eHkRQsXJ
-  - sub.ssrsub.comkbWMRY2S
-  - 142.4.110.144ySoFbcKY
-  - cf.yx.alue.linkoLtherM8
-  - 67.21.90.5H0KXQzv1
-  - www.speedtest.netrk4LRybf
-  - www.speedtest.netR82gxOb6
-  - fd.shabijichang.comUenhsxZR
-  - 45.199.138.222IaAdZSYq
-  - 45.199.138.1525T0XvAfL
-  - fd.shabijichang.comEGWj3VSx
-  - 162.159.253.28YlDgPN2f
-  - 172.67.87.197HX7Ypf1v
-  - singapore.comiou0fhTH
-  - ns1.v2-vip.funypu2zGUE
-  - cf-lt.sharecentre.online2AqbFzX6
-  - singapore.comSUOge9do
-  - ns1.v2-vip.fun6OU9Mpd8
-  - cf-lt.sharecentre.onlineaCjqW6xI
-  - singapore.comzTvdsASK
-  - ns1.v2-vip.funAkUbc6Ym
-  - cf-lt.sharecentre.online9XweWSc6
-  - singapore.comKMtBkma3
-  - ns1.v2-vip.funto3unWYh
-  - cf-lt.sharecentre.online48bKtvLN
-  - singapore.comWCZNHYag
-  - ns1.v2-vip.fun2sixoHOk
-  - cf-lt.sharecentre.onlinel5fhVWDr
-  - singapore.comHwvZYDbp
-  - ns1.v2-vip.funj8XbIxv9
-  - cf-lt.sharecentre.onlineQERyMWqr
-  - singapore.com2PfSgyC1
-  - ns1.v2-vip.funzhkxlXt9
-  - cf-lt.sharecentre.onlineQr5YWJOx
-  - singapore.comTBRghFlK
-  - ns1.v2-vip.funlOkcTxo4
-  - cf-lt.sharecentre.onlinexYca7r1O
-  - 216.52.183.243FOHgSfr8
-  - fd.shabijichang.comP1zuNfUE
-  - yd1.992688.xyzXyFeSjbA
-  - 5.161.191.195mKAj3bTJ
-  - 67.21.90.5mjtyxUXr
-  - lax.asoul-diana.xyzZFv0dN67
-  - cf.yx.alue.linktjxmcVZK
-  - 112.29.156.248dDIEsuU8
-  - 104.16.68.38F2gSZHqB
-  - lt1.992688.xyzb6uAUe3C
-  - 112.29.156.251m9wCTn40
-  - www.speedtest.netRPq6jkHp
-  - 89.185.84.178orCNWJc1
-  - 92.118.149.115xugS0dDa
-  - 162.159.143.72NsVEGS1d
-  - singapore.com6Q7qt0f2
-  - usshs2.gophers.gayw3psN1ho
-  - 155.248.198.71dOAmvKpt
-  - 45.199.138.2223jc8Pgh4
-  - cf.yx.alue.linklQiwNPgF
-  - lt1.992688.xyzZDAyPVmx
-  - ukld2.gophers.gayT4iJHskj
-  - 45.199.138.191cS4yQMIF
-  - yd1.992688.xyzzDBSFHUG
-  - 5.161.191.195WxVQtBCX
-  - dx1.992688.xyzXZF5d2sJ
-  - 216.52.183.243qW0bO71r
-  - fd.shabijichang.comxrqsEhCV
-  - singapore.coml7LSU49t
-  - usshs2.gophers.gayGyPuTcZJ
-  - 51.159.221.203Ykyzhcwj
-  - 198.244.231.25IYFHoasP
-  - 51.159.221.222x3wQSzfg
-  - 45.199.138.222IrgU28Xp
-  - 103.48.169.166MVrQwYLO
-  - 67.21.90.5bHZAEuln
-  - 104.16.68.38LtWq18en
-  - 104.17.88.2529YobgSZH
-  - 112.29.156.248H3pZAiV6
-  - dx1.992688.xyzO3iMuNT0
-  - lax.asoul-diana.xyz4ZE8M2mH
-  - lt1.992688.xyzUzWaSCMw
-  - 45.199.138.222BGvpQanr
-  - 45.199.138.191B24PvOLa
-  - yd1.992688.xyzxf1JkIKL
-  - fd.shabijichang.comOYvJmiWG
-  - 216.52.183.243lJ1PUnvg
-  - 67.21.90.5TOhADPH6
-  - cf.yx.alue.linkg7J1i2nI
-  - 155.248.198.71V8epi3AL
-  - usshs2.gophers.gayzQRs3UES
-  - 162.159.143.72rfFtLol0
-  - www.speedtest.netIvCGt17k
-  - singapore.comlNPsBRfS
+  - singapore.comDjTnivJ8
+  - cf-lt.sharecentre.online9HutvVAj
+  - ns1.v2-vip.funH1qKzlt0
+  - 67.21.90.5k1doulCD
+  - 172.67.87.197mNu5VFWv
+  - 172.67.128.217WntEDzbH
+  - 104.16.68.38VB1SCuzo
+  - 183.240.232.82SQ4YmCVv
+  - 112.29.94.22A2CTv9Mc
+  - 172.67.32.83sLlvAd1Z
+  - 941.outline-vpn.cloud8L5Sb0uK
+  - 198.2.202.84lwQ20Oka
+  - cf.yx.alue.linkbBgOANoq
+  - 172.64.199.158oYqiVT17
+  - 104.16.117.47qRcJxZoV
+  - 92.118.149.11556vuBPyA
+  - 183.240.232.82jcq8Hk54
+  - fhc.shabijichang.com57uw2lMT
+  - 45.199.138.222OUX2n8xI
+  - fd.shabijichang.comA5Xk2jx9
+  - bvtqw-1093-v2-1.d-kcd.tuil.xyzQbicVsp8
+  - 183.233.187.214VXn9oPut
+  - wnd.shabijichang.comUyrhD3Gu
+  - hkt.123ddns.xyz7jUKDtir
+  - yd1.992688.xyz3byWmw4R
+  - 23.108.100.103thT5Ys0X
+  - api.jquery.como23uDhTR
+  - 23.108.100.101I0WRszLQ
+  - zzfyo-1094-v2-0.d-cmi.iote.bondkz4SGnio
+  - pzl.p237875155.buzzLJIoevs3
+  - 172.67.69.247m4jGoNwn
+  - 172.67.221.18XGbuf24L
+  - 172.67.161.181xlzsgh19
+  - 190.93.245.179qZWL5p21
+  - 162.159.152.6mgYRA4iG
+  - 198.2.202.84nWOJxqzp
+  - hkt.123ddns.xyztWDUl2Tp
+  - 45.199.138.222gOVn8iTw
+  - 67.21.90.54pFyJCjS
+  - 183.233.187.214ed6lT7CB
+  - zzfyo-1094-v2-0.d-cmi.iote.bondujSz8x4E
+  - twpaopao.gfwisbest.xyzkd75wslJ
+  - 162.159.142.237IKEjQxe0
+  - vn9.4gspeed.meGRWgmhI7
+  - 172.67.63.75Yh0k29e1
+  - 172.64.199.158lg4cPYUe
+  - cf.yx.alue.linkGswrnmvi
+  - datacenter.ct.01.biqibao.siteYoE8zilG
+  - sub.ssrsub.comOlmyD7IV
+  - 142.4.110.144sRMUnPal
+  - cf.yx.alue.linkcPVY8nHw
+  - 67.21.90.5m8fFTW62
+  - www.speedtest.netlYUCS5uM
+  - www.speedtest.netNE19ZYJK
+  - fd.shabijichang.comTZJUfuvp
+  - 45.199.138.222x0iqwouy
+  - 45.199.138.152VqmxMnkY
+  - fd.shabijichang.com4W5BT7JI
+  - 162.159.253.280TvXFfbI
+  - 172.67.87.197eW3NnxDU
+  - singapore.com0CLfoIQ6
+  - ns1.v2-vip.funUXPMi4Iv
+  - cf-lt.sharecentre.onlineUHQPl7Di
+  - singapore.comrZygDViC
+  - ns1.v2-vip.funp0Z5NGoT
+  - cf-lt.sharecentre.online6du3wVY0
+  - singapore.comC5RVybrZ
+  - ns1.v2-vip.funEgQ9bPRo
+  - cf-lt.sharecentre.onlineOj387RPF
+  - singapore.comubpQE8s1
+  - ns1.v2-vip.funKXnbRpgJ
+  - cf-lt.sharecentre.onlinesMxuCa5m
+  - singapore.comufsimI4T
+  - ns1.v2-vip.fun6C8r9Xjg
+  - cf-lt.sharecentre.onlineUAoe9yMR
+  - singapore.com7zD1rgAe
+  - ns1.v2-vip.funwUpqjy1J
+  - cf-lt.sharecentre.onlinec7vSm1Mp
+  - singapore.com3buNV7C5
+  - ns1.v2-vip.funb5RYyJwr
+  - cf-lt.sharecentre.online92WrEApe
+  - singapore.comr8Y9kZJh
+  - ns1.v2-vip.funXkiCDpxr
+  - cf-lt.sharecentre.onlinepG81RoIn
+  - dx1.992688.xyz9K7uZ3gt
+  - fd.shabijichang.comrI2Z3aLx
+  - 216.52.183.243r5XfzmqH
+  - yd1.992688.xyziv9sRMeg
+  - 103.48.169.166crwxeM02
+  - 198.244.231.25YGHxFmDj
+  - lt1.992688.xyzrvFtqZzn
+  - singapore.com7jymvnUF
+  - 45.199.138.191YG9Ep3ZK
+  - 67.21.90.5pf39DCkW
+  - www.speedtest.net0Z684ApJ
+  - 46caadb.f2.gladns.com9ehKvjzT
+  - 162.159.152.6AWyjwRiu
+  - cold-dawn-9246.fly.devmUVHFPcs
+  - ukld2.gophers.gayWjQlyLJZ
+  - 195.181.166.170s1YCX3iI
+  - 45.199.138.152xu5XiNPI
+  - cf.yx.alue.linkotbVNvM3
+  - lt1.992688.xyzZCrANFyq
+  - ukld2.gophers.gaypVQSTdYx
+  - 45.199.138.191rbySBocd
+  - yd1.992688.xyzTcLNSnmO
+  - 5.161.191.195FY5mqKTv
+  - dx1.992688.xyznmUrbQKl
+  - 216.52.183.243XqROtT9m
+  - fd.shabijichang.comk8GA0CgO
+  - singapore.comk9C1BIam
+  - usshs2.gophers.gay2NQbOBph
+  - 51.159.221.203E0bX6fBN
+  - 198.244.231.25Ojc6FGUH
+  - 51.159.221.222X4TlzcSs
+  - 45.199.138.222bpD2Zo9d
+  - 103.48.169.166vbKSyEqG
+  - 67.21.90.5KbFUtXAB
+  - 104.16.68.38yRoiQrUc
+  - 104.17.88.252WuAeOXTd
+  - 112.29.156.248ybnqZSI6
+  - dx1.992688.xyzLI7Yg1TZ
+  - lax.asoul-diana.xyzrY0BWMHk
+  - lt1.992688.xyztmaq5xuI
+  - 45.199.138.222BzhUDJ3F
+  - 45.199.138.191aZRzdvE3
+  - yd1.992688.xyzkIxqulpz
+  - fd.shabijichang.comn3EuPlUi
+  - 216.52.183.243J8B2fTrZ
+  - 67.21.90.5jBMRQzZd
+  - cf.yx.alue.linkARxLKpcP
+  - 155.248.198.719pUFo4OP
+  - usshs2.gophers.gayvehojYsu
+  - 162.159.143.72kb1mFJup
+  - www.speedtest.net7KjyFXYr
+  - singapore.com1G5IrLbs
 - name: ♻️ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 142.4.110.1443GJADj2a
-  - 172.67.139.6dsYZyvwJ
-  - 45.199.138.222RI35qKV8
-  - 162.159.152.66nQyNIrV
-  - 198.2.202.84LyAKomT5
-  - 172.67.221.18JIrc08Se
-  - 38.63.0.80ZbigGusy
-  - 112.29.94.22eHkRQsXJ
-  - sub.ssrsub.comkbWMRY2S
-  - 142.4.110.144ySoFbcKY
-  - cf.yx.alue.linkoLtherM8
-  - 67.21.90.5H0KXQzv1
-  - www.speedtest.netrk4LRybf
-  - www.speedtest.netR82gxOb6
-  - fd.shabijichang.comUenhsxZR
-  - 45.199.138.222IaAdZSYq
-  - 45.199.138.1525T0XvAfL
-  - fd.shabijichang.comEGWj3VSx
-  - 162.159.253.28YlDgPN2f
-  - 172.67.87.197HX7Ypf1v
-  - singapore.comiou0fhTH
-  - ns1.v2-vip.funypu2zGUE
-  - cf-lt.sharecentre.online2AqbFzX6
-  - singapore.comSUOge9do
-  - ns1.v2-vip.fun6OU9Mpd8
-  - cf-lt.sharecentre.onlineaCjqW6xI
-  - singapore.comzTvdsASK
-  - ns1.v2-vip.funAkUbc6Ym
-  - cf-lt.sharecentre.online9XweWSc6
-  - singapore.comKMtBkma3
-  - ns1.v2-vip.funto3unWYh
-  - cf-lt.sharecentre.online48bKtvLN
-  - singapore.comWCZNHYag
-  - ns1.v2-vip.fun2sixoHOk
-  - cf-lt.sharecentre.onlinel5fhVWDr
-  - singapore.comHwvZYDbp
-  - ns1.v2-vip.funj8XbIxv9
-  - cf-lt.sharecentre.onlineQERyMWqr
-  - singapore.com2PfSgyC1
-  - ns1.v2-vip.funzhkxlXt9
-  - cf-lt.sharecentre.onlineQr5YWJOx
-  - singapore.comTBRghFlK
-  - ns1.v2-vip.funlOkcTxo4
-  - cf-lt.sharecentre.onlinexYca7r1O
-  - 216.52.183.243FOHgSfr8
-  - fd.shabijichang.comP1zuNfUE
-  - yd1.992688.xyzXyFeSjbA
-  - 5.161.191.195mKAj3bTJ
-  - 67.21.90.5mjtyxUXr
-  - lax.asoul-diana.xyzZFv0dN67
-  - cf.yx.alue.linktjxmcVZK
-  - 112.29.156.248dDIEsuU8
-  - 104.16.68.38F2gSZHqB
-  - lt1.992688.xyzb6uAUe3C
-  - 112.29.156.251m9wCTn40
-  - www.speedtest.netRPq6jkHp
-  - 89.185.84.178orCNWJc1
-  - 92.118.149.115xugS0dDa
-  - 162.159.143.72NsVEGS1d
-  - singapore.com6Q7qt0f2
-  - usshs2.gophers.gayw3psN1ho
-  - 155.248.198.71dOAmvKpt
-  - 45.199.138.2223jc8Pgh4
-  - cf.yx.alue.linklQiwNPgF
-  - lt1.992688.xyzZDAyPVmx
-  - ukld2.gophers.gayT4iJHskj
-  - 45.199.138.191cS4yQMIF
-  - yd1.992688.xyzzDBSFHUG
-  - 5.161.191.195WxVQtBCX
-  - dx1.992688.xyzXZF5d2sJ
-  - 216.52.183.243qW0bO71r
-  - fd.shabijichang.comxrqsEhCV
-  - singapore.coml7LSU49t
-  - usshs2.gophers.gayGyPuTcZJ
-  - 51.159.221.203Ykyzhcwj
-  - 198.244.231.25IYFHoasP
-  - 51.159.221.222x3wQSzfg
-  - 45.199.138.222IrgU28Xp
-  - 103.48.169.166MVrQwYLO
-  - 67.21.90.5bHZAEuln
-  - 104.16.68.38LtWq18en
-  - 104.17.88.2529YobgSZH
-  - 112.29.156.248H3pZAiV6
-  - dx1.992688.xyzO3iMuNT0
-  - lax.asoul-diana.xyz4ZE8M2mH
-  - lt1.992688.xyzUzWaSCMw
-  - 45.199.138.222BGvpQanr
-  - 45.199.138.191B24PvOLa
-  - yd1.992688.xyzxf1JkIKL
-  - fd.shabijichang.comOYvJmiWG
-  - 216.52.183.243lJ1PUnvg
-  - 67.21.90.5TOhADPH6
-  - cf.yx.alue.linkg7J1i2nI
-  - 155.248.198.71V8epi3AL
-  - usshs2.gophers.gayzQRs3UES
-  - 162.159.143.72rfFtLol0
-  - www.speedtest.netIvCGt17k
-  - singapore.comlNPsBRfS
+  - singapore.comDjTnivJ8
+  - cf-lt.sharecentre.online9HutvVAj
+  - ns1.v2-vip.funH1qKzlt0
+  - 67.21.90.5k1doulCD
+  - 172.67.87.197mNu5VFWv
+  - 172.67.128.217WntEDzbH
+  - 104.16.68.38VB1SCuzo
+  - 183.240.232.82SQ4YmCVv
+  - 112.29.94.22A2CTv9Mc
+  - 172.67.32.83sLlvAd1Z
+  - 941.outline-vpn.cloud8L5Sb0uK
+  - 198.2.202.84lwQ20Oka
+  - cf.yx.alue.linkbBgOANoq
+  - 172.64.199.158oYqiVT17
+  - 104.16.117.47qRcJxZoV
+  - 92.118.149.11556vuBPyA
+  - 183.240.232.82jcq8Hk54
+  - fhc.shabijichang.com57uw2lMT
+  - 45.199.138.222OUX2n8xI
+  - fd.shabijichang.comA5Xk2jx9
+  - bvtqw-1093-v2-1.d-kcd.tuil.xyzQbicVsp8
+  - 183.233.187.214VXn9oPut
+  - wnd.shabijichang.comUyrhD3Gu
+  - hkt.123ddns.xyz7jUKDtir
+  - yd1.992688.xyz3byWmw4R
+  - 23.108.100.103thT5Ys0X
+  - api.jquery.como23uDhTR
+  - 23.108.100.101I0WRszLQ
+  - zzfyo-1094-v2-0.d-cmi.iote.bondkz4SGnio
+  - pzl.p237875155.buzzLJIoevs3
+  - 172.67.69.247m4jGoNwn
+  - 172.67.221.18XGbuf24L
+  - 172.67.161.181xlzsgh19
+  - 190.93.245.179qZWL5p21
+  - 162.159.152.6mgYRA4iG
+  - 198.2.202.84nWOJxqzp
+  - hkt.123ddns.xyztWDUl2Tp
+  - 45.199.138.222gOVn8iTw
+  - 67.21.90.54pFyJCjS
+  - 183.233.187.214ed6lT7CB
+  - zzfyo-1094-v2-0.d-cmi.iote.bondujSz8x4E
+  - twpaopao.gfwisbest.xyzkd75wslJ
+  - 162.159.142.237IKEjQxe0
+  - vn9.4gspeed.meGRWgmhI7
+  - 172.67.63.75Yh0k29e1
+  - 172.64.199.158lg4cPYUe
+  - cf.yx.alue.linkGswrnmvi
+  - datacenter.ct.01.biqibao.siteYoE8zilG
+  - sub.ssrsub.comOlmyD7IV
+  - 142.4.110.144sRMUnPal
+  - cf.yx.alue.linkcPVY8nHw
+  - 67.21.90.5m8fFTW62
+  - www.speedtest.netlYUCS5uM
+  - www.speedtest.netNE19ZYJK
+  - fd.shabijichang.comTZJUfuvp
+  - 45.199.138.222x0iqwouy
+  - 45.199.138.152VqmxMnkY
+  - fd.shabijichang.com4W5BT7JI
+  - 162.159.253.280TvXFfbI
+  - 172.67.87.197eW3NnxDU
+  - singapore.com0CLfoIQ6
+  - ns1.v2-vip.funUXPMi4Iv
+  - cf-lt.sharecentre.onlineUHQPl7Di
+  - singapore.comrZygDViC
+  - ns1.v2-vip.funp0Z5NGoT
+  - cf-lt.sharecentre.online6du3wVY0
+  - singapore.comC5RVybrZ
+  - ns1.v2-vip.funEgQ9bPRo
+  - cf-lt.sharecentre.onlineOj387RPF
+  - singapore.comubpQE8s1
+  - ns1.v2-vip.funKXnbRpgJ
+  - cf-lt.sharecentre.onlinesMxuCa5m
+  - singapore.comufsimI4T
+  - ns1.v2-vip.fun6C8r9Xjg
+  - cf-lt.sharecentre.onlineUAoe9yMR
+  - singapore.com7zD1rgAe
+  - ns1.v2-vip.funwUpqjy1J
+  - cf-lt.sharecentre.onlinec7vSm1Mp
+  - singapore.com3buNV7C5
+  - ns1.v2-vip.funb5RYyJwr
+  - cf-lt.sharecentre.online92WrEApe
+  - singapore.comr8Y9kZJh
+  - ns1.v2-vip.funXkiCDpxr
+  - cf-lt.sharecentre.onlinepG81RoIn
+  - dx1.992688.xyz9K7uZ3gt
+  - fd.shabijichang.comrI2Z3aLx
+  - 216.52.183.243r5XfzmqH
+  - yd1.992688.xyziv9sRMeg
+  - 103.48.169.166crwxeM02
+  - 198.244.231.25YGHxFmDj
+  - lt1.992688.xyzrvFtqZzn
+  - singapore.com7jymvnUF
+  - 45.199.138.191YG9Ep3ZK
+  - 67.21.90.5pf39DCkW
+  - www.speedtest.net0Z684ApJ
+  - 46caadb.f2.gladns.com9ehKvjzT
+  - 162.159.152.6AWyjwRiu
+  - cold-dawn-9246.fly.devmUVHFPcs
+  - ukld2.gophers.gayWjQlyLJZ
+  - 195.181.166.170s1YCX3iI
+  - 45.199.138.152xu5XiNPI
+  - cf.yx.alue.linkotbVNvM3
+  - lt1.992688.xyzZCrANFyq
+  - ukld2.gophers.gaypVQSTdYx
+  - 45.199.138.191rbySBocd
+  - yd1.992688.xyzTcLNSnmO
+  - 5.161.191.195FY5mqKTv
+  - dx1.992688.xyznmUrbQKl
+  - 216.52.183.243XqROtT9m
+  - fd.shabijichang.comk8GA0CgO
+  - singapore.comk9C1BIam
+  - usshs2.gophers.gay2NQbOBph
+  - 51.159.221.203E0bX6fBN
+  - 198.244.231.25Ojc6FGUH
+  - 51.159.221.222X4TlzcSs
+  - 45.199.138.222bpD2Zo9d
+  - 103.48.169.166vbKSyEqG
+  - 67.21.90.5KbFUtXAB
+  - 104.16.68.38yRoiQrUc
+  - 104.17.88.252WuAeOXTd
+  - 112.29.156.248ybnqZSI6
+  - dx1.992688.xyzLI7Yg1TZ
+  - lax.asoul-diana.xyzrY0BWMHk
+  - lt1.992688.xyztmaq5xuI
+  - 45.199.138.222BzhUDJ3F
+  - 45.199.138.191aZRzdvE3
+  - yd1.992688.xyzkIxqulpz
+  - fd.shabijichang.comn3EuPlUi
+  - 216.52.183.243J8B2fTrZ
+  - 67.21.90.5jBMRQzZd
+  - cf.yx.alue.linkARxLKpcP
+  - 155.248.198.719pUFo4OP
+  - usshs2.gophers.gayvehojYsu
+  - 162.159.143.72kb1mFJup
+  - www.speedtest.net7KjyFXYr
+  - singapore.com1G5IrLbs
 - name: 🌍 国外媒体
   type: select
   proxies:
