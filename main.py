@@ -356,7 +356,7 @@ if __name__ == '__main__':
     # proxies.extend(load_subscribe_url('https://getinfo.bigwatermelon.org/api/v1/client/subscribe?token=8fe4290ba47b6fe0e207ead380a2396a'))
 
     proxies.extend(load_subscribe_url('https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt'))
-
+    proxies.extend(load_subscribe_url('https://bulinkbulink.com/freefq/free/master/v2'))
     now=datetime.date.today()
     proxies.extend(load_subscribe_url(f"https://v2rayshare.com/wp-content/uploads/{now.year:04}/{now.month:02}/{now.year:04}{now.month:02}{now.day:02}.txt"))
     now+=datetime.timedelta(days=-1)
