@@ -370,6 +370,7 @@ if __name__ == '__main__':
     # proxies.extend(load_subscribe_url(f"https://v2rayshare.com/wp-content/uploads/{localtime.tm_year:04}/{localtime.tm_mon:02}/{localtime.tm_year:04}{localtime.tm_mon:02}{localtime.tm_mday:02}.txt"))
     # proxies.extend(manual_input())
 
+    proxies=list(set(proxies))
     gen_v2ray_subscribe(proxies)
     gen_clash_subscribe(list(filter(None,map(protocol_decode,proxies))))
     
