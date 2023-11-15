@@ -357,7 +357,7 @@ if __name__ == '__main__':
 
     proxies.extend(load_subscribe_url('https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt'))
     proxies.extend(load_subscribe_url('https://bulinkbulink.com/freefq/free/master/v2'))
-    proxies.extend(load_subscribe_url('https://9527521.xyz/pubconfig/tTU5oB98cLGazROS'))
+    proxies.extend(load_subscribe_url('https://9527521.xyz/config/rn1F9e0sMyipZPLW'))
     
     now=datetime.date.today()
     proxies.extend(load_subscribe_url(f"https://v2rayshare.com/wp-content/uploads/{now.year:04}/{now.month:02}/{now.year:04}{now.month:02}{now.day:02}.txt"))
