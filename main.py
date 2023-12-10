@@ -183,7 +183,7 @@ def protocol_decode(proxy_str):
                     'ucp':True,
                     'ws-path':tmp.get('path'),
                     'ws-headers':{'Host':tmp['host']} if tmp.__contains__('host') else None,
-                    "tls": True if tmp.get("tls") == "tls" or tmp.get("net") == "h2"else False,
+                    "tls": True if tmp.get("tls") == "tls" or tmp.get("net") == "h2" or tmp.get("net") == "grpc"else False,
                 }
         except Exception as e:
             log('Invalid vmess URL:'+proxy_str)
