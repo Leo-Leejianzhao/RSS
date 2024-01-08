@@ -199,7 +199,7 @@ def protocol_decode(proxy_str):
                 tmp=base64.b64decode(tmp.netloc+'==').decode()
                 cipher,other,port=tmp.split(':')
                 password,server=other.split('@')
-            if cipher and password and server and port:
+            if cipher and cipher!="chacha20-poly1305" and password and server and port:
                 proxy={
                     # "name": ''.join(random.sample(string.ascii_letters + string.digits, 8)), #urllib.parse.unquote(url.fragment),
                     "name"      :   IP2name(server),
@@ -292,8 +292,7 @@ def getClashSubscribeUrl(url):
     for proxy in raw["proxies"]:
         if proxy["type"]=="ss":
             # print(proxy)
-            if cipher!="chacha20-poly1305":
-                res.append(f"ss://{base64.b64encode((proxy['cipher']+':'+proxy['password']).encode('utf-8')).decode('utf-8')}@{proxy['server']}:{proxy['port']}#{proxy['name']}")
+            res.append(f"ss://{base64.b64encode((proxy['cipher']+':'+proxy['password']).encode('utf-8')).decode('utf-8')}@{proxy['server']}:{proxy['port']}#{proxy['name']}")
         elif proxy["type"]=="vmess":
             # print(proxy)
             tmp= {
