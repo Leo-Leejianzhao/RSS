@@ -199,7 +199,7 @@ def protocol_decode(proxy_str):
                 tmp=base64.b64decode(tmp.netloc+'==').decode()
                 cipher,other,port=tmp.split(':')
                 password,server=other.split('@')
-            if cipher and password and server and port:
+            if cipher and cipher!="chacha20-poly1305" and password and server and port:
                 proxy={
                     # "name": ''.join(random.sample(string.ascii_letters + string.digits, 8)), #urllib.parse.unquote(url.fragment),
                     "name"      :   IP2name(server),
@@ -303,7 +303,7 @@ def getClashSubscribeUrl(url):
                 "id": proxy['uuid'],
                 "aid": "0",
                 "scy": "auto",
-                "net": proxy['network'],
+                "net": proxy.get('network',''),
                 "type": "none",
                 "host": "v16.583181.xyz",
                 "path": "",
