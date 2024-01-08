@@ -292,7 +292,8 @@ def getClashSubscribeUrl(url):
     for proxy in raw["proxies"]:
         if proxy["type"]=="ss":
             # print(proxy)
-            res.append(f"ss://{base64.b64encode((proxy['cipher']+':'+proxy['password']).encode('utf-8')).decode('utf-8')}@{proxy['server']}:{proxy['port']}#{proxy['name']}")
+            if cipher!="chacha20-poly1305":
+                res.append(f"ss://{base64.b64encode((proxy['cipher']+':'+proxy['password']).encode('utf-8')).decode('utf-8')}@{proxy['server']}:{proxy['port']}#{proxy['name']}")
         elif proxy["type"]=="vmess":
             # print(proxy)
             tmp= {
