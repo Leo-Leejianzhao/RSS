@@ -208,7 +208,7 @@ def protocol_decode(proxy_str):
                     "port": port,
                     "password": password,
                     "alterId": 2,
-                    "cipher": cipher if cipher!="ss" else "auto",
+                    "cipher": cipher if cipher!="ss" else "",
                 }
         except Exception as e:
             log('Invalid vmess URL:'+proxy_str)
