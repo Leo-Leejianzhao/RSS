@@ -5,541 +5,20 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-- name: 104.21.36.26yMW6qcj0
+- name: 183.236.51.3602XSEalD
   type: vmess
-  server: 104.21.36.26
-  port: '8443'
-  uuid: 1cec1ebc-b489-4769-f2d9-e079b5832a60
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /cloudconeaaa
-  ws-headers:
-    Host: cloudconeaaa.gorgorchicken.one
-  tls: true
-- name: 47.116.173.76vo1fLkgJ
-  type: vmess
-  server: 47.116.173.76
-  port: '50002'
+  server: 183.236.51.36
+  port: '59003'
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   alterId: '64'
   cipher: auto
   network: tcp
-  ucp: true
-  ws-path: /lfljvws
-  ws-headers:
-    Host: rac.679888.xyz
-  tls: false
-- name: 183.240.232.822yAqdHoS
-  type: vmess
-  server: 183.240.232.82
-  port: '40158'
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: '64'
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: /
-  ws-headers:
-    Host: ''
-  tls: false
-- name: 172.67.68.136SLmjYRTa
-  type: vmess
-  server: 172.67.68.136
-  port: '80'
-  uuid: 08b2ceb1-5917-42da-b02c-0f942754aac6
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /aries?ed=2048
-  ws-headers:
-    Host: buyvm.iiio.wiki
-  tls: false
-- name: 45.199.138.222bgLk9pdz
-  type: vmess
-  server: 45.199.138.222
-  port: '30000'
-  uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf
-  alterId: '64'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /path/1696251693048
-  ws-headers:
-    Host: www.19229362.xyz
-  tls: true
-- name: 104.18.37.248vk9O4DYn
-  type: vmess
-  server: 104.18.37.248
-  port: 2052
-  uuid: 60bcbd52-0c88-4da3-aee2-cc1f9d5ca224
-  alterId: 0
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: 54.199.66.30KcZ1EqCr
-  type: ss
-  server: 54.199.66.30
-  port: 443
-  password: amazonskr05
-  alterId: 2
-  cipher: aes-256-cfb
-- name: ml2.shabijichang.comARWbTKUX
-  type: vmess
-  server: ml2.shabijichang.com
-  port: '80'
-  uuid: 10ea3b2a-b615-45f1-b1b7-c62bafe8c80c
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /
-  ws-headers:
-    Host: ml2.shabijichang.com
-  tls: false
-- name: 104.19.59.89vr61CjtB
-  type: vmess
-  server: 104.19.59.89
-  port: '2095'
-  uuid: a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: github.com/Alvin9999
-  ws-headers:
-    Host: ''
-  tls: false
-- name: 120.232.153.71L5tabrJn
-  type: vmess
-  server: 120.232.153.71
-  port: '43526'
-  uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
-  alterId: '64'
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: github.com/Alvin9999
-  ws-headers:
-    Host: ''
-  tls: false
-- name: 120.232.240.564RsJ6xQc
-  type: vmess
-  server: 120.232.240.56
-  port: 16928
-  uuid: 5f6b3c3f-b0a8-33f5-95c6-371f8c6af973
-  alterId: 0
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: 198.2.202.84JzvPRuQO
-  type: vmess
-  server: 198.2.202.84
-  port: '443'
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: '64'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /
-  ws-headers:
-    Host: www.65825524.xyz
-  tls: true
-- name: 183.240.235.162yWVqTnOm
-  type: vmess
-  server: 183.240.235.162
-  port: 54002
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: 221.139.79.57VhZ45Wf3
-  type: ss
-  server: 221.139.79.57
-  port: 54345
-  password: qwerREWQ@@
-  alterId: 2
-  cipher: aes-256-cfb
-- name: sgp.cdn-sgp.xyzreaT5Bz9
-  type: vmess
-  server: sgp.cdn-sgp.xyz
-  port: '5245'
-  uuid: 6074a3b0-f2a0-4b05-b1c9-4066e8b876c2
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /
-  ws-headers:
-    Host: sgp.cdn-sgp.xyz
-  tls: false
-- name: 183.233.187.214sjfBeTJW
-  type: vmess
-  server: 183.233.187.214
-  port: '51165'
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: '64'
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: /
-  ws-headers:
-    Host: ''
-  tls: false
-- name: 183.236.48.158IcLYosrA
-  type: vmess
-  server: 183.236.48.158
-  port: '59952'
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: 172.67.81.238hXLCAYy0
-  type: vmess
-  server: 172.67.81.238
-  port: '8880'
-  uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY
-  ws-headers:
-    Host: fr7.tehme100.fun
-  tls: false
-- name: 104.16.117.47sh2VT6nf
-  type: vmess
-  server: 104.16.117.47
-  port: '80'
-  uuid: e8cc06f6-0eff-4c07-9038-8c640650a2ce
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /
-  ws-headers:
-    Host: jdf.shabijichang.com
-  tls: false
-- name: 198.2.202.84EjRQ9aDW
-  type: vmess
-  server: 198.2.202.84
-  port: '443'
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: '64'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /path/1694859605321
-  ws-headers:
-    Host: www.65825524.xyz
-  tls: true
-- name: 172.67.229.19RUB2yWbS
-  type: vmess
-  server: 172.67.229.19
-  port: '2086'
-  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /IOebhLMhl1CTbFHbL95myfRX2
-  ws-headers:
-    Host: ca6.tehme100.fun
-  tls: false
-- name: 104.21.238.2032yg8n4sc
-  type: vmess
-  server: 104.21.238.203
-  port: 8443
-  uuid: 9201ffaa-6ca3-4f57-8b1f-266a2f390e43
-  alterId: 0
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: github.com/Alvin9999
-  ws-headers:
-    Host: http1.9290254.xyz
-  tls: true
-- name: 183.236.51.23sC4l8WOh
-  type: vmess
-  server: 183.236.51.23
-  port: '45020'
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: '64'
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: /afrhms16v.bestxray.buzz/linkws
-  ws-headers:
-    Host: ''
-  tls: false
-- name: 172.64.167.15LIuPB194
-  type: vmess
-  server: 172.64.167.15
-  port: '2095'
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: github.com/Alvin9999
-  ws-headers:
-    Host: ''
-  tls: false
-- name: 172.64.166.33OsgKV7ma
-  type: vmess
-  server: 172.64.166.33
-  port: '2095'
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: github.com/Alvin9999
-  ws-headers:
-    Host: ''
-  tls: false
-- name: 36.141.40.92XHoWDn6R
-  type: ss
-  server: 36.141.40.92
-  port: 15016
-  password: MAADD8JLM8XKVW56
-  alterId: 2
-  cipher: aes-256-gcm
-- name: 104.25.127.2406fecnBrP
-  type: vmess
-  server: 104.25.127.240
-  port: '443'
-  uuid: 09d5805c-7a22-47c1-b1c3-f090df0a98ed
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /lfljvws
-  ws-headers:
-    Host: rac.679888.xyz
-  tls: true
-- name: 162.159.134.234yApufIMO
-  type: vmess
-  server: 162.159.134.234
-  port: '443'
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: linkvws
-  ws-headers:
-    Host: octavi.cfd
-  tls: true
-- name: 142.4.104.33J8rKqug2
-  type: vmess
-  server: 142.4.104.33
-  port: '52143'
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: '64'
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: /
-  ws-headers:
-    Host: ''
-  tls: false
-- name: fd.shabijichang.comvaMXegP2
-  type: vmess
-  server: fd.shabijichang.com
-  port: '80'
-  uuid: 073360d9-72cb-4ba5-9a40-8ac6cd918356
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /
-  ws-headers:
-    Host: jdf.shabijichang.com
-  tls: false
-- name: 183.236.48.158yB0Sd9ZO
-  type: vmess
-  server: 183.236.48.158
-  port: 59952
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: 141.101.122.109kuGMdFZp
-  type: vmess
-  server: 141.101.122.109
-  port: '443'
-  uuid: 09d5805c-7a22-47c1-b1c3-f090df0a98ed
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /lfljvws
-  ws-headers:
-    Host: rac.679888.xyz
-  tls: true
-- name: zzfyo-1094-v2-0.d-cmi.iote.bond6RMHJXYo
-  type: vmess
-  server: zzfyo-1094-v2-0.d-cmi.iote.bond
-  port: '888'
-  uuid: b00a4568-6396-44c6-8697-f1d1600ba9fd
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /
-  ws-headers:
-    Host: cdn.cjhh.lol
-  tls: true
-- name: 188.114.96.3SrzyjH2k
-  type: vmess
-  server: 188.114.96.3
-  port: 443
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  alterId: 0
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /linkws
-  ws-headers:
-    Host: obdii.cfd
-  tls: true
-- name: 45.159.50.1435OnwNfji
-  type: vmess
-  server: 45.159.50.143
-  port: '11304'
-  uuid: d1625892-8e9f-41fa-8ad8-6cc464fd52a6
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: 104.19.47.16QurgMKWi
-  type: vmess
-  server: 104.19.47.16
-  port: 8080
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  alterId: 0
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: 172.67.128.217AjmJHu2k
-  type: vmess
-  server: 172.67.128.217
-  port: '80'
-  uuid: 3cf8cbb6-e544-4d50-9a3f-5a3c03a9f23c
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /
-  ws-headers:
-    Host: sdgrm.shabijichang.com
-  tls: false
-- name: cf2.openxai.linkbpwZuis5
-  type: vmess
-  server: cf2.openxai.link
-  port: '8080'
-  uuid: 47396f9c-365d-4b99-ad1f-f7927164b4c5
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /
-  ws-headers:
-    Host: eu3.openxai.link
-  tls: false
-- name: 104.16.60.8Vc6e4098
-  type: vmess
-  server: 104.16.60.8
-  port: '2095'
-  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /ivideos.sbs/linkws
-  ws-headers:
-    Host: ''
-  tls: false
-- name: 36.141.40.92j1euSDz2
-  type: ss
-  server: 36.141.40.92
-  port: 15010
-  password: URZYWLLW5LQAYR7X
-  alterId: 2
-  cipher: aes-256-gcm
-- name: 172.67.69.247J59oztTV
-  type: vmess
-  server: 172.67.69.247
-  port: '8880'
-  uuid: 67a341a7-5ae7-4d92-edad-9e8db87ce165
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /
-  ws-headers:
-    Host: vcus1.vpn66.eu.org
-  tls: false
-- name: az05.beyondy.cfdRf7HdNuV
-  type: vmess
-  server: az05.beyondy.cfd
-  port: '443'
-  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
-  alterId: '0'
-  cipher: auto
-  network: ws
   ucp: true
   ws-path: /link
   ws-headers:
-    Host: az05.beyondy.cfd
-  tls: true
-- name: 35.89.254.222IThZ8kAK
-  type: ss
-  server: 35.89.254.222
-  port: 443
-  password: amazonskr05
-  alterId: 2
-  cipher: aes-256-cfb
-- name: 183.236.48.163DwHWitKo
-  type: vmess
-  server: 183.236.48.163
-  port: '58831'
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: null
-  ws-headers: null
+    Host: ''
   tls: false
-- name: 190.93.245.179hKjWFOHb
+- name: 190.93.245.179rHwbk1al
   type: vmess
   server: 190.93.245.179
   port: '80'
@@ -552,34 +31,27 @@ proxies:
   ws-headers:
     Host: xn2.shabijichang.com
   tls: false
-- name: 114.55.132.202H4gVWbcP
+- name: 54.199.66.30QbE0Vgrt
+  type: ss
+  server: 54.199.66.30
+  port: 443
+  password: amazonskr05
+  alterId: 2
+  cipher: aes-256-cfb
+- name: 120.210.205.82DLUCKoVj
   type: vmess
-  server: 114.55.132.202
+  server: 120.210.205.82
   port: '50002'
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   alterId: '64'
   cipher: auto
   network: tcp
   ucp: true
-  ws-path: github.com/Alvin9999
+  ws-path: /ivideos.sbs/linkws
   ws-headers:
     Host: ''
   tls: false
-- name: 45.87.175.164VksoSKml
-  type: ss
-  server: 45.87.175.164
-  port: 8080
-  password: 4a2rfixophdjffa8KVA4Aa
-  alterId: 2
-  cipher: chacha20-ietf-poly1305
-- name: 36.141.40.92QF5HBtvG
-  type: ss
-  server: 36.141.40.92
-  port: 15010
-  password: //YWVzLTI1Ni1nY206VVJaWVdMTFc1TFFBWVI3WA
-  alterId: 2
-  cipher: aes-128-gcm
-- name: 183.236.48.1660KIX1mj8
+- name: 183.236.48.166xj9IAEdb
   type: vmess
   server: 183.236.48.166
   port: '33288'
@@ -592,58 +64,11 @@ proxies:
   ws-headers:
     Host: trojan.burgerip.co.uk
   tls: false
-- name: freeyx.cloudflare88.eu.orgzRkOgdFA
+- name: russia.comBHVyTn1U
   type: vmess
-  server: freeyx.cloudflare88.eu.org
-  port: '80'
-  uuid: 08b2ceb1-5917-42da-b02c-0f942754aac6
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /aries?ed=2048
-  ws-headers:
-    Host: buyvm.iiio.wiki
-  tls: false
-- name: 43.202.57.197aHmX3IkW
-  type: ss
-  server: 43.202.57.197
-  port: 443
-  password: amazonskr05
-  alterId: 2
-  cipher: aes-256-cfb
-- name: 3.35.167.90fIlZTcdR
-  type: ss
-  server: 3.35.167.90
-  port: 443
-  password: amazonskr05
-  alterId: 2
-  cipher: aes-256-cfb
-- name: pzl.p237875155.buzzpKAVMCRc
-  type: vmess
-  server: pzl.p237875155.buzz
-  port: '443'
-  uuid: 9b78b7fe-47a3-41eb-d695-22692ac835a0
-  alterId: '1'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /pzl237875155
-  ws-headers:
-    Host: pzl.p237875155.buzz
-  tls: true
-- name: 43.202.57.197P8JINHM2
-  type: ss
-  server: 43.202.57.197
-  port: 443
-  password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU
-  alterId: 2
-  cipher: aes-128-gcm
-- name: 104.19.47.65ZslK1Cfq
-  type: vmess
-  server: 104.19.47.65
-  port: 2086
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  server: russia.com
+  port: 8080
+  uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   alterId: 0
   cipher: auto
   network: ws
@@ -651,9 +76,16 @@ proxies:
   ws-path: null
   ws-headers: null
   tls: false
-- name: 172.67.161.181qajA7evo
+- name: 36.141.40.92AD4q7P0v
+  type: ss
+  server: 36.141.40.92
+  port: 15016
+  password: MAADD8JLM8XKVW56
+  alterId: 2
+  cipher: aes-256-gcm
+- name: 172.67.69.247a9XDIAK1
   type: vmess
-  server: 172.67.161.181
+  server: 172.67.69.247
   port: '8880'
   uuid: 67a341a7-5ae7-4d92-edad-9e8db87ce165
   alterId: '0'
@@ -664,10 +96,79 @@ proxies:
   ws-headers:
     Host: vcus1.vpn66.eu.org
   tls: false
-- name: 112.132.215.12vIp0XtEq
+- name: 3.35.167.90iPXfg8kL
+  type: ss
+  server: 3.35.167.90
+  port: 443
+  password: amazonskr05
+  alterId: 2
+  cipher: aes-256-cfb
+- name: 183.236.48.158FfncYmrv
   type: vmess
-  server: 112.132.215.12
-  port: '50002'
+  server: 183.236.48.158
+  port: 59952
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: 188.114.96.3sSKkrteJ
+  type: vmess
+  server: 188.114.96.3
+  port: 443
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /linkws
+  ws-headers:
+    Host: obdii.cfd
+  tls: true
+- name: 183.236.51.23VZSyuO1c
+  type: vmess
+  server: 183.236.51.23
+  port: '52112'
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: 183.236.48.166b8MTvIc4
+  type: vmess
+  server: 183.236.48.166
+  port: '33288'
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: '64'
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: github.com/Alvin9999
+  ws-headers:
+    Host: ''
+  tls: false
+- name: 45.159.50.143hDQgGuK7
+  type: vmess
+  server: 45.159.50.143
+  port: '11304'
+  uuid: d1625892-8e9f-41fa-8ad8-6cc464fd52a6
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: 120.232.153.40C7UW9fDH
+  type: vmess
+  server: 120.232.153.40
+  port: '35601'
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   alterId: '64'
   cipher: auto
@@ -675,24 +176,24 @@ proxies:
   ucp: true
   ws-path: /ivideos.sbs/linkws
   ws-headers:
-    Host: ury-unit-c030ehei8.poget71138.workers.dev
+    Host: ''
   tls: false
-- name: 38.147.165.185bNwlMX6B
+- name: cfcdn1.sanfencdn9.comeKRP2IH8
   type: vmess
-  server: 38.147.165.185
-  port: 38692
-  uuid: decde5b9-cc9c-4622-9ee6-723378429f4e
+  server: cfcdn1.sanfencdn9.com
+  port: 2082
+  uuid: cd0eb936-9e1e-4730-989e-be43e7fcaf3e
   alterId: 0
   cipher: auto
-  network: tcp
+  network: ws
   ucp: true
   ws-path: null
   ws-headers: null
   tls: false
-- name: 183.240.235.162z31RKca5
+- name: 183.236.48.163evzAEi2H
   type: vmess
-  server: 183.240.235.162
-  port: 54882
+  server: 183.236.48.163
+  port: 58831
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   alterId: 64
   cipher: auto
@@ -701,97 +202,27 @@ proxies:
   ws-path: null
   ws-headers: null
   tls: false
-- name: shouer1.209966.xyzYjUvA4lt
+- name: 47.92.152.169gzmPxlrR
   type: vmess
-  server: shouer1.209966.xyz
-  port: '14338'
-  uuid: 7fd4d16d-4b6b-4560-cf6c-23fa094be476
-  alterId: '0'
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: github.com/Alvin9999
-  ws-headers:
-    Host: shouer1.209966.xyz
-  tls: false
-- name: b24.ntbq.dynu.netRnjtWGkr
-  type: vmess
-  server: b24.ntbq.dynu.net
-  port: '443'
-  uuid: d201923c-daa9-4459-8e98-9b3ea0435926
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /b24
-  ws-headers:
-    Host: b24.ntbq.dynu.net
-  tls: true
-- name: 183.236.51.23DmohpI2R
-  type: vmess
-  server: 183.236.51.23
-  port: '53002'
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: zzfyo-1094-v2-0.d-cmi.iote.bondemIJxyc9
-  type: vmess
-  server: zzfyo-1094-v2-0.d-cmi.iote.bond
-  port: '888'
-  uuid: b00a4568-6396-44c6-8697-f1d1600ba9fd
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /je5x3pBN1vez3NQudNkB
-  ws-headers:
-    Host: cdn.cjhh.lol
-  tls: true
-- name: tc11.kq1.dynu.netF8bGhQ3L
-  type: vmess
-  server: tc11.kq1.dynu.net
-  port: '443'
-  uuid: 450cd674-1411-4ea1-979b-bf56da87b21d
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /
-  ws-headers:
-    Host: tc11.kq1.dynu.net
-  tls: true
-- name: 104.21.238.201dvXHRPQJ
-  type: vmess
-  server: 104.21.238.201
-  port: 8443
-  uuid: 9201ffaa-6ca3-4f57-8b1f-266a2f390e43
-  alterId: 0
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: github.com/Alvin9999
-  ws-headers:
-    Host: http1.9290254.xyz
-  tls: true
-- name: 183.236.48.161gVITeyNO
-  type: vmess
-  server: 183.236.48.161
-  port: '33288'
+  server: 47.92.152.169
+  port: '50002'
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   alterId: '64'
   cipher: auto
   network: tcp
   ucp: true
-  ws-path: /afrhms16v.bestxray.buzz/linkws
+  ws-path: /
   ws-headers:
     Host: ''
   tls: false
-- name: cc2.shabijichang.comh4wJvyIM
+- name: 45.87.175.164IuvMSsyE
+  type: ss
+  server: 45.87.175.164
+  port: 8080
+  password: 4a2rfixophdjffa8KVA4Aa
+  alterId: 2
+  cipher: chacha20-ietf-poly1305
+- name: cc2.shabijichang.comK1m4VdcP
   type: vmess
   server: cc2.shabijichang.com
   port: '80'
@@ -804,193 +235,14 @@ proxies:
   ws-headers:
     Host: cc2.shabijichang.com
   tls: false
-- name: 104.19.57.4d8301FvI
-  type: vmess
-  server: 104.19.57.4
-  port: 2086
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  alterId: 0
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: 172.64.166.22spX95SwI
-  type: vmess
-  server: 172.64.166.22
-  port: 2095
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  alterId: 0
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /github.com/Alvin9999
-  ws-headers:
-    Host: ip20.6016725.xyz
-  tls: false
-- name: 104.31.16.120kX8SpsGH
-  type: vmess
-  server: 104.31.16.120
-  port: '443'
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: linkvws
-  ws-headers:
-    Host: edeen.makeup
-  tls: true
-- name: speed.cloudflare.com0woEJ3HO
-  type: vmess
-  server: speed.cloudflare.com
-  port: '443'
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: '1'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: linkvws
-  ws-headers:
-    Host: alvvin.click
-  tls: true
-- name: 112.132.212.19ozNDqnAg
-  type: vmess
-  server: 112.132.212.19
-  port: '50004'
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: '64'
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: /glweidf.sbs/linkws
-  ws-headers:
-    Host: ''
-  tls: false
-- name: 183.236.48.166aoUI7Tj6
-  type: vmess
-  server: 183.236.48.166
-  port: '33288'
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: '64'
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: github.com/Alvin9999
-  ws-headers:
-    Host: ''
-  tls: false
-- name: 47.92.152.1699MzeSRh5
-  type: vmess
-  server: 47.92.152.169
-  port: '50002'
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: '64'
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: /
-  ws-headers:
-    Host: trojan.burgerip.co.uk
-  tls: false
-- name: 127.0.0.1vOKEkgci
+- name: 3.39.240.246Tr0K4Uts
   type: ss
-  server: 127.0.0.1
+  server: 3.39.240.246
   port: 443
-  password: 6601fb90e9b3
+  password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU
   alterId: 2
   cipher: aes-128-gcm
-- name: 120.232.153.270j7ozbe3
-  type: vmess
-  server: 120.232.153.27
-  port: '58002'
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: 183.240.232.82ABTpZKLm
-  type: vmess
-  server: 183.240.232.82
-  port: '39971'
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: '64'
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: /
-  ws-headers:
-    Host: ''
-  tls: false
-- name: shop.appC0UhZy8e
-  type: vmess
-  server: shop.app
-  port: '8080'
-  uuid: dea35652-2439-426a-86a7-5b2e535e934d
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /aries?ed=2048
-  ws-headers:
-    Host: azstutr.iiio.wiki
-  tls: false
-- name: 42.236.73.72pDn3Fb9O
-  type: vmess
-  server: 42.236.73.72
-  port: '443'
-  uuid: 044f0177-0675-4dcf-89d4-804b6788e518
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: true
-- name: api.jquery.comdOm5qHDr
-  type: vmess
-  server: api.jquery.com
-  port: '443'
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /oliv.beauty:443/linkvws
-  ws-headers:
-    Host: sub.yifenjichang.top
-  tls: true
-- name: octavi.cfdjyqWzlop
-  type: vmess
-  server: octavi.cfd
-  port: '443'
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: linkvws
-  ws-headers:
-    Host: octavi.cfd
-  tls: true
-- name: 104.21.238.200GE8bBM7C
-  type: vmess
-  server: 104.21.238.200
-  port: 8443
-  uuid: 9201ffaa-6ca3-4f57-8b1f-266a2f390e43
-  alterId: 0
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: github.com/Alvin9999
-  ws-headers:
-    Host: http1.9290254.xyz
-  tls: true
-- name: b22.ntbq.dynu.netNakywPxr
+- name: b22.ntbq.dynu.netFCcDXtH0
   type: vmess
   server: b22.ntbq.dynu.net
   port: '443'
@@ -1003,553 +255,47 @@ proxies:
   ws-headers:
     Host: b22.ntbq.dynu.net
   tls: true
-- name: 172.64.194.76T0SqO86C
+- name: 172.67.71.160dOWaP4Im
   type: vmess
-  server: 172.64.194.76
-  port: 2082
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  server: 172.67.71.160
+  port: 443
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
   alterId: 0
   cipher: auto
   network: ws
   ucp: true
-  ws-path: /github.com/Alvin9999
+  ws-path: /linkws
   ws-headers:
-    Host: ip18.6929198.xyz
-  tls: false
-- name: 941.outline-vpn.cloudrm2TDN8S
+    Host: obdii.cfd
+  tls: true
+- name: o1sl.qiyunlink.top94PkTb8p
   type: vmess
-  server: 941.outline-vpn.cloud
-  port: '80'
-  uuid: a1a676e4-016e-4bf0-96fe-4b6aaf53abc2
+  server: o1sl.qiyunlink.top
+  port: '46728'
+  uuid: f2796bde-ba2a-4b2c-acca-872c5eb784d0
   alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /
-  ws-headers:
-    Host: bl.shabijichang.com
-  tls: false
-- name: 45.87.175.154bL1qZKXl
-  type: ss
-  server: 45.87.175.154
-  port: 8080
-  password: 4a2rfixophdjffa8KVA4Aa
-  alterId: 2
-  cipher: chacha20-ietf-poly1305
-- name: russia.com41ghkaAU
-  type: vmess
-  server: russia.com
-  port: 8080
-  uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
-  alterId: 0
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: 120.232.153.277O8cfyEB
-  type: vmess
-  server: 120.232.153.27
-  port: 58002
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
   cipher: auto
   network: tcp
   ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: 104.19.45.17Y6guitJG
-  type: vmess
-  server: 104.19.45.17
-  port: '2095'
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: github.com/Alvin9999
+  ws-path: /lfljvws
   ws-headers:
-    Host: ''
+    Host: rac.679888.xyz
   tls: false
-- name: Singapore.MFA.EEnUEADPhi
-  type: vmess
-  server: Singapore.MFA.EE
-  port: '80'
-  uuid: 08b2ceb1-5917-42da-b02c-0f942754aac6
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /aries?ed=2048
-  ws-headers:
-    Host: buyvm.iiio.wiki
-  tls: false
-- name: 45.87.175.164f3ueoz6A
+- name: 35.89.254.222lCfaiPUz
   type: ss
-  server: 45.87.175.164
-  port: 8080
-  password: 1RWwXhwfAB5gAEozU4G2Pg
-  alterId: 2
-  cipher: chacha20-ietf-poly1305
-- name: 104.31.16.120Q7xYFN4f
-  type: vmess
-  server: 104.31.16.120
-  port: '8443'
-  uuid: aa0c4744-9568-4bee-a08b-73668a9b2a42
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /cloudconebbb
-  ws-headers:
-    Host: cloudconebbb.gorgorchicken.one
-  tls: true
-- name: 47.116.173.76esAPYcqz
-  type: vmess
-  server: 47.116.173.76
-  port: '50002'
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: '64'
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: github.com/Alvin9999
-  ws-headers:
-    Host: ''
-  tls: false
-- name: 188.114.96.2q5tLd6DH
-  type: vmess
-  server: 188.114.96.2
-  port: '443'
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: '1'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: linkvws
-  ws-headers:
-    Host: ophelia.mom
-  tls: true
-- name: 3.35.167.90Y57wV9DX
-  type: ss
-  server: 3.35.167.90
+  server: 35.89.254.222
   port: 443
   password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU
   alterId: 2
   cipher: aes-128-gcm
-- name: 112.132.212.19pOBgnjiq
-  type: vmess
-  server: 112.132.212.19
-  port: '50004'
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: '64'
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: /afrhms16v.bestxray.buzz/linkws
-  ws-headers:
-    Host: ''
-  tls: false
-- name: 47.104.186.133eG2fTUhw
-  type: vmess
-  server: 47.104.186.133
-  port: '50002'
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: '64'
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: /ivideos.sbs/linkws
-  ws-headers:
-    Host: ''
-  tls: false
-- name: cfcdn2.sanfencdn9.comPi3AMImc
-  type: vmess
-  server: cfcdn2.sanfencdn9.com
-  port: '2086'
-  uuid: 7ad8da0c-fda5-416b-9e72-47cc68313ffe
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /ifBUEjhG
-  ws-headers:
-    Host: gbdzxvumhk1.xqyhvpee.xyz
-  tls: false
-- name: 120.237.79.1571yszmuoL
-  type: vmess
-  server: 120.237.79.157
-  port: '46665'
-  uuid: 3ac820af-becb-45d7-9e7a-e33d02961bb3
-  alterId: '64'
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: /
-  ws-headers:
-    Host: trojan.burgerip.co.uk
-  tls: false
-- name: 112.29.94.223V1qOXb0
-  type: vmess
-  server: 112.29.94.22
-  port: '53737'
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: '64'
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: /
-  ws-headers:
-    Host: ''
-  tls: false
-- name: yd1.992688.xyzEIHgZnqw
-  type: vmess
-  server: yd1.992688.xyz
-  port: '8880'
-  uuid: 2fc248d5-7c81-471d-c2cf-a14e7f5aed2d
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /?ed=2048
-  ws-headers:
-    Host: vceu3.vpn66.eu.org
-  tls: false
-- name: cf1.openxai.linkPfzCdXMr
-  type: vmess
-  server: cf1.openxai.link
-  port: '8080'
-  uuid: f440527e-5243-4ca8-890c-5e05e4b3bb41
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /
-  ws-headers:
-    Host: eu1.openxai.link
-  tls: false
-- name: 45.159.50.143sbzRLy7m
-  type: vmess
-  server: 45.159.50.143
-  port: 11304
-  uuid: d1625892-8e9f-41fa-8ad8-6cc464fd52a6
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: 114.55.132.202K41fd9UP
-  type: vmess
-  server: 114.55.132.202
-  port: '50002'
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: '64'
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: github.com/Alvin9999
-  ws-headers:
-    Host: ''
-  tls: false
-- name: bvtqw-1093-v2-1.d-kcd.tuil.xyzWD56ByMg
-  type: vmess
-  server: bvtqw-1093-v2-1.d-kcd.tuil.xyz
-  port: '888'
-  uuid: b00a4568-6396-44c6-8697-f1d1600ba9fd
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /
-  ws-headers:
-    Host: cdn.cjhh.lol
-  tls: true
-- name: 3.112.124.200oCKyDmkS
-  type: ss
-  server: 3.112.124.200
-  port: 443
-  password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU
-  alterId: 2
-  cipher: aes-128-gcm
-- name: 104.16.68.381QBGUiwM
-  type: vmess
-  server: 104.16.68.38
-  port: '2052'
-  uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /glweidf.sbs/linkws
-  ws-headers:
-    Host: ''
-  tls: false
-- name: 104.16.61.8I6E5S2ns
-  type: vmess
-  server: 104.16.61.8
-  port: '2082'
-  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /ivideos.sbs/linkws
-  ws-headers:
-    Host: ury-unit-c030ehei8.poget71138.workers.dev
-  tls: false
-- name: 104.21.238.2024NS5T3VF
-  type: vmess
-  server: 104.21.238.202
-  port: 8443
-  uuid: 9201ffaa-6ca3-4f57-8b1f-266a2f390e43
-  alterId: 0
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: github.com/Alvin9999
-  ws-headers:
-    Host: http1.9290254.xyz
-  tls: true
-- name: ns1.v2-vip.funGg0uDL4O
-  type: vmess
-  server: ns1.v2-vip.fun
-  port: '80'
-  uuid: bffa23aa-ae0a-4c02-af77-2a14c8c0b81c
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /api/v3/download.getFile
-  ws-headers:
-    Host: ssrsub.v001.ssrsub.com
-  tls: false
-- name: hkt.123ddns.xyzUSHxj0b7
-  type: vmess
-  server: hkt.123ddns.xyz
-  port: '55455'
-  uuid: d2ce45e6-9f22-492d-d81d-d639067a7583
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /
-  ws-headers:
-    Host: hkt.123ddns.xyz
-  tls: true
-- name: 104.16.68.38HwrLszyl
-  type: vmess
-  server: 104.16.68.38
-  port: '2052'
-  uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /
-  ws-headers:
-    Host: lu.wx.alue.link
-  tls: false
-- name: singapore.comQLGUkTrP
-  type: vmess
-  server: singapore.com
-  port: '80'
-  uuid: bffa23aa-ae0a-4c02-af77-2a14c8c0b81c
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /api/v3/download.getFile
-  ws-headers:
-    Host: ssrsub.v001.ssrsub.com
-  tls: false
-- name: 3.39.240.246JWs4Z9Yz
-  type: ss
-  server: 3.39.240.246
-  port: 443
-  password: amazonskr05
-  alterId: 2
-  cipher: aes-256-cfb
-- name: 142.4.104.333TIl8Hqj
-  type: vmess
-  server: 142.4.104.33
-  port: '52143'
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: '64'
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: github.com/Alvin9999
-  ws-headers:
-    Host: ''
-  tls: false
-- name: 104.16.67.38YHeXWnBa
-  type: vmess
-  server: 104.16.67.38
-  port: '443'
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: '1'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: linkvws
-  ws-headers:
-    Host: alvvin.click
-  tls: true
-- name: 120.232.153.40uOFb2eij
-  type: vmess
-  server: 120.232.153.40
-  port: '35601'
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: '64'
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: /afrhms16v.bestxray.buzz/linkws
-  ws-headers:
-    Host: ''
-  tls: false
-- name: 120.210.205.82mlwYDgWi
-  type: vmess
-  server: 120.210.205.82
-  port: '50002'
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: '64'
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: /
-  ws-headers:
-    Host: trojan.burgerip.co.uk
-  tls: false
-- name: p3.v2raybrasil.cloud8JLktQ7H
-  type: vmess
-  server: p3.v2raybrasil.cloud
-  port: 2052
-  uuid: 60bcbd52-0c88-4da3-aee2-cc1f9d5ca224
-  alterId: 0
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: 47.92.152.169QTx8ypLf
-  type: vmess
-  server: 47.92.152.169
-  port: '50002'
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: '64'
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: /
-  ws-headers:
-    Host: ''
-  tls: false
-- name: 172.64.167.44KLz47AyT
-  type: vmess
-  server: 172.64.167.44
-  port: '2095'
-  uuid: a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: github.com/Alvin9999
-  ws-headers:
-    Host: ''
-  tls: false
-- name: 104.17.129.28jhKm9M0k
-  type: vmess
-  server: 104.17.129.28
-  port: '8080'
-  uuid: 94242109-0930-427f-f899-15d34021130c
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /
-  ws-headers:
-    Host: eu2.openxai.link
-  tls: false
-- name: 104.20.17.186zK65sq9t
-  type: vmess
-  server: 104.20.17.186
-  port: '2082'
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: github.com/Alvin9999
-  ws-headers:
-    Host: ip6.6929198.xyz
-  tls: false
-- name: 58.63.250.61e9PL3mTy
+- name: 58.63.250.61bu51zKRZ
   type: ss
   server: 58.63.250.61
   port: 15012
-  password: //YWVzLTI1Ni1nY206QkFJTDI3R1RWOEFJSzJCQw
+  password: BAIL27GTV8AIK2BC
   alterId: 2
-  cipher: aes-128-gcm
-- name: fhc.shabijichang.comZklLFM8x
-  type: vmess
-  server: fhc.shabijichang.com
-  port: '80'
-  uuid: 5e48a497-f4ae-4129-afd6-ba26d75b792a
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /
-  ws-headers:
-    Host: fhc.shabijichang.com
-  tls: false
-- name: 172.67.32.83DbMT1Zcq
-  type: vmess
-  server: 172.67.32.83
-  port: '80'
-  uuid: 01754500-e814-447e-967a-5a4045fc388a
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /
-  ws-headers:
-    Host: sls.shabijichang.com
-  tls: false
-- name: 58.63.250.61cP3Gq1Mg
-  type: ss
-  server: 58.63.250.61
-  port: 15011
-  password: //YWVzLTI1Ni1nY206WjFLODRXNEQ4RzVLTzU0Sg
-  alterId: 2
-  cipher: aes-128-gcm
-- name: 172.67.221.183oqjNYrD
-  type: vmess
-  server: 172.67.221.18
-  port: '8880'
-  uuid: 67a341a7-5ae7-4d92-edad-9e8db87ce165
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /
-  ws-headers:
-    Host: vcus1.vpn66.eu.org
-  tls: false
-- name: 54.199.66.30dE1ou97Q
-  type: ss
-  server: 54.199.66.30
-  port: 443
-  password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU
-  alterId: 2
-  cipher: aes-128-gcm
-- name: 67.21.90.59gu0mdk1
+  cipher: aes-256-gcm
+- name: 67.21.90.5DnXvQUOd
   type: vmess
   server: 67.21.90.5
   port: '443'
@@ -1562,131 +308,250 @@ proxies:
   ws-headers:
     Host: www.75409854.xyz
   tls: true
-- name: 104.18.57.111W5cUueXl
+- name: 120.210.205.82i278haoJ
   type: vmess
-  server: 104.18.57.111
-  port: '2082'
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: github.com/Alvin9999
-  ws-headers:
-    Host: ''
-  tls: false
-- name: 183.236.48.163uhbjre1v
-  type: vmess
-  server: 183.236.48.163
-  port: 58831
+  server: 120.210.205.82
+  port: '50002'
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: 194.87.82.28HiJtN9SQ
-  type: ss
-  server: 194.87.82.28
-  port: 12224
-  password: 2fwufOmJ9ELfN4umzcHBfV
-  alterId: 2
-  cipher: chacha20-ietf-poly1305
-- name: 3.39.240.246qEodzW40
-  type: ss
-  server: 3.39.240.246
-  port: 443
-  password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU
-  alterId: 2
-  cipher: aes-128-gcm
-- name: 183.236.51.23o1mdjv8c
-  type: vmess
-  server: 183.236.51.23
-  port: 52112
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: wnd.shabijichang.comu7IkCv3W
-  type: vmess
-  server: wnd.shabijichang.com
-  port: '80'
-  uuid: 53701585-591f-48a3-9515-8831ed0524ac
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /
-  ws-headers:
-    Host: wnd.shabijichang.com
-  tls: false
-- name: 35.89.254.2228CtO3RQB
-  type: ss
-  server: 35.89.254.222
-  port: 443
-  password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU
-  alterId: 2
-  cipher: aes-128-gcm
-- name: 112.29.94.23wKk7cNmF
-  type: vmess
-  server: 112.29.94.23
-  port: '49223'
-  uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
   alterId: '64'
   cipher: auto
   network: tcp
   ucp: true
   ws-path: /
   ws-headers:
+    Host: trojan.burgerip.co.uk
+  tls: false
+- name: hkt.123ddns.xyzAzmvb1cR
+  type: vmess
+  server: hkt.123ddns.xyz
+  port: '55455'
+  uuid: d2ce45e6-9f22-492d-d81d-d639067a7583
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: hkt.123ddns.xyz
+  tls: true
+- name: 104.16.61.8ldirsPD9
+  type: vmess
+  server: 104.16.61.8
+  port: '2082'
+  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /ivideos.sbs/linkws
+  ws-headers:
+    Host: ury-unit-c030ehei8.poget71138.workers.dev
+  tls: false
+- name: 172.67.175.56Vfj2uRFG
+  type: vmess
+  server: 172.67.175.56
+  port: 443
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /linkws
+  ws-headers:
+    Host: obdii.cfd
+  tls: true
+- name: 172.64.175.213ZvSPpXqV
+  type: vmess
+  server: 172.64.175.213
+  port: 2086
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: fd.shabijichang.comH5cpCVYA
+  type: vmess
+  server: fd.shabijichang.com
+  port: '80'
+  uuid: 073360d9-72cb-4ba5-9a40-8ac6cd918356
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: jdf.shabijichang.com
+  tls: false
+- name: 142.4.104.332EI4TgPF
+  type: vmess
+  server: 142.4.104.33
+  port: '52143'
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: '64'
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: github.com/Alvin9999
+  ws-headers:
     Host: ''
   tls: false
-- name: 3.112.124.200UQNouABV
+- name: 104.21.238.201k8KVHqpT
+  type: vmess
+  server: 104.21.238.201
+  port: 8443
+  uuid: 9201ffaa-6ca3-4f57-8b1f-266a2f390e43
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: github.com/Alvin9999
+  ws-headers:
+    Host: http1.9290254.xyz
+  tls: true
+- name: 198.2.202.84k23xmDcs
+  type: vmess
+  server: 198.2.202.84
+  port: '443'
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: '64'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: www.65825524.xyz
+  tls: true
+- name: 183.236.51.23VmXRP8ne
+  type: vmess
+  server: 183.236.51.23
+  port: 53002
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: 172.64.166.22yIzmRpqv
+  type: vmess
+  server: 172.64.166.22
+  port: 2095
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /github.com/Alvin9999
+  ws-headers:
+    Host: ip20.6016725.xyz
+  tls: false
+- name: p3.v2raybrasil.cloud50NMVpfH
+  type: vmess
+  server: p3.v2raybrasil.cloud
+  port: 2052
+  uuid: 60bcbd52-0c88-4da3-aee2-cc1f9d5ca224
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: 172.67.161.181cYRBiU1g
+  type: vmess
+  server: 172.67.161.181
+  port: '8880'
+  uuid: 67a341a7-5ae7-4d92-edad-9e8db87ce165
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: vcus1.vpn66.eu.org
+  tls: false
+- name: 3.112.124.200KqlPdXMC
   type: ss
   server: 3.112.124.200
   port: 443
   password: amazonskr05
   alterId: 2
   cipher: aes-256-cfb
-- name: 23.108.100.103Zabel9MY
+- name: 3.112.124.200Tis1Q9bX
+  type: ss
+  server: 3.112.124.200
+  port: 443
+  password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU
+  alterId: 2
+  cipher: aes-128-gcm
+- name: pzl.p237875155.buzzRKmZxfli
   type: vmess
-  server: 23.108.100.103
+  server: pzl.p237875155.buzz
   port: '443'
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: '64'
+  uuid: 9b78b7fe-47a3-41eb-d695-22692ac835a0
+  alterId: '1'
   cipher: auto
   network: ws
   ucp: true
-  ws-path: /footers
+  ws-path: /pzl237875155
   ws-headers:
-    Host: www.40587333.xyz
+    Host: pzl.p237875155.buzz
   tls: true
-- name: 194.87.82.28FwmtHUDP
-  type: ss
-  server: 194.87.82.28
-  port: 12224
-  password: 2fwufOmJ9ELfN4umzcHBfV
-  alterId: 2
-  cipher: chacha20-ietf-poly1305
-- name: 151.101.2.133vuDxrGfS
+- name: az05.beyondy.cfdTiR7q5g0
   type: vmess
-  server: 151.101.2.133
+  server: az05.beyondy.cfd
   port: '443'
-  uuid: 66833e2f-dca1-4591-951c-1392ace0b2f6
+  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
   alterId: '0'
   cipher: auto
   network: ws
   ucp: true
-  ws-path: ws/?ed=2048
+  ws-path: /link
   ws-headers:
-    Host: ''
+    Host: az05.beyondy.cfd
   tls: true
-- name: 23.108.100.101AK5e8rq6
+- name: 104.19.57.4TzSGaret
+  type: vmess
+  server: 104.19.57.4
+  port: 2086
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: 42.236.73.72Jl0GQqF6
+  type: vmess
+  server: 42.236.73.72
+  port: '443'
+  uuid: 044f0177-0675-4dcf-89d4-804b6788e518
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: true
+- name: bvtqw-1093-v2-1.d-kcd.tuil.xyzlSw8fLND
+  type: vmess
+  server: bvtqw-1093-v2-1.d-kcd.tuil.xyz
+  port: '888'
+  uuid: b00a4568-6396-44c6-8697-f1d1600ba9fd
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: cdn.cjhh.lol
+  tls: true
+- name: 23.108.100.101ongX6wz5
   type: vmess
   server: 23.108.100.101
   port: '443'
@@ -1699,49 +564,10 @@ proxies:
   ws-headers:
     Host: ''
   tls: true
-- name: 162.159.152.6R7gQE0d9
+- name: 183.240.235.162JTOxPsrU
   type: vmess
-  server: 162.159.152.6
-  port: '2052'
-  uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /
-  ws-headers:
-    Host: lu.wx.alue.link
-  tls: false
-- name: 162.159.140.66uMaWoBtU
-  type: vmess
-  server: 162.159.140.66
-  port: '2082'
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: github.com/Alvin9999
-  ws-headers:
-    Host: ''
-  tls: false
-- name: b22.ntbq.dynu.netmONykoWK
-  type: vmess
-  server: b22.ntbq.dynu.net
-  port: '443'
-  uuid: 450cd674-1411-4ea1-979b-bf56da87b21d
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /b22
-  ws-headers:
-    Host: b22.ntbq.dynu.net
-  tls: true
-- name: 183.236.51.233NcGlK6y
-  type: vmess
-  server: 183.236.51.23
-  port: 53002
+  server: 183.240.235.162
+  port: 54882
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   alterId: 64
   cipher: auto
@@ -1750,35 +576,24 @@ proxies:
   ws-path: null
   ws-headers: null
   tls: false
-- name: cfcdn1.sanfencdn9.comsic5gewh
+- name: 4.api-catssr.catcloud.hostowDIz0xn
+  type: ss
+  server: 4.api-catssr.catcloud.host
+  port: 32184
+  password: //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiYjc0MWQyOC1jZDExLTRjZTgtODc5OS00NTk0MDdiYWNkZTg
+  alterId: 2
+  cipher: aes-128-gcm
+- name: 54.199.66.30DIxcv0qi
+  type: ss
+  server: 54.199.66.30
+  port: 443
+  password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU
+  alterId: 2
+  cipher: aes-128-gcm
+- name: 183.240.232.82e8OTGwEy
   type: vmess
-  server: cfcdn1.sanfencdn9.com
-  port: 2082
-  uuid: cd0eb936-9e1e-4730-989e-be43e7fcaf3e
-  alterId: 0
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: 146.19.168.161dLz4t9Df
-  type: vmess
-  server: 146.19.168.161
-  port: '443'
-  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /link
-  ws-headers:
-    Host: ''
-  tls: true
-- name: 183.238.202.173sB4Ekr1d
-  type: vmess
-  server: 183.238.202.173
-  port: '39041'
+  server: 183.240.232.82
+  port: '40158'
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   alterId: '64'
   cipher: auto
@@ -1786,36 +601,11 @@ proxies:
   ucp: true
   ws-path: /
   ws-headers:
-    Host: trojan.burgerip.co.uk
+    Host: ''
   tls: false
-- name: 104.18.112.107YTNvhCiR
+- name: speed.cloudflare.comJGthrEC3
   type: vmess
-  server: 104.18.112.107
-  port: '443'
-  uuid: 09d5805c-7a22-47c1-b1c3-f090df0a98ed
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /lfljvws
-  ws-headers:
-    Host: rac.679888.xyz
-  tls: true
-- name: 172.67.130.140ljXONnm0
-  type: vmess
-  server: 172.67.130.140
-  port: 2082
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
-  alterId: 0
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: 104.21.31.183vrxYtZCB
-  type: vmess
-  server: 104.21.31.183
+  server: speed.cloudflare.com
   port: '443'
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   alterId: '1'
@@ -1824,64 +614,12 @@ proxies:
   ucp: true
   ws-path: linkvws
   ws-headers:
-    Host: octavi.cfd
+    Host: alvvin.click
   tls: true
-- name: 104.16.219.230ujNa7UsT
+- name: sgp.cdn-sgp.xyznWkSYt1X
   type: vmess
-  server: 104.16.219.230
-  port: '8880'
-  uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY
-  ws-headers:
-    Host: fr7.tehme100.fun
-  tls: false
-- name: 47.104.186.133ldFj7RgZ
-  type: vmess
-  server: 47.104.186.133
-  port: '50002'
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: '64'
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: /afrhms16v.bestxray.buzz/linkws
-  ws-headers:
-    Host: ''
-  tls: false
-- name: ip.nofiltering2.sbsSROy7jIg
-  type: vmess
-  server: ip.nofiltering2.sbs
-  port: '8880'
-  uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY
-  ws-headers:
-    Host: fr7.tehme100.fun
-  tls: false
-- name: 183.236.51.36QuWpJEFw
-  type: vmess
-  server: 183.236.51.36
-  port: '59003'
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: '64'
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: /
-  ws-headers:
-    Host: ''
-  tls: false
-- name: 5.39.254.196a67VyeQO
-  type: vmess
-  server: 5.39.254.196
-  port: '2945'
+  server: sgp.cdn-sgp.xyz
+  port: '5245'
   uuid: 6074a3b0-f2a0-4b05-b1c9-4066e8b876c2
   alterId: '0'
   cipher: auto
@@ -1889,22 +627,73 @@ proxies:
   ucp: true
   ws-path: /
   ws-headers:
-    Host: ''
+    Host: sgp.cdn-sgp.xyz
   tls: false
-- name: 104.19.45.90zckPuqWF
+- name: 183.236.48.158RFflpMIx
   type: vmess
-  server: 104.19.45.90
-  port: '2095'
-  uuid: a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b
-  alterId: '0'
+  server: 183.236.48.158
+  port: '59952'
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: 104.21.238.200neiQCDY5
+  type: vmess
+  server: 104.21.238.200
+  port: 8443
+  uuid: 9201ffaa-6ca3-4f57-8b1f-266a2f390e43
+  alterId: 0
   cipher: auto
   network: ws
   ucp: true
   ws-path: github.com/Alvin9999
   ws-headers:
-    Host: ''
+    Host: http1.9290254.xyz
+  tls: true
+- name: 120.237.79.157YlpeAFh7
+  type: vmess
+  server: 120.237.79.157
+  port: '46665'
+  uuid: 3ac820af-becb-45d7-9e7a-e33d02961bb3
+  alterId: '64'
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: trojan.burgerip.co.uk
   tls: false
-- name: 104.16.68.38fVnelGQ6
+- name: cf1.openxai.linkKnzEoXlk
+  type: vmess
+  server: cf1.openxai.link
+  port: '8080'
+  uuid: f440527e-5243-4ca8-890c-5e05e4b3bb41
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: eu1.openxai.link
+  tls: false
+- name: cfcdn2.sanfencdn9.combLVgI5fe
+  type: vmess
+  server: cfcdn2.sanfencdn9.com
+  port: '2086'
+  uuid: 7ad8da0c-fda5-416b-9e72-47cc68313ffe
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /ifBUEjhG
+  ws-headers:
+    Host: gbdzxvumhk1.xqyhvpee.xyz
+  tls: false
+- name: 104.16.68.38vhFXLl1y
   type: vmess
   server: 104.16.68.38
   port: '443'
@@ -1917,14 +706,33 @@ proxies:
   ws-headers:
     Host: alvvin.click
   tls: true
-- name: 4.api-catssr.catcloud.hostvPeKBtHF
-  type: ss
-  server: 4.api-catssr.catcloud.host
-  port: 32184
-  password: //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiYjc0MWQyOC1jZDExLTRjZTgtODc5OS00NTk0MDdiYWNkZTg
-  alterId: 2
-  cipher: aes-128-gcm
-- name: b22.ntbq.dynu.netC3NTXOkF
+- name: ns1.v2-vip.funqX2DrRYT
+  type: vmess
+  server: ns1.v2-vip.fun
+  port: '80'
+  uuid: bffa23aa-ae0a-4c02-af77-2a14c8c0b81c
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /api/v3/download.getFile
+  ws-headers:
+    Host: ssrsub.v001.ssrsub.com
+  tls: false
+- name: 188.114.96.2zT9R15NQ
+  type: vmess
+  server: 188.114.96.2
+  port: '443'
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: '1'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: linkvws
+  ws-headers:
+    Host: ophelia.mom
+  tls: true
+- name: b22.ntbq.dynu.netR4u7m5GA
   type: vmess
   server: b22.ntbq.dynu.net
   port: '443'
@@ -1937,190 +745,39 @@ proxies:
   ws-headers:
     Host: b22.ntbq.dynu.net
   tls: true
-- name: 112.132.215.12R5C7wdoJ
+- name: 35.89.254.222iJpDwys1
+  type: ss
+  server: 35.89.254.222
+  port: 443
+  password: amazonskr05
+  alterId: 2
+  cipher: aes-256-cfb
+- name: 183.240.235.162QmOKLy5a
   type: vmess
-  server: 112.132.215.12
-  port: '50002'
+  server: 183.240.235.162
+  port: 54002
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: '64'
+  alterId: 64
   cipher: auto
   network: tcp
-  ucp: true
-  ws-path: github.com/Alvin9999
-  ws-headers:
-    Host: ''
-  tls: false
-- name: 120.232.153.40C1QqpmtS
-  type: vmess
-  server: 120.232.153.40
-  port: '35601'
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: '64'
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: /ivideos.sbs/linkws
-  ws-headers:
-    Host: ''
-  tls: false
-- name: 104.18.57.111xR1Z6DCG
-  type: vmess
-  server: 104.18.57.111
-  port: 2086
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  alterId: 0
-  cipher: auto
-  network: ws
   ucp: true
   ws-path: null
   ws-headers: null
   tls: false
-- name: 58.63.250.61bXlfVMc6
-  type: ss
-  server: 58.63.250.61
-  port: 15012
-  password: BAIL27GTV8AIK2BC
-  alterId: 2
-  cipher: aes-256-gcm
-- name: 172.64.175.213vg5VOzDG
+- name: 183.233.187.2144HRn3AvX
   type: vmess
-  server: 172.64.175.213
-  port: 2086
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  alterId: 0
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: 104.16.60.8lvjfJDGd
-  type: vmess
-  server: 104.16.60.8
-  port: '8080'
-  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /afrhms16v.bestxray.buzz/linkws
-  ws-headers:
-    Host: ''
-  tls: false
-- name: 183.236.51.36YjtIJwfC
-  type: vmess
-  server: 183.236.51.36
-  port: '59003'
+  server: 183.233.187.214
+  port: '51165'
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   alterId: '64'
   cipher: auto
   network: tcp
   ucp: true
-  ws-path: /link
+  ws-path: /
   ws-headers:
     Host: ''
   tls: false
-- name: 36.141.40.92dQO8yKuq
-  type: ss
-  server: 36.141.40.92
-  port: 15016
-  password: //YWVzLTI1Ni1nY206TUFBREQ4SkxNOFhLVlc1Ng
-  alterId: 2
-  cipher: aes-128-gcm
-- name: 4.api-catssr.catcloud.host0zKbHA8M
-  type: ss
-  server: 4.api-catssr.catcloud.host
-  port: 32184
-  password: bb741d28-cd11-4ce8-8799-459407bacde8
-  alterId: 2
-  cipher: chacha20-ietf-poly1305
-- name: 120.210.205.82YciDruev
-  type: vmess
-  server: 120.210.205.82
-  port: '50002'
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: '64'
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: /ivideos.sbs/linkws
-  ws-headers:
-    Host: ''
-  tls: false
-- name: o1sl.qiyunlink.topmQDlLA5T
-  type: vmess
-  server: o1sl.qiyunlink.top
-  port: '46728'
-  uuid: f2796bde-ba2a-4b2c-acca-872c5eb784d0
-  alterId: '0'
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: /ifBUEjhG
-  ws-headers:
-    Host: gbdzxvumhk1.xqyhvpee.xyz
-  tls: false
-- name: hzhz2.sssyun.xyz7tZODm3F
-  type: ss
-  server: hzhz2.sssyun.xyz
-  port: 40016
-  password: //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiNDBmYjU2Yy1mNTM4LTRiZjItOTUxZS1iNjQ1ZjQ4Yjk5Mzc
-  alterId: 2
-  cipher: aes-128-gcm
-- name: 58.63.250.61qSaup3kZ
-  type: ss
-  server: 58.63.250.61
-  port: 15011
-  password: Z1K84W4D8G5KO54J
-  alterId: 2
-  cipher: aes-256-gcm
-- name: 188.114.99.05iZ9Hxlh
-  type: vmess
-  server: 188.114.99.0
-  port: '443'
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: '1'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: linkvws
-  ws-headers:
-    Host: ophelia.mom
-  tls: true
-- name: o1sl.qiyunlink.topNj3LOTW0
-  type: vmess
-  server: o1sl.qiyunlink.top
-  port: '46728'
-  uuid: f2796bde-ba2a-4b2c-acca-872c5eb784d0
-  alterId: '0'
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: /lfljvws
-  ws-headers:
-    Host: rac.679888.xyz
-  tls: false
-- name: 52.169.50.64ZmJhswjH
-  type: ss
-  server: 52.169.50.64
-  port: 16141
-  password: jjxXMDnfbChUWPL1QM02fM
-  alterId: 2
-  cipher: chacha20-ietf-poly1305
-- name: cf-lt.sharecentre.onlineIBm03l6Z
-  type: vmess
-  server: cf-lt.sharecentre.online
-  port: '80'
-  uuid: bffa23aa-ae0a-4c02-af77-2a14c8c0b81c
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /api/v3/download.getFile
-  ws-headers:
-    Host: ssrsub.v03.ssrsub.com
-  tls: false
-- name: nbq12.ntbq.dynu.netXgz1SwG3
+- name: nbq12.ntbq.dynu.netqaph8xKb
   type: vmess
   server: nbq12.ntbq.dynu.net
   port: '443'
@@ -2133,7 +790,593 @@ proxies:
   ws-headers:
     Host: nbq12.ntbq.dynu.net
   tls: true
-- name: 92.118.149.115NqGyZhA2
+- name: ml2.shabijichang.comO67TDYNp
+  type: vmess
+  server: ml2.shabijichang.com
+  port: '80'
+  uuid: 10ea3b2a-b615-45f1-b1b7-c62bafe8c80c
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: ml2.shabijichang.com
+  tls: false
+- name: 104.16.67.38KTf6GyJq
+  type: vmess
+  server: 104.16.67.38
+  port: '443'
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: '1'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: linkvws
+  ws-headers:
+    Host: alvvin.click
+  tls: true
+- name: shouer1.209966.xyzgqWAz4ni
+  type: vmess
+  server: shouer1.209966.xyz
+  port: '14338'
+  uuid: 7fd4d16d-4b6b-4560-cf6c-23fa094be476
+  alterId: '0'
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: github.com/Alvin9999
+  ws-headers:
+    Host: shouer1.209966.xyz
+  tls: false
+- name: 104.19.59.894Wg0dslv
+  type: vmess
+  server: 104.19.59.89
+  port: '2095'
+  uuid: a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: github.com/Alvin9999
+  ws-headers:
+    Host: ''
+  tls: false
+- name: 104.21.238.202dBcvU94t
+  type: vmess
+  server: 104.21.238.202
+  port: 8443
+  uuid: 9201ffaa-6ca3-4f57-8b1f-266a2f390e43
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: github.com/Alvin9999
+  ws-headers:
+    Host: http1.9290254.xyz
+  tls: true
+- name: 120.232.153.279oSMNefT
+  type: vmess
+  server: 120.232.153.27
+  port: '58002'
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: 185.146.173.59yOptmE2I
+  type: vmess
+  server: 185.146.173.59
+  port: 443
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /linkws
+  ws-headers:
+    Host: obdii.cfd
+  tls: true
+- name: 104.18.112.107bUO4yNVX
+  type: vmess
+  server: 104.18.112.107
+  port: '443'
+  uuid: 09d5805c-7a22-47c1-b1c3-f090df0a98ed
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /lfljvws
+  ws-headers:
+    Host: rac.679888.xyz
+  tls: true
+- name: 58.63.250.619U5m3VgB
+  type: ss
+  server: 58.63.250.61
+  port: 15011
+  password: Z1K84W4D8G5KO54J
+  alterId: 2
+  cipher: aes-256-gcm
+- name: 141.101.122.109Ko7F2UZ0
+  type: vmess
+  server: 141.101.122.109
+  port: '443'
+  uuid: 09d5805c-7a22-47c1-b1c3-f090df0a98ed
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /lfljvws
+  ws-headers:
+    Host: rac.679888.xyz
+  tls: true
+- name: 104.19.45.17b3XRS7EZ
+  type: vmess
+  server: 104.19.45.17
+  port: '2095'
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: github.com/Alvin9999
+  ws-headers:
+    Host: ''
+  tls: false
+- name: 45.199.138.222hWGduc3n
+  type: vmess
+  server: 45.199.138.222
+  port: '30000'
+  uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf
+  alterId: '64'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /path/1696251693048
+  ws-headers:
+    Host: www.19229362.xyz
+  tls: true
+- name: 194.87.82.28jztIKL0a
+  type: ss
+  server: 194.87.82.28
+  port: 12224
+  password: 2fwufOmJ9ELfN4umzcHBfV
+  alterId: 2
+  cipher: chacha20-ietf-poly1305
+- name: 114.55.132.202iEZoDFwU
+  type: vmess
+  server: 114.55.132.202
+  port: '50002'
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: '64'
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: github.com/Alvin9999
+  ws-headers:
+    Host: ''
+  tls: false
+- name: 183.236.48.161UoIzarj8
+  type: vmess
+  server: 183.236.48.161
+  port: '33288'
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: '64'
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: /afrhms16v.bestxray.buzz/linkws
+  ws-headers:
+    Host: ''
+  tls: false
+- name: 104.18.37.248ONz74rBF
+  type: vmess
+  server: 104.18.37.248
+  port: 2052
+  uuid: 60bcbd52-0c88-4da3-aee2-cc1f9d5ca224
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: 104.19.32.46TUsSjeaq
+  type: vmess
+  server: 104.19.32.46
+  port: 2086
+  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: 112.132.215.12N9Gor5gl
+  type: vmess
+  server: 112.132.215.12
+  port: '50002'
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: '64'
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: github.com/Alvin9999
+  ws-headers:
+    Host: ''
+  tls: false
+- name: 45.159.50.143wFLJEs4q
+  type: vmess
+  server: 45.159.50.143
+  port: 11304
+  uuid: d1625892-8e9f-41fa-8ad8-6cc464fd52a6
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: 38.147.165.185kw8HtYlb
+  type: vmess
+  server: 38.147.165.185
+  port: 38692
+  uuid: decde5b9-cc9c-4622-9ee6-723378429f4e
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: 120.232.153.27LPwMgxDe
+  type: vmess
+  server: 120.232.153.27
+  port: 58002
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: 58.63.250.61E1nTzLa4
+  type: ss
+  server: 58.63.250.61
+  port: 15011
+  password: //YWVzLTI1Ni1nY206WjFLODRXNEQ4RzVLTzU0Sg
+  alterId: 2
+  cipher: aes-128-gcm
+- name: 104.21.31.183NRbdZXks
+  type: vmess
+  server: 104.21.31.183
+  port: '443'
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: '1'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: linkvws
+  ws-headers:
+    Host: octavi.cfd
+  tls: true
+- name: Singapore.MFA.EE35boxFQr
+  type: vmess
+  server: Singapore.MFA.EE
+  port: '80'
+  uuid: 08b2ceb1-5917-42da-b02c-0f942754aac6
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /aries?ed=2048
+  ws-headers:
+    Host: buyvm.iiio.wiki
+  tls: false
+- name: 104.18.57.111y8gCZ3Bb
+  type: vmess
+  server: 104.18.57.111
+  port: 2086
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: 172.67.81.238c8nsZtkw
+  type: vmess
+  server: 172.67.81.238
+  port: '8880'
+  uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY
+  ws-headers:
+    Host: fr7.tehme100.fun
+  tls: false
+- name: 162.159.140.66sMCKmBeS
+  type: vmess
+  server: 162.159.140.66
+  port: '2082'
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: github.com/Alvin9999
+  ws-headers:
+    Host: ''
+  tls: false
+- name: 5.39.254.196yVjMSJeK
+  type: vmess
+  server: 5.39.254.196
+  port: '2945'
+  uuid: 6074a3b0-f2a0-4b05-b1c9-4066e8b876c2
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: ''
+  tls: false
+- name: 183.238.202.173ShJ8RWjY
+  type: vmess
+  server: 183.238.202.173
+  port: '39041'
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: '64'
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: trojan.burgerip.co.uk
+  tls: false
+- name: 52.169.50.64qhlczmsD
+  type: ss
+  server: 52.169.50.64
+  port: 16141
+  password: jjxXMDnfbChUWPL1QM02fM
+  alterId: 2
+  cipher: chacha20-ietf-poly1305
+- name: 162.159.152.6EdpA6tYj
+  type: vmess
+  server: 162.159.152.6
+  port: '2052'
+  uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: lu.wx.alue.link
+  tls: false
+- name: 172.64.167.15moUKwJys
+  type: vmess
+  server: 172.64.167.15
+  port: '2095'
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: github.com/Alvin9999
+  ws-headers:
+    Host: ''
+  tls: false
+- name: 45.87.175.164HvoI1mpB
+  type: ss
+  server: 45.87.175.164
+  port: 8080
+  password: 1RWwXhwfAB5gAEozU4G2Pg
+  alterId: 2
+  cipher: chacha20-ietf-poly1305
+- name: yd1.992688.xyzbYSuFL0y
+  type: vmess
+  server: yd1.992688.xyz
+  port: '8880'
+  uuid: 2fc248d5-7c81-471d-c2cf-a14e7f5aed2d
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /?ed=2048
+  ws-headers:
+    Host: vceu3.vpn66.eu.org
+  tls: false
+- name: 38.147.165.185FLrOxBmb
+  type: vmess
+  server: 38.147.165.185
+  port: '38692'
+  uuid: decde5b9-cc9c-4622-9ee6-723378429f4e
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: 172.67.32.83pq8aylRi
+  type: vmess
+  server: 172.67.32.83
+  port: '80'
+  uuid: 01754500-e814-447e-967a-5a4045fc388a
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: sls.shabijichang.com
+  tls: false
+- name: 183.240.232.82ovA8KuJV
+  type: vmess
+  server: 183.240.232.82
+  port: '39971'
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: '64'
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: ''
+  tls: false
+- name: cf2.openxai.linkhHJFpn95
+  type: vmess
+  server: cf2.openxai.link
+  port: '8080'
+  uuid: 47396f9c-365d-4b99-ad1f-f7927164b4c5
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: eu3.openxai.link
+  tls: false
+- name: 112.29.94.23KuxhMGpX
+  type: vmess
+  server: 112.29.94.23
+  port: '49223'
+  uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
+  alterId: '64'
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: ''
+  tls: false
+- name: 47.92.152.169fmv0w9kR
+  type: vmess
+  server: 47.92.152.169
+  port: '50002'
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: '64'
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: trojan.burgerip.co.uk
+  tls: false
+- name: 43.202.57.197zw8nbfuD
+  type: ss
+  server: 43.202.57.197
+  port: 443
+  password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU
+  alterId: 2
+  cipher: aes-128-gcm
+- name: 183.236.51.23wChMDvoA
+  type: vmess
+  server: 183.236.51.23
+  port: 52112
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: 183.236.51.36jbXIO8Qq
+  type: vmess
+  server: 183.236.51.36
+  port: '59003'
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: '64'
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: ''
+  tls: false
+- name: 112.132.215.127y3P4aCB
+  type: vmess
+  server: 112.132.215.12
+  port: '50002'
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: '64'
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: /ivideos.sbs/linkws
+  ws-headers:
+    Host: ury-unit-c030ehei8.poget71138.workers.dev
+  tls: false
+- name: 3.39.240.246ZW0Cs7iE
+  type: ss
+  server: 3.39.240.246
+  port: 443
+  password: amazonskr05
+  alterId: 2
+  cipher: aes-256-cfb
+- name: 172.67.229.19bH4PtSDT
+  type: vmess
+  server: 172.67.229.19
+  port: '2086'
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /IOebhLMhl1CTbFHbL95myfRX2
+  ws-headers:
+    Host: ca6.tehme100.fun
+  tls: false
+- name: 104.21.238.203rPGaIgFn
+  type: vmess
+  server: 104.21.238.203
+  port: 8443
+  uuid: 9201ffaa-6ca3-4f57-8b1f-266a2f390e43
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: github.com/Alvin9999
+  ws-headers:
+    Host: http1.9290254.xyz
+  tls: true
+- name: o1sl.qiyunlink.top6yKPiSRQ
+  type: vmess
+  server: o1sl.qiyunlink.top
+  port: '46728'
+  uuid: f2796bde-ba2a-4b2c-acca-872c5eb784d0
+  alterId: '0'
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: /ifBUEjhG
+  ws-headers:
+    Host: gbdzxvumhk1.xqyhvpee.xyz
+  tls: false
+- name: 172.64.194.76WqdcwA9I
+  type: vmess
+  server: 172.64.194.76
+  port: 2082
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /github.com/Alvin9999
+  ws-headers:
+    Host: ip18.6929198.xyz
+  tls: false
+- name: 92.118.149.115DoeBLni3
   type: vmess
   server: 92.118.149.115
   port: '25131'
@@ -2146,23 +1389,69 @@ proxies:
   ws-headers:
     Host: ''
   tls: false
-- name: 172.67.87.197ahTEx1Wn
+- name: 43.202.57.197QqOvtpJh
+  type: ss
+  server: 43.202.57.197
+  port: 443
+  password: amazonskr05
+  alterId: 2
+  cipher: aes-256-cfb
+- name: 188.114.99.0o6zqsHTi
   type: vmess
-  server: 172.67.87.197
+  server: 188.114.99.0
+  port: '443'
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: '1'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: linkvws
+  ws-headers:
+    Host: ophelia.mom
+  tls: true
+- name: 23.108.100.103acG6eXvQ
+  type: vmess
+  server: 23.108.100.103
+  port: '443'
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: '64'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /footers
+  ws-headers:
+    Host: www.40587333.xyz
+  tls: true
+- name: cf-lt.sharecentre.onlineMBDW94bF
+  type: vmess
+  server: cf-lt.sharecentre.online
   port: '80'
-  uuid: a5696a03-1c9f-4018-9510-58e7bfbb5f5f
+  uuid: bffa23aa-ae0a-4c02-af77-2a14c8c0b81c
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /api/v3/download.getFile
+  ws-headers:
+    Host: ssrsub.v03.ssrsub.com
+  tls: false
+- name: 104.16.117.47VtmCpl0i
+  type: vmess
+  server: 104.16.117.47
+  port: '80'
+  uuid: e8cc06f6-0eff-4c07-9038-8c640650a2ce
   alterId: '0'
   cipher: auto
   network: ws
   ucp: true
   ws-path: /
   ws-headers:
-    Host: ylsl.shabijichang.com
+    Host: jdf.shabijichang.com
   tls: false
-- name: 183.236.51.23gvDjY1ip
+- name: 183.236.48.163Plt2VwBb
   type: vmess
-  server: 183.236.51.23
-  port: '52112'
+  server: 183.236.48.163
+  port: '58831'
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   alterId: 64
   cipher: auto
@@ -2171,11 +1460,24 @@ proxies:
   ws-path: null
   ws-headers: null
   tls: false
-- name: 104.19.32.46ZksJVxB6
+- name: 47.116.173.76hBrRIZ2C
   type: vmess
-  server: 104.19.32.46
-  port: 2086
-  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
+  server: 47.116.173.76
+  port: '50002'
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: '64'
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: github.com/Alvin9999
+  ws-headers:
+    Host: ''
+  tls: false
+- name: 104.19.47.16f06KvzcL
+  type: vmess
+  server: 104.19.47.16
+  port: 8080
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
   alterId: 0
   cipher: auto
   network: ws
@@ -2183,39 +1485,33 @@ proxies:
   ws-path: null
   ws-headers: null
   tls: false
-- name: 38.147.165.185P1VN6qDt
+- name: zzfyo-1094-v2-0.d-cmi.iote.bond40EX821n
   type: vmess
-  server: 38.147.165.185
-  port: '38692'
-  uuid: decde5b9-cc9c-4622-9ee6-723378429f4e
-  alterId: 0
+  server: zzfyo-1094-v2-0.d-cmi.iote.bond
+  port: '888'
+  uuid: b00a4568-6396-44c6-8697-f1d1600ba9fd
+  alterId: '0'
   cipher: auto
-  network: tcp
+  network: ws
   ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: 183.236.48.163Hfw0OaKh
+  ws-path: /je5x3pBN1vez3NQudNkB
+  ws-headers:
+    Host: cdn.cjhh.lol
+  tls: true
+- name: 120.232.153.71wS2gCNtE
   type: vmess
-  server: 183.236.48.163
-  port: '58831'
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  server: 120.232.153.71
+  port: '43526'
+  uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
   alterId: '64'
   cipher: auto
   network: tcp
   ucp: true
-  ws-path: /lfljvws
+  ws-path: github.com/Alvin9999
   ws-headers:
-    Host: rac.679888.xyz
+    Host: ''
   tls: false
-- name: hzhz2.sssyun.xyzaepdAsQf
-  type: ss
-  server: hzhz2.sssyun.xyz
-  port: 40016
-  password: b40fb56c-f538-4bf2-951e-b645f48b9937
-  alterId: 2
-  cipher: chacha20-ietf-poly1305
-- name: cf.yx.alue.linknHXwgsz9
+- name: cf.yx.alue.linknapvMfmQ
   type: vmess
   server: cf.yx.alue.link
   port: '2052'
@@ -2228,7 +1524,104 @@ proxies:
   ws-headers:
     Host: lu.wx.alue.link
   tls: false
-- name: 172.64.199.158lbXxoBQk
+- name: shop.appeL6BDcok
+  type: vmess
+  server: shop.app
+  port: '8080'
+  uuid: dea35652-2439-426a-86a7-5b2e535e934d
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /aries?ed=2048
+  ws-headers:
+    Host: azstutr.iiio.wiki
+  tls: false
+- name: hzhz2.sssyun.xyzeBqtpLx8
+  type: ss
+  server: hzhz2.sssyun.xyz
+  port: 40016
+  password: b40fb56c-f538-4bf2-951e-b645f48b9937
+  alterId: 2
+  cipher: chacha20-ietf-poly1305
+- name: 198.2.202.84PEjJ9bTp
+  type: vmess
+  server: 198.2.202.84
+  port: '443'
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: '64'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /path/1694859605321
+  ws-headers:
+    Host: www.65825524.xyz
+  tls: true
+- name: 114.55.132.202s4EanfxS
+  type: vmess
+  server: 114.55.132.202
+  port: '50002'
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: '64'
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: github.com/Alvin9999
+  ws-headers:
+    Host: ''
+  tls: false
+- name: 104.25.127.240TghHl9BS
+  type: vmess
+  server: 104.25.127.240
+  port: '443'
+  uuid: 09d5805c-7a22-47c1-b1c3-f090df0a98ed
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /lfljvws
+  ws-headers:
+    Host: rac.679888.xyz
+  tls: true
+- name: zzfyo-1094-v2-0.d-cmi.iote.bondxRXbVNIs
+  type: vmess
+  server: zzfyo-1094-v2-0.d-cmi.iote.bond
+  port: '888'
+  uuid: b00a4568-6396-44c6-8697-f1d1600ba9fd
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: cdn.cjhh.lol
+  tls: true
+- name: 941.outline-vpn.cloud4C9tskKP
+  type: vmess
+  server: 941.outline-vpn.cloud
+  port: '80'
+  uuid: a1a676e4-016e-4bf0-96fe-4b6aaf53abc2
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: bl.shabijichang.com
+  tls: false
+- name: 183.236.51.23NiDOplqy
+  type: vmess
+  server: 183.236.51.23
+  port: '53002'
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: 172.64.199.158Ai92cQMJ
   type: vmess
   server: 172.64.199.158
   port: '80'
@@ -2241,395 +1634,1074 @@ proxies:
   ws-headers:
     Host: wnd.shabijichang.com
   tls: false
+- name: 104.31.16.120nuomElWX
+  type: vmess
+  server: 104.31.16.120
+  port: '443'
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: linkvws
+  ws-headers:
+    Host: edeen.makeup
+  tls: true
+- name: b24.ntbq.dynu.netBzXra7gG
+  type: vmess
+  server: b24.ntbq.dynu.net
+  port: '443'
+  uuid: d201923c-daa9-4459-8e98-9b3ea0435926
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /b24
+  ws-headers:
+    Host: b24.ntbq.dynu.net
+  tls: true
+- name: 4.api-catssr.catcloud.hostasVY8LG4
+  type: ss
+  server: 4.api-catssr.catcloud.host
+  port: 32184
+  password: bb741d28-cd11-4ce8-8799-459407bacde8
+  alterId: 2
+  cipher: chacha20-ietf-poly1305
+- name: 120.232.240.56PeLDtX6u
+  type: vmess
+  server: 120.232.240.56
+  port: 16928
+  uuid: 5f6b3c3f-b0a8-33f5-95c6-371f8c6af973
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: 104.21.36.26fmacVvGP
+  type: vmess
+  server: 104.21.36.26
+  port: '8443'
+  uuid: 1cec1ebc-b489-4769-f2d9-e079b5832a60
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /cloudconeaaa
+  ws-headers:
+    Host: cloudconeaaa.gorgorchicken.one
+  tls: true
+- name: 104.31.16.120ram8FHkh
+  type: vmess
+  server: 104.31.16.120
+  port: '8443'
+  uuid: aa0c4744-9568-4bee-a08b-73668a9b2a42
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /cloudconebbb
+  ws-headers:
+    Host: cloudconebbb.gorgorchicken.one
+  tls: true
+- name: 45.87.175.1787kzf8JcG
+  type: ss
+  server: 45.87.175.178
+  port: 8080
+  password: cvII85TrW6n0OGyfpHVS1u
+  alterId: 2
+  cipher: chacha20-ietf-poly1305
+- name: 151.101.2.133GSu8b7YB
+  type: vmess
+  server: 151.101.2.133
+  port: '443'
+  uuid: 66833e2f-dca1-4591-951c-1392ace0b2f6
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: ws/?ed=2048
+  ws-headers:
+    Host: ''
+  tls: true
+- name: fhc.shabijichang.comPN3nZRL7
+  type: vmess
+  server: fhc.shabijichang.com
+  port: '80'
+  uuid: 5e48a497-f4ae-4129-afd6-ba26d75b792a
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: fhc.shabijichang.com
+  tls: false
+- name: 172.67.130.140h5yVrGeR
+  type: vmess
+  server: 172.67.130.140
+  port: 2082
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: ip.nofiltering2.sbsUnNDH64Q
+  type: vmess
+  server: ip.nofiltering2.sbs
+  port: '8880'
+  uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY
+  ws-headers:
+    Host: fr7.tehme100.fun
+  tls: false
+- name: 183.236.51.23VTNCh5te
+  type: vmess
+  server: 183.236.51.23
+  port: '45020'
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: '64'
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: /afrhms16v.bestxray.buzz/linkws
+  ws-headers:
+    Host: ''
+  tls: false
+- name: obdii.cfdTlpD1Hgu
+  type: vmess
+  server: obdii.cfd
+  port: 443
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /linkws
+  ws-headers:
+    Host: obdii.cfd
+  tls: true
+- name: 104.16.68.385BwrKCsy
+  type: vmess
+  server: 104.16.68.38
+  port: '2052'
+  uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: lu.wx.alue.link
+  tls: false
+- name: 104.16.68.38N8AaxkeS
+  type: vmess
+  server: 104.16.68.38
+  port: '2052'
+  uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /glweidf.sbs/linkws
+  ws-headers:
+    Host: ''
+  tls: false
+- name: api.jquery.com5YI1SCcx
+  type: vmess
+  server: api.jquery.com
+  port: '443'
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /oliv.beauty:443/linkvws
+  ws-headers:
+    Host: sub.yifenjichang.top
+  tls: true
+- name: 47.104.186.133VUqP49Wl
+  type: vmess
+  server: 47.104.186.133
+  port: '50002'
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: '64'
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: /afrhms16v.bestxray.buzz/linkws
+  ws-headers:
+    Host: ''
+  tls: false
+- name: hzhz2.sssyun.xyzYWXZ8s09
+  type: ss
+  server: hzhz2.sssyun.xyz
+  port: 40016
+  password: //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiNDBmYjU2Yy1mNTM4LTRiZjItOTUxZS1iNjQ1ZjQ4Yjk5Mzc
+  alterId: 2
+  cipher: aes-128-gcm
+- name: 183.236.48.163ud6OUMfZ
+  type: vmess
+  server: 183.236.48.163
+  port: '58831'
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: '64'
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: /lfljvws
+  ws-headers:
+    Host: rac.679888.xyz
+  tls: false
+- name: 112.132.212.19z24pNJ8O
+  type: vmess
+  server: 112.132.212.19
+  port: '50004'
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: '64'
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: /glweidf.sbs/linkws
+  ws-headers:
+    Host: ''
+  tls: false
+- name: 104.19.45.90i5HPUFnQ
+  type: vmess
+  server: 104.19.45.90
+  port: '2095'
+  uuid: a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: github.com/Alvin9999
+  ws-headers:
+    Host: ''
+  tls: false
+- name: 172.67.68.1361ICiL86q
+  type: vmess
+  server: 172.67.68.136
+  port: '80'
+  uuid: 08b2ceb1-5917-42da-b02c-0f942754aac6
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /aries?ed=2048
+  ws-headers:
+    Host: buyvm.iiio.wiki
+  tls: false
+- name: 172.67.128.2175vxmIekA
+  type: vmess
+  server: 172.67.128.217
+  port: '80'
+  uuid: 3cf8cbb6-e544-4d50-9a3f-5a3c03a9f23c
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: sdgrm.shabijichang.com
+  tls: false
+- name: 162.159.134.234MlZsKy5U
+  type: vmess
+  server: 162.159.134.234
+  port: '443'
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: linkvws
+  ws-headers:
+    Host: octavi.cfd
+  tls: true
+- name: 112.29.94.22ZvRb45Hr
+  type: vmess
+  server: 112.29.94.22
+  port: '53737'
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: '64'
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: ''
+  tls: false
+- name: 47.104.186.133vHlpbGhc
+  type: vmess
+  server: 47.104.186.133
+  port: '50002'
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: '64'
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: /ivideos.sbs/linkws
+  ws-headers:
+    Host: ''
+  tls: false
+- name: 47.116.173.762Uou68aN
+  type: vmess
+  server: 47.116.173.76
+  port: '50002'
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: '64'
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: /lfljvws
+  ws-headers:
+    Host: rac.679888.xyz
+  tls: false
+- name: 120.232.153.40VEcGZUy1
+  type: vmess
+  server: 120.232.153.40
+  port: '35601'
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: '64'
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: /afrhms16v.bestxray.buzz/linkws
+  ws-headers:
+    Host: ''
+  tls: false
+- name: wnd.shabijichang.com2nQ3PLU8
+  type: vmess
+  server: wnd.shabijichang.com
+  port: '80'
+  uuid: 53701585-591f-48a3-9515-8831ed0524ac
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: wnd.shabijichang.com
+  tls: false
+- name: 36.141.40.92FQlpT5eH
+  type: ss
+  server: 36.141.40.92
+  port: 15010
+  password: URZYWLLW5LQAYR7X
+  alterId: 2
+  cipher: aes-256-gcm
+- name: 104.19.47.65EJIAxmrP
+  type: vmess
+  server: 104.19.47.65
+  port: 2086
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: 104.16.60.8GaoVzuxr
+  type: vmess
+  server: 104.16.60.8
+  port: '2095'
+  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /ivideos.sbs/linkws
+  ws-headers:
+    Host: ''
+  tls: false
+- name: tc11.kq1.dynu.net6xyvsFSU
+  type: vmess
+  server: tc11.kq1.dynu.net
+  port: '443'
+  uuid: 450cd674-1411-4ea1-979b-bf56da87b21d
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: tc11.kq1.dynu.net
+  tls: true
+- name: 104.16.219.230tbM8CyQr
+  type: vmess
+  server: 104.16.219.230
+  port: '8880'
+  uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY
+  ws-headers:
+    Host: fr7.tehme100.fun
+  tls: false
+- name: 36.141.40.92lCyuAmRW
+  type: ss
+  server: 36.141.40.92
+  port: 15016
+  password: //YWVzLTI1Ni1nY206TUFBREQ4SkxNOFhLVlc1Ng
+  alterId: 2
+  cipher: aes-128-gcm
+- name: freeyx.cloudflare88.eu.org5lqSJFPs
+  type: vmess
+  server: freeyx.cloudflare88.eu.org
+  port: '80'
+  uuid: 08b2ceb1-5917-42da-b02c-0f942754aac6
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /aries?ed=2048
+  ws-headers:
+    Host: buyvm.iiio.wiki
+  tls: false
+- name: b22.ntbq.dynu.netxH4yOsre
+  type: vmess
+  server: b22.ntbq.dynu.net
+  port: '443'
+  uuid: 450cd674-1411-4ea1-979b-bf56da87b21d
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /b22
+  ws-headers:
+    Host: b22.ntbq.dynu.net
+  tls: true
+- name: 172.64.167.44nflI6Dtu
+  type: vmess
+  server: 172.64.167.44
+  port: '2095'
+  uuid: a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: github.com/Alvin9999
+  ws-headers:
+    Host: ''
+  tls: false
+- name: 172.64.166.33k9lC7qEF
+  type: vmess
+  server: 172.64.166.33
+  port: '2095'
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: github.com/Alvin9999
+  ws-headers:
+    Host: ''
+  tls: false
+- name: 172.67.221.18Je0SXogq
+  type: vmess
+  server: 172.67.221.18
+  port: '8880'
+  uuid: 67a341a7-5ae7-4d92-edad-9e8db87ce165
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: vcus1.vpn66.eu.org
+  tls: false
+- name: 58.63.250.61gucOifo0
+  type: ss
+  server: 58.63.250.61
+  port: 15012
+  password: //YWVzLTI1Ni1nY206QkFJTDI3R1RWOEFJSzJCQw
+  alterId: 2
+  cipher: aes-128-gcm
+- name: 112.132.212.19szHQkX0I
+  type: vmess
+  server: 112.132.212.19
+  port: '50004'
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: '64'
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: /afrhms16v.bestxray.buzz/linkws
+  ws-headers:
+    Host: ''
+  tls: false
+- name: 104.17.129.28YnSpEyXT
+  type: vmess
+  server: 104.17.129.28
+  port: '8080'
+  uuid: 94242109-0930-427f-f899-15d34021130c
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: eu2.openxai.link
+  tls: false
+- name: 188.114.97.2tW7T34lE
+  type: vmess
+  server: 188.114.97.2
+  port: 443
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /linkws
+  ws-headers:
+    Host: obdii.cfd
+  tls: true
+- name: 3.35.167.90gTzpXCYd
+  type: ss
+  server: 3.35.167.90
+  port: 443
+  password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU
+  alterId: 2
+  cipher: aes-128-gcm
+- name: 104.18.57.111CojLWNPg
+  type: vmess
+  server: 104.18.57.111
+  port: '2082'
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: github.com/Alvin9999
+  ws-headers:
+    Host: ''
+  tls: false
+- name: 36.141.40.92zPL0N5E6
+  type: ss
+  server: 36.141.40.92
+  port: 15010
+  password: //YWVzLTI1Ni1nY206VVJaWVdMTFc1TFFBWVI3WA
+  alterId: 2
+  cipher: aes-128-gcm
+- name: 104.20.17.186Y0DPpxgZ
+  type: vmess
+  server: 104.20.17.186
+  port: '2082'
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: github.com/Alvin9999
+  ws-headers:
+    Host: ip6.6929198.xyz
+  tls: false
+- name: octavi.cfd2Ktml1pT
+  type: vmess
+  server: octavi.cfd
+  port: '443'
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: linkvws
+  ws-headers:
+    Host: octavi.cfd
+  tls: true
+- name: 172.67.87.197TfOoKiC5
+  type: vmess
+  server: 172.67.87.197
+  port: '80'
+  uuid: a5696a03-1c9f-4018-9510-58e7bfbb5f5f
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: ylsl.shabijichang.com
+  tls: false
+- name: 146.19.168.161hiecJAzd
+  type: vmess
+  server: 146.19.168.161
+  port: '443'
+  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /link
+  ws-headers:
+    Host: ''
+  tls: true
+- name: 127.0.0.19Vov8LpF
+  type: ss
+  server: 127.0.0.1
+  port: 443
+  password: 6601fb90e9b3
+  alterId: 2
+  cipher: aes-128-gcm
+- name: 142.4.104.33qeOQdMED
+  type: vmess
+  server: 142.4.104.33
+  port: '52143'
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: '64'
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: ''
+  tls: false
+- name: 45.149.12.84zNKmF70c
+  type: vmess
+  server: 45.149.12.84
+  port: 443
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /linkws#@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1/?ed=2560
+  ws-headers:
+    Host: obdii.cfd
+  tls: true
+- name: singapore.comGfHQc2vt
+  type: vmess
+  server: singapore.com
+  port: '80'
+  uuid: bffa23aa-ae0a-4c02-af77-2a14c8c0b81c
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /api/v3/download.getFile
+  ws-headers:
+    Host: ssrsub.v001.ssrsub.com
+  tls: false
+- name: 104.16.60.8tSXw10Jb
+  type: vmess
+  server: 104.16.60.8
+  port: '8080'
+  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /afrhms16v.bestxray.buzz/linkws
+  ws-headers:
+    Host: ''
+  tls: false
 proxy-groups:
 - name: 🔰 节点选择
   type: select
   proxies:
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 104.21.36.26yMW6qcj0
-  - 47.116.173.76vo1fLkgJ
-  - 183.240.232.822yAqdHoS
-  - 172.67.68.136SLmjYRTa
-  - 45.199.138.222bgLk9pdz
-  - 104.18.37.248vk9O4DYn
-  - 54.199.66.30KcZ1EqCr
-  - ml2.shabijichang.comARWbTKUX
-  - 104.19.59.89vr61CjtB
-  - 120.232.153.71L5tabrJn
-  - 120.232.240.564RsJ6xQc
-  - 198.2.202.84JzvPRuQO
-  - 183.240.235.162yWVqTnOm
-  - 221.139.79.57VhZ45Wf3
-  - sgp.cdn-sgp.xyzreaT5Bz9
-  - 183.233.187.214sjfBeTJW
-  - 183.236.48.158IcLYosrA
-  - 172.67.81.238hXLCAYy0
-  - 104.16.117.47sh2VT6nf
-  - 198.2.202.84EjRQ9aDW
-  - 172.67.229.19RUB2yWbS
-  - 104.21.238.2032yg8n4sc
-  - 183.236.51.23sC4l8WOh
-  - 172.64.167.15LIuPB194
-  - 172.64.166.33OsgKV7ma
-  - 36.141.40.92XHoWDn6R
-  - 104.25.127.2406fecnBrP
-  - 162.159.134.234yApufIMO
-  - 142.4.104.33J8rKqug2
-  - fd.shabijichang.comvaMXegP2
-  - 183.236.48.158yB0Sd9ZO
-  - 141.101.122.109kuGMdFZp
-  - zzfyo-1094-v2-0.d-cmi.iote.bond6RMHJXYo
-  - 188.114.96.3SrzyjH2k
-  - 45.159.50.1435OnwNfji
-  - 104.19.47.16QurgMKWi
-  - 172.67.128.217AjmJHu2k
-  - cf2.openxai.linkbpwZuis5
-  - 104.16.60.8Vc6e4098
-  - 36.141.40.92j1euSDz2
-  - 172.67.69.247J59oztTV
-  - az05.beyondy.cfdRf7HdNuV
-  - 35.89.254.222IThZ8kAK
-  - 183.236.48.163DwHWitKo
-  - 190.93.245.179hKjWFOHb
-  - 114.55.132.202H4gVWbcP
-  - 45.87.175.164VksoSKml
-  - 36.141.40.92QF5HBtvG
-  - 183.236.48.1660KIX1mj8
-  - freeyx.cloudflare88.eu.orgzRkOgdFA
-  - 43.202.57.197aHmX3IkW
-  - 3.35.167.90fIlZTcdR
-  - pzl.p237875155.buzzpKAVMCRc
-  - 43.202.57.197P8JINHM2
-  - 104.19.47.65ZslK1Cfq
-  - 172.67.161.181qajA7evo
-  - 112.132.215.12vIp0XtEq
-  - 38.147.165.185bNwlMX6B
-  - 183.240.235.162z31RKca5
-  - shouer1.209966.xyzYjUvA4lt
-  - b24.ntbq.dynu.netRnjtWGkr
-  - 183.236.51.23DmohpI2R
-  - zzfyo-1094-v2-0.d-cmi.iote.bondemIJxyc9
-  - tc11.kq1.dynu.netF8bGhQ3L
-  - 104.21.238.201dvXHRPQJ
-  - 183.236.48.161gVITeyNO
-  - cc2.shabijichang.comh4wJvyIM
-  - 104.19.57.4d8301FvI
-  - 172.64.166.22spX95SwI
-  - 104.31.16.120kX8SpsGH
-  - speed.cloudflare.com0woEJ3HO
-  - 112.132.212.19ozNDqnAg
-  - 183.236.48.166aoUI7Tj6
-  - 47.92.152.1699MzeSRh5
-  - 127.0.0.1vOKEkgci
-  - 120.232.153.270j7ozbe3
-  - 183.240.232.82ABTpZKLm
-  - shop.appC0UhZy8e
-  - 42.236.73.72pDn3Fb9O
-  - api.jquery.comdOm5qHDr
-  - octavi.cfdjyqWzlop
-  - 104.21.238.200GE8bBM7C
-  - b22.ntbq.dynu.netNakywPxr
-  - 172.64.194.76T0SqO86C
-  - 941.outline-vpn.cloudrm2TDN8S
-  - 45.87.175.154bL1qZKXl
-  - russia.com41ghkaAU
-  - 120.232.153.277O8cfyEB
-  - 104.19.45.17Y6guitJG
-  - Singapore.MFA.EEnUEADPhi
-  - 45.87.175.164f3ueoz6A
-  - 104.31.16.120Q7xYFN4f
-  - 47.116.173.76esAPYcqz
-  - 188.114.96.2q5tLd6DH
-  - 3.35.167.90Y57wV9DX
-  - 112.132.212.19pOBgnjiq
-  - 47.104.186.133eG2fTUhw
-  - cfcdn2.sanfencdn9.comPi3AMImc
-  - 120.237.79.1571yszmuoL
-  - 112.29.94.223V1qOXb0
-  - yd1.992688.xyzEIHgZnqw
-  - cf1.openxai.linkPfzCdXMr
-  - 45.159.50.143sbzRLy7m
-  - 114.55.132.202K41fd9UP
-  - bvtqw-1093-v2-1.d-kcd.tuil.xyzWD56ByMg
-  - 3.112.124.200oCKyDmkS
-  - 104.16.68.381QBGUiwM
-  - 104.16.61.8I6E5S2ns
-  - 104.21.238.2024NS5T3VF
-  - ns1.v2-vip.funGg0uDL4O
-  - hkt.123ddns.xyzUSHxj0b7
-  - 104.16.68.38HwrLszyl
-  - singapore.comQLGUkTrP
-  - 3.39.240.246JWs4Z9Yz
-  - 142.4.104.333TIl8Hqj
-  - 104.16.67.38YHeXWnBa
-  - 120.232.153.40uOFb2eij
-  - 120.210.205.82mlwYDgWi
-  - p3.v2raybrasil.cloud8JLktQ7H
-  - 47.92.152.169QTx8ypLf
-  - 172.64.167.44KLz47AyT
-  - 104.17.129.28jhKm9M0k
-  - 104.20.17.186zK65sq9t
-  - 58.63.250.61e9PL3mTy
-  - fhc.shabijichang.comZklLFM8x
-  - 172.67.32.83DbMT1Zcq
-  - 58.63.250.61cP3Gq1Mg
-  - 172.67.221.183oqjNYrD
-  - 54.199.66.30dE1ou97Q
-  - 67.21.90.59gu0mdk1
-  - 104.18.57.111W5cUueXl
-  - 183.236.48.163uhbjre1v
-  - 194.87.82.28HiJtN9SQ
-  - 3.39.240.246qEodzW40
-  - 183.236.51.23o1mdjv8c
-  - wnd.shabijichang.comu7IkCv3W
-  - 35.89.254.2228CtO3RQB
-  - 112.29.94.23wKk7cNmF
-  - 3.112.124.200UQNouABV
-  - 23.108.100.103Zabel9MY
-  - 194.87.82.28FwmtHUDP
-  - 151.101.2.133vuDxrGfS
-  - 23.108.100.101AK5e8rq6
-  - 162.159.152.6R7gQE0d9
-  - 162.159.140.66uMaWoBtU
-  - b22.ntbq.dynu.netmONykoWK
-  - 183.236.51.233NcGlK6y
-  - cfcdn1.sanfencdn9.comsic5gewh
-  - 146.19.168.161dLz4t9Df
-  - 183.238.202.173sB4Ekr1d
-  - 104.18.112.107YTNvhCiR
-  - 172.67.130.140ljXONnm0
-  - 104.21.31.183vrxYtZCB
-  - 104.16.219.230ujNa7UsT
-  - 47.104.186.133ldFj7RgZ
-  - ip.nofiltering2.sbsSROy7jIg
-  - 183.236.51.36QuWpJEFw
-  - 5.39.254.196a67VyeQO
-  - 104.19.45.90zckPuqWF
-  - 104.16.68.38fVnelGQ6
-  - 4.api-catssr.catcloud.hostvPeKBtHF
-  - b22.ntbq.dynu.netC3NTXOkF
-  - 112.132.215.12R5C7wdoJ
-  - 120.232.153.40C1QqpmtS
-  - 104.18.57.111xR1Z6DCG
-  - 58.63.250.61bXlfVMc6
-  - 172.64.175.213vg5VOzDG
-  - 104.16.60.8lvjfJDGd
-  - 183.236.51.36YjtIJwfC
-  - 36.141.40.92dQO8yKuq
-  - 4.api-catssr.catcloud.host0zKbHA8M
-  - 120.210.205.82YciDruev
-  - o1sl.qiyunlink.topmQDlLA5T
-  - hzhz2.sssyun.xyz7tZODm3F
-  - 58.63.250.61qSaup3kZ
-  - 188.114.99.05iZ9Hxlh
-  - o1sl.qiyunlink.topNj3LOTW0
-  - 52.169.50.64ZmJhswjH
-  - cf-lt.sharecentre.onlineIBm03l6Z
-  - nbq12.ntbq.dynu.netXgz1SwG3
-  - 92.118.149.115NqGyZhA2
-  - 172.67.87.197ahTEx1Wn
-  - 183.236.51.23gvDjY1ip
-  - 104.19.32.46ZksJVxB6
-  - 38.147.165.185P1VN6qDt
-  - 183.236.48.163Hfw0OaKh
-  - hzhz2.sssyun.xyzaepdAsQf
-  - cf.yx.alue.linknHXwgsz9
-  - 172.64.199.158lbXxoBQk
+  - 183.236.51.3602XSEalD
+  - 190.93.245.179rHwbk1al
+  - 54.199.66.30QbE0Vgrt
+  - 120.210.205.82DLUCKoVj
+  - 183.236.48.166xj9IAEdb
+  - russia.comBHVyTn1U
+  - 36.141.40.92AD4q7P0v
+  - 172.67.69.247a9XDIAK1
+  - 3.35.167.90iPXfg8kL
+  - 183.236.48.158FfncYmrv
+  - 188.114.96.3sSKkrteJ
+  - 183.236.51.23VZSyuO1c
+  - 183.236.48.166b8MTvIc4
+  - 45.159.50.143hDQgGuK7
+  - 120.232.153.40C7UW9fDH
+  - cfcdn1.sanfencdn9.comeKRP2IH8
+  - 183.236.48.163evzAEi2H
+  - 47.92.152.169gzmPxlrR
+  - 45.87.175.164IuvMSsyE
+  - cc2.shabijichang.comK1m4VdcP
+  - 3.39.240.246Tr0K4Uts
+  - b22.ntbq.dynu.netFCcDXtH0
+  - 172.67.71.160dOWaP4Im
+  - o1sl.qiyunlink.top94PkTb8p
+  - 35.89.254.222lCfaiPUz
+  - 58.63.250.61bu51zKRZ
+  - 67.21.90.5DnXvQUOd
+  - 120.210.205.82i278haoJ
+  - hkt.123ddns.xyzAzmvb1cR
+  - 104.16.61.8ldirsPD9
+  - 172.67.175.56Vfj2uRFG
+  - 172.64.175.213ZvSPpXqV
+  - fd.shabijichang.comH5cpCVYA
+  - 142.4.104.332EI4TgPF
+  - 104.21.238.201k8KVHqpT
+  - 198.2.202.84k23xmDcs
+  - 183.236.51.23VmXRP8ne
+  - 172.64.166.22yIzmRpqv
+  - p3.v2raybrasil.cloud50NMVpfH
+  - 172.67.161.181cYRBiU1g
+  - 3.112.124.200KqlPdXMC
+  - 3.112.124.200Tis1Q9bX
+  - pzl.p237875155.buzzRKmZxfli
+  - az05.beyondy.cfdTiR7q5g0
+  - 104.19.57.4TzSGaret
+  - 42.236.73.72Jl0GQqF6
+  - bvtqw-1093-v2-1.d-kcd.tuil.xyzlSw8fLND
+  - 23.108.100.101ongX6wz5
+  - 183.240.235.162JTOxPsrU
+  - 4.api-catssr.catcloud.hostowDIz0xn
+  - 54.199.66.30DIxcv0qi
+  - 183.240.232.82e8OTGwEy
+  - speed.cloudflare.comJGthrEC3
+  - sgp.cdn-sgp.xyznWkSYt1X
+  - 183.236.48.158RFflpMIx
+  - 104.21.238.200neiQCDY5
+  - 120.237.79.157YlpeAFh7
+  - cf1.openxai.linkKnzEoXlk
+  - cfcdn2.sanfencdn9.combLVgI5fe
+  - 104.16.68.38vhFXLl1y
+  - ns1.v2-vip.funqX2DrRYT
+  - 188.114.96.2zT9R15NQ
+  - b22.ntbq.dynu.netR4u7m5GA
+  - 35.89.254.222iJpDwys1
+  - 183.240.235.162QmOKLy5a
+  - 183.233.187.2144HRn3AvX
+  - nbq12.ntbq.dynu.netqaph8xKb
+  - ml2.shabijichang.comO67TDYNp
+  - 104.16.67.38KTf6GyJq
+  - shouer1.209966.xyzgqWAz4ni
+  - 104.19.59.894Wg0dslv
+  - 104.21.238.202dBcvU94t
+  - 120.232.153.279oSMNefT
+  - 185.146.173.59yOptmE2I
+  - 104.18.112.107bUO4yNVX
+  - 58.63.250.619U5m3VgB
+  - 141.101.122.109Ko7F2UZ0
+  - 104.19.45.17b3XRS7EZ
+  - 45.199.138.222hWGduc3n
+  - 194.87.82.28jztIKL0a
+  - 114.55.132.202iEZoDFwU
+  - 183.236.48.161UoIzarj8
+  - 104.18.37.248ONz74rBF
+  - 104.19.32.46TUsSjeaq
+  - 112.132.215.12N9Gor5gl
+  - 45.159.50.143wFLJEs4q
+  - 38.147.165.185kw8HtYlb
+  - 120.232.153.27LPwMgxDe
+  - 58.63.250.61E1nTzLa4
+  - 104.21.31.183NRbdZXks
+  - Singapore.MFA.EE35boxFQr
+  - 104.18.57.111y8gCZ3Bb
+  - 172.67.81.238c8nsZtkw
+  - 162.159.140.66sMCKmBeS
+  - 5.39.254.196yVjMSJeK
+  - 183.238.202.173ShJ8RWjY
+  - 52.169.50.64qhlczmsD
+  - 162.159.152.6EdpA6tYj
+  - 172.64.167.15moUKwJys
+  - 45.87.175.164HvoI1mpB
+  - yd1.992688.xyzbYSuFL0y
+  - 38.147.165.185FLrOxBmb
+  - 172.67.32.83pq8aylRi
+  - 183.240.232.82ovA8KuJV
+  - cf2.openxai.linkhHJFpn95
+  - 112.29.94.23KuxhMGpX
+  - 47.92.152.169fmv0w9kR
+  - 43.202.57.197zw8nbfuD
+  - 183.236.51.23wChMDvoA
+  - 183.236.51.36jbXIO8Qq
+  - 112.132.215.127y3P4aCB
+  - 3.39.240.246ZW0Cs7iE
+  - 172.67.229.19bH4PtSDT
+  - 104.21.238.203rPGaIgFn
+  - o1sl.qiyunlink.top6yKPiSRQ
+  - 172.64.194.76WqdcwA9I
+  - 92.118.149.115DoeBLni3
+  - 43.202.57.197QqOvtpJh
+  - 188.114.99.0o6zqsHTi
+  - 23.108.100.103acG6eXvQ
+  - cf-lt.sharecentre.onlineMBDW94bF
+  - 104.16.117.47VtmCpl0i
+  - 183.236.48.163Plt2VwBb
+  - 47.116.173.76hBrRIZ2C
+  - 104.19.47.16f06KvzcL
+  - zzfyo-1094-v2-0.d-cmi.iote.bond40EX821n
+  - 120.232.153.71wS2gCNtE
+  - cf.yx.alue.linknapvMfmQ
+  - shop.appeL6BDcok
+  - hzhz2.sssyun.xyzeBqtpLx8
+  - 198.2.202.84PEjJ9bTp
+  - 114.55.132.202s4EanfxS
+  - 104.25.127.240TghHl9BS
+  - zzfyo-1094-v2-0.d-cmi.iote.bondxRXbVNIs
+  - 941.outline-vpn.cloud4C9tskKP
+  - 183.236.51.23NiDOplqy
+  - 172.64.199.158Ai92cQMJ
+  - 104.31.16.120nuomElWX
+  - b24.ntbq.dynu.netBzXra7gG
+  - 4.api-catssr.catcloud.hostasVY8LG4
+  - 120.232.240.56PeLDtX6u
+  - 104.21.36.26fmacVvGP
+  - 104.31.16.120ram8FHkh
+  - 45.87.175.1787kzf8JcG
+  - 151.101.2.133GSu8b7YB
+  - fhc.shabijichang.comPN3nZRL7
+  - 172.67.130.140h5yVrGeR
+  - ip.nofiltering2.sbsUnNDH64Q
+  - 183.236.51.23VTNCh5te
+  - obdii.cfdTlpD1Hgu
+  - 104.16.68.385BwrKCsy
+  - 104.16.68.38N8AaxkeS
+  - api.jquery.com5YI1SCcx
+  - 47.104.186.133VUqP49Wl
+  - hzhz2.sssyun.xyzYWXZ8s09
+  - 183.236.48.163ud6OUMfZ
+  - 112.132.212.19z24pNJ8O
+  - 104.19.45.90i5HPUFnQ
+  - 172.67.68.1361ICiL86q
+  - 172.67.128.2175vxmIekA
+  - 162.159.134.234MlZsKy5U
+  - 112.29.94.22ZvRb45Hr
+  - 47.104.186.133vHlpbGhc
+  - 47.116.173.762Uou68aN
+  - 120.232.153.40VEcGZUy1
+  - wnd.shabijichang.com2nQ3PLU8
+  - 36.141.40.92FQlpT5eH
+  - 104.19.47.65EJIAxmrP
+  - 104.16.60.8GaoVzuxr
+  - tc11.kq1.dynu.net6xyvsFSU
+  - 104.16.219.230tbM8CyQr
+  - 36.141.40.92lCyuAmRW
+  - freeyx.cloudflare88.eu.org5lqSJFPs
+  - b22.ntbq.dynu.netxH4yOsre
+  - 172.64.167.44nflI6Dtu
+  - 172.64.166.33k9lC7qEF
+  - 172.67.221.18Je0SXogq
+  - 58.63.250.61gucOifo0
+  - 112.132.212.19szHQkX0I
+  - 104.17.129.28YnSpEyXT
+  - 188.114.97.2tW7T34lE
+  - 3.35.167.90gTzpXCYd
+  - 104.18.57.111CojLWNPg
+  - 36.141.40.92zPL0N5E6
+  - 104.20.17.186Y0DPpxgZ
+  - octavi.cfd2Ktml1pT
+  - 172.67.87.197TfOoKiC5
+  - 146.19.168.161hiecJAzd
+  - 127.0.0.19Vov8LpF
+  - 142.4.104.33qeOQdMED
+  - 45.149.12.84zNKmF70c
+  - singapore.comGfHQc2vt
+  - 104.16.60.8tSXw10Jb
 - name: ♻️ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 104.21.36.26yMW6qcj0
-  - 47.116.173.76vo1fLkgJ
-  - 183.240.232.822yAqdHoS
-  - 172.67.68.136SLmjYRTa
-  - 45.199.138.222bgLk9pdz
-  - 104.18.37.248vk9O4DYn
-  - 54.199.66.30KcZ1EqCr
-  - ml2.shabijichang.comARWbTKUX
-  - 104.19.59.89vr61CjtB
-  - 120.232.153.71L5tabrJn
-  - 120.232.240.564RsJ6xQc
-  - 198.2.202.84JzvPRuQO
-  - 183.240.235.162yWVqTnOm
-  - 221.139.79.57VhZ45Wf3
-  - sgp.cdn-sgp.xyzreaT5Bz9
-  - 183.233.187.214sjfBeTJW
-  - 183.236.48.158IcLYosrA
-  - 172.67.81.238hXLCAYy0
-  - 104.16.117.47sh2VT6nf
-  - 198.2.202.84EjRQ9aDW
-  - 172.67.229.19RUB2yWbS
-  - 104.21.238.2032yg8n4sc
-  - 183.236.51.23sC4l8WOh
-  - 172.64.167.15LIuPB194
-  - 172.64.166.33OsgKV7ma
-  - 36.141.40.92XHoWDn6R
-  - 104.25.127.2406fecnBrP
-  - 162.159.134.234yApufIMO
-  - 142.4.104.33J8rKqug2
-  - fd.shabijichang.comvaMXegP2
-  - 183.236.48.158yB0Sd9ZO
-  - 141.101.122.109kuGMdFZp
-  - zzfyo-1094-v2-0.d-cmi.iote.bond6RMHJXYo
-  - 188.114.96.3SrzyjH2k
-  - 45.159.50.1435OnwNfji
-  - 104.19.47.16QurgMKWi
-  - 172.67.128.217AjmJHu2k
-  - cf2.openxai.linkbpwZuis5
-  - 104.16.60.8Vc6e4098
-  - 36.141.40.92j1euSDz2
-  - 172.67.69.247J59oztTV
-  - az05.beyondy.cfdRf7HdNuV
-  - 35.89.254.222IThZ8kAK
-  - 183.236.48.163DwHWitKo
-  - 190.93.245.179hKjWFOHb
-  - 114.55.132.202H4gVWbcP
-  - 45.87.175.164VksoSKml
-  - 36.141.40.92QF5HBtvG
-  - 183.236.48.1660KIX1mj8
-  - freeyx.cloudflare88.eu.orgzRkOgdFA
-  - 43.202.57.197aHmX3IkW
-  - 3.35.167.90fIlZTcdR
-  - pzl.p237875155.buzzpKAVMCRc
-  - 43.202.57.197P8JINHM2
-  - 104.19.47.65ZslK1Cfq
-  - 172.67.161.181qajA7evo
-  - 112.132.215.12vIp0XtEq
-  - 38.147.165.185bNwlMX6B
-  - 183.240.235.162z31RKca5
-  - shouer1.209966.xyzYjUvA4lt
-  - b24.ntbq.dynu.netRnjtWGkr
-  - 183.236.51.23DmohpI2R
-  - zzfyo-1094-v2-0.d-cmi.iote.bondemIJxyc9
-  - tc11.kq1.dynu.netF8bGhQ3L
-  - 104.21.238.201dvXHRPQJ
-  - 183.236.48.161gVITeyNO
-  - cc2.shabijichang.comh4wJvyIM
-  - 104.19.57.4d8301FvI
-  - 172.64.166.22spX95SwI
-  - 104.31.16.120kX8SpsGH
-  - speed.cloudflare.com0woEJ3HO
-  - 112.132.212.19ozNDqnAg
-  - 183.236.48.166aoUI7Tj6
-  - 47.92.152.1699MzeSRh5
-  - 127.0.0.1vOKEkgci
-  - 120.232.153.270j7ozbe3
-  - 183.240.232.82ABTpZKLm
-  - shop.appC0UhZy8e
-  - 42.236.73.72pDn3Fb9O
-  - api.jquery.comdOm5qHDr
-  - octavi.cfdjyqWzlop
-  - 104.21.238.200GE8bBM7C
-  - b22.ntbq.dynu.netNakywPxr
-  - 172.64.194.76T0SqO86C
-  - 941.outline-vpn.cloudrm2TDN8S
-  - 45.87.175.154bL1qZKXl
-  - russia.com41ghkaAU
-  - 120.232.153.277O8cfyEB
-  - 104.19.45.17Y6guitJG
-  - Singapore.MFA.EEnUEADPhi
-  - 45.87.175.164f3ueoz6A
-  - 104.31.16.120Q7xYFN4f
-  - 47.116.173.76esAPYcqz
-  - 188.114.96.2q5tLd6DH
-  - 3.35.167.90Y57wV9DX
-  - 112.132.212.19pOBgnjiq
-  - 47.104.186.133eG2fTUhw
-  - cfcdn2.sanfencdn9.comPi3AMImc
-  - 120.237.79.1571yszmuoL
-  - 112.29.94.223V1qOXb0
-  - yd1.992688.xyzEIHgZnqw
-  - cf1.openxai.linkPfzCdXMr
-  - 45.159.50.143sbzRLy7m
-  - 114.55.132.202K41fd9UP
-  - bvtqw-1093-v2-1.d-kcd.tuil.xyzWD56ByMg
-  - 3.112.124.200oCKyDmkS
-  - 104.16.68.381QBGUiwM
-  - 104.16.61.8I6E5S2ns
-  - 104.21.238.2024NS5T3VF
-  - ns1.v2-vip.funGg0uDL4O
-  - hkt.123ddns.xyzUSHxj0b7
-  - 104.16.68.38HwrLszyl
-  - singapore.comQLGUkTrP
-  - 3.39.240.246JWs4Z9Yz
-  - 142.4.104.333TIl8Hqj
-  - 104.16.67.38YHeXWnBa
-  - 120.232.153.40uOFb2eij
-  - 120.210.205.82mlwYDgWi
-  - p3.v2raybrasil.cloud8JLktQ7H
-  - 47.92.152.169QTx8ypLf
-  - 172.64.167.44KLz47AyT
-  - 104.17.129.28jhKm9M0k
-  - 104.20.17.186zK65sq9t
-  - 58.63.250.61e9PL3mTy
-  - fhc.shabijichang.comZklLFM8x
-  - 172.67.32.83DbMT1Zcq
-  - 58.63.250.61cP3Gq1Mg
-  - 172.67.221.183oqjNYrD
-  - 54.199.66.30dE1ou97Q
-  - 67.21.90.59gu0mdk1
-  - 104.18.57.111W5cUueXl
-  - 183.236.48.163uhbjre1v
-  - 194.87.82.28HiJtN9SQ
-  - 3.39.240.246qEodzW40
-  - 183.236.51.23o1mdjv8c
-  - wnd.shabijichang.comu7IkCv3W
-  - 35.89.254.2228CtO3RQB
-  - 112.29.94.23wKk7cNmF
-  - 3.112.124.200UQNouABV
-  - 23.108.100.103Zabel9MY
-  - 194.87.82.28FwmtHUDP
-  - 151.101.2.133vuDxrGfS
-  - 23.108.100.101AK5e8rq6
-  - 162.159.152.6R7gQE0d9
-  - 162.159.140.66uMaWoBtU
-  - b22.ntbq.dynu.netmONykoWK
-  - 183.236.51.233NcGlK6y
-  - cfcdn1.sanfencdn9.comsic5gewh
-  - 146.19.168.161dLz4t9Df
-  - 183.238.202.173sB4Ekr1d
-  - 104.18.112.107YTNvhCiR
-  - 172.67.130.140ljXONnm0
-  - 104.21.31.183vrxYtZCB
-  - 104.16.219.230ujNa7UsT
-  - 47.104.186.133ldFj7RgZ
-  - ip.nofiltering2.sbsSROy7jIg
-  - 183.236.51.36QuWpJEFw
-  - 5.39.254.196a67VyeQO
-  - 104.19.45.90zckPuqWF
-  - 104.16.68.38fVnelGQ6
-  - 4.api-catssr.catcloud.hostvPeKBtHF
-  - b22.ntbq.dynu.netC3NTXOkF
-  - 112.132.215.12R5C7wdoJ
-  - 120.232.153.40C1QqpmtS
-  - 104.18.57.111xR1Z6DCG
-  - 58.63.250.61bXlfVMc6
-  - 172.64.175.213vg5VOzDG
-  - 104.16.60.8lvjfJDGd
-  - 183.236.51.36YjtIJwfC
-  - 36.141.40.92dQO8yKuq
-  - 4.api-catssr.catcloud.host0zKbHA8M
-  - 120.210.205.82YciDruev
-  - o1sl.qiyunlink.topmQDlLA5T
-  - hzhz2.sssyun.xyz7tZODm3F
-  - 58.63.250.61qSaup3kZ
-  - 188.114.99.05iZ9Hxlh
-  - o1sl.qiyunlink.topNj3LOTW0
-  - 52.169.50.64ZmJhswjH
-  - cf-lt.sharecentre.onlineIBm03l6Z
-  - nbq12.ntbq.dynu.netXgz1SwG3
-  - 92.118.149.115NqGyZhA2
-  - 172.67.87.197ahTEx1Wn
-  - 183.236.51.23gvDjY1ip
-  - 104.19.32.46ZksJVxB6
-  - 38.147.165.185P1VN6qDt
-  - 183.236.48.163Hfw0OaKh
-  - hzhz2.sssyun.xyzaepdAsQf
-  - cf.yx.alue.linknHXwgsz9
-  - 172.64.199.158lbXxoBQk
+  - 183.236.51.3602XSEalD
+  - 190.93.245.179rHwbk1al
+  - 54.199.66.30QbE0Vgrt
+  - 120.210.205.82DLUCKoVj
+  - 183.236.48.166xj9IAEdb
+  - russia.comBHVyTn1U
+  - 36.141.40.92AD4q7P0v
+  - 172.67.69.247a9XDIAK1
+  - 3.35.167.90iPXfg8kL
+  - 183.236.48.158FfncYmrv
+  - 188.114.96.3sSKkrteJ
+  - 183.236.51.23VZSyuO1c
+  - 183.236.48.166b8MTvIc4
+  - 45.159.50.143hDQgGuK7
+  - 120.232.153.40C7UW9fDH
+  - cfcdn1.sanfencdn9.comeKRP2IH8
+  - 183.236.48.163evzAEi2H
+  - 47.92.152.169gzmPxlrR
+  - 45.87.175.164IuvMSsyE
+  - cc2.shabijichang.comK1m4VdcP
+  - 3.39.240.246Tr0K4Uts
+  - b22.ntbq.dynu.netFCcDXtH0
+  - 172.67.71.160dOWaP4Im
+  - o1sl.qiyunlink.top94PkTb8p
+  - 35.89.254.222lCfaiPUz
+  - 58.63.250.61bu51zKRZ
+  - 67.21.90.5DnXvQUOd
+  - 120.210.205.82i278haoJ
+  - hkt.123ddns.xyzAzmvb1cR
+  - 104.16.61.8ldirsPD9
+  - 172.67.175.56Vfj2uRFG
+  - 172.64.175.213ZvSPpXqV
+  - fd.shabijichang.comH5cpCVYA
+  - 142.4.104.332EI4TgPF
+  - 104.21.238.201k8KVHqpT
+  - 198.2.202.84k23xmDcs
+  - 183.236.51.23VmXRP8ne
+  - 172.64.166.22yIzmRpqv
+  - p3.v2raybrasil.cloud50NMVpfH
+  - 172.67.161.181cYRBiU1g
+  - 3.112.124.200KqlPdXMC
+  - 3.112.124.200Tis1Q9bX
+  - pzl.p237875155.buzzRKmZxfli
+  - az05.beyondy.cfdTiR7q5g0
+  - 104.19.57.4TzSGaret
+  - 42.236.73.72Jl0GQqF6
+  - bvtqw-1093-v2-1.d-kcd.tuil.xyzlSw8fLND
+  - 23.108.100.101ongX6wz5
+  - 183.240.235.162JTOxPsrU
+  - 4.api-catssr.catcloud.hostowDIz0xn
+  - 54.199.66.30DIxcv0qi
+  - 183.240.232.82e8OTGwEy
+  - speed.cloudflare.comJGthrEC3
+  - sgp.cdn-sgp.xyznWkSYt1X
+  - 183.236.48.158RFflpMIx
+  - 104.21.238.200neiQCDY5
+  - 120.237.79.157YlpeAFh7
+  - cf1.openxai.linkKnzEoXlk
+  - cfcdn2.sanfencdn9.combLVgI5fe
+  - 104.16.68.38vhFXLl1y
+  - ns1.v2-vip.funqX2DrRYT
+  - 188.114.96.2zT9R15NQ
+  - b22.ntbq.dynu.netR4u7m5GA
+  - 35.89.254.222iJpDwys1
+  - 183.240.235.162QmOKLy5a
+  - 183.233.187.2144HRn3AvX
+  - nbq12.ntbq.dynu.netqaph8xKb
+  - ml2.shabijichang.comO67TDYNp
+  - 104.16.67.38KTf6GyJq
+  - shouer1.209966.xyzgqWAz4ni
+  - 104.19.59.894Wg0dslv
+  - 104.21.238.202dBcvU94t
+  - 120.232.153.279oSMNefT
+  - 185.146.173.59yOptmE2I
+  - 104.18.112.107bUO4yNVX
+  - 58.63.250.619U5m3VgB
+  - 141.101.122.109Ko7F2UZ0
+  - 104.19.45.17b3XRS7EZ
+  - 45.199.138.222hWGduc3n
+  - 194.87.82.28jztIKL0a
+  - 114.55.132.202iEZoDFwU
+  - 183.236.48.161UoIzarj8
+  - 104.18.37.248ONz74rBF
+  - 104.19.32.46TUsSjeaq
+  - 112.132.215.12N9Gor5gl
+  - 45.159.50.143wFLJEs4q
+  - 38.147.165.185kw8HtYlb
+  - 120.232.153.27LPwMgxDe
+  - 58.63.250.61E1nTzLa4
+  - 104.21.31.183NRbdZXks
+  - Singapore.MFA.EE35boxFQr
+  - 104.18.57.111y8gCZ3Bb
+  - 172.67.81.238c8nsZtkw
+  - 162.159.140.66sMCKmBeS
+  - 5.39.254.196yVjMSJeK
+  - 183.238.202.173ShJ8RWjY
+  - 52.169.50.64qhlczmsD
+  - 162.159.152.6EdpA6tYj
+  - 172.64.167.15moUKwJys
+  - 45.87.175.164HvoI1mpB
+  - yd1.992688.xyzbYSuFL0y
+  - 38.147.165.185FLrOxBmb
+  - 172.67.32.83pq8aylRi
+  - 183.240.232.82ovA8KuJV
+  - cf2.openxai.linkhHJFpn95
+  - 112.29.94.23KuxhMGpX
+  - 47.92.152.169fmv0w9kR
+  - 43.202.57.197zw8nbfuD
+  - 183.236.51.23wChMDvoA
+  - 183.236.51.36jbXIO8Qq
+  - 112.132.215.127y3P4aCB
+  - 3.39.240.246ZW0Cs7iE
+  - 172.67.229.19bH4PtSDT
+  - 104.21.238.203rPGaIgFn
+  - o1sl.qiyunlink.top6yKPiSRQ
+  - 172.64.194.76WqdcwA9I
+  - 92.118.149.115DoeBLni3
+  - 43.202.57.197QqOvtpJh
+  - 188.114.99.0o6zqsHTi
+  - 23.108.100.103acG6eXvQ
+  - cf-lt.sharecentre.onlineMBDW94bF
+  - 104.16.117.47VtmCpl0i
+  - 183.236.48.163Plt2VwBb
+  - 47.116.173.76hBrRIZ2C
+  - 104.19.47.16f06KvzcL
+  - zzfyo-1094-v2-0.d-cmi.iote.bond40EX821n
+  - 120.232.153.71wS2gCNtE
+  - cf.yx.alue.linknapvMfmQ
+  - shop.appeL6BDcok
+  - hzhz2.sssyun.xyzeBqtpLx8
+  - 198.2.202.84PEjJ9bTp
+  - 114.55.132.202s4EanfxS
+  - 104.25.127.240TghHl9BS
+  - zzfyo-1094-v2-0.d-cmi.iote.bondxRXbVNIs
+  - 941.outline-vpn.cloud4C9tskKP
+  - 183.236.51.23NiDOplqy
+  - 172.64.199.158Ai92cQMJ
+  - 104.31.16.120nuomElWX
+  - b24.ntbq.dynu.netBzXra7gG
+  - 4.api-catssr.catcloud.hostasVY8LG4
+  - 120.232.240.56PeLDtX6u
+  - 104.21.36.26fmacVvGP
+  - 104.31.16.120ram8FHkh
+  - 45.87.175.1787kzf8JcG
+  - 151.101.2.133GSu8b7YB
+  - fhc.shabijichang.comPN3nZRL7
+  - 172.67.130.140h5yVrGeR
+  - ip.nofiltering2.sbsUnNDH64Q
+  - 183.236.51.23VTNCh5te
+  - obdii.cfdTlpD1Hgu
+  - 104.16.68.385BwrKCsy
+  - 104.16.68.38N8AaxkeS
+  - api.jquery.com5YI1SCcx
+  - 47.104.186.133VUqP49Wl
+  - hzhz2.sssyun.xyzYWXZ8s09
+  - 183.236.48.163ud6OUMfZ
+  - 112.132.212.19z24pNJ8O
+  - 104.19.45.90i5HPUFnQ
+  - 172.67.68.1361ICiL86q
+  - 172.67.128.2175vxmIekA
+  - 162.159.134.234MlZsKy5U
+  - 112.29.94.22ZvRb45Hr
+  - 47.104.186.133vHlpbGhc
+  - 47.116.173.762Uou68aN
+  - 120.232.153.40VEcGZUy1
+  - wnd.shabijichang.com2nQ3PLU8
+  - 36.141.40.92FQlpT5eH
+  - 104.19.47.65EJIAxmrP
+  - 104.16.60.8GaoVzuxr
+  - tc11.kq1.dynu.net6xyvsFSU
+  - 104.16.219.230tbM8CyQr
+  - 36.141.40.92lCyuAmRW
+  - freeyx.cloudflare88.eu.org5lqSJFPs
+  - b22.ntbq.dynu.netxH4yOsre
+  - 172.64.167.44nflI6Dtu
+  - 172.64.166.33k9lC7qEF
+  - 172.67.221.18Je0SXogq
+  - 58.63.250.61gucOifo0
+  - 112.132.212.19szHQkX0I
+  - 104.17.129.28YnSpEyXT
+  - 188.114.97.2tW7T34lE
+  - 3.35.167.90gTzpXCYd
+  - 104.18.57.111CojLWNPg
+  - 36.141.40.92zPL0N5E6
+  - 104.20.17.186Y0DPpxgZ
+  - octavi.cfd2Ktml1pT
+  - 172.67.87.197TfOoKiC5
+  - 146.19.168.161hiecJAzd
+  - 127.0.0.19Vov8LpF
+  - 142.4.104.33qeOQdMED
+  - 45.149.12.84zNKmF70c
+  - singapore.comGfHQc2vt
+  - 104.16.60.8tSXw10Jb
 - name: 🌍 国外媒体
   type: select
   proxies:
