@@ -238,6 +238,17 @@ def load_subscribe_url(url):
         log('load_subscribe_url: '+url+': '+e.__str__())
         return []
 
+def load_subscribe_url_txt(url):
+    if not url: return []
+    log('begin load_subscribe_url: '+url)
+    try:
+        v2rayTxt = requests.request("GET", url, verify=False)
+        sub=v2rayTxt.splitlines()
+        log(f'{url} import {len(sub)} servers')
+        return sub
+    except Exception as e:
+        log('load_subscribe_url: '+url+': '+e.__str__())
+        return []
 
 def load_subscribe(file):
     with open(file, 'rb') as f:
@@ -344,15 +355,15 @@ if __name__ == '__main__':
 
     proxies.extend(load_subscribe_url('https://sub.xeton.dev/sub?target=v2ray&url=https://9527521.xyz/config/r619xXVEup802SRh&insert=false'))
     # proxies.extend(load_subscribe_url('https://xn--wbs186a7vao45a8qd.v50.one/api/v1/client/subscribe?token=9249ef731acd8c150e656f6e4b77700f'))
-    proxies.extend(load_subscribe_url('https://raw.fastgit.org/Pawdroid/Free-servers/main/sub'))
+    # proxies.extend(load_subscribe_url('https://raw.fastgit.org/Pawdroid/Free-servers/main/sub'))
     # proxies.extend(load_subscribe_url('https://web.anqi.ml/api/v1/client/subscribe?token=21e483aa1e50e796f543b9d63b4a27d1'))
     
     proxies.extend(load_subscribe_url('https://raw.githubusercontent.com/ssrsub/ssr/master/V2Ray'))
     # proxies.extend(load_subscribe_url('https://sub.marsix.cc/api/v1/client/subscribe?token=f6f817ddb0c62fdbaff1c90c9a074c45'))
     # proxies.extend(load_subscribe_url('https://getinfo.bigwatermelon.org/api/v1/client/subscribe?token=8fe4290ba47b6fe0e207ead380a2396a'))
 
-    proxies.extend(load_subscribe_url('https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt'))
-    proxies.extend(load_subscribe_url('https://bulinkbulink.com/freefq/free/master/v2'))
+    proxies.extend(load_subscribe_url_txt('https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt'))
+    # proxies.extend(load_subscribe_url('https://bulinkbulink.com/freefq/free/master/v2'))
     proxies.extend(load_subscribe_url('https://sub.xeton.dev/sub?target=v2ray&url=https://9527521.xyz/config/GkUDhPycfnu0TXSC&insert=false'))
     
     now=datetime.date.today()
