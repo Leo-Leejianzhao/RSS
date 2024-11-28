@@ -243,7 +243,7 @@ def load_subscribe_url_txt(url):
     log('begin load_subscribe_url: '+url)
     try:
         v2rayTxt = requests.request("GET", url, verify=False)
-        sub=v2rayTxt.splitlines()
+        sub=v2rayTxt.text.splitlines()
         log(f'{url} import {len(sub)} servers')
         return sub
     except Exception as e:
