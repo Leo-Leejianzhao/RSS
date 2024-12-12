@@ -378,6 +378,8 @@ if __name__ == '__main__':
     # proxies.extend(manual_input())
 
     proxies.extend(load_subscribe_url('https://f9f9149e.edgetunnel-3r2.pages.dev/7a28bab5-0095-4087-96a5-21836b0f9f92?b64'))
+    proxies.extend(load_subscribe_url('https://edgetunnel-3r2.pages.dev/7a28bab5-0095-4087-96a5-21836b0f9f92?sub=zrf.zrf.me'))
+    
 
     proxies=list(set(proxies))
     gen_v2ray_subscribe(proxies)
