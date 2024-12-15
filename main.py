@@ -353,18 +353,18 @@ if __name__ == '__main__':
     # proxies.extend(load_subscribe_url('https://raw.githubusercontent.com/freefq/free/master/v2'))
 
 
-    proxies.extend(load_subscribe_url('https://sub.xeton.dev/sub?target=v2ray&url=https://9527521.xyz/config/r619xXVEup802SRh&insert=false'))
+    # proxies.extend(load_subscribe_url('https://sub.xeton.dev/sub?target=v2ray&url=https://9527521.xyz/config/r619xXVEup802SRh&insert=false'))
     # proxies.extend(load_subscribe_url('https://xn--wbs186a7vao45a8qd.v50.one/api/v1/client/subscribe?token=9249ef731acd8c150e656f6e4b77700f'))
     # proxies.extend(load_subscribe_url('https://raw.fastgit.org/Pawdroid/Free-servers/main/sub'))
     # proxies.extend(load_subscribe_url('https://web.anqi.ml/api/v1/client/subscribe?token=21e483aa1e50e796f543b9d63b4a27d1'))
     
-    proxies.extend(load_subscribe_url('https://raw.githubusercontent.com/ssrsub/ssr/master/V2Ray'))
+    # proxies.extend(load_subscribe_url('https://raw.githubusercontent.com/ssrsub/ssr/master/V2Ray'))
     # proxies.extend(load_subscribe_url('https://sub.marsix.cc/api/v1/client/subscribe?token=f6f817ddb0c62fdbaff1c90c9a074c45'))
     # proxies.extend(load_subscribe_url('https://getinfo.bigwatermelon.org/api/v1/client/subscribe?token=8fe4290ba47b6fe0e207ead380a2396a'))
 
     proxies.extend(load_subscribe_url_txt('https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt'))
     # proxies.extend(load_subscribe_url('https://bulinkbulink.com/freefq/free/master/v2'))
-    proxies.extend(load_subscribe_url('https://sub.xeton.dev/sub?target=v2ray&url=https://9527521.xyz/config/GkUDhPycfnu0TXSC&insert=false'))
+    # proxies.extend(load_subscribe_url('https://sub.xeton.dev/sub?target=v2ray&url=https://9527521.xyz/config/GkUDhPycfnu0TXSC&insert=false'))
     
     now=datetime.date.today()
     proxies.extend(load_subscribe_url(f"https://v2rayshare.com/wp-content/uploads/{now.year:04}/{now.month:02}/{now.year:04}{now.month:02}{now.day:02}.txt"))
@@ -372,13 +372,18 @@ if __name__ == '__main__':
     now+=datetime.timedelta(days=-1)
     proxies.extend(load_subscribe_url(f"https://v2rayshare.com/wp-content/uploads/{now.year:04}/{now.month:02}/{now.year:04}{now.month:02}{now.day:02}.txt"))
     proxies.extend(load_subscribe_url(f"https://clashgithub.com/wp-content/uploads/rss/{now.year:04}{now.month:02}{now.day:02}.txt"))
-    proxies.extend(getClashSubscribeUrl("https://raw.githubusercontent.com/freenodes/freenodes/main/clash.yaml"))
+    # proxies.extend(getClashSubscribeUrl("https://raw.githubusercontent.com/freenodes/freenodes/main/clash.yaml"))
     # localtime = time.localtime(time.time())
     # proxies.extend(load_subscribe_url(f"https://v2rayshare.com/wp-content/uploads/{localtime.tm_year:04}/{localtime.tm_mon:02}/{localtime.tm_year:04}{localtime.tm_mon:02}{localtime.tm_mday:02}.txt"))
     # proxies.extend(manual_input())
 
     proxies.extend(load_subscribe_url('https://f9f9149e.edgetunnel-3r2.pages.dev/7a28bab5-0095-4087-96a5-21836b0f9f92?b64'))
     proxies.extend(load_subscribe_url('https://edgetunnel-3r2.pages.dev/7a28bab5-0095-4087-96a5-21836b0f9f92?sub=zrf.zrf.me'))
+    proxies.extend(load_subscribe_url('https://edgetunnel-3r2.pages.dev/7a28bab5-0095-4087-96a5-21836b0f9f92?sub=Trojan.fxxk.dedyn.io'))
+    proxies.extend(load_subscribe_url('https://edgetunnel-3r2.pages.dev/7a28bab5-0095-4087-96a5-21836b0f9f92?sub=altrojan.comorg.us.kg'))
+    proxies.extend(load_subscribe_url('https://edgetunnel-3r2.pages.dev/7a28bab5-0095-4087-96a5-21836b0f9f92?sub=alvless.comorg.us.kg'))
+    proxies.extend(load_subscribe_url('https://f9f9149e.edgetunnel-3r2.pages.dev/7a28bab5-0095-4087-96a5-21836b0f9f92?sub=VLESS.fxxk.dedyn.io'))
+    
     
 
     proxies=list(set(proxies))
