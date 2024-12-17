@@ -377,12 +377,12 @@ if __name__ == '__main__':
     # proxies.extend(load_subscribe_url(f"https://v2rayshare.com/wp-content/uploads/{localtime.tm_year:04}/{localtime.tm_mon:02}/{localtime.tm_year:04}{localtime.tm_mon:02}{localtime.tm_mday:02}.txt"))
     # proxies.extend(manual_input())
 
-    proxies.extend(load_subscribe_url('https://f9f9149e.edgetunnel-3r2.pages.dev/7a28bab5-0095-4087-96a5-21836b0f9f92?b64'))
-    proxies.extend(load_subscribe_url('https://edgetunnel-3r2.pages.dev/7a28bab5-0095-4087-96a5-21836b0f9f92?sub=zrf.zrf.me'))
-    proxies.extend(load_subscribe_url('https://edgetunnel-3r2.pages.dev/7a28bab5-0095-4087-96a5-21836b0f9f92?sub=Trojan.fxxk.dedyn.io'))
-    proxies.extend(load_subscribe_url('https://edgetunnel-3r2.pages.dev/7a28bab5-0095-4087-96a5-21836b0f9f92?sub=altrojan.comorg.us.kg'))
-    proxies.extend(load_subscribe_url('https://edgetunnel-3r2.pages.dev/7a28bab5-0095-4087-96a5-21836b0f9f92?sub=alvless.comorg.us.kg'))
-    proxies.extend(load_subscribe_url('https://f9f9149e.edgetunnel-3r2.pages.dev/7a28bab5-0095-4087-96a5-21836b0f9f92?sub=VLESS.fxxk.dedyn.io'))
+    proxies.extend(load_subscribe_url('https://dercylee.us.kg/271828?b64'))
+    proxies.extend(load_subscribe_url('https://dercylee.us.kg/271828?sub=zrf.zrf.me'))
+    proxies.extend(load_subscribe_url('https://dercylee.us.kg/271828?sub=Trojan.fxxk.dedyn.io'))
+    proxies.extend(load_subscribe_url('https://dercylee.us.kg/271828?sub=altrojan.comorg.us.kg'))
+    proxies.extend(load_subscribe_url('https://dercylee.us.kg/271828?sub=alvless.comorg.us.kg'))
+    proxies.extend(load_subscribe_url('https://dercylee.us.kg/271828?sub=VLESS.fxxk.dedyn.io'))
     
     
 
