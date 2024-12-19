@@ -383,6 +383,7 @@ if __name__ == '__main__':
     proxies.extend(load_subscribe_url('https://dercylee.us.kg/271828?sub=altrojan.comorg.us.kg'))
     proxies.extend(load_subscribe_url('https://dercylee.us.kg/271828?sub=alvless.comorg.us.kg'))
     proxies.extend(load_subscribe_url('https://dercylee.us.kg/271828?sub=VLESS.fxxk.dedyn.io'))
+    proxies.extend(load_subscribe_url('https://oxo.o00o.ooo/ooo'))
     
     
 
