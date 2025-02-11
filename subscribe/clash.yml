@@ -5,285 +5,14 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-- name: 89.221.224.166L5C6XEPm
+- name: 54.200.164.45LhPsq7mf
   type: ss
-  server: 89.221.224.166
-  port: 8388
-  password: NjBlZDlk
-  alterId: 2
-  cipher: chacha20-ietf-poly1305
-- name: 217.30.10.18Hn1BXupW
-  type: ss
-  server: 217.30.10.18
-  port: 9040
-  password: p9z5BVADH2YFs3MN
+  server: 54.200.164.45
+  port: 443
+  password: amazonskr05
   alterId: 2
   cipher: aes-256-cfb
-- name: 104.17.137.127HArLZkyf
-  type: vmess
-  server: 104.17.137.127
-  port: '443'
-  uuid: 506b46ce-568f-47a7-f0dd-0864fb7f8040
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /aa
-  ws-headers:
-    Host: sg.niskakowski.ggff.net
-  tls: true
-- name: 38.68.135.239ekBYS6KU
-  type: ss
-  server: 38.68.135.239
-  port: 2375
-  password: faBAoD54k87UJG7
-  alterId: 2
-  cipher: aes-256-gcm
-- name: 185.47.252.251dRq8YZr6
-  type: ss
-  server: 185.47.252.251
-  port: 989
-  password: f8f7aCzcPKbsF8p3
-  alterId: 2
-  cipher: aes-256-cfb
-- name: 193.29.139.189DLukYCvd
-  type: ss
-  server: 193.29.139.189
-  port: 8080
-  password: cvII85TrW6n0OGyfpHVS1u
-  alterId: 2
-  cipher: chacha20-ietf-poly1305
-- name: 52.169.50.64KXcwxhPQ
-  type: ss
-  server: 52.169.50.64
-  port: 16141
-  password: jjxXMDnfbChUWPL1QM02fM
-  alterId: 2
-  cipher: chacha20-ietf-poly1305
-- name: 103.104.247.47vteYk3Ur
-  type: ss
-  server: 103.104.247.47
-  port: '8080'
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  alterId: 2
-  cipher: chacha20-ietf-poly1305
-- name: 104.17.137.127Mdrh9tX6
-  type: vmess
-  server: 104.17.137.127
-  port: '443'
-  uuid: de94cc0a-0592-4969-b1fc-97ea8f0ea0b3
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /aa
-  ws-headers:
-    Host: us.niskakowski.ggff.net
-  tls: true
-- name: 104.17.137.127RbhNn6sw
-  type: vmess
-  server: 104.17.137.127
-  port: '443'
-  uuid: cae97b1c-35e8-4cf2-dc1b-52032c3d3fa7
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /aa
-  ws-headers:
-    Host: jp.niskakowski.ggff.net
-  tls: true
-- name: 217.30.10.18yjTCI3Pe
-  type: ss
-  server: 217.30.10.18
-  port: 9006
-  password: FAdUvMJUq5vDgKEq
-  alterId: 2
-  cipher: aes-256-cfb
-- name: join.ISVvpn.fastly80-3.hosting-ip.comJoEyFD7I
-  type: vmess
-  server: join.ISVvpn.fastly80-3.hosting-ip.com
-  port: 80
-  uuid: ca387597-d79e-48c2-89a7-e2dc66a88a70
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /racevpn
-  ws-headers:
-    Host: telegram-isvvpn.ir
-  tls: false
-- name: 151.101.194.133YdjNKw7Q
-  type: vmess
-  server: 151.101.194.133
-  port: '80'
-  uuid: ca387597-d79e-48c2-89a7-e2dc66a88a70
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /racevpn?telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn
-  ws-headers:
-    Host: telegram-isvvpn.ir
-  tls: false
-- name: 217.30.10.18rFvEbHdu
-  type: ss
-  server: 217.30.10.18
-  port: 9059
-  password: 9XwYyZsK8SNzQDtY
-  alterId: 2
-  cipher: aes-256-cfb
-- name: web.51.lavBbMAHxw
-  type: vmess
-  server: web.51.la
-  port: '443'
-  uuid: 88888888-8888-8888-8888-888888888888
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: true
-- name: 104.17.137.1278qKEAYHj
-  type: vmess
-  server: 104.17.137.127
-  port: '443'
-  uuid: 56529ad8-61d2-4bfa-aa0b-a800719cb5fe
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /aa
-  ws-headers:
-    Host: tw.niskakowski.ggff.net
-  tls: true
-- name: 104.19.47.16Dlo0hKZn
-  type: vmess
-  server: 104.19.47.16
-  port: 8080
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  alterId: 0
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: 217.30.10.18ZMlgJ7YL
-  type: ss
-  server: 217.30.10.18
-  port: 9001
-  password: UkXRsXvR6buDMG2Y
-  alterId: 2
-  cipher: aes-256-cfb
-- name: 104.19.57.41rkH8eGf
-  type: vmess
-  server: 104.19.57.4
-  port: 2086
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  alterId: 0
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: 151.101.0.155AnLxw3Hd
-  type: vmess
-  server: 151.101.0.155
-  port: '80'
-  uuid: ca387597-d79e-48c2-89a7-e2dc66a88a70
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /racevpn
-  ws-headers:
-    Host: telegram-isvvpn.ir
-  tls: false
-- name: 217.30.10.185VeANXF7
-  type: ss
-  server: 217.30.10.18
-  port: 9094
-  password: rpgbNnU9rDDU4aWZ
-  alterId: 2
-  cipher: aes-256-cfb
-- name: 176.103.53.1053GlN6Axt
-  type: ss
-  server: 176.103.53.105
-  port: 989
-  password: f8f7aCzcPKbsF8p3
-  alterId: 2
-  cipher: aes-256-cfb
-- name: 183.240.235.162Hnfje2Vb
-  type: vmess
-  server: 183.240.235.162
-  port: 54002
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: 185.231.233.112Jn8jY5el
-  type: ss
-  server: 185.231.233.112
-  port: 989
-  password: f8f7aCzcPKbsF8p3
-  alterId: 2
-  cipher: aes-256-cfb
-- name: russia.comtR56PZKy
-  type: vmess
-  server: russia.com
-  port: 8080
-  uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
-  alterId: 0
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: 120.232.240.56Y0FaJwte
-  type: vmess
-  server: 120.232.240.56
-  port: 16928
-  uuid: 5f6b3c3f-b0a8-33f5-95c6-371f8c6af973
-  alterId: 0
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: cfcdn1.sanfencdn9.comAk07bONe
-  type: vmess
-  server: cfcdn1.sanfencdn9.com
-  port: 2082
-  uuid: cd0eb936-9e1e-4730-989e-be43e7fcaf3e
-  alterId: 0
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: 172.67.130.1405DM8sHSK
-  type: vmess
-  server: 172.67.130.140
-  port: 2082
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
-  alterId: 0
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: 104.17.137.127uP0MvneW
+- name: 104.17.137.1276duT2lPn
   type: vmess
   server: 104.17.137.127
   port: '443'
@@ -296,18 +25,18 @@ proxies:
   ws-headers:
     Host: hk.niskakowski.ggff.net
   tls: true
-- name: 38.68.135.239YxmaZi7A
+- name: 23.157.40.115MqwDNOVu
   type: ss
-  server: 38.68.135.239
-  port: 7307
-  password: FoOiGlkAA9yPEGP
+  server: 23.157.40.115
+  port: '443'
+  password: pKEW8JPByTVTLtM
   alterId: 2
   cipher: aes-256-gcm
-- name: 104.18.37.248v17GBflU
+- name: 104.18.57.1116JGNr0Q7
   type: vmess
-  server: 104.18.37.248
-  port: 2052
-  uuid: 60bcbd52-0c88-4da3-aee2-cc1f9d5ca224
+  server: 104.18.57.111
+  port: 2086
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   alterId: 0
   cipher: auto
   network: ws
@@ -315,14 +44,91 @@ proxies:
   ws-path: null
   ws-headers: null
   tls: false
-- name: 127.0.0.1vgKtsGbS
+- name: web.51.la9VcZ8fot
+  type: vmess
+  server: web.51.la
+  port: '443'
+  uuid: c6e84072-2e69-4928-90af-436b3fcd0663
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: true
+- name: 23.157.40.115jLcBma9y
   type: ss
-  server: 127.0.0.1
-  port: 443
-  password: 6601fb90e9b3
+  server: 23.157.40.115
+  port: '8009'
+  password: XKFKl2rULjIp74
   alterId: 2
-  cipher: aes-128-gcm
-- name: p3.v2raybrasil.cloudvdVx93Yt
+  cipher: aes-256-gcm
+- name: 217.30.10.18NTRXUZOx
+  type: ss
+  server: 217.30.10.18
+  port: 9088
+  password: f8npKgNzdkss2ytn
+  alterId: 2
+  cipher: aes-256-cfb
+- name: 104.17.137.127HxAomswK
+  type: vmess
+  server: 104.17.137.127
+  port: '443'
+  uuid: 56529ad8-61d2-4bfa-aa0b-a800719cb5fe
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /aa
+  ws-headers:
+    Host: tw.niskakowski.ggff.net
+  tls: true
+- name: 104.19.47.659wSa1K5A
+  type: vmess
+  server: 104.19.47.65
+  port: 2086
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: 23.157.40.1151Sj9W7KP
+  type: ss
+  server: 23.157.40.115
+  port: '5001'
+  password: Y6R9pAtvxxzmGC
+  alterId: 2
+  cipher: aes-256-gcm
+- name: 183.240.235.162gBzIAEMb
+  type: vmess
+  server: 183.240.235.162
+  port: 54882
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: 217.30.10.18qoay8vfu
+  type: ss
+  server: 217.30.10.18
+  port: '9033'
+  password: UTJA57ypk2XKQpnm
+  alterId: 2
+  cipher: aes-256-cfb
+- name: free-kr.faforex.eu.orgQeSgpyaO
+  type: ss
+  server: free-kr.faforex.eu.org
+  port: 65531
+  password: d27a4b97-dcaa-464c-a448-b30ce7091f2d
+  alterId: 2
+  cipher: chacha20-ietf-poly1305
+- name: p3.v2raybrasil.cloudWXKNTCZt
   type: vmess
   server: p3.v2raybrasil.cloud
   port: 2052
@@ -334,7 +140,127 @@ proxies:
   ws-path: null
   ws-headers: null
   tls: false
-- name: 104.17.137.127BFgyXsor
+- name: 192.71.249.146V2oE9py6
+  type: ss
+  server: 192.71.249.146
+  port: 990
+  password: f8f7aCzcPKbsF8p3
+  alterId: 2
+  cipher: chacha20-ietf-poly1305
+- name: 104.17.137.127IDNr0zn7
+  type: vmess
+  server: 104.17.137.127
+  port: '443'
+  uuid: 506b46ce-568f-47a7-f0dd-0864fb7f8040
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /aa
+  ws-headers:
+    Host: sg.niskakowski.ggff.net
+  tls: true
+- name: 38.86.135.223ZvdItNfw
+  type: ss
+  server: 38.86.135.223
+  port: '9102'
+  password: e4FCWrgpkji3QY
+  alterId: 2
+  cipher: aes-256-gcm
+- name: 54.190.43.1781Z7Cm3PI
+  type: ss
+  server: 54.190.43.178
+  port: 443
+  password: amazonskr05
+  alterId: 2
+  cipher: aes-256-cfb
+- name: 172.64.175.213SmZ7qblU
+  type: vmess
+  server: 172.64.175.213
+  port: 2086
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: 104.19.47.16sFc89gvS
+  type: vmess
+  server: 104.19.47.16
+  port: 8080
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: 23.157.40.115sNJfdTK7
+  type: ss
+  server: 23.157.40.115
+  port: '5498'
+  password: lGqs95QkFHo2NV
+  alterId: 2
+  cipher: aes-256-gcm
+- name: 183.240.235.162FJEfbZgX
+  type: vmess
+  server: 183.240.235.162
+  port: 54002
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: cfcdn1.sanfencdn9.com0MR6sBrI
+  type: vmess
+  server: cfcdn1.sanfencdn9.com
+  port: 2082
+  uuid: cd0eb936-9e1e-4730-989e-be43e7fcaf3e
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: 45.158.171.136HDoqumtK
+  type: ss
+  server: 45.158.171.136
+  port: '8080'
+  password: cvII85TrW6n0OGyfpHVS1u
+  alterId: 2
+  cipher: chacha20-ietf-poly1305
+- name: 120.232.240.56MquknFst
+  type: vmess
+  server: 120.232.240.56
+  port: 16928
+  uuid: 5f6b3c3f-b0a8-33f5-95c6-371f8c6af973
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: 104.18.37.248EyUzxIPr
+  type: vmess
+  server: 104.18.37.248
+  port: 2052
+  uuid: 60bcbd52-0c88-4da3-aee2-cc1f9d5ca224
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: 104.17.137.127Tc0dGjnA
   type: vmess
   server: 104.17.137.127
   port: '443'
@@ -347,16 +273,92 @@ proxies:
   ws-headers:
     Host: uk.niskakowski.ggff.net
   tls: true
-- name: 38.68.135.239aowB64eh
+- name: web.51.la1VYEtmF9
+  type: vmess
+  server: web.51.la
+  port: '443'
+  uuid: 88888888-8888-8888-8888-888888888888
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: true
+- name: russia.comYxE9RWXP
+  type: vmess
+  server: russia.com
+  port: 8080
+  uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: 193.29.139.189H20XonSi
   type: ss
-  server: 38.68.135.239
-  port: 3306
+  server: 193.29.139.189
+  port: 8080
+  password: cvII85TrW6n0OGyfpHVS1u
+  alterId: 2
+  cipher: chacha20-ietf-poly1305
+- name: 172.67.130.140EZOtGyVb
+  type: vmess
+  server: 172.67.130.140
+  port: 2082
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: 23.157.40.115BzfkvWr1
+  type: ss
+  server: 23.157.40.115
+  port: '3306'
   password: Y6R9pAtvxxzmGC
   alterId: 2
   cipher: aes-256-gcm
-- name: 104.18.57.111fvKSl6nP
+- name: 104.17.137.127nu5iwQo0
   type: vmess
-  server: 104.18.57.111
+  server: 104.17.137.127
+  port: '443'
+  uuid: cae97b1c-35e8-4cf2-dc1b-52032c3d3fa7
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /aa
+  ws-headers:
+    Host: jp.niskakowski.ggff.net
+  tls: true
+- name: 23.157.40.115lq3NWQMP
+  type: ss
+  server: 23.157.40.115
+  port: '9090'
+  password: Y6R9pAtvxxzmGC
+  alterId: 2
+  cipher: aes-256-gcm
+- name: 104.17.137.127L3CmYk14
+  type: vmess
+  server: 104.17.137.127
+  port: '443'
+  uuid: de94cc0a-0592-4969-b1fc-97ea8f0ea0b3
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /aa
+  ws-headers:
+    Host: us.niskakowski.ggff.net
+  tls: true
+- name: 104.19.57.4rg3TMnbc
+  type: vmess
+  server: 104.19.57.4
   port: 2086
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   alterId: 0
@@ -366,14 +368,55 @@ proxies:
   ws-path: null
   ws-headers: null
   tls: false
-- name: 34.221.167.203xc4sKaLj
+- name: 185.123.101.241o8jyTmnv
   type: ss
-  server: 34.221.167.203
-  port: 443
-  password: amazonskr05
+  server: 185.123.101.241
+  port: '990'
+  password: f8f7aCzcPKbsF8p3
+  alterId: 2
+  cipher: chacha20-ietf-poly1305
+- name: plex.comQnRG5FyY
+  type: vmess
+  server: plex.com
+  port: '80'
+  uuid: ca387597-d79e-48c2-89a7-e2dc66a88a70
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /racevpn?telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn
+  ws-headers:
+    Host: telegram-isvvpn.ir
+  tls: false
+- name: 38.68.135.239LeQi5Ut3
+  type: ss
+  server: 38.68.135.239
+  port: 7307
+  password: FoOiGlkAA9yPEGP
+  alterId: 2
+  cipher: aes-256-gcm
+- name: 52.169.50.64ElL6Pudf
+  type: ss
+  server: 52.169.50.64
+  port: 16141
+  password: jjxXMDnfbChUWPL1QM02fM
+  alterId: 2
+  cipher: chacha20-ietf-poly1305
+- name: 185.47.252.251KophsRBx
+  type: ss
+  server: 185.47.252.251
+  port: 989
+  password: f8f7aCzcPKbsF8p3
   alterId: 2
   cipher: aes-256-cfb
-- name: web.51.laIqJrCgj7
+- name: 23.157.40.115yiBsjbrl
+  type: ss
+  server: 23.157.40.115
+  port: '2375'
+  password: faBAoD54k87UJG7
+  alterId: 2
+  cipher: aes-256-gcm
+- name: web.51.lak6LjN5sp
   type: vmess
   server: web.51.la
   port: '443'
@@ -385,46 +428,27 @@ proxies:
   ws-path: null
   ws-headers: null
   tls: true
-- name: 151.101.130.133hZtojdKG
+- name: 155.138.208.122QASPZMsc
   type: vmess
-  server: 151.101.130.133
-  port: '80'
-  uuid: ca387597-d79e-48c2-89a7-e2dc66a88a70
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /racevpn?telegram-
-  ws-headers:
-    Host: telegram-isvvpn.ir
-  tls: false
-- name: 104.19.47.65Bz2TXSHe
-  type: vmess
-  server: 104.19.47.65
-  port: 2086
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  server: 155.138.208.122
+  port: 8881
+  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
   alterId: 0
   cipher: auto
-  network: ws
+  network: http
   ucp: true
-  ws-path: null
-  ws-headers: null
+  ws-path: ''
+  ws-headers:
+    Host: ''
   tls: false
-- name: 37.143.129.23045Y96fmh
+- name: 127.0.0.1as3HoMc6
   type: ss
-  server: 37.143.129.230
-  port: '989'
-  password: f8f7aCzcPKbsF8p3
-  alterId: 2
-  cipher: aes-256-cfb
-- name: 54.190.43.178la9IbB2W
-  type: ss
-  server: 54.190.43.178
+  server: 127.0.0.1
   port: 443
-  password: amazonskr05
+  password: 6601fb90e9b3
   alterId: 2
-  cipher: aes-256-cfb
-- name: 104.19.32.46vcAEX4Wg
+  cipher: aes-128-gcm
+- name: 104.19.32.460ztTw1NI
   type: vmess
   server: 104.19.32.46
   port: 2086
@@ -436,145 +460,142 @@ proxies:
   ws-path: null
   ws-headers: null
   tls: false
-- name: 172.64.175.213H7xdeUWp
+- name: 151.101.0.155u76iBYCM
   type: vmess
-  server: 172.64.175.213
-  port: 2086
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  alterId: 0
+  server: 151.101.0.155
+  port: '80'
+  uuid: ca387597-d79e-48c2-89a7-e2dc66a88a70
+  alterId: '0'
   cipher: auto
   network: ws
   ucp: true
-  ws-path: null
-  ws-headers: null
+  ws-path: /racevpn
+  ws-headers:
+    Host: telegram-isvvpn.ir
   tls: false
-- name: web.51.laWChjMIe1
-  type: vmess
-  server: web.51.la
-  port: '443'
-  uuid: c6e84072-2e69-4928-90af-436b3fcd0663
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: true
-- name: 183.240.235.162pW9yOhUe
-  type: vmess
-  server: 183.240.235.162
-  port: 54882
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
+- name: 23.157.40.115PQsDbwIO
+  type: ss
+  server: 23.157.40.115
+  port: '3389'
+  password: Y6R9pAtvxxzmGC
+  alterId: 2
+  cipher: aes-256-gcm
+- name: 23.157.40.115yL1x8wcn
+  type: ss
+  server: 23.157.40.115
+  port: '6379'
+  password: zDNVedRFPQexG9v
+  alterId: 2
+  cipher: aes-256-gcm
 proxy-groups:
 - name: 🔰 节点选择
   type: select
   proxies:
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 89.221.224.166L5C6XEPm
-  - 217.30.10.18Hn1BXupW
-  - 104.17.137.127HArLZkyf
-  - 38.68.135.239ekBYS6KU
-  - 185.47.252.251dRq8YZr6
-  - 193.29.139.189DLukYCvd
-  - 52.169.50.64KXcwxhPQ
-  - 103.104.247.47vteYk3Ur
-  - 104.17.137.127Mdrh9tX6
-  - 104.17.137.127RbhNn6sw
-  - 217.30.10.18yjTCI3Pe
-  - join.ISVvpn.fastly80-3.hosting-ip.comJoEyFD7I
-  - 151.101.194.133YdjNKw7Q
-  - 217.30.10.18rFvEbHdu
-  - web.51.lavBbMAHxw
-  - 104.17.137.1278qKEAYHj
-  - 104.19.47.16Dlo0hKZn
-  - 217.30.10.18ZMlgJ7YL
-  - 104.19.57.41rkH8eGf
-  - 151.101.0.155AnLxw3Hd
-  - 217.30.10.185VeANXF7
-  - 176.103.53.1053GlN6Axt
-  - 183.240.235.162Hnfje2Vb
-  - 185.231.233.112Jn8jY5el
-  - russia.comtR56PZKy
-  - 120.232.240.56Y0FaJwte
-  - cfcdn1.sanfencdn9.comAk07bONe
-  - 172.67.130.1405DM8sHSK
-  - 104.17.137.127uP0MvneW
-  - 38.68.135.239YxmaZi7A
-  - 104.18.37.248v17GBflU
-  - 127.0.0.1vgKtsGbS
-  - p3.v2raybrasil.cloudvdVx93Yt
-  - 104.17.137.127BFgyXsor
-  - 38.68.135.239aowB64eh
-  - 104.18.57.111fvKSl6nP
-  - 34.221.167.203xc4sKaLj
-  - web.51.laIqJrCgj7
-  - 151.101.130.133hZtojdKG
-  - 104.19.47.65Bz2TXSHe
-  - 37.143.129.23045Y96fmh
-  - 54.190.43.178la9IbB2W
-  - 104.19.32.46vcAEX4Wg
-  - 172.64.175.213H7xdeUWp
-  - web.51.laWChjMIe1
-  - 183.240.235.162pW9yOhUe
+  - 54.200.164.45LhPsq7mf
+  - 104.17.137.1276duT2lPn
+  - 23.157.40.115MqwDNOVu
+  - 104.18.57.1116JGNr0Q7
+  - web.51.la9VcZ8fot
+  - 23.157.40.115jLcBma9y
+  - 217.30.10.18NTRXUZOx
+  - 104.17.137.127HxAomswK
+  - 104.19.47.659wSa1K5A
+  - 23.157.40.1151Sj9W7KP
+  - 183.240.235.162gBzIAEMb
+  - 217.30.10.18qoay8vfu
+  - free-kr.faforex.eu.orgQeSgpyaO
+  - p3.v2raybrasil.cloudWXKNTCZt
+  - 192.71.249.146V2oE9py6
+  - 104.17.137.127IDNr0zn7
+  - 38.86.135.223ZvdItNfw
+  - 54.190.43.1781Z7Cm3PI
+  - 172.64.175.213SmZ7qblU
+  - 104.19.47.16sFc89gvS
+  - 23.157.40.115sNJfdTK7
+  - 183.240.235.162FJEfbZgX
+  - cfcdn1.sanfencdn9.com0MR6sBrI
+  - 45.158.171.136HDoqumtK
+  - 120.232.240.56MquknFst
+  - 104.18.37.248EyUzxIPr
+  - 104.17.137.127Tc0dGjnA
+  - web.51.la1VYEtmF9
+  - russia.comYxE9RWXP
+  - 193.29.139.189H20XonSi
+  - 172.67.130.140EZOtGyVb
+  - 23.157.40.115BzfkvWr1
+  - 104.17.137.127nu5iwQo0
+  - 23.157.40.115lq3NWQMP
+  - 104.17.137.127L3CmYk14
+  - 104.19.57.4rg3TMnbc
+  - 185.123.101.241o8jyTmnv
+  - plex.comQnRG5FyY
+  - 38.68.135.239LeQi5Ut3
+  - 52.169.50.64ElL6Pudf
+  - 185.47.252.251KophsRBx
+  - 23.157.40.115yiBsjbrl
+  - web.51.lak6LjN5sp
+  - 155.138.208.122QASPZMsc
+  - 127.0.0.1as3HoMc6
+  - 104.19.32.460ztTw1NI
+  - 151.101.0.155u76iBYCM
+  - 23.157.40.115PQsDbwIO
+  - 23.157.40.115yL1x8wcn
 - name: ♻️ 自动选择
   type: url-test
   url: http://maps.googleapis.com/maps/api/mapsjs/gen_204
   interval: 300
   proxies:
-  - 89.221.224.166L5C6XEPm
-  - 217.30.10.18Hn1BXupW
-  - 104.17.137.127HArLZkyf
-  - 38.68.135.239ekBYS6KU
-  - 185.47.252.251dRq8YZr6
-  - 193.29.139.189DLukYCvd
-  - 52.169.50.64KXcwxhPQ
-  - 103.104.247.47vteYk3Ur
-  - 104.17.137.127Mdrh9tX6
-  - 104.17.137.127RbhNn6sw
-  - 217.30.10.18yjTCI3Pe
-  - join.ISVvpn.fastly80-3.hosting-ip.comJoEyFD7I
-  - 151.101.194.133YdjNKw7Q
-  - 217.30.10.18rFvEbHdu
-  - web.51.lavBbMAHxw
-  - 104.17.137.1278qKEAYHj
-  - 104.19.47.16Dlo0hKZn
-  - 217.30.10.18ZMlgJ7YL
-  - 104.19.57.41rkH8eGf
-  - 151.101.0.155AnLxw3Hd
-  - 217.30.10.185VeANXF7
-  - 176.103.53.1053GlN6Axt
-  - 183.240.235.162Hnfje2Vb
-  - 185.231.233.112Jn8jY5el
-  - russia.comtR56PZKy
-  - 120.232.240.56Y0FaJwte
-  - cfcdn1.sanfencdn9.comAk07bONe
-  - 172.67.130.1405DM8sHSK
-  - 104.17.137.127uP0MvneW
-  - 38.68.135.239YxmaZi7A
-  - 104.18.37.248v17GBflU
-  - 127.0.0.1vgKtsGbS
-  - p3.v2raybrasil.cloudvdVx93Yt
-  - 104.17.137.127BFgyXsor
-  - 38.68.135.239aowB64eh
-  - 104.18.57.111fvKSl6nP
-  - 34.221.167.203xc4sKaLj
-  - web.51.laIqJrCgj7
-  - 151.101.130.133hZtojdKG
-  - 104.19.47.65Bz2TXSHe
-  - 37.143.129.23045Y96fmh
-  - 54.190.43.178la9IbB2W
-  - 104.19.32.46vcAEX4Wg
-  - 172.64.175.213H7xdeUWp
-  - web.51.laWChjMIe1
-  - 183.240.235.162pW9yOhUe
+  - 54.200.164.45LhPsq7mf
+  - 104.17.137.1276duT2lPn
+  - 23.157.40.115MqwDNOVu
+  - 104.18.57.1116JGNr0Q7
+  - web.51.la9VcZ8fot
+  - 23.157.40.115jLcBma9y
+  - 217.30.10.18NTRXUZOx
+  - 104.17.137.127HxAomswK
+  - 104.19.47.659wSa1K5A
+  - 23.157.40.1151Sj9W7KP
+  - 183.240.235.162gBzIAEMb
+  - 217.30.10.18qoay8vfu
+  - free-kr.faforex.eu.orgQeSgpyaO
+  - p3.v2raybrasil.cloudWXKNTCZt
+  - 192.71.249.146V2oE9py6
+  - 104.17.137.127IDNr0zn7
+  - 38.86.135.223ZvdItNfw
+  - 54.190.43.1781Z7Cm3PI
+  - 172.64.175.213SmZ7qblU
+  - 104.19.47.16sFc89gvS
+  - 23.157.40.115sNJfdTK7
+  - 183.240.235.162FJEfbZgX
+  - cfcdn1.sanfencdn9.com0MR6sBrI
+  - 45.158.171.136HDoqumtK
+  - 120.232.240.56MquknFst
+  - 104.18.37.248EyUzxIPr
+  - 104.17.137.127Tc0dGjnA
+  - web.51.la1VYEtmF9
+  - russia.comYxE9RWXP
+  - 193.29.139.189H20XonSi
+  - 172.67.130.140EZOtGyVb
+  - 23.157.40.115BzfkvWr1
+  - 104.17.137.127nu5iwQo0
+  - 23.157.40.115lq3NWQMP
+  - 104.17.137.127L3CmYk14
+  - 104.19.57.4rg3TMnbc
+  - 185.123.101.241o8jyTmnv
+  - plex.comQnRG5FyY
+  - 38.68.135.239LeQi5Ut3
+  - 52.169.50.64ElL6Pudf
+  - 185.47.252.251KophsRBx
+  - 23.157.40.115yiBsjbrl
+  - web.51.lak6LjN5sp
+  - 155.138.208.122QASPZMsc
+  - 127.0.0.1as3HoMc6
+  - 104.19.32.460ztTw1NI
+  - 151.101.0.155u76iBYCM
+  - 23.157.40.115PQsDbwIO
+  - 23.157.40.115yL1x8wcn
 - name: 🌍 国外媒体
   type: select
   proxies:
