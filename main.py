@@ -380,12 +380,14 @@ if __name__ == '__main__':
     proxies.extend(load_subscribe_url('https://flat-frost-62ae.leejianzhao.workers.dev/271828?b64'))
     proxies.extend(load_subscribe_url('https://flat-frost-62ae.leejianzhao.workers.dev/271828?sub=zrf.zrf.me'))
     proxies.extend(load_subscribe_url('https://flat-frost-62ae.leejianzhao.workers.dev/271828?sub=Trojan.fxxk.dedyn.io'))
-    proxies.extend(load_subscribe_url('https://flat-frost-62ae.leejianzhao.workers.dev/271828?sub=altrojan.comorg.us.kg'))
-    proxies.extend(load_subscribe_url('https://flat-frost-62ae.leejianzhao.workers.dev/271828?sub=alvless.comorg.us.kg'))
+    # proxies.extend(load_subscribe_url('https://flat-frost-62ae.leejianzhao.workers.dev/271828?sub=altrojan.comorg.us.kg'))
+    # proxies.extend(load_subscribe_url('https://flat-frost-62ae.leejianzhao.workers.dev/271828?sub=alvless.comorg.us.kg'))
     proxies.extend(load_subscribe_url('https://flat-frost-62ae.leejianzhao.workers.dev/271828?sub=VLESS.fxxk.dedyn.io'))
-    # proxies.extend(load_subscribe_url('https://oxo.o00o.ooo/ooo'))
-    
-    
+    proxies.extend(load_subscribe_url('https://dercylee.us.kg/271828?sub=sub.mot.cloudns.biz'))
+    proxies.extend(load_subscribe_url('https://dercylee.us.kg/271828?sub=sub.keaeye.icu'))
+    proxies.extend(load_subscribe_url('https://dercylee.us.kg/271828?sub=owo.o00o.ooo/ooo'))    
+   
+    proxies.extend(load_subscribe_url('https://alvless.comorg.us.kg/TCorg'))
 
     proxies=list(set(proxies))
     gen_v2ray_subscribe(proxies)
