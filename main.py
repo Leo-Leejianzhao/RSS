@@ -377,13 +377,13 @@ if __name__ == '__main__':
     # proxies.extend(load_subscribe_url(f"https://v2rayshare.com/wp-content/uploads/{localtime.tm_year:04}/{localtime.tm_mon:02}/{localtime.tm_year:04}{localtime.tm_mon:02}{localtime.tm_mday:02}.txt"))
     # proxies.extend(manual_input())
 
-    proxies.extend(load_subscribe_url('https://dercylee.us.kg/271828?b64'))
-    proxies.extend(load_subscribe_url('https://dercylee.us.kg/271828?sub=zrf.zrf.me'))
-    proxies.extend(load_subscribe_url('https://dercylee.us.kg/271828?sub=Trojan.fxxk.dedyn.io'))
-    proxies.extend(load_subscribe_url('https://dercylee.us.kg/271828?sub=altrojan.comorg.us.kg'))
-    proxies.extend(load_subscribe_url('https://dercylee.us.kg/271828?sub=alvless.comorg.us.kg'))
-    proxies.extend(load_subscribe_url('https://dercylee.us.kg/271828?sub=VLESS.fxxk.dedyn.io'))
-    proxies.extend(load_subscribe_url('https://oxo.o00o.ooo/ooo'))
+    proxies.extend(load_subscribe_url('https://flat-frost-62ae.leejianzhao.workers.dev/271828?b64'))
+    proxies.extend(load_subscribe_url('https://flat-frost-62ae.leejianzhao.workers.dev/271828?sub=zrf.zrf.me'))
+    proxies.extend(load_subscribe_url('https://flat-frost-62ae.leejianzhao.workers.dev/271828?sub=Trojan.fxxk.dedyn.io'))
+    proxies.extend(load_subscribe_url('https://flat-frost-62ae.leejianzhao.workers.dev/271828?sub=altrojan.comorg.us.kg'))
+    proxies.extend(load_subscribe_url('https://flat-frost-62ae.leejianzhao.workers.dev/271828?sub=alvless.comorg.us.kg'))
+    proxies.extend(load_subscribe_url('https://flat-frost-62ae.leejianzhao.workers.dev/271828?sub=VLESS.fxxk.dedyn.io'))
+    # proxies.extend(load_subscribe_url('https://oxo.o00o.ooo/ooo'))
     
     
 
