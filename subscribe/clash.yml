@@ -5,11 +5,24 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-- name: 104.18.37.248gqv6OAtn
+- name: 104.18.4.250pJKef9wI
   type: vmess
-  server: 104.18.37.248
-  port: 2052
-  uuid: 60bcbd52-0c88-4da3-aee2-cc1f9d5ca224
+  server: 104.18.4.250
+  port: '80'
+  uuid: 6842cbad-3fcd-4e68-a2c1-a780d221ea63
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /lxc.html
+  ws-headers:
+    Host: 251658790963932025022305472062383.mglxc.chibaba.filegear-sg.me
+  tls: false
+- name: 172.67.130.140lgP1oe8D
+  type: vmess
+  server: 172.67.130.140
+  port: 2082
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
   alterId: 0
   cipher: auto
   network: ws
@@ -17,10 +30,10 @@ proxies:
   ws-path: null
   ws-headers: null
   tls: false
-- name: 183.240.235.162TZCraXWg
+- name: 183.240.235.1627VYpy9tz
   type: vmess
   server: 183.240.235.162
-  port: 54002
+  port: 54882
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   alterId: 64
   cipher: auto
@@ -29,32 +42,50 @@ proxies:
   ws-path: null
   ws-headers: null
   tls: false
-- name: 14.18.253.178Dg31kKSy
-  type: ss
-  server: 14.18.253.178
-  port: 8348
-  password: N9k4f2PORl14
-  alterId: 2
-  cipher: chacha20
-- name: 54.244.78.72uAqnVKoP
-  type: ss
-  server: 54.244.78.72
-  port: 443
-  password: amazonskr05
-  alterId: 2
-  cipher: aes-256-cfb
-- name: 23.154.136.137jcL5TO0i
-  type: ss
-  server: 23.154.136.137
-  port: '5498'
-  password: lGqs95QkFHo2NV
-  alterId: 2
-  cipher: aes-256-gcm
-- name: 172.64.175.213kiAM1a2K
+- name: 104.26.13.31cVOKRl9N
   type: vmess
-  server: 172.64.175.213
-  port: 2086
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  server: 104.26.13.31
+  port: '80'
+  uuid: 6842cbad-3fcd-4e68-a2c1-a780d221ea63
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /lxc.html
+  ws-headers:
+    Host: 457686805295352025022305472093111.mglxc.chibaba.filegear-sg.me
+  tls: false
+- name: 172.67.152.71I6KACw2O
+  type: vmess
+  server: 172.67.152.71
+  port: '80'
+  uuid: 6842cbad-3fcd-4e68-a2c1-a780d221ea63
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /lxc.html
+  ws-headers:
+    Host: 542608957320282025022305471974156.mglxc.chibaba.filegear-sg.me
+  tls: false
+- name: 172.65.90.52kcmF3PO5
+  type: vmess
+  server: 172.65.90.52
+  port: '80'
+  uuid: 6842cbad-3fcd-4e68-a2c1-a780d221ea63
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /lxc.html
+  ws-headers:
+    Host: 777297672167412025022305471968485.mglxc.chibaba.filegear-sg.me
+  tls: false
+- name: 120.232.240.56VMobB0qJ
+  type: vmess
+  server: 120.232.240.56
+  port: 16928
+  uuid: 5f6b3c3f-b0a8-33f5-95c6-371f8c6af973
   alterId: 0
   cipher: auto
   network: ws
@@ -62,40 +93,21 @@ proxies:
   ws-path: null
   ws-headers: null
   tls: false
-- name: 52.169.50.64fRx95mtL
+- name: 217.30.10.18ljpxGyfZ
   type: ss
-  server: 52.169.50.64
-  port: 16141
-  password: jjxXMDnfbChUWPL1QM02fM
-  alterId: 2
-  cipher: chacha20-ietf-poly1305
-- name: 104.19.57.45jdBukTx
-  type: vmess
-  server: 104.19.57.4
-  port: 2086
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  alterId: 0
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: 18.236.132.239woCXgEGt
-  type: ss
-  server: 18.236.132.239
-  port: 443
-  password: amazonskr05
+  server: 217.30.10.18
+  port: '9033'
+  password: UTJA57ypk2XKQpnm
   alterId: 2
   cipher: aes-256-cfb
-- name: 185.193.49.88kCQBUyZ8
+- name: 129.232.134.112sKHQTxgJ
   type: ss
-  server: 185.193.49.88
-  port: 989
+  server: 129.232.134.112
+  port: 990
   password: f8f7aCzcPKbsF8p3
   alterId: 2
-  cipher: aes-256-cfb
-- name: 104.18.57.1112ExkAbtS
+  cipher: chacha20-ietf-poly1305
+- name: 104.18.57.111qi0TPJfF
   type: vmess
   server: 104.18.57.111
   port: 2086
@@ -107,35 +119,357 @@ proxies:
   ws-path: null
   ws-headers: null
   tls: false
-- name: 45.87.175.1781inXpDxT
+- name: 104.19.47.65WeGUp74H
+  type: vmess
+  server: 104.19.47.65
+  port: 2086
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: 185.193.49.88AqB2csIX
   type: ss
-  server: 45.87.175.178
-  port: '8080'
-  password: 1RWwXhwfAB5gAEozU4G2Pg
-  alterId: 2
-  cipher: chacha20-ietf-poly1305
-- name: 217.30.10.18MgRn7TrF
-  type: ss
-  server: 217.30.10.18
-  port: '9033'
-  password: UTJA57ypk2XKQpnm
+  server: 185.193.49.88
+  port: 989
+  password: f8f7aCzcPKbsF8p3
   alterId: 2
   cipher: aes-256-cfb
-- name: 188.191.147.1270YeGW7lA
+- name: 54.244.78.72pC5Ab1n0
+  type: ss
+  server: 54.244.78.72
+  port: 443
+  password: amazonskr05
+  alterId: 2
+  cipher: aes-256-cfb
+- name: p3.v2raybrasil.cloudFUAWe8fv
+  type: vmess
+  server: p3.v2raybrasil.cloud
+  port: 2052
+  uuid: 60bcbd52-0c88-4da3-aee2-cc1f9d5ca224
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: 104.16.232.61uts0N9Gq
+  type: vmess
+  server: 104.16.232.61
+  port: '80'
+  uuid: 6842cbad-3fcd-4e68-a2c1-a780d221ea63
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /lxc.html
+  ws-headers:
+    Host: 742459729439322025022305471914118.mglxc.chibaba.filegear-sg.me
+  tls: false
+- name: 104.19.173.68tE39URiB
+  type: vmess
+  server: 104.19.173.68
+  port: '80'
+  uuid: 6842cbad-3fcd-4e68-a2c1-a780d221ea63
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /lxc.html
+  ws-headers:
+    Host: 100842084681282025022305472082078.mglxc.chibaba.filegear-sg.me
+  tls: false
+- name: 23.154.136.148MKfOZuj2
+  type: ss
+  server: 23.154.136.148
+  port: '6679'
+  password: TEzjfAYq2IjtuoS
+  alterId: 2
+  cipher: aes-256-gcm
+- name: 23.154.136.137kxwLUbev
+  type: ss
+  server: 23.154.136.137
+  port: '5498'
+  password: lGqs95QkFHo2NV
+  alterId: 2
+  cipher: aes-256-gcm
+- name: 104.18.26.94fRk2heOp
+  type: vmess
+  server: 104.18.26.94
+  port: '80'
+  uuid: 6842cbad-3fcd-4e68-a2c1-a780d221ea63
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /lxc.html
+  ws-headers:
+    Host: 941297473999892025022305471920106.mglxc.chibaba.filegear-sg.me
+  tls: false
+- name: 104.18.22.235unDqoA57
+  type: vmess
+  server: 104.18.22.235
+  port: '80'
+  uuid: 6842cbad-3fcd-4e68-a2c1-a780d221ea63
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /lxc.html
+  ws-headers:
+    Host: 932949161547862025022305471961710.mglxc.chibaba.filegear-sg.me
+  tls: false
+- name: 162.159.48.165wapQnNPE
+  type: vmess
+  server: 162.159.48.165
+  port: '80'
+  uuid: 6842cbad-3fcd-4e68-a2c1-a780d221ea63
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /lxc.html
+  ws-headers:
+    Host: 988138904554682025022305472048299.mglxc.chibaba.filegear-sg.me
+  tls: false
+- name: 172.67.198.192h48iWRVU
+  type: vmess
+  server: 172.67.198.192
+  port: '80'
+  uuid: 6842cbad-3fcd-4e68-a2c1-a780d221ea63
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /lxc.html
+  ws-headers:
+    Host: 240335389045172025022305471935638.mglxc.chibaba.filegear-sg.me
+  tls: false
+- name: 188.191.147.12720A7RswG
   type: ss
   server: 188.191.147.127
   port: '31348'
   password: 6IVOuzMfH5ROpgwtRTcNJKYJvYe9FDVaU7wAYYh8PRLxxZs6
   alterId: 2
   cipher: chacha20-ietf-poly1305
-- name: 37.143.129.230imvBUE9z
+- name: 172.64.175.213wdelDNou
+  type: vmess
+  server: 172.64.175.213
+  port: 2086
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: 52.169.50.64U2mfSNLe
+  type: ss
+  server: 52.169.50.64
+  port: 16141
+  password: jjxXMDnfbChUWPL1QM02fM
+  alterId: 2
+  cipher: chacha20-ietf-poly1305
+- name: 185.146.173.20fVmTbtIK
+  type: vmess
+  server: 185.146.173.20
+  port: '80'
+  uuid: 6842cbad-3fcd-4e68-a2c1-a780d221ea63
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /lxc.html
+  ws-headers:
+    Host: 847300546690822025022305472073167.mglxc.chibaba.filegear-sg.me
+  tls: false
+- name: 37.143.129.230GLx90zJX
   type: ss
   server: 37.143.129.230
   port: 989
   password: f8f7aCzcPKbsF8p3
   alterId: 2
   cipher: aes-256-cfb
-- name: dxv4.pai50288.ukUzXGxD8N
+- name: 104.16.228.229X7UJ3RVi
+  type: vmess
+  server: 104.16.228.229
+  port: '80'
+  uuid: 6842cbad-3fcd-4e68-a2c1-a780d221ea63
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /lxc.html
+  ws-headers:
+    Host: 412976571070592025022305472072676.mglxc.chibaba.filegear-sg.me
+  tls: false
+- name: 104.18.21.69fh4kuToz
+  type: vmess
+  server: 104.18.21.69
+  port: '80'
+  uuid: 6842cbad-3fcd-4e68-a2c1-a780d221ea63
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /lxc.html
+  ws-headers:
+    Host: 656294169546872025022305471950273.mglxc.chibaba.filegear-sg.me
+  tls: false
+- name: 104.18.37.248QUbKajBI
+  type: vmess
+  server: 104.18.37.248
+  port: 2052
+  uuid: 60bcbd52-0c88-4da3-aee2-cc1f9d5ca224
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: 172.67.153.253VoWXt0ON
+  type: vmess
+  server: 172.67.153.253
+  port: '80'
+  uuid: 6842cbad-3fcd-4e68-a2c1-a780d221ea63
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /lxc.html
+  ws-headers:
+    Host: 817097426331462025022305472011296.mglxc.chibaba.filegear-sg.me
+  tls: false
+- name: 14.18.253.1783QpNKwTL
+  type: ss
+  server: 14.18.253.178
+  port: 8348
+  password: N9k4f2PORl14
+  alterId: 2
+  cipher: chacha20
+- name: 104.26.5.60pafZAeCN
+  type: vmess
+  server: 104.26.5.60
+  port: '80'
+  uuid: 6842cbad-3fcd-4e68-a2c1-a780d221ea63
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /lxc.html
+  ws-headers:
+    Host: 991907386686172025022305471950800.mglxc.chibaba.filegear-sg.me
+  tls: false
+- name: 38.107.226.159Nz2IPEJ3
+  type: ss
+  server: 38.107.226.159
+  port: 7307
+  password: FoOiGlkAA9yPEGP
+  alterId: 2
+  cipher: aes-256-gcm
+- name: 104.19.32.46FIl3erRZ
+  type: vmess
+  server: 104.19.32.46
+  port: 2086
+  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: 162.159.48.165yi9raeu5
+  type: vmess
+  server: 162.159.48.165
+  port: '80'
+  uuid: 6842cbad-3fcd-4e68-a2c1-a780d221ea63
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /lxc.html
+  ws-headers:
+    Host: 62548711863532025022305472063362.mglxc.chibaba.filegear-sg.me
+  tls: false
+- name: 45.87.175.178B0Rtxho9
+  type: ss
+  server: 45.87.175.178
+  port: '8080'
+  password: 1RWwXhwfAB5gAEozU4G2Pg
+  alterId: 2
+  cipher: chacha20-ietf-poly1305
+- name: 176.103.53.1055Zpwt9PA
+  type: ss
+  server: 176.103.53.105
+  port: 989
+  password: f8f7aCzcPKbsF8p3
+  alterId: 2
+  cipher: aes-256-cfb
+- name: cfcdn1.sanfencdn9.comxkBIEaoG
+  type: vmess
+  server: cfcdn1.sanfencdn9.com
+  port: 2082
+  uuid: cd0eb936-9e1e-4730-989e-be43e7fcaf3e
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: 183.240.235.162W4QcAlm7
+  type: vmess
+  server: 183.240.235.162
+  port: 54002
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: 104.26.12.54sjeFrYXt
+  type: vmess
+  server: 104.26.12.54
+  port: '80'
+  uuid: 6842cbad-3fcd-4e68-a2c1-a780d221ea63
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /lxc.html
+  ws-headers:
+    Host: 226775474708362025022305472020608.mglxc.chibaba.filegear-sg.me
+  tls: false
+- name: 18.236.132.239Ta0QyHiq
+  type: ss
+  server: 18.236.132.239
+  port: 443
+  password: amazonskr05
+  alterId: 2
+  cipher: aes-256-cfb
+- name: 104.16.223.254o4ijHPIs
+  type: vmess
+  server: 104.16.223.254
+  port: '80'
+  uuid: 6842cbad-3fcd-4e68-a2c1-a780d221ea63
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /lxc.html
+  ws-headers:
+    Host: 833630616448992025022305472094946.mglxc.chibaba.filegear-sg.me
+  tls: false
+- name: dxv4.pai50288.ukbiLrSQmw
   type: vmess
   server: dxv4.pai50288.uk
   port: '14100'
@@ -148,37 +482,18 @@ proxies:
   ws-headers:
     Host: dxv4.pai50288.uk
   tls: false
-- name: 38.107.226.159BPNfqRQ1
+- name: 217.30.10.18yjatCR05
   type: ss
-  server: 38.107.226.159
-  port: 2376
-  password: faBAoD54k87UJG7
+  server: 217.30.10.18
+  port: 9001
+  password: UkXRsXvR6buDMG2Y
   alterId: 2
-  cipher: aes-256-gcm
-- name: 23.154.136.148cBYmuK2V
-  type: ss
-  server: 23.154.136.148
-  port: '6679'
-  password: TEzjfAYq2IjtuoS
-  alterId: 2
-  cipher: aes-256-gcm
-- name: 183.240.235.162K2UAx4EW
+  cipher: aes-256-cfb
+- name: 104.19.57.4o6U429YP
   type: vmess
-  server: 183.240.235.162
-  port: 54882
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: 172.67.130.140ZNzhLWwF
-  type: vmess
-  server: 172.67.130.140
-  port: 2082
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  server: 104.19.57.4
+  port: 2086
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   alterId: 0
   cipher: auto
   network: ws
@@ -186,19 +501,20 @@ proxies:
   ws-path: null
   ws-headers: null
   tls: false
-- name: russia.com6ZuTM7pd
+- name: 104.18.21.695scYLRJd
   type: vmess
-  server: russia.com
-  port: 8080
-  uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
-  alterId: 0
+  server: 104.18.21.69
+  port: '80'
+  uuid: 6842cbad-3fcd-4e68-a2c1-a780d221ea63
+  alterId: '0'
   cipher: auto
   network: ws
   ucp: true
-  ws-path: null
-  ws-headers: null
+  ws-path: /lxc.html
+  ws-headers:
+    Host: 704403728844712025022305471971872.mglxc.chibaba.filegear-sg.me
   tls: false
-- name: 104.19.47.16Ma16hqxL
+- name: 104.19.47.16Q1RzJOoa
   type: vmess
   server: 104.19.47.16
   port: 8080
@@ -210,185 +526,169 @@ proxies:
   ws-path: null
   ws-headers: null
   tls: false
-- name: 217.30.10.18S2VwW6sK
+- name: 38.107.226.1597fDxFOU1
+  type: ss
+  server: 38.107.226.159
+  port: 2376
+  password: faBAoD54k87UJG7
+  alterId: 2
+  cipher: aes-256-gcm
+- name: 217.30.10.18kb5AGX7P
   type: ss
   server: 217.30.10.18
   port: 9026
   password: QWDDvVE9npNurQfA
   alterId: 2
   cipher: aes-256-cfb
-- name: 129.232.134.112m3rvuCOI
-  type: ss
-  server: 129.232.134.112
-  port: 990
-  password: f8f7aCzcPKbsF8p3
-  alterId: 2
-  cipher: chacha20-ietf-poly1305
-- name: 217.30.10.18eXx9s1Lq
+- name: russia.comHuicfUXR
+  type: vmess
+  server: russia.com
+  port: 8080
+  uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: 172.67.161.104Qp3hecYm
+  type: vmess
+  server: 172.67.161.104
+  port: '80'
+  uuid: 6842cbad-3fcd-4e68-a2c1-a780d221ea63
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /lxc.html
+  ws-headers:
+    Host: 221353492195692025022305471948409.mglxc.chibaba.filegear-sg.me
+  tls: false
+- name: 217.30.10.18gAEpV0cw
   type: ss
   server: 217.30.10.18
   port: 9025
   password: XPtzA9sCug3SPR4c
   alterId: 2
   cipher: aes-256-cfb
-- name: 104.19.32.46Ed12fHu0
-  type: vmess
-  server: 104.19.32.46
-  port: 2086
-  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
-  alterId: 0
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: cfcdn1.sanfencdn9.com3sXj4e17
-  type: vmess
-  server: cfcdn1.sanfencdn9.com
-  port: 2082
-  uuid: cd0eb936-9e1e-4730-989e-be43e7fcaf3e
-  alterId: 0
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: 217.30.10.18eYTIFBtb
-  type: ss
-  server: 217.30.10.18
-  port: 9001
-  password: UkXRsXvR6buDMG2Y
-  alterId: 2
-  cipher: aes-256-cfb
-- name: 120.232.240.56eNwuyEvt
-  type: vmess
-  server: 120.232.240.56
-  port: 16928
-  uuid: 5f6b3c3f-b0a8-33f5-95c6-371f8c6af973
-  alterId: 0
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: p3.v2raybrasil.cloudv0Ll43yI
-  type: vmess
-  server: p3.v2raybrasil.cloud
-  port: 2052
-  uuid: 60bcbd52-0c88-4da3-aee2-cc1f9d5ca224
-  alterId: 0
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: 176.103.53.105XJoTxwH8
-  type: ss
-  server: 176.103.53.105
-  port: 989
-  password: f8f7aCzcPKbsF8p3
-  alterId: 2
-  cipher: aes-256-cfb
-- name: 104.19.47.65FHZhncdp
-  type: vmess
-  server: 104.19.47.65
-  port: 2086
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  alterId: 0
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: 38.107.226.159xlXS8pag
-  type: ss
-  server: 38.107.226.159
-  port: 7307
-  password: FoOiGlkAA9yPEGP
-  alterId: 2
-  cipher: aes-256-gcm
 proxy-groups:
 - name: 🔰 节点选择
   type: select
   proxies:
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 104.18.37.248gqv6OAtn
-  - 183.240.235.162TZCraXWg
-  - 14.18.253.178Dg31kKSy
-  - 54.244.78.72uAqnVKoP
-  - 23.154.136.137jcL5TO0i
-  - 172.64.175.213kiAM1a2K
-  - 52.169.50.64fRx95mtL
-  - 104.19.57.45jdBukTx
-  - 18.236.132.239woCXgEGt
-  - 185.193.49.88kCQBUyZ8
-  - 104.18.57.1112ExkAbtS
-  - 45.87.175.1781inXpDxT
-  - 217.30.10.18MgRn7TrF
-  - 188.191.147.1270YeGW7lA
-  - 37.143.129.230imvBUE9z
-  - dxv4.pai50288.ukUzXGxD8N
-  - 38.107.226.159BPNfqRQ1
-  - 23.154.136.148cBYmuK2V
-  - 183.240.235.162K2UAx4EW
-  - 172.67.130.140ZNzhLWwF
-  - russia.com6ZuTM7pd
-  - 104.19.47.16Ma16hqxL
-  - 217.30.10.18S2VwW6sK
-  - 129.232.134.112m3rvuCOI
-  - 217.30.10.18eXx9s1Lq
-  - 104.19.32.46Ed12fHu0
-  - cfcdn1.sanfencdn9.com3sXj4e17
-  - 217.30.10.18eYTIFBtb
-  - 120.232.240.56eNwuyEvt
-  - p3.v2raybrasil.cloudv0Ll43yI
-  - 176.103.53.105XJoTxwH8
-  - 104.19.47.65FHZhncdp
-  - 38.107.226.159xlXS8pag
+  - 104.18.4.250pJKef9wI
+  - 172.67.130.140lgP1oe8D
+  - 183.240.235.1627VYpy9tz
+  - 104.26.13.31cVOKRl9N
+  - 172.67.152.71I6KACw2O
+  - 172.65.90.52kcmF3PO5
+  - 120.232.240.56VMobB0qJ
+  - 217.30.10.18ljpxGyfZ
+  - 129.232.134.112sKHQTxgJ
+  - 104.18.57.111qi0TPJfF
+  - 104.19.47.65WeGUp74H
+  - 185.193.49.88AqB2csIX
+  - 54.244.78.72pC5Ab1n0
+  - p3.v2raybrasil.cloudFUAWe8fv
+  - 104.16.232.61uts0N9Gq
+  - 104.19.173.68tE39URiB
+  - 23.154.136.148MKfOZuj2
+  - 23.154.136.137kxwLUbev
+  - 104.18.26.94fRk2heOp
+  - 104.18.22.235unDqoA57
+  - 162.159.48.165wapQnNPE
+  - 172.67.198.192h48iWRVU
+  - 188.191.147.12720A7RswG
+  - 172.64.175.213wdelDNou
+  - 52.169.50.64U2mfSNLe
+  - 185.146.173.20fVmTbtIK
+  - 37.143.129.230GLx90zJX
+  - 104.16.228.229X7UJ3RVi
+  - 104.18.21.69fh4kuToz
+  - 104.18.37.248QUbKajBI
+  - 172.67.153.253VoWXt0ON
+  - 14.18.253.1783QpNKwTL
+  - 104.26.5.60pafZAeCN
+  - 38.107.226.159Nz2IPEJ3
+  - 104.19.32.46FIl3erRZ
+  - 162.159.48.165yi9raeu5
+  - 45.87.175.178B0Rtxho9
+  - 176.103.53.1055Zpwt9PA
+  - cfcdn1.sanfencdn9.comxkBIEaoG
+  - 183.240.235.162W4QcAlm7
+  - 104.26.12.54sjeFrYXt
+  - 18.236.132.239Ta0QyHiq
+  - 104.16.223.254o4ijHPIs
+  - dxv4.pai50288.ukbiLrSQmw
+  - 217.30.10.18yjatCR05
+  - 104.19.57.4o6U429YP
+  - 104.18.21.695scYLRJd
+  - 104.19.47.16Q1RzJOoa
+  - 38.107.226.1597fDxFOU1
+  - 217.30.10.18kb5AGX7P
+  - russia.comHuicfUXR
+  - 172.67.161.104Qp3hecYm
+  - 217.30.10.18gAEpV0cw
 - name: ♻️ 自动选择
   type: url-test
   url: http://maps.googleapis.com/maps/api/mapsjs/gen_204
   interval: 300
   proxies:
-  - 104.18.37.248gqv6OAtn
-  - 183.240.235.162TZCraXWg
-  - 14.18.253.178Dg31kKSy
-  - 54.244.78.72uAqnVKoP
-  - 23.154.136.137jcL5TO0i
-  - 172.64.175.213kiAM1a2K
-  - 52.169.50.64fRx95mtL
-  - 104.19.57.45jdBukTx
-  - 18.236.132.239woCXgEGt
-  - 185.193.49.88kCQBUyZ8
-  - 104.18.57.1112ExkAbtS
-  - 45.87.175.1781inXpDxT
-  - 217.30.10.18MgRn7TrF
-  - 188.191.147.1270YeGW7lA
-  - 37.143.129.230imvBUE9z
-  - dxv4.pai50288.ukUzXGxD8N
-  - 38.107.226.159BPNfqRQ1
-  - 23.154.136.148cBYmuK2V
-  - 183.240.235.162K2UAx4EW
-  - 172.67.130.140ZNzhLWwF
-  - russia.com6ZuTM7pd
-  - 104.19.47.16Ma16hqxL
-  - 217.30.10.18S2VwW6sK
-  - 129.232.134.112m3rvuCOI
-  - 217.30.10.18eXx9s1Lq
-  - 104.19.32.46Ed12fHu0
-  - cfcdn1.sanfencdn9.com3sXj4e17
-  - 217.30.10.18eYTIFBtb
-  - 120.232.240.56eNwuyEvt
-  - p3.v2raybrasil.cloudv0Ll43yI
-  - 176.103.53.105XJoTxwH8
-  - 104.19.47.65FHZhncdp
-  - 38.107.226.159xlXS8pag
+  - 104.18.4.250pJKef9wI
+  - 172.67.130.140lgP1oe8D
+  - 183.240.235.1627VYpy9tz
+  - 104.26.13.31cVOKRl9N
+  - 172.67.152.71I6KACw2O
+  - 172.65.90.52kcmF3PO5
+  - 120.232.240.56VMobB0qJ
+  - 217.30.10.18ljpxGyfZ
+  - 129.232.134.112sKHQTxgJ
+  - 104.18.57.111qi0TPJfF
+  - 104.19.47.65WeGUp74H
+  - 185.193.49.88AqB2csIX
+  - 54.244.78.72pC5Ab1n0
+  - p3.v2raybrasil.cloudFUAWe8fv
+  - 104.16.232.61uts0N9Gq
+  - 104.19.173.68tE39URiB
+  - 23.154.136.148MKfOZuj2
+  - 23.154.136.137kxwLUbev
+  - 104.18.26.94fRk2heOp
+  - 104.18.22.235unDqoA57
+  - 162.159.48.165wapQnNPE
+  - 172.67.198.192h48iWRVU
+  - 188.191.147.12720A7RswG
+  - 172.64.175.213wdelDNou
+  - 52.169.50.64U2mfSNLe
+  - 185.146.173.20fVmTbtIK
+  - 37.143.129.230GLx90zJX
+  - 104.16.228.229X7UJ3RVi
+  - 104.18.21.69fh4kuToz
+  - 104.18.37.248QUbKajBI
+  - 172.67.153.253VoWXt0ON
+  - 14.18.253.1783QpNKwTL
+  - 104.26.5.60pafZAeCN
+  - 38.107.226.159Nz2IPEJ3
+  - 104.19.32.46FIl3erRZ
+  - 162.159.48.165yi9raeu5
+  - 45.87.175.178B0Rtxho9
+  - 176.103.53.1055Zpwt9PA
+  - cfcdn1.sanfencdn9.comxkBIEaoG
+  - 183.240.235.162W4QcAlm7
+  - 104.26.12.54sjeFrYXt
+  - 18.236.132.239Ta0QyHiq
+  - 104.16.223.254o4ijHPIs
+  - dxv4.pai50288.ukbiLrSQmw
+  - 217.30.10.18yjatCR05
+  - 104.19.57.4o6U429YP
+  - 104.18.21.695scYLRJd
+  - 104.19.47.16Q1RzJOoa
+  - 38.107.226.1597fDxFOU1
+  - 217.30.10.18kb5AGX7P
+  - russia.comHuicfUXR
+  - 172.67.161.104Qp3hecYm
+  - 217.30.10.18gAEpV0cw
 - name: 🌍 国外媒体
   type: select
   proxies:
