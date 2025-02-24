@@ -363,6 +363,16 @@ if __name__ == '__main__':
     # proxies.extend(load_subscribe_url('https://getinfo.bigwatermelon.org/api/v1/client/subscribe?token=8fe4290ba47b6fe0e207ead380a2396a'))
 
     proxies.extend(load_subscribe_url_txt('https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt'))
+    proxies.extend(load_subscribe_url_txt('https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2'))
+    proxies.extend(load_subscribe_url_txt('https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list_raw.txt'))
+    proxies.extend(load_subscribe_url_txt('https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/airport_sub_merge.txt'))
+    proxies.extend(load_subscribe_url_txt('https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/sub_merge.txt'))
+
+    proxies.extend(load_subscribe_url('https://raw.githubusercontent.com/Pawdroid/Free-servers/refs/heads/main/sub'))
+    proxies.extend(load_subscribe_url('https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray'))
+    proxies.extend(load_subscribe_url('https://raw.githubusercontent.com/Pawdroid/Free-servers/refs/heads/main/sub'))
+    proxies.extend(load_subscribe_url('https://raw.githubusercontent.com/Pawdroid/Free-servers/refs/heads/main/sub'))
+    
     # proxies.extend(load_subscribe_url('https://bulinkbulink.com/freefq/free/master/v2'))
     # proxies.extend(load_subscribe_url('https://sub.xeton.dev/sub?target=v2ray&url=https://9527521.xyz/config/GkUDhPycfnu0TXSC&insert=false'))
     
