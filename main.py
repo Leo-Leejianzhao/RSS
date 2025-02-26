@@ -240,7 +240,7 @@ def load_subscribe_url(url):
 
 def load_subscribe_url_txt(url):
     if not url: return []
-    log('begin load_subscribe_url: '+url)
+    log('begin load_subscribe_url_txt: '+url)
     try:
         v2rayTxt = requests.request("GET", url, verify=False)
         sub=v2rayTxt.text.splitlines()
@@ -363,7 +363,7 @@ if __name__ == '__main__':
     # proxies.extend(load_subscribe_url('https://getinfo.bigwatermelon.org/api/v1/client/subscribe?token=8fe4290ba47b6fe0e207ead380a2396a'))
 
     proxies.extend(load_subscribe_url_txt('https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt'))
-    proxies.extend(load_subscribe_url_txt('https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2'))
+    proxies.extend(load_subscribe_url('https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2'))
     proxies.extend(load_subscribe_url_txt('https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list_raw.txt'))
     # proxies.extend(load_subscribe_url_txt('https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/airport_sub_merge.txt'))        
     # proxies.extend(load_subscribe_url_txt('https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/sub_merge.txt')) # import 5584 servers，太多垃圾
@@ -389,12 +389,12 @@ if __name__ == '__main__':
 
     proxies.extend(load_subscribe_url('https://flat-frost-62ae.leejianzhao.workers.dev/271828?b64'))
     proxies.extend(load_subscribe_url('https://flat-frost-62ae.leejianzhao.workers.dev/271828?sub=zrf.zrf.me'))
-    proxies.extend(load_subscribe_url('https://flat-frost-62ae.leejianzhao.workers.dev/271828?sub=Trojan.fxxk.dedyn.io'))
+    # proxies.extend(load_subscribe_url('https://flat-frost-62ae.leejianzhao.workers.dev/271828?sub=Trojan.fxxk.dedyn.io'))
     # proxies.extend(load_subscribe_url('https://flat-frost-62ae.leejianzhao.workers.dev/271828?sub=altrojan.comorg.us.kg'))
     # proxies.extend(load_subscribe_url('https://flat-frost-62ae.leejianzhao.workers.dev/271828?sub=alvless.comorg.us.kg'))
-    proxies.extend(load_subscribe_url('https://flat-frost-62ae.leejianzhao.workers.dev/271828?sub=VLESS.fxxk.dedyn.io'))
-    proxies.extend(load_subscribe_url('https://flat-frost-62ae.leejianzhao.workers.dev/271828?sub=sub.mot.cloudns.biz'))
-    proxies.extend(load_subscribe_url('https://flat-frost-62ae.leejianzhao.workers.dev/271828?sub=sub.keaeye.icu'))
+    # proxies.extend(load_subscribe_url('https://flat-frost-62ae.leejianzhao.workers.dev/271828?sub=VLESS.fxxk.dedyn.io'))
+    # proxies.extend(load_subscribe_url('https://flat-frost-62ae.leejianzhao.workers.dev/271828?sub=sub.mot.cloudns.biz'))
+    # proxies.extend(load_subscribe_url('https://flat-frost-62ae.leejianzhao.workers.dev/271828?sub=sub.keaeye.icu'))
     proxies.extend(load_subscribe_url('https://flat-frost-62ae.leejianzhao.workers.dev/271828?sub=owo.o00o.ooo/ooo'))    
    
     # proxies.extend(load_subscribe_url('https://alvless.comorg.us.kg/TCorg'))
