@@ -397,7 +397,7 @@ if __name__ == '__main__':
     proxies.extend(load_subscribe_url('https://flat-frost-62ae.leejianzhao.workers.dev/271828?sub=sub.keaeye.icu'))
     proxies.extend(load_subscribe_url('https://flat-frost-62ae.leejianzhao.workers.dev/271828?sub=owo.o00o.ooo/ooo'))    
    
-    proxies.extend(load_subscribe_url('https://alvless.comorg.us.kg/TCorg'))
+    # proxies.extend(load_subscribe_url('https://alvless.comorg.us.kg/TCorg'))
 
     proxies=list(set(proxies))
     gen_v2ray_subscribe(proxies)
