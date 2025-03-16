@@ -377,6 +377,11 @@ if __name__ == '__main__':
     # proxies.extend(load_subscribe_url('https://sub.xeton.dev/sub?target=v2ray&url=https://9527521.xyz/config/GkUDhPycfnu0TXSC&insert=false'))
     
     now=datetime.date.today()
+    proxies.extend(load_subscribe_url_txt(f"https://node.freeclashnode.com/uploads/{now.year:04}/{now.month:02}/0-{now.year:04}{now.month:02}{now.day:02}.txt"))
+    proxies.extend(load_subscribe_url(f"https://node.freeclashnode.com/uploads/{now.year:04}/{now.month:02}/1-{now.year:04}{now.month:02}{now.day:02}.txt"))
+    proxies.extend(load_subscribe_url_txt(f"https://node.freeclashnode.com/uploads/{now.year:04}/{now.month:02}/2-{now.year:04}{now.month:02}{now.day:02}.txt"))
+    proxies.extend(load_subscribe_url(f"https://node.freeclashnode.com/uploads/{now.year:04}/{now.month:02}/3-{now.year:04}{now.month:02}{now.day:02}.txt"))
+    proxies.extend(load_subscribe_url(f"https://node.freeclashnode.com/uploads/{now.year:04}/{now.month:02}/4-{now.year:04}{now.month:02}{now.day:02}.txt"))
     # proxies.extend(load_subscribe_url(f"https://v2rayshare.com/wp-content/uploads/{now.year:04}/{now.month:02}/{now.year:04}{now.month:02}{now.day:02}.txt"))
     # proxies.extend(load_subscribe_url(f"https://clashgithub.com/wp-content/uploads/rss/{now.year:04}{now.month:02}{now.day:02}.txt"))
     now+=datetime.timedelta(days=-1)
