@@ -251,9 +251,16 @@ def load_subscribe_url_txt(url):
         return []
 
 def load_subscribe(file):
-    with open(file, 'rb') as f:
-        raw=base64.b64decode(f.read()).decode('utf-8').splitlines()
-    return raw
+    log('begin load local file: '+file)
+    try:
+        with open(file, 'rb') as f:
+            raw=base64.b64decode(f.read()).decode('utf-8').splitlines()
+            log(f'{file} import {len(raw)} servers')
+            return raw
+    except Exception as e:
+        log('load_file: '+file+': '+e.__str__())
+        return []
+    
 
 # def gen_clash_subscribe(proxies):
 #     with open(r"./template/clash_proxy_group.yaml", 'r', encoding='UTF-8') as f:
@@ -330,6 +337,7 @@ def getClashSubscribeUrl(url):
 if __name__ == '__main__':
     log("RSS begin...")
     proxies=[]
+    proxies.extend(load_subscribe(dirs + '/filtered.txt'))
     # getSubscribeUrl()
     # proxies.extend(load_subscribe(dirs + '/v2ray.txt'))
     # proxies.extend(load_subscribe_url(get_mattkaydiary()))
@@ -404,7 +412,7 @@ if __name__ == '__main__':
    
     # proxies.extend(load_subscribe_url('https://alvless.comorg.us.kg/TCorg'))
 
-    proxies=list(set(proxies))
+        proxies=list(set(proxies))
     gen_v2ray_subscribe(proxies)
     gen_clash_subscribe(list(filter(None,map(protocol_decode,proxies))))
     
