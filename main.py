@@ -412,7 +412,7 @@ if __name__ == '__main__':
    
     # proxies.extend(load_subscribe_url('https://alvless.comorg.us.kg/TCorg'))
 
-        proxies=list(set(proxies))
+    proxies=list(set(proxies))
     gen_v2ray_subscribe(proxies)
     gen_clash_subscribe(list(filter(None,map(protocol_decode,proxies))))
     
