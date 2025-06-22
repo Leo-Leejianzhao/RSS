@@ -373,6 +373,7 @@ if __name__ == '__main__':
     proxies.extend(load_subscribe_url_txt('https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt'))
     proxies.extend(load_subscribe_url('https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2'))
     proxies.extend(load_subscribe_url_txt('https://raw.githubusercontent.com/weizai2023/TG-wz2023jd/main/TG%40wz2023jd/V2.txt'))
+    proxies.extend(load_subscribe_url_txt('https://raw.githubusercontent.com/drunksoul2021/vless-sub/refs/heads/main/list_raw.txt'))
     
     # proxies.extend(load_subscribe_url_txt('https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/airport_sub_merge.txt'))        
     # proxies.extend(load_subscribe_url_txt('https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/sub_merge.txt')) # import 5584 servers，太多垃圾
