@@ -401,6 +401,8 @@ if __name__ == '__main__':
     # proxies.extend(load_subscribe_url(f"https://v2rayshare.com/wp-content/uploads/{localtime.tm_year:04}/{localtime.tm_mon:02}/{localtime.tm_year:04}{localtime.tm_mon:02}{localtime.tm_mday:02}.txt"))
     # proxies.extend(manual_input())
 
+    proxies.extend(load_subscribe_url('https://raw.githubusercontent.com/WLget/V2Ray_configs_64/refs/heads/master/ConfigSub_list.txt'))
+    
     proxies.extend(load_subscribe_url('https://flat-frost-62ae.leejianzhao.workers.dev/271828?b64'))
     proxies.extend(load_subscribe_url('https://flat-frost-62ae.leejianzhao.workers.dev/271828?sub=zrf.zrf.me'))
     # proxies.extend(load_subscribe_url('https://flat-frost-62ae.leejianzhao.workers.dev/271828?sub=Trojan.fxxk.dedyn.io'))
