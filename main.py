@@ -370,27 +370,27 @@ if __name__ == '__main__':
     # proxies.extend(load_subscribe_url('https://sub.marsix.cc/api/v1/client/subscribe?token=f6f817ddb0c62fdbaff1c90c9a074c45'))
     # proxies.extend(load_subscribe_url('https://getinfo.bigwatermelon.org/api/v1/client/subscribe?token=8fe4290ba47b6fe0e207ead380a2396a'))
 
-    proxies.extend(load_subscribe_url_txt('https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt'))
-    proxies.extend(load_subscribe_url('https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2'))
-    proxies.extend(load_subscribe_url_txt('https://raw.githubusercontent.com/weizai2023/TG-wz2023jd/main/TG%40wz2023jd/V2.txt'))
-    proxies.extend(load_subscribe_url_txt('https://raw.githubusercontent.com/drunksoul2021/vless-sub/refs/heads/main/list_raw.txt'))
+    # proxies.extend(load_subscribe_url_txt('https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt'))
+    # proxies.extend(load_subscribe_url('https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2'))
+    # proxies.extend(load_subscribe_url_txt('https://raw.githubusercontent.com/weizai2023/TG-wz2023jd/main/TG%40wz2023jd/V2.txt'))
+    # proxies.extend(load_subscribe_url_txt('https://raw.githubusercontent.com/drunksoul2021/vless-sub/refs/heads/main/list_raw.txt'))
     
     # proxies.extend(load_subscribe_url_txt('https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/airport_sub_merge.txt'))        
     # proxies.extend(load_subscribe_url_txt('https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/sub_merge.txt')) # import 5584 servers，太多垃圾
 
-    proxies.extend(load_subscribe_url('https://raw.githubusercontent.com/Pawdroid/Free-servers/refs/heads/main/sub'))
-    proxies.extend(load_subscribe_url('https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray'))
+    # proxies.extend(load_subscribe_url('https://raw.githubusercontent.com/Pawdroid/Free-servers/refs/heads/main/sub'))
+    # proxies.extend(load_subscribe_url('https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray'))
 
     
     # proxies.extend(load_subscribe_url('https://bulinkbulink.com/freefq/free/master/v2'))
     # proxies.extend(load_subscribe_url('https://sub.xeton.dev/sub?target=v2ray&url=https://9527521.xyz/config/GkUDhPycfnu0TXSC&insert=false'))
     
-    now=datetime.date.today()
-    proxies.extend(load_subscribe_url_txt(f"https://node.freeclashnode.com/uploads/{now.year:04}/{now.month:02}/0-{now.year:04}{now.month:02}{now.day:02}.txt"))
-    proxies.extend(load_subscribe_url(f"https://node.freeclashnode.com/uploads/{now.year:04}/{now.month:02}/1-{now.year:04}{now.month:02}{now.day:02}.txt"))
-    proxies.extend(load_subscribe_url_txt(f"https://node.freeclashnode.com/uploads/{now.year:04}/{now.month:02}/2-{now.year:04}{now.month:02}{now.day:02}.txt"))
-    proxies.extend(load_subscribe_url(f"https://node.freeclashnode.com/uploads/{now.year:04}/{now.month:02}/3-{now.year:04}{now.month:02}{now.day:02}.txt"))
-    proxies.extend(load_subscribe_url(f"https://node.freeclashnode.com/uploads/{now.year:04}/{now.month:02}/4-{now.year:04}{now.month:02}{now.day:02}.txt"))
+    # now=datetime.date.today()
+    # proxies.extend(load_subscribe_url_txt(f"https://node.freeclashnode.com/uploads/{now.year:04}/{now.month:02}/0-{now.year:04}{now.month:02}{now.day:02}.txt"))
+    # proxies.extend(load_subscribe_url(f"https://node.freeclashnode.com/uploads/{now.year:04}/{now.month:02}/1-{now.year:04}{now.month:02}{now.day:02}.txt"))
+    # proxies.extend(load_subscribe_url_txt(f"https://node.freeclashnode.com/uploads/{now.year:04}/{now.month:02}/2-{now.year:04}{now.month:02}{now.day:02}.txt"))
+    # proxies.extend(load_subscribe_url(f"https://node.freeclashnode.com/uploads/{now.year:04}/{now.month:02}/3-{now.year:04}{now.month:02}{now.day:02}.txt"))
+    # proxies.extend(load_subscribe_url(f"https://node.freeclashnode.com/uploads/{now.year:04}/{now.month:02}/4-{now.year:04}{now.month:02}{now.day:02}.txt"))
     # proxies.extend(load_subscribe_url(f"https://v2rayshare.com/wp-content/uploads/{now.year:04}/{now.month:02}/{now.year:04}{now.month:02}{now.day:02}.txt"))
     # proxies.extend(load_subscribe_url(f"https://clashgithub.com/wp-content/uploads/rss/{now.year:04}{now.month:02}{now.day:02}.txt"))
     now+=datetime.timedelta(days=-1)
@@ -401,13 +401,13 @@ if __name__ == '__main__':
     # proxies.extend(load_subscribe_url(f"https://v2rayshare.com/wp-content/uploads/{localtime.tm_year:04}/{localtime.tm_mon:02}/{localtime.tm_year:04}{localtime.tm_mon:02}{localtime.tm_mday:02}.txt"))
     # proxies.extend(manual_input())
 
-    proxies.extend(load_subscribe_url('https://raw.githubusercontent.com/WLget/V2Ray_configs_64/refs/heads/master/ConfigSub_list.txt'))
+    # proxies.extend(load_subscribe_url('https://raw.githubusercontent.com/WLget/V2Ray_configs_64/refs/heads/master/ConfigSub_list.txt'))
     proxies.extend(load_subscribe_url('https://raw.githubusercontent.com/free18/v2ray/refs/heads/main/v.txt'))
-    proxies.extend(load_subscribe_url('https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub'))
-    proxies.extend(load_subscribe_url('https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_RAW.txt'))
+    # proxies.extend(load_subscribe_url('https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub'))
+    # proxies.extend(load_subscribe_url('https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_RAW.txt'))
     
-    proxies.extend(load_subscribe_url('https://flat-frost-62ae.leejianzhao.workers.dev/271828?b64'))
-    proxies.extend(load_subscribe_url('https://flat-frost-62ae.leejianzhao.workers.dev/271828?sub=zrf.zrf.me'))
+    # proxies.extend(load_subscribe_url('https://flat-frost-62ae.leejianzhao.workers.dev/271828?b64'))
+    # proxies.extend(load_subscribe_url('https://flat-frost-62ae.leejianzhao.workers.dev/271828?sub=zrf.zrf.me'))
     # proxies.extend(load_subscribe_url('https://flat-frost-62ae.leejianzhao.workers.dev/271828?sub=Trojan.fxxk.dedyn.io'))
     # proxies.extend(load_subscribe_url('https://flat-frost-62ae.leejianzhao.workers.dev/271828?sub=altrojan.comorg.us.kg'))
     # proxies.extend(load_subscribe_url('https://flat-frost-62ae.leejianzhao.workers.dev/271828?sub=alvless.comorg.us.kg'))
