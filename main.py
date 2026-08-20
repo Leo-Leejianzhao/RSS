@@ -337,7 +337,7 @@ def getClashSubscribeUrl(url):
 if __name__ == '__main__':
     log("RSS begin...")
     proxies=[]
-    proxies.extend(load_subscribe(dirs + '/filtered.txt'))
+    # proxies.extend(load_subscribe(dirs + '/filtered.txt'))
     # getSubscribeUrl()
     # proxies.extend(load_subscribe(dirs + '/v2ray.txt'))
     # proxies.extend(load_subscribe_url(get_mattkaydiary()))
@@ -385,7 +385,7 @@ if __name__ == '__main__':
     # proxies.extend(load_subscribe_url('https://bulinkbulink.com/freefq/free/master/v2'))
     # proxies.extend(load_subscribe_url('https://sub.xeton.dev/sub?target=v2ray&url=https://9527521.xyz/config/GkUDhPycfnu0TXSC&insert=false'))
     
-    # now=datetime.date.today()
+    now=datetime.date.today()
     # proxies.extend(load_subscribe_url_txt(f"https://node.freeclashnode.com/uploads/{now.year:04}/{now.month:02}/0-{now.year:04}{now.month:02}{now.day:02}.txt"))
     # proxies.extend(load_subscribe_url(f"https://node.freeclashnode.com/uploads/{now.year:04}/{now.month:02}/1-{now.year:04}{now.month:02}{now.day:02}.txt"))
     # proxies.extend(load_subscribe_url_txt(f"https://node.freeclashnode.com/uploads/{now.year:04}/{now.month:02}/2-{now.year:04}{now.month:02}{now.day:02}.txt"))
@@ -403,6 +403,7 @@ if __name__ == '__main__':
 
     # proxies.extend(load_subscribe_url('https://raw.githubusercontent.com/WLget/V2Ray_configs_64/refs/heads/master/ConfigSub_list.txt'))
     proxies.extend(load_subscribe_url('https://raw.githubusercontent.com/free18/v2ray/refs/heads/main/v.txt'))
+    proxies.extend(load_subscribe_url('https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/All_Configs_base64_Sub.txt'))
     # proxies.extend(load_subscribe_url('https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub'))
     # proxies.extend(load_subscribe_url('https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_RAW.txt'))
     
