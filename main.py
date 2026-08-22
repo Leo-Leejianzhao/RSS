@@ -403,7 +403,7 @@ if __name__ == '__main__':
 
     # proxies.extend(load_subscribe_url('https://raw.githubusercontent.com/WLget/V2Ray_configs_64/refs/heads/master/ConfigSub_list.txt'))
     proxies.extend(load_subscribe_url('https://raw.githubusercontent.com/free18/v2ray/refs/heads/main/v.txt'))
-    proxies.extend(load_subscribe_url('https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/All_Configs_base64_Sub.txt'))
+    # proxies.extend(load_subscribe_url('https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/All_Configs_base64_Sub.txt'))
     # proxies.extend(load_subscribe_url('https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub'))
     # proxies.extend(load_subscribe_url('https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_RAW.txt'))
     
