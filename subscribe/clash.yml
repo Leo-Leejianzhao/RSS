@@ -5,88 +5,10 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-- name: 112.132.215.108mHb1VReO
+- name: v10.hdacd.com0BFWwdcG
   type: vmess
-  server: 112.132.215.108
-  port: 50002
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: 121.46.230.1371rZMqgSG
-  type: ss
-  server: 121.46.230.137
-  port: '65443'
-  password: 7eadc6dbe2ae
-  alterId: 2
-  cipher: aes-256-cfb
-- name: 121.46.230.23282YIStWv
-  type: ss
-  server: 121.46.230.232
-  port: '65443'
-  password: 7eadc6dbe2ae
-  alterId: 2
-  cipher: aes-256-cfb
-- name: 95.170.13.47bhWr8wne
-  type: ss
-  server: 95.170.13.47
-  port: '65443'
-  password: 7eadc6dbe2ae
-  alterId: 2
-  cipher: aes-256-cfb
-- name: 103.169.67.3493pdg8hY
-  type: ss
-  server: 103.169.67.34
-  port: '65443'
-  password: 7eadc6dbe2ae
-  alterId: 2
-  cipher: aes-256-cfb
-- name: planb.mojcn.com.linuxlh.xindLWCeArg
-  type: vmess
-  server: planb.mojcn.com.linuxlh.xin
-  port: 16632
-  uuid: 56a511bd-f207-48f4-be5b-4652afe178a4
-  alterId: 0
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /
-  ws-headers:
-    Host: 686a7558df571afb1408b0e77ae4f687.mobgslb.tbcache.com
-  tls: false
-- name: planb.mojcn.com.linuxlh.xinulMHg7Fe
-  type: vmess
-  server: planb.mojcn.com.linuxlh.xin
-  port: '16626'
-  uuid: 62e0878c-ff8c-4a67-b18f-89886e24750c
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /
-  ws-headers:
-    Host: 706a0a2fb2f7729acf9a103060a7abc3.mobgslb.tbcache.com
-  tls: false
-- name: 112.132.215.108LncmMBv2
-  type: vmess
-  server: 112.132.215.108
-  port: 50002
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  network: null
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: v35.hdacd.comxN9LCeAy
-  type: vmess
-  server: v35.hdacd.com
-  port: 30835
+  server: v10.hdacd.com
+  port: 30807
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   alterId: 2
   cipher: auto
@@ -95,40 +17,62 @@ proxies:
   ws-path: null
   ws-headers: null
   tls: false
-- name: 192.227.247.27ye4htraE
+- name: v29.hdacd.comVy1iqCbT
   type: vmess
-  server: 192.227.247.27
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  alterId: 0
+  server: v29.hdacd.com
+  port: 30829
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
   cipher: auto
   network: tcp
   ucp: true
   ws-path: null
   ws-headers: null
-  tls: true
-- name: 121.46.230.233RI14Vz6Q
+  tls: false
+- name: v45.hdacd.comDm9xNQ2k
+  type: vmess
+  server: v45.hdacd.com
+  port: 30845
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: 121.46.230.138nde1T6gq
   type: ss
-  server: 121.46.230.233
+  server: 121.46.230.138
   port: '65443'
   password: 7eadc6dbe2ae
   alterId: 2
   cipher: aes-256-cfb
-- name: us1002.lunartrace.ioBd3Ti9SX
-  type: ss
-  server: us1002.lunartrace.io
-  port: '40013'
-  password: 86bf33ea-62d9-49a1-9bd0-73e45f6e1403
+- name: v6.hdacd.comJw31L5d4
+  type: vmess
+  server: v6.hdacd.com
+  port: 30806
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   alterId: 2
-  cipher: chacha20-ietf-poly1305
-- name: 13.40.94.70B4X1Rq9I
-  type: ss
-  server: 13.40.94.70
-  port: '443'
-  password: amazonskr05
+  cipher: auto
+  network: null
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: v36.hdacd.com985MAQkm
+  type: vmess
+  server: v36.hdacd.com
+  port: 30836
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   alterId: 2
-  cipher: aes-256-cfb
-- name: guanwang.awsno.comn35dAFOa
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: guanwang.awsno.comz4i5NTEo
   type: vmess
   server: guanwang.awsno.com
   port: 443
@@ -140,54 +84,271 @@ proxies:
   ws-path: null
   ws-headers: null
   tls: true
-- name: 121.46.230.138bydefXkU
+- name: planb.mojcn.com.linuxlh.xinfch8pOqM
+  type: vmess
+  server: planb.mojcn.com.linuxlh.xin
+  port: 16626
+  uuid: cefbe234-bcc6-4558-ab7b-1030e331e6a5
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: d052c66d50dcf7c3cfab75ed7f8e8322.mobgslb.tbcache.com
+  tls: false
+- name: v4.hdacd.com8qklo4WV
+  type: vmess
+  server: v4.hdacd.com
+  port: 30804
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  network: null
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: 81.90.21.73VEM5XTKP
   type: ss
-  server: 121.46.230.138
-  port: 65443
+  server: 81.90.21.73
+  port: 114
+  password: dzSx7W6wBHO1VRI_Gx4cjVM0nN41m8qx
+  alterId: 2
+  cipher: chacha20-ietf-poly1305
+- name: 192.227.247.27mZeMzobX
+  type: vmess
+  server: 192.227.247.27
+  port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  alterId: 0
+  cipher: auto
+  network: null
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: true
+- name: guanwang.awsno.comcYPIxAuC
+  type: vmess
+  server: guanwang.awsno.com
+  port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: true
+- name: renderer-stream-2-62.mirra.now9R0wHWTu
+  type: vmess
+  server: renderer-stream-2-62.mirra.now
+  port: 443
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /api/v1/gpu-stream/socket
+  ws-headers:
+    Host: renderer-stream-2-62.mirra.now
+  tls: true
+- name: 95.170.13.472JtQE90N
+  type: ss
+  server: 95.170.13.47
+  port: '65443'
   password: 7eadc6dbe2ae
   alterId: 2
   cipher: aes-256-cfb
+- name: 112.132.215.108vuBD3PWR
+  type: vmess
+  server: 112.132.215.108
+  port: 50002
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  network: null
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: planb.mojcn.com.linuxlh.xinKvTghbl0
+  type: vmess
+  server: planb.mojcn.com.linuxlh.xin
+  port: 16632
+  uuid: cefbe234-bcc6-4558-ab7b-1030e331e6a5
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: d052c66d50dcf7c3cfab75ed7f8e8322.mobgslb.tbcache.com
+  tls: false
+- name: planb.mojcn.com.linuxlh.xinzFmgfMrH
+  type: vmess
+  server: planb.mojcn.com.linuxlh.xin
+  port: '16626'
+  uuid: cefbe234-bcc6-4558-ab7b-1030e331e6a5
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: d052c66d50dcf7c3cfab75ed7f8e8322.mobgslb.tbcache.com
+  tls: false
+- name: renderer-stream-2-62.mirra.nowjwfuEFHp
+  type: vmess
+  server: renderer-stream-2-62.mirra.now
+  port: 443
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /api/v1/gpu-stream/socket
+  ws-headers: null
+  tls: true
+- name: 192.227.247.27pI42clbg
+  type: vmess
+  server: 192.227.247.27
+  port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  alterId: 0
+  cipher: auto
+  network: null
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: true
+- name: 3.97.16.1600EJWcKgY
+  type: ss
+  server: 3.97.16.160
+  port: '443'
+  password: amazonskr05
+  alterId: 2
+  cipher: aes-256-cfb
+- name: 121.46.230.233SMno9bBC
+  type: ss
+  server: 121.46.230.233
+  port: '65443'
+  password: 7eadc6dbe2ae
+  alterId: 2
+  cipher: aes-256-cfb
+- name: 118.107.222.231VnEJM1Ot
+  type: ss
+  server: 118.107.222.231
+  port: '65443'
+  password: 7eadc6dbe2ae
+  alterId: 2
+  cipher: aes-256-cfb
+- name: 112.132.215.108Bm2td6aX
+  type: vmess
+  server: 112.132.215.108
+  port: 50002
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: 121.46.230.137sKRS7Lvm
+  type: ss
+  server: 121.46.230.137
+  port: '65443'
+  password: 7eadc6dbe2ae
+  alterId: 2
+  cipher: aes-256-cfb
+- name: v33.hdacd.comU6W8pyBZ
+  type: vmess
+  server: v33.hdacd.com
+  port: 30833
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  network: null
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: v35.hdacd.comB5QC923T
+  type: vmess
+  server: v35.hdacd.com
+  port: 30835
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
 proxy-groups:
 - name: 🔰 节点选择
   type: select
   proxies:
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 112.132.215.108mHb1VReO
-  - 121.46.230.1371rZMqgSG
-  - 121.46.230.23282YIStWv
-  - 95.170.13.47bhWr8wne
-  - 103.169.67.3493pdg8hY
-  - planb.mojcn.com.linuxlh.xindLWCeArg
-  - planb.mojcn.com.linuxlh.xinulMHg7Fe
-  - 112.132.215.108LncmMBv2
-  - v35.hdacd.comxN9LCeAy
-  - 192.227.247.27ye4htraE
-  - 121.46.230.233RI14Vz6Q
-  - us1002.lunartrace.ioBd3Ti9SX
-  - 13.40.94.70B4X1Rq9I
-  - guanwang.awsno.comn35dAFOa
-  - 121.46.230.138bydefXkU
+  - v10.hdacd.com0BFWwdcG
+  - v29.hdacd.comVy1iqCbT
+  - v45.hdacd.comDm9xNQ2k
+  - 121.46.230.138nde1T6gq
+  - v6.hdacd.comJw31L5d4
+  - v36.hdacd.com985MAQkm
+  - guanwang.awsno.comz4i5NTEo
+  - planb.mojcn.com.linuxlh.xinfch8pOqM
+  - v4.hdacd.com8qklo4WV
+  - 81.90.21.73VEM5XTKP
+  - 192.227.247.27mZeMzobX
+  - guanwang.awsno.comcYPIxAuC
+  - renderer-stream-2-62.mirra.now9R0wHWTu
+  - 95.170.13.472JtQE90N
+  - 112.132.215.108vuBD3PWR
+  - planb.mojcn.com.linuxlh.xinKvTghbl0
+  - planb.mojcn.com.linuxlh.xinzFmgfMrH
+  - renderer-stream-2-62.mirra.nowjwfuEFHp
+  - 192.227.247.27pI42clbg
+  - 3.97.16.1600EJWcKgY
+  - 121.46.230.233SMno9bBC
+  - 118.107.222.231VnEJM1Ot
+  - 112.132.215.108Bm2td6aX
+  - 121.46.230.137sKRS7Lvm
+  - v33.hdacd.comU6W8pyBZ
+  - v35.hdacd.comB5QC923T
 - name: ♻️ 自动选择
   type: url-test
   url: http://maps.googleapis.com/maps/api/mapsjs/gen_204
   interval: 300
   proxies:
-  - 112.132.215.108mHb1VReO
-  - 121.46.230.1371rZMqgSG
-  - 121.46.230.23282YIStWv
-  - 95.170.13.47bhWr8wne
-  - 103.169.67.3493pdg8hY
-  - planb.mojcn.com.linuxlh.xindLWCeArg
-  - planb.mojcn.com.linuxlh.xinulMHg7Fe
-  - 112.132.215.108LncmMBv2
-  - v35.hdacd.comxN9LCeAy
-  - 192.227.247.27ye4htraE
-  - 121.46.230.233RI14Vz6Q
-  - us1002.lunartrace.ioBd3Ti9SX
-  - 13.40.94.70B4X1Rq9I
-  - guanwang.awsno.comn35dAFOa
-  - 121.46.230.138bydefXkU
+  - v10.hdacd.com0BFWwdcG
+  - v29.hdacd.comVy1iqCbT
+  - v45.hdacd.comDm9xNQ2k
+  - 121.46.230.138nde1T6gq
+  - v6.hdacd.comJw31L5d4
+  - v36.hdacd.com985MAQkm
+  - guanwang.awsno.comz4i5NTEo
+  - planb.mojcn.com.linuxlh.xinfch8pOqM
+  - v4.hdacd.com8qklo4WV
+  - 81.90.21.73VEM5XTKP
+  - 192.227.247.27mZeMzobX
+  - guanwang.awsno.comcYPIxAuC
+  - renderer-stream-2-62.mirra.now9R0wHWTu
+  - 95.170.13.472JtQE90N
+  - 112.132.215.108vuBD3PWR
+  - planb.mojcn.com.linuxlh.xinKvTghbl0
+  - planb.mojcn.com.linuxlh.xinzFmgfMrH
+  - renderer-stream-2-62.mirra.nowjwfuEFHp
+  - 192.227.247.27pI42clbg
+  - 3.97.16.1600EJWcKgY
+  - 121.46.230.233SMno9bBC
+  - 118.107.222.231VnEJM1Ot
+  - 112.132.215.108Bm2td6aX
+  - 121.46.230.137sKRS7Lvm
+  - v33.hdacd.comU6W8pyBZ
+  - v35.hdacd.comB5QC923T
 - name: 🌍 国外媒体
   type: select
   proxies:
