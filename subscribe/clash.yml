@@ -5,7 +5,48 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-- name: 112.132.215.108ybN3woTM
+- name: 121.46.230.138MeaWAXOJ
+  type: ss
+  server: 121.46.230.138
+  port: 65443
+  password: 7eadc6dbe2ae
+  alterId: 2
+  cipher: aes-256-cfb
+- name: 121.46.230.1375Em3KMjL
+  type: ss
+  server: 121.46.230.137
+  port: '65443'
+  password: 7eadc6dbe2ae
+  alterId: 2
+  cipher: aes-256-cfb
+- name: 121.46.230.138qcuxM3z9
+  type: ss
+  server: 121.46.230.138
+  port: '65443'
+  password: 7eadc6dbe2ae
+  alterId: 2
+  cipher: aes-256-cfb
+- name: planb.mojcn.com.linuxlh.xingObADW5P
+  type: vmess
+  server: planb.mojcn.com.linuxlh.xin
+  port: 16632
+  uuid: cefbe234-bcc6-4558-ab7b-1030e331e6a5
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: d052c66d50dcf7c3cfab75ed7f8e8322.mobgslb.tbcache.com
+  tls: false
+- name: 121.46.230.232NoknzVfG
+  type: ss
+  server: 121.46.230.232
+  port: '65443'
+  password: 7eadc6dbe2ae
+  alterId: 2
+  cipher: aes-256-cfb
+- name: 112.132.215.108zGKfvqnR
   type: vmess
   server: 112.132.215.108
   port: 50002
@@ -17,54 +58,21 @@ proxies:
   ws-path: null
   ws-headers: null
   tls: false
-- name: 121.46.230.1370i2bpTFX
+- name: 95.170.13.47KXlAWQGR
   type: ss
-  server: 121.46.230.137
+  server: 95.170.13.47
   port: '65443'
   password: 7eadc6dbe2ae
   alterId: 2
   cipher: aes-256-cfb
-- name: 13.40.94.70EaPKFYRS
+- name: 103.169.67.347Cmw3G8H
   type: ss
-  server: 13.40.94.70
-  port: '443'
-  password: amazonskr05
-  alterId: 2
-  cipher: aes-256-cfb
-- name: 3.252.205.48sc04WfS9
-  type: ss
-  server: 3.252.205.48
-  port: '443'
-  password: amazonskr05
-  alterId: 2
-  cipher: aes-256-cfb
-- name: 121.46.230.138GNfAxpmc
-  type: ss
-  server: 121.46.230.138
+  server: 103.169.67.34
   port: '65443'
   password: 7eadc6dbe2ae
   alterId: 2
   cipher: aes-256-cfb
-- name: 38.47.121.14EIio1gdu
-  type: vmess
-  server: 38.47.121.14
-  port: 49432
-  uuid: ce94f204-ffa6-4fa8-a1dc-ecfccfd463cb
-  alterId: 0
-  cipher: auto
-  network: http
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: ss.041.node-for-bigairport.winaoYVvr06
-  type: ss
-  server: ss.041.node-for-bigairport.win
-  port: 16688
-  password: 792e0bdb-01db-450c-94c4-925151eb396e
-  alterId: 2
-  cipher: chacha20-ietf-poly1305
-- name: planb.mojcn.com.linuxlh.xin2wOJLy5Q
+- name: planb.mojcn.com.linuxlh.xinNhEmSRXx
   type: vmess
   server: planb.mojcn.com.linuxlh.xin
   port: 16626
@@ -77,142 +85,44 @@ proxies:
   ws-headers:
     Host: d052c66d50dcf7c3cfab75ed7f8e8322.mobgslb.tbcache.com
   tls: false
-- name: 103.169.67.34cnGKD3wh
-  type: ss
-  server: 103.169.67.34
-  port: '65443'
-  password: 7eadc6dbe2ae
-  alterId: 2
-  cipher: aes-256-cfb
-- name: 95.170.13.47g3Kw6kSc
-  type: ss
-  server: 95.170.13.47
-  port: '65443'
-  password: 7eadc6dbe2ae
-  alterId: 2
-  cipher: aes-256-cfb
-- name: sacda.tr.snapeurop.comiG9IKlJe
-  type: vmess
-  server: sacda.tr.snapeurop.com
-  port: 80
-  uuid: a17be1ef-d5bc-41a1-aeac-b02345823f07
-  alterId: 0
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: planb.mojcn.com.linuxlh.xinEHT9OZXL
-  type: vmess
-  server: planb.mojcn.com.linuxlh.xin
-  port: '16626'
-  uuid: cefbe234-bcc6-4558-ab7b-1030e331e6a5
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /
-  ws-headers:
-    Host: d052c66d50dcf7c3cfab75ed7f8e8322.mobgslb.tbcache.com
-  tls: false
-- name: v4.hdacd.comwa5vdPby
-  type: vmess
-  server: v4.hdacd.com
-  port: 30804
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  network: null
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: 121.46.230.232NWdjXlCy
-  type: ss
-  server: 121.46.230.232
-  port: '65443'
-  password: 7eadc6dbe2ae
-  alterId: 2
-  cipher: aes-256-cfb
-- name: planb.mojcn.com.linuxlh.xinbNa4vIzw
-  type: vmess
-  server: planb.mojcn.com.linuxlh.xin
-  port: 16632
-  uuid: cefbe234-bcc6-4558-ab7b-1030e331e6a5
-  alterId: 0
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /
-  ws-headers:
-    Host: d052c66d50dcf7c3cfab75ed7f8e8322.mobgslb.tbcache.com
-  tls: false
-- name: 118.107.222.2317YJBfLQg
+- name: 118.107.222.231GKHW145A
   type: ss
   server: 118.107.222.231
   port: '65443'
   password: 7eadc6dbe2ae
   alterId: 2
   cipher: aes-256-cfb
-- name: planb.mojcn.com.linuxlh.xinAgzjK3bu
-  type: vmess
-  server: planb.mojcn.com.linuxlh.xin
-  port: 16632
-  uuid: cefbe234-bcc6-4558-ab7b-1030e331e6a5
-  alterId: 0
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /
-  ws-headers:
-    Host: d052c66d50dcf7c3cfab75ed7f8e8322.mobgslb.tbcache.com
-  tls: false
 proxy-groups:
 - name: 🔰 节点选择
   type: select
   proxies:
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 112.132.215.108ybN3woTM
-  - 121.46.230.1370i2bpTFX
-  - 13.40.94.70EaPKFYRS
-  - 3.252.205.48sc04WfS9
-  - 121.46.230.138GNfAxpmc
-  - 38.47.121.14EIio1gdu
-  - ss.041.node-for-bigairport.winaoYVvr06
-  - planb.mojcn.com.linuxlh.xin2wOJLy5Q
-  - 103.169.67.34cnGKD3wh
-  - 95.170.13.47g3Kw6kSc
-  - sacda.tr.snapeurop.comiG9IKlJe
-  - planb.mojcn.com.linuxlh.xinEHT9OZXL
-  - v4.hdacd.comwa5vdPby
-  - 121.46.230.232NWdjXlCy
-  - planb.mojcn.com.linuxlh.xinbNa4vIzw
-  - 118.107.222.2317YJBfLQg
-  - planb.mojcn.com.linuxlh.xinAgzjK3bu
+  - 121.46.230.138MeaWAXOJ
+  - 121.46.230.1375Em3KMjL
+  - 121.46.230.138qcuxM3z9
+  - planb.mojcn.com.linuxlh.xingObADW5P
+  - 121.46.230.232NoknzVfG
+  - 112.132.215.108zGKfvqnR
+  - 95.170.13.47KXlAWQGR
+  - 103.169.67.347Cmw3G8H
+  - planb.mojcn.com.linuxlh.xinNhEmSRXx
+  - 118.107.222.231GKHW145A
 - name: ♻️ 自动选择
   type: url-test
   url: http://maps.googleapis.com/maps/api/mapsjs/gen_204
   interval: 300
   proxies:
-  - 112.132.215.108ybN3woTM
-  - 121.46.230.1370i2bpTFX
-  - 13.40.94.70EaPKFYRS
-  - 3.252.205.48sc04WfS9
-  - 121.46.230.138GNfAxpmc
-  - 38.47.121.14EIio1gdu
-  - ss.041.node-for-bigairport.winaoYVvr06
-  - planb.mojcn.com.linuxlh.xin2wOJLy5Q
-  - 103.169.67.34cnGKD3wh
-  - 95.170.13.47g3Kw6kSc
-  - sacda.tr.snapeurop.comiG9IKlJe
-  - planb.mojcn.com.linuxlh.xinEHT9OZXL
-  - v4.hdacd.comwa5vdPby
-  - 121.46.230.232NWdjXlCy
-  - planb.mojcn.com.linuxlh.xinbNa4vIzw
-  - 118.107.222.2317YJBfLQg
-  - planb.mojcn.com.linuxlh.xinAgzjK3bu
+  - 121.46.230.138MeaWAXOJ
+  - 121.46.230.1375Em3KMjL
+  - 121.46.230.138qcuxM3z9
+  - planb.mojcn.com.linuxlh.xingObADW5P
+  - 121.46.230.232NoknzVfG
+  - 112.132.215.108zGKfvqnR
+  - 95.170.13.47KXlAWQGR
+  - 103.169.67.347Cmw3G8H
+  - planb.mojcn.com.linuxlh.xinNhEmSRXx
+  - 118.107.222.231GKHW145A
 - name: 🌍 国外媒体
   type: select
   proxies:
