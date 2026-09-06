@@ -5,48 +5,85 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-- name: 103.169.67.34syxWIkMR
+- name: v4.hdacd.comsulTwY4F
+  type: vmess
+  server: v4.hdacd.com
+  port: 30804
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  network: null
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: 103.169.67.349hvdJoqi
   type: ss
   server: 103.169.67.34
   port: '65443'
   password: 7eadc6dbe2ae
   alterId: 2
   cipher: aes-256-cfb
-- name: 78.17.71.236NJPgMbo2
-  type: vmess
-  server: 78.17.71.236
-  port: 33736
-  uuid: b3a11068-1a7e-4643-85de-7c82cce46943
-  alterId: 0
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /vmess-ws
-  ws-headers: null
-  tls: false
-- name: renderer-stream-2-62.mirra.now849MG7OI
-  type: vmess
-  server: renderer-stream-2-62.mirra.now
-  port: '443'
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /api/v1/gpu-stream/socket
-  ws-headers:
-    Host: ''
-  tls: true
-- name: 3.96.202.83WuQx3J8q
+- name: 121.46.230.2324wvXgq1j
   type: ss
-  server: 3.96.202.83
-  port: 443
+  server: 121.46.230.232
+  port: '65443'
+  password: 7eadc6dbe2ae
+  alterId: 2
+  cipher: aes-256-cfb
+- name: 35.178.200.252h7Axt5Mc
+  type: ss
+  server: 35.178.200.252
+  port: '443'
   password: amazonskr05
   alterId: 2
   cipher: aes-256-cfb
-- name: cf1.2000601.xyzHf3R5mU9
+- name: 82.38.31.62WUdbmABH
+  type: ss
+  server: 82.38.31.62
+  port: '8080'
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  alterId: 2
+  cipher: chacha20-ietf-poly1305
+- name: v29.hdacd.com56dt1eQO
   type: vmess
-  server: cf1.2000601.xyz
+  server: v29.hdacd.com
+  port: 30829
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  network: null
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: v33.hdacd.com03jtvSUu
+  type: vmess
+  server: v33.hdacd.com
+  port: 30833
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  network: null
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: v33.hdacd.comjR0AL3ZW
+  type: vmess
+  server: v33.hdacd.com
+  port: 30833
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: cf2.2000601.xyzaHnxE5Bg
+  type: vmess
+  server: cf2.2000601.xyz
   port: 8443
   uuid: 0c655bc1-42d9-4f92-bf60-aec93087ea54
   alterId: 0
@@ -56,31 +93,7 @@ proxies:
   ws-path: null
   ws-headers: null
   tls: true
-- name: v10.zgtfqs.clickKam1ScsJ
-  type: vmess
-  server: v10.zgtfqs.click
-  port: 30807
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  network: null
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: 78.17.71.236wYzPKJ34
-  type: vmess
-  server: 78.17.71.236
-  port: 33736
-  uuid: b3a11068-1a7e-4643-85de-7c82cce46943
-  alterId: 0
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /vmess-ws
-  ws-headers: null
-  tls: false
-- name: cf.2000601.xyznw6Sifu5
+- name: cf.2000601.xyzLkQqRm82
   type: vmess
   server: cf.2000601.xyz
   port: 8443
@@ -92,7 +105,76 @@ proxies:
   ws-path: null
   ws-headers: null
   tls: true
-- name: 78.17.71.2365DSRB2X3
+- name: 118.107.222.231DK0OHE4L
+  type: ss
+  server: 118.107.222.231
+  port: '65443'
+  password: 7eadc6dbe2ae
+  alterId: 2
+  cipher: aes-256-cfb
+- name: cf1.2000601.xyzAjp2FkUM
+  type: vmess
+  server: cf1.2000601.xyz
+  port: 8443
+  uuid: 0c655bc1-42d9-4f92-bf60-aec93087ea54
+  alterId: 0
+  cipher: auto
+  network: null
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: true
+- name: 112.132.215.108V6XJL0t7
+  type: vmess
+  server: 112.132.215.108
+  port: 50002
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  network: null
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: 121.46.230.1385a6oNiTY
+  type: ss
+  server: 121.46.230.138
+  port: 65443
+  password: 7eadc6dbe2ae
+  alterId: 2
+  cipher: aes-256-cfb
+- name: 95.170.13.474hf8NyGS
+  type: ss
+  server: 95.170.13.47
+  port: '65443'
+  password: 7eadc6dbe2ae
+  alterId: 2
+  cipher: aes-256-cfb
+- name: 112.132.215.108s9dF3E54
+  type: vmess
+  server: 112.132.215.108
+  port: 50002
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: v36.hdacd.comDi72AKCw
+  type: vmess
+  server: v36.hdacd.com
+  port: 30836
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  network: null
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: 78.17.71.236FO43VnWg
   type: vmess
   server: 78.17.71.236
   port: 33736
@@ -105,19 +187,26 @@ proxies:
   ws-headers:
     Host: Telegram-Leviko_v2ray
   tls: false
-- name: 112.132.215.108IL17aMZU
+- name: 78.17.71.236U6LA17hn
   type: vmess
-  server: 112.132.215.108
-  port: 50002
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
+  server: 78.17.71.236
+  port: 33736
+  uuid: b3a11068-1a7e-4643-85de-7c82cce46943
+  alterId: 0
   cipher: auto
-  network: null
+  network: ws
   ucp: true
-  ws-path: null
+  ws-path: /vmess-ws
   ws-headers: null
   tls: false
-- name: cf3.2000601.xyzn1ZXtb9B
+- name: 121.46.230.137atGq0nzv
+  type: ss
+  server: 121.46.230.137
+  port: '65443'
+  password: 7eadc6dbe2ae
+  alterId: 2
+  cipher: aes-256-cfb
+- name: cf3.2000601.xyzlTQGqVmI
   type: vmess
   server: cf3.2000601.xyz
   port: 8443
@@ -129,121 +218,18 @@ proxies:
   ws-path: null
   ws-headers: null
   tls: true
-- name: cf2.2000601.xyz7DcQLeY1
+- name: planb.mojcn.comQGd3HS9O
   type: vmess
-  server: cf2.2000601.xyz
-  port: 8443
-  uuid: 0c655bc1-42d9-4f92-bf60-aec93087ea54
-  alterId: 0
-  cipher: auto
-  network: null
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: true
-- name: 78.17.71.236cnQ7zKSA
-  type: vmess
-  server: 78.17.71.236
-  port: '33736'
-  uuid: b3a11068-1a7e-4643-85de-7c82cce46943
+  server: planb.mojcn.com
+  port: '16648'
+  uuid: 21af4a11-cf99-4370-bdd7-8a50cd0c6c49
   alterId: '0'
   cipher: auto
   network: ws
   ucp: true
-  ws-path: /vmess-ws
+  ws-path: /
   ws-headers:
-    Host: ''
-  tls: false
-- name: v36.hdacd.comqwmcdbrI
-  type: vmess
-  server: v36.hdacd.com
-  port: 30836
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  network: null
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: 35.182.118.89NtrfFYUM
-  type: ss
-  server: 35.182.118.89
-  port: '443'
-  password: amazonskr05
-  alterId: 2
-  cipher: aes-256-cfb
-- name: v10.hdacd.comJ7hkBWIe
-  type: vmess
-  server: v10.hdacd.com
-  port: 30807
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: v33.hdacd.comrT60QjZU
-  type: vmess
-  server: v33.hdacd.com
-  port: 30833
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  network: null
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: v4.hdacd.comfNZKoQIi
-  type: vmess
-  server: v4.hdacd.com
-  port: 30804
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  network: null
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: v29.hdacd.comKrVgl2pL
-  type: vmess
-  server: v29.hdacd.com
-  port: 30829
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  network: null
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: v36.hdacd.comz1pP0SNb
-  type: vmess
-  server: v36.hdacd.com
-  port: 30836
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: v33.hdacd.com42rD6THh
-  type: vmess
-  server: v33.hdacd.com
-  port: 30833
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: null
-  ws-headers: null
+    Host: e176d51869ea80390a96391ec8361f3f.mobgslb.tbcache.com
   tls: false
 proxy-groups:
 - name: 🔰 节点选择
@@ -251,53 +237,55 @@ proxy-groups:
   proxies:
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 103.169.67.34syxWIkMR
-  - 78.17.71.236NJPgMbo2
-  - renderer-stream-2-62.mirra.now849MG7OI
-  - 3.96.202.83WuQx3J8q
-  - cf1.2000601.xyzHf3R5mU9
-  - v10.zgtfqs.clickKam1ScsJ
-  - 78.17.71.236wYzPKJ34
-  - cf.2000601.xyznw6Sifu5
-  - 78.17.71.2365DSRB2X3
-  - 112.132.215.108IL17aMZU
-  - cf3.2000601.xyzn1ZXtb9B
-  - cf2.2000601.xyz7DcQLeY1
-  - 78.17.71.236cnQ7zKSA
-  - v36.hdacd.comqwmcdbrI
-  - 35.182.118.89NtrfFYUM
-  - v10.hdacd.comJ7hkBWIe
-  - v33.hdacd.comrT60QjZU
-  - v4.hdacd.comfNZKoQIi
-  - v29.hdacd.comKrVgl2pL
-  - v36.hdacd.comz1pP0SNb
-  - v33.hdacd.com42rD6THh
+  - v4.hdacd.comsulTwY4F
+  - 103.169.67.349hvdJoqi
+  - 121.46.230.2324wvXgq1j
+  - 35.178.200.252h7Axt5Mc
+  - 82.38.31.62WUdbmABH
+  - v29.hdacd.com56dt1eQO
+  - v33.hdacd.com03jtvSUu
+  - v33.hdacd.comjR0AL3ZW
+  - cf2.2000601.xyzaHnxE5Bg
+  - cf.2000601.xyzLkQqRm82
+  - 118.107.222.231DK0OHE4L
+  - cf1.2000601.xyzAjp2FkUM
+  - 112.132.215.108V6XJL0t7
+  - 121.46.230.1385a6oNiTY
+  - 95.170.13.474hf8NyGS
+  - 112.132.215.108s9dF3E54
+  - v36.hdacd.comDi72AKCw
+  - 78.17.71.236FO43VnWg
+  - 78.17.71.236U6LA17hn
+  - 121.46.230.137atGq0nzv
+  - cf3.2000601.xyzlTQGqVmI
+  - planb.mojcn.comQGd3HS9O
 - name: ♻️ 自动选择
   type: url-test
   url: http://maps.googleapis.com/maps/api/mapsjs/gen_204
   interval: 300
   proxies:
-  - 103.169.67.34syxWIkMR
-  - 78.17.71.236NJPgMbo2
-  - renderer-stream-2-62.mirra.now849MG7OI
-  - 3.96.202.83WuQx3J8q
-  - cf1.2000601.xyzHf3R5mU9
-  - v10.zgtfqs.clickKam1ScsJ
-  - 78.17.71.236wYzPKJ34
-  - cf.2000601.xyznw6Sifu5
-  - 78.17.71.2365DSRB2X3
-  - 112.132.215.108IL17aMZU
-  - cf3.2000601.xyzn1ZXtb9B
-  - cf2.2000601.xyz7DcQLeY1
-  - 78.17.71.236cnQ7zKSA
-  - v36.hdacd.comqwmcdbrI
-  - 35.182.118.89NtrfFYUM
-  - v10.hdacd.comJ7hkBWIe
-  - v33.hdacd.comrT60QjZU
-  - v4.hdacd.comfNZKoQIi
-  - v29.hdacd.comKrVgl2pL
-  - v36.hdacd.comz1pP0SNb
-  - v33.hdacd.com42rD6THh
+  - v4.hdacd.comsulTwY4F
+  - 103.169.67.349hvdJoqi
+  - 121.46.230.2324wvXgq1j
+  - 35.178.200.252h7Axt5Mc
+  - 82.38.31.62WUdbmABH
+  - v29.hdacd.com56dt1eQO
+  - v33.hdacd.com03jtvSUu
+  - v33.hdacd.comjR0AL3ZW
+  - cf2.2000601.xyzaHnxE5Bg
+  - cf.2000601.xyzLkQqRm82
+  - 118.107.222.231DK0OHE4L
+  - cf1.2000601.xyzAjp2FkUM
+  - 112.132.215.108V6XJL0t7
+  - 121.46.230.1385a6oNiTY
+  - 95.170.13.474hf8NyGS
+  - 112.132.215.108s9dF3E54
+  - v36.hdacd.comDi72AKCw
+  - 78.17.71.236FO43VnWg
+  - 78.17.71.236U6LA17hn
+  - 121.46.230.137atGq0nzv
+  - cf3.2000601.xyzlTQGqVmI
+  - planb.mojcn.comQGd3HS9O
 - name: 🌍 国外媒体
   type: select
   proxies:
