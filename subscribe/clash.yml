@@ -5,38 +5,66 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-- name: 127.0.0.53swYrvbH2
+- name: 90.127.143.135BDgcynGP
   type: vmess
-  server: 127.0.0.53
-  port: '86'
-  uuid: 88888888-8888-8888-8888-888888888888
+  server: 90.127.143.135
+  port: 443
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
   alterId: 0
   cipher: auto
-  network: tcp
+  network: ws
   ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: v4.hdacd.comTFuGXMUz
-  type: vmess
-  server: v4.hdacd.com
-  port: 30804
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: 103.236.66.4ztNXDWRQ
+  ws-path: /api/v1/gpu-stream/socket
+  ws-headers:
+    Host: renderer-stream-2-62.mirra.now
+  tls: true
+- name: 112.28.141.77YU8you5w
   type: ss
-  server: 103.236.66.4
-  port: 50001
+  server: 112.28.141.77
+  port: 10006
   password: Butterfly123@qwe9527
   alterId: 2
   cipher: aes-256-gcm
-- name: 124.151.45.6026HwOE9R
+- name: 47.83.207.148WR5iUeX8
+  type: vmess
+  server: 47.83.207.148
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /ws-vmess
+  ws-headers:
+    Host: VAH4URdZL3jDX5r2.v.3dns.vip
+  tls: true
+- name: 89.42.142.63b1BPVCqU
+  type: vmess
+  server: 89.42.142.63
+  port: 443
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /api/v1/gpu-stream/socket
+  ws-headers:
+    Host: renderer-stream-2-62.mirra.now
+  tls: true
+- name: 38.107.234.57NUELXYl4
+  type: vmess
+  server: 38.107.234.57
+  port: 80
+  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /vmess/
+  ws-headers:
+    Host: 3h-kazakhstan1.09vpn.com
+  tls: false
+- name: 124.151.45.60qlU9grQL
   type: vmess
   server: 124.151.45.60
   port: 38320
@@ -48,7 +76,766 @@ proxies:
   ws-path: null
   ws-headers: null
   tls: false
-- name: 185.99.2.1759FZe3Cb8
+- name: 127.0.0.538nLiXsIK
+  type: vmess
+  server: 127.0.0.53
+  port: '81'
+  uuid: 88888888-8888-8888-8888-888888888888
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: 47.83.19.148hdI76N1g
+  type: vmess
+  server: 47.83.19.148
+  port: 443
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /ws-vmess
+  ws-headers:
+    Host: 6JDvArazgU3qQR6Q.v.3dns.vip
+  tls: true
+- name: 127.0.0.53ByS5sKtD
+  type: vmess
+  server: 127.0.0.53
+  port: '89'
+  uuid: 88888888-8888-8888-8888-888888888888
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: 2.27.16.177rVdUuv5j
+  type: vmess
+  server: 2.27.16.177
+  port: 443
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /api/v1/gpu-stream/socket
+  ws-headers:
+    Host: renderer-stream-2-62.mirra.now
+  tls: true
+- name: 193.23.118.195y7LMI3Qv
+  type: vmess
+  server: 193.23.118.195
+  port: 443
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /api/v1/gpu-stream/socket
+  ws-headers:
+    Host: renderer-stream-2-62.mirra.now
+  tls: true
+- name: 64.188.97.153jFenDXlW
+  type: vmess
+  server: 64.188.97.153
+  port: 443
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /api/v1/gpu-stream/socket
+  ws-headers:
+    Host: renderer-stream-2-62.mirra.now
+  tls: true
+- name: 13.140.28.46tMPYkx1b
+  type: vmess
+  server: 13.140.28.46
+  port: 443
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /api/v1/gpu-stream/socket
+  ws-headers:
+    Host: renderer-stream-2-62.mirra.now
+  tls: true
+- name: 5.188.26.85OU8M0NHn
+  type: vmess
+  server: 5.188.26.85
+  port: 443
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /api/v1/gpu-stream/socket
+  ws-headers:
+    Host: renderer-stream-2-62.mirra.now
+  tls: true
+- name: 195.19.20.80LzxMhwBe
+  type: vmess
+  server: 195.19.20.80
+  port: 443
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /api/v1/gpu-stream/socket
+  ws-headers:
+    Host: renderer-stream-2-62.mirra.now
+  tls: true
+- name: v4.hdacd.comsG1W5ZwQ
+  type: vmess
+  server: v4.hdacd.com
+  port: 30804
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: ejomsxptp19apygl.v.3dns.vipSPWIzsqO
+  type: vmess
+  server: ejomsxptp19apygl.v.3dns.vip
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /ws-vmess
+  ws-headers: null
+  tls: true
+- name: 127.0.0.53EZuapTCy
+  type: vmess
+  server: 127.0.0.53
+  port: '85'
+  uuid: 88888888-8888-8888-8888-888888888888
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: 194.164.192.166WKRQIl7
+  type: vmess
+  server: 194.164.192.16
+  port: 443
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /api/v1/gpu-stream/socket
+  ws-headers:
+    Host: renderer-stream-2-62.mirra.now
+  tls: true
+- name: 8.218.184.4FeyST9Et
+  type: vmess
+  server: 8.218.184.4
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /ws-vmess
+  ws-headers:
+    Host: NYcQg19zkwaCPM1B.v.3dns.vip
+  tls: true
+- name: 89.127.218.61eLgGDlFQ
+  type: vmess
+  server: 89.127.218.61
+  port: 443
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /api/v1/gpu-stream/socket
+  ws-headers:
+    Host: renderer-stream-2-62.mirra.now
+  tls: true
+- name: 64.188.106.254HGoVsI2S
+  type: vmess
+  server: 64.188.106.254
+  port: 443
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /api/v1/gpu-stream/socket
+  ws-headers:
+    Host: renderer-stream-2-62.mirra.now
+  tls: true
+- name: 194.87.71.141TgHsruiM
+  type: vmess
+  server: 194.87.71.141
+  port: 443
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /api/v1/gpu-stream/socket
+  ws-headers:
+    Host: renderer-stream-2-62.mirra.now
+  tls: true
+- name: 108.165.236.142InEyrkTL
+  type: vmess
+  server: 108.165.236.142
+  port: 443
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /api/v1/gpu-stream/socket
+  ws-headers:
+    Host: renderer-stream-2-62.mirra.now
+  tls: true
+- name: 95.85.233.138QmBITA81
+  type: vmess
+  server: 95.85.233.138
+  port: 443
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /api/v1/gpu-stream/socket
+  ws-headers:
+    Host: renderer-stream-2-62.mirra.now
+  tls: true
+- name: 47.76.44.325CcqEKHv
+  type: vmess
+  server: 47.76.44.32
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /ws-vmess
+  ws-headers:
+    Host: 93ucrn4i0PffUAbk.v.3dns.vip
+  tls: true
+- name: vah4urdzl3jdx5r2.v.3dns.vip2fRmpSIz
+  type: vmess
+  server: vah4urdzl3jdx5r2.v.3dns.vip
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /ws-vmess
+  ws-headers:
+    Host: VAH4URdZL3jDX5r2.v.3dns.vip
+  tls: true
+- name: 85.159.228.232sZlVLYRB
+  type: vmess
+  server: 85.159.228.232
+  port: 443
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /api/v1/gpu-stream/socket
+  ws-headers:
+    Host: renderer-stream-2-62.mirra.now
+  tls: true
+- name: 2.27.54.132j0Hyh1LM
+  type: vmess
+  server: 2.27.54.132
+  port: 443
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /api/v1/gpu-stream/socket
+  ws-headers:
+    Host: renderer-stream-2-62.mirra.now
+  tls: true
+- name: 185.230.190.29FLM4I9pB
+  type: vmess
+  server: 185.230.190.29
+  port: 443
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /api/v1/gpu-stream/socket
+  ws-headers:
+    Host: renderer-stream-2-62.mirra.now
+  tls: true
+- name: 194.226.142.120elqdBN7o
+  type: vmess
+  server: 194.226.142.120
+  port: 443
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /api/v1/gpu-stream/socket
+  ws-headers:
+    Host: renderer-stream-2-62.mirra.now
+  tls: true
+- name: 193.180.211.1559NoFkUqs
+  type: vmess
+  server: 193.180.211.155
+  port: 443
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /api/v1/gpu-stream/socket
+  ws-headers:
+    Host: renderer-stream-2-62.mirra.now
+  tls: true
+- name: 82.139.242.5EbPIdkge
+  type: vmess
+  server: 82.139.242.5
+  port: 443
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /api/v1/gpu-stream/socket
+  ws-headers:
+    Host: renderer-stream-2-62.mirra.now
+  tls: true
+- name: 217.142.138.615slWxFC3
+  type: vmess
+  server: 217.142.138.61
+  port: 80
+  uuid: ac1b933d-afff-4487-93ef-f57130a55dff
+  alterId: 0
+  cipher: auto
+  network: null
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: 5.255.109.47tWIsk3rT
+  type: vmess
+  server: 5.255.109.47
+  port: 443
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /api/v1/gpu-stream/socket
+  ws-headers:
+    Host: renderer-stream-2-62.mirra.now
+  tls: true
+- name: 188.114.96.19Pn3WqKeh
+  type: vmess
+  server: 188.114.96.19
+  port: '80'
+  uuid: 479526cd-5011-43cf-a788-504da95e07c2
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: google.whatsapp.snapp.torob.basalam.fortresshost.ir.
+  tls: false
+- name: 103.236.66.4Nxs51tjr
+  type: ss
+  server: 103.236.66.4
+  port: 50003
+  password: Butterfly123@qwe9527
+  alterId: 2
+  cipher: aes-256-gcm
+- name: 132.145.80.2302iGorjTt
+  type: vmess
+  server: 132.145.80.230
+  port: 80
+  uuid: 5155860e-d07d-46c3-9128-3afbd84626c7
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /cctv13.m3u8
+  ws-headers: null
+  tls: false
+- name: 185.233.203.113eJEDBqTH
+  type: vmess
+  server: 185.233.203.113
+  port: 443
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /api/v1/gpu-stream/socket
+  ws-headers:
+    Host: renderer-stream-2-62.mirra.now
+  tls: true
+- name: 127.0.0.53tDyzrT8s
+  type: vmess
+  server: 127.0.0.53
+  port: '82'
+  uuid: 88888888-8888-8888-8888-888888888888
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: lcv8v9l7oyamxxfz.v.3dns.vipgwO7kbVE
+  type: vmess
+  server: lcv8v9l7oyamxxfz.v.3dns.vip
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /ws-vmess
+  ws-headers:
+    Host: lcv8v9l7OyamxxfZ.v.3dns.vip
+  tls: true
+- name: 93ucrn4i0pffuabk.v.3dns.vip6vOgFfQq
+  type: vmess
+  server: 93ucrn4i0pffuabk.v.3dns.vip
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /ws-vmess
+  ws-headers:
+    Host: 93ucrn4i0PffUAbk.v.3dns.vip
+  tls: true
+- name: 109.172.93.20viE9Lpjw
+  type: vmess
+  server: 109.172.93.20
+  port: 443
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /api/v1/gpu-stream/socket
+  ws-headers:
+    Host: renderer-stream-2-62.mirra.now
+  tls: true
+- name: ex1ogt73nzpqkac2.v.3dns.vip7myFln84
+  type: vmess
+  server: ex1ogt73nzpqkac2.v.3dns.vip
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /ws-vmess
+  ws-headers:
+    Host: EX1oGt73NzPQKAc2.v.3dns.vip
+  tls: true
+- name: 185.92.74.1082Iqmp8Wu
+  type: vmess
+  server: 185.92.74.108
+  port: 443
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /api/v1/gpu-stream/socket
+  ws-headers:
+    Host: renderer-stream-2-62.mirra.now
+  tls: true
+- name: 188.253.25.172hE2iT817
+  type: vmess
+  server: 188.253.25.172
+  port: 443
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /api/v1/gpu-stream/socket
+  ws-headers:
+    Host: renderer-stream-2-62.mirra.now
+  tls: true
+- name: 103.236.66.452v3seCZ
+  type: ss
+  server: 103.236.66.4
+  port: 40001
+  password: Butterfly123@qwe9527
+  alterId: 2
+  cipher: aes-256-gcm
+- name: 185.4.73.45NcoTS40q
+  type: vmess
+  server: 185.4.73.45
+  port: 443
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /api/v1/gpu-stream/socket
+  ws-headers:
+    Host: renderer-stream-2-62.mirra.now
+  tls: true
+- name: 185.137.223.71kQLugiIx
+  type: vmess
+  server: 185.137.223.71
+  port: 443
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /api/v1/gpu-stream/socket
+  ws-headers:
+    Host: renderer-stream-2-62.mirra.now
+  tls: true
+- name: 124.151.45.60sJa5V9qv
+  type: vmess
+  server: 124.151.45.60
+  port: 38320
+  uuid: d643d6ea-2e48-4ad5-b96e-d11b889cc6a6
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: 127.0.0.53EgwotzsP
+  type: vmess
+  server: 127.0.0.53
+  port: '83'
+  uuid: 88888888-8888-8888-8888-888888888888
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: 127.0.0.53G6Zhf9mI
+  type: vmess
+  server: 127.0.0.53
+  port: '87'
+  uuid: 88888888-8888-8888-8888-888888888888
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: 188.114.96.19DHVo4XhR
+  type: vmess
+  server: 188.114.96.19
+  port: 80
+  uuid: 479526cd-5011-43cf-a788-504da95e07c2
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: google.whatsapp.snapp.torob.basalam.fortresshost.ir.
+  tls: false
+- name: 127.0.0.53wYso3Ub6
+  type: vmess
+  server: 127.0.0.53
+  port: '84'
+  uuid: 88888888-8888-8888-8888-888888888888
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: 45.158.127.486VXFy0ON
+  type: vmess
+  server: 45.158.127.48
+  port: 443
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /api/v1/gpu-stream/socket
+  ws-headers:
+    Host: renderer-stream-2-62.mirra.now
+  tls: true
+- name: 36.33.35.105g2RpQjqe
+  type: ss
+  server: 36.33.35.105
+  port: 30001
+  password: Butterfly123@qwe9527
+  alterId: 2
+  cipher: aes-256-gcm
+- name: v10.hdacd.comUiDNkdCA
+  type: vmess
+  server: v10.hdacd.com
+  port: '30807'
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: 107.174.88.1286dI9c2Pf
+  type: ss
+  server: 107.174.88.128
+  port: '443'
+  password: 063aee2ed1124285b5d8a8b049e24cba
+  alterId: 2
+  cipher: chacha20-ietf-poly1305
+- name: 80.93.217.193VKdAtC6q
+  type: vmess
+  server: 80.93.217.193
+  port: 2083
+  uuid: b4904296-5df5-430c-9849-22bef703174c
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: true
+- name: 127.0.0.53kBSLHYc3
+  type: vmess
+  server: 127.0.0.53
+  port: '80'
+  uuid: 88888888-8888-8888-8888-888888888888
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: 127.0.0.53w3eNjtLh
+  type: vmess
+  server: 127.0.0.53
+  port: '86'
+  uuid: 88888888-8888-8888-8888-888888888888
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: 212.43.156.143X07x3bKU
+  type: vmess
+  server: 212.43.156.143
+  port: 443
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /api/v1/gpu-stream/socket
+  ws-headers:
+    Host: renderer-stream-2-62.mirra.now
+  tls: true
+- name: 111.88.74.167JTmfxYPk
+  type: vmess
+  server: 111.88.74.167
+  port: 443
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /api/v1/gpu-stream/socket
+  ws-headers:
+    Host: renderer-stream-2-62.mirra.now
+  tls: true
+- name: 63.180.254.10LYjO4eVP
+  type: ss
+  server: 63.180.254.10
+  port: 443
+  password: amazonskr05
+  alterId: 2
+  cipher: aes-256-cfb
+- name: 47.86.107.119VDTxmejf
+  type: vmess
+  server: 47.86.107.119
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /ws-vmess
+  ws-headers:
+    Host: lcv8v9l7OyamxxfZ.v.3dns.vip
+  tls: true
+- name: www.shopify.comlqxPFNc6
+  type: vmess
+  server: www.shopify.com
+  port: 443
+  uuid: 3aa71202-a099-49c1-99fc-6662f3335369
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /3aa71202-a099-49c1-99fc-6662f3335369-vm
+  ws-headers:
+    Host: yoga-suggesting-recording-calls.trycloudflare.com
+  tls: true
+- name: 95.164.90.133iMdfOGvb
+  type: vmess
+  server: 95.164.90.133
+  port: 443
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /api/v1/gpu-stream/socket
+  ws-headers:
+    Host: renderer-stream-2-62.mirra.now
+  tls: true
+- name: 152.67.8.2059U14efNK
+  type: vmess
+  server: 152.67.8.205
+  port: 80
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /
+  ws-headers: null
+  tls: false
+- name: 185.99.2.175SK6Jxk13
   type: vmess
   server: 185.99.2.175
   port: 443
@@ -61,88 +848,46 @@ proxies:
   ws-headers:
     Host: renderer-stream-2-62.mirra.now
   tls: true
-- name: v4.hdacd.com6WEKwIOx
+- name: 68.64.182.121pg2IPiG4
   type: vmess
-  server: v4.hdacd.com
-  port: 30804
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  network: null
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: 36.33.35.1052cfGtVmE
-  type: ss
-  server: 36.33.35.105
-  port: 30001
-  password: Butterfly123@qwe9527
-  alterId: 2
-  cipher: aes-256-gcm
-- name: 18.194.210.1779Bvz1sJ7
-  type: ss
-  server: 18.194.210.177
-  port: '443'
-  password: amazonskr05
-  alterId: 2
-  cipher: aes-256-cfb
-- name: 127.0.0.53UHWumJy0
-  type: vmess
-  server: 127.0.0.53
-  port: '80'
-  uuid: 88888888-8888-8888-8888-888888888888
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: 127.0.0.53SsnkGrf7
-  type: vmess
-  server: 127.0.0.53
-  port: '89'
-  uuid: 88888888-8888-8888-8888-888888888888
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: 7dba81fc3a0b.oylfmxz.cnC1VxpWBv
-  type: vmess
-  server: 7dba81fc3a0b.oylfmxz.cn
+  server: 68.64.182.121
   port: 443
-  uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
   alterId: 0
   cipher: auto
   network: ws
   ucp: true
-  ws-path: /
-  ws-headers: null
+  ws-path: /api/v1/gpu-stream/socket
+  ws-headers:
+    Host: renderer-stream-2-62.mirra.now
   tls: true
-- name: v10.hdacd.comt23TB0Lr
+- name: 168.138.43.75B5Tdps4U
   type: vmess
-  server: v10.hdacd.com
-  port: 30807
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
+  server: 168.138.43.75
+  port: 80
+  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
+  alterId: 0
   cipher: auto
-  network: tcp
+  network: ws
   ucp: true
-  ws-path: null
-  ws-headers: null
+  ws-path: /cctv13.m3u8
+  ws-headers:
+    Host: 168.138.43.75
   tls: false
-- name: 103.236.66.4dwpoRZDg
-  type: ss
-  server: 103.236.66.4
-  port: 40002
-  password: Butterfly123@qwe9527
-  alterId: 2
-  cipher: aes-256-gcm
-- name: 127.0.0.53Y4UGqroD
+- name: i2psm3knof5qjjix.v.3dns.vipwVYcLQNI
+  type: vmess
+  server: i2psm3knof5qjjix.v.3dns.vip
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /ws-vmess
+  ws-headers:
+    Host: I2PSm3Knof5qjjix.v.3dns.vip
+  tls: true
+- name: 127.0.0.53JCQ2Bt3g
   type: vmess
   server: 127.0.0.53
   port: '88'
@@ -154,22 +899,48 @@ proxies:
   ws-path: null
   ws-headers: null
   tls: false
-- name: v10.hdacd.comGrx2Uime
+- name: v10.hdacd.comCGcsJZKW
   type: vmess
   server: v10.hdacd.com
   port: 30807
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   alterId: 2
   cipher: auto
-  network: null
+  network: tcp
   ucp: true
   ws-path: null
   ws-headers: null
   tls: false
-- name: v10.hdacd.comZCYnKEX4
+- name: 144.225.130.23xwZvuO5W
+  type: vmess
+  server: 144.225.130.23
+  port: 443
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /api/v1/gpu-stream/socket
+  ws-headers:
+    Host: renderer-stream-2-62.mirra.now
+  tls: true
+- name: www.shopify.com0oCqBkY9
+  type: vmess
+  server: www.shopify.com
+  port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /hls/cctv5phd.m3u8
+  ws-headers:
+    Host: guanwang.awsno.com
+  tls: true
+- name: v10.hdacd.comfjdN7CZt
   type: vmess
   server: v10.hdacd.com
-  port: '30807'
+  port: 30807
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   alterId: 2
   cipher: auto
@@ -178,75 +949,11 @@ proxies:
   ws-path: null
   ws-headers: null
   tls: false
-- name: 103.236.66.4HSqxfcpE
-  type: ss
-  server: 103.236.66.4
-  port: 40001
-  password: Butterfly123@qwe9527
-  alterId: 2
-  cipher: aes-256-gcm
-- name: d3cdy6viklzpq1.cloudfront.netKW6GEkzU
+- name: 140.238.2.250zxwHuLs1
   type: vmess
-  server: d3cdy6viklzpq1.cloudfront.net
+  server: 140.238.2.250
   port: 443
-  uuid: 4da05f36-7918-488e-b07e-808e4992cee0
-  alterId: 0
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /vmess
-  ws-headers:
-    Host: d3cdy6viklzpq1.cloudfront.net
-  tls: true
-- name: 13.37.239.112iTM50KXF
-  type: ss
-  server: 13.37.239.112
-  port: 443
-  password: amazonskr05
-  alterId: 2
-  cipher: aes-256-cfb
-- name: 127.0.0.53DhnQEXUm
-  type: vmess
-  server: 127.0.0.53
-  port: '85'
-  uuid: 88888888-8888-8888-8888-888888888888
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: 127.0.0.53vKlCwqTx
-  type: vmess
-  server: 127.0.0.53
-  port: '83'
-  uuid: 88888888-8888-8888-8888-888888888888
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: www.shopify.comjSo37Z61
-  type: vmess
-  server: www.shopify.com
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  alterId: 0
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /hls/cctv5phd.m3u8
-  ws-headers:
-    Host: guanwang.awsno.com
-  tls: true
-- name: dog-hk.kunlun01dns.comVUjhbDrk
-  type: vmess
-  server: dog-hk.kunlun01dns.com
-  port: 21019
-  uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
+  uuid: 41a7089a-040b-4538-8b8d-010902405bde
   alterId: 0
   cipher: auto
   network: null
@@ -254,244 +961,416 @@ proxies:
   ws-path: null
   ws-headers: null
   tls: false
-- name: 112.132.215.10828RCj3Sl
+- name: wwafj5lhl6bi8au9.v.3dns.vipoHIFmps3
   type: vmess
-  server: 112.132.215.108
-  port: 50002
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  network: null
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: 3.141.200.225MqSK2maj
-  type: ss
-  server: 3.141.200.225
+  server: wwafj5lhl6bi8au9.v.3dns.vip
   port: 443
-  password: amazonskr05
-  alterId: 2
-  cipher: aes-256-cfb
-- name: 127.0.0.53BFHNRp0M
-  type: vmess
-  server: 127.0.0.53
-  port: '82'
-  uuid: 88888888-8888-8888-8888-888888888888
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: www.shopify.comDJkxzpB1
-  type: vmess
-  server: www.shopify.com
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  uuid: f23bb427c1f94373876c2f43e9f790f3
   alterId: 0
   cipher: auto
   network: ws
   ucp: true
-  ws-path: /hls/cctv5phd.m3u8
+  ws-path: /ws-vmess
   ws-headers:
-    Host: guanwang.awsno.com
+    Host: wwafj5LHl6bI8aU9.v.3dns.vip
   tls: true
-- name: 124.151.45.605YFRhWlq
+- name: 94.159.110.417kMz0wLB
   type: vmess
-  server: 124.151.45.60
-  port: 38320
-  uuid: d643d6ea-2e48-4ad5-b96e-d11b889cc6a6
+  server: 94.159.110.41
+  port: 443
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
   alterId: 0
   cipher: auto
-  network: tcp
+  network: ws
   ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: 127.0.0.53xFLM6dnk
+  ws-path: /api/v1/gpu-stream/socket
+  ws-headers:
+    Host: renderer-stream-2-62.mirra.now
+  tls: true
+- name: 145.63.134.175K92Q6lrc
   type: vmess
-  server: 127.0.0.53
-  port: '81'
-  uuid: 88888888-8888-8888-8888-888888888888
+  server: 145.63.134.175
+  port: 443
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
   alterId: 0
   cipher: auto
-  network: tcp
+  network: ws
   ucp: true
-  ws-path: null
-  ws-headers: null
+  ws-path: /api/v1/gpu-stream/socket
+  ws-headers:
+    Host: renderer-stream-2-62.mirra.now
+  tls: true
+- name: 47.83.198.38prQMOfsS
+  type: vmess
+  server: 47.83.198.38
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /ws-vmess
+  ws-headers:
+    Host: wwafj5lhl6bi8au9.v.3dns.vip
+  tls: true
+- name: 94.159.105.148dkwF5uPG
+  type: vmess
+  server: 94.159.105.148
+  port: 443
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /api/v1/gpu-stream/socket
+  ws-headers:
+    Host: renderer-stream-2-62.mirra.now
+  tls: true
+- name: 212.80.218.89NUodubI6
+  type: vmess
+  server: 212.80.218.89
+  port: 443
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /api/v1/gpu-stream/socket
+  ws-headers:
+    Host: renderer-stream-2-62.mirra.now
+  tls: true
+- name: 172.98.207.5872HecZPf
+  type: vmess
+  server: 172.98.207.58
+  port: 443
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /api/v1/gpu-stream/socket
+  ws-headers:
+    Host: renderer-stream-2-62.mirra.now
+  tls: true
+- name: 170.187.229.90A6pNlvcL
+  type: vmess
+  server: 170.187.229.90
+  port: 80
+  uuid: 9bda13eb-66bb-4ff5-b01c-aa7c2d291412
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /images
+  ws-headers:
+    Host: shoutingtoutiao3.10010.com
   tls: false
-- name: 112.28.141.77aedhL4Cp
+- name: 64.188.117.165IZ8nrbN6
+  type: vmess
+  server: 64.188.117.165
+  port: 443
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /api/v1/gpu-stream/socket
+  ws-headers:
+    Host: renderer-stream-2-62.mirra.now
+  tls: true
+- name: 103.236.66.4sLZvjUHK
   type: ss
-  server: 112.28.141.77
-  port: 10006
+  server: 103.236.66.4
+  port: 50001
   password: Butterfly123@qwe9527
   alterId: 2
   cipher: aes-256-gcm
-- name: 3.141.200.225LctMe08l
+- name: 188.114.96.19703rGYnU
+  type: vmess
+  server: 188.114.96.19
+  port: '80'
+  uuid: aed88e79-5762-4d2f-86fa-f438f32a7654
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: google.whatsapp.snapp.torob.basalam.hesanid8.ir.
+  tls: false
+- name: 3.71.182.230vysBEtHk
   type: ss
-  server: 3.141.200.225
+  server: 3.71.182.230
   port: 443
   password: amazonskr05
   alterId: 2
   cipher: aes-256-cfb
-- name: 103.236.66.49d8keAQI
-  type: ss
-  server: 103.236.66.4
-  port: 10001
-  password: Butterfly123@qwe9527
-  alterId: 2
-  cipher: aes-256-gcm
-- name: 103.236.66.4Miy6usJ8
-  type: ss
-  server: 103.236.66.4
-  port: 50003
-  password: Butterfly123@qwe9527
-  alterId: 2
-  cipher: aes-256-gcm
-- name: 112.132.215.108xubqli4A
+- name: renderer-stream-2-62.mirra.nowx9bLC42m
   type: vmess
-  server: 112.132.215.108
-  port: 50002
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: 63.180.254.10B3txYysD
-  type: ss
-  server: 63.180.254.10
+  server: renderer-stream-2-62.mirra.now
   port: 443
-  password: amazonskr05
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /api/v1/gpu-stream/socket
+  ws-headers: null
+  tls: true
+- name: 103.236.66.4PprlAuZF
+  type: ss
+  server: 103.236.66.4
+  port: 40002
+  password: Butterfly123@qwe9527
   alterId: 2
-  cipher: aes-256-cfb
-- name: v33.hdacd.comnU56Ha7k
+  cipher: aes-256-gcm
+- name: v33.hdacd.comC8MXhQwP
   type: vmess
   server: v33.hdacd.com
   port: 30833
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   alterId: 2
   cipher: auto
-  network: tcp
+  network: null
   ucp: true
   ws-path: null
   ws-headers: null
   tls: false
-- name: 127.0.0.53MVyiYjp7
+- name: 85.215.41.190mzrEJT6
   type: vmess
-  server: 127.0.0.53
-  port: '84'
-  uuid: 88888888-8888-8888-8888-888888888888
+  server: 85.215.41.19
+  port: 443
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
   alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /api/v1/gpu-stream/socket
+  ws-headers:
+    Host: renderer-stream-2-62.mirra.now
+  tls: true
+- name: irc.jahanrocket.sbsSDFCweor
+  type: vmess
+  server: irc.jahanrocket.sbs
+  port: '443'
+  uuid: 777c24bb-13ec-4c81-bb58-31344653e28c
+  alterId: '0'
   cipher: auto
   network: tcp
   ucp: true
   ws-path: null
   ws-headers: null
   tls: false
-- name: 127.0.0.53lHVWOf3p
-  type: vmess
-  server: 127.0.0.53
-  port: '87'
-  uuid: 88888888-8888-8888-8888-888888888888
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
+- name: 103.236.66.4B5rxFXvj
+  type: ss
+  server: 103.236.66.4
+  port: 10001
+  password: Butterfly123@qwe9527
+  alterId: 2
+  cipher: aes-256-gcm
 proxy-groups:
 - name: 🔰 节点选择
   type: select
   proxies:
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 127.0.0.53swYrvbH2
-  - v4.hdacd.comTFuGXMUz
-  - 103.236.66.4ztNXDWRQ
-  - 124.151.45.6026HwOE9R
-  - 185.99.2.1759FZe3Cb8
-  - v4.hdacd.com6WEKwIOx
-  - 36.33.35.1052cfGtVmE
-  - 18.194.210.1779Bvz1sJ7
-  - 127.0.0.53UHWumJy0
-  - 127.0.0.53SsnkGrf7
-  - 7dba81fc3a0b.oylfmxz.cnC1VxpWBv
-  - v10.hdacd.comt23TB0Lr
-  - 103.236.66.4dwpoRZDg
-  - 127.0.0.53Y4UGqroD
-  - v10.hdacd.comGrx2Uime
-  - v10.hdacd.comZCYnKEX4
-  - 103.236.66.4HSqxfcpE
-  - d3cdy6viklzpq1.cloudfront.netKW6GEkzU
-  - 13.37.239.112iTM50KXF
-  - 127.0.0.53DhnQEXUm
-  - 127.0.0.53vKlCwqTx
-  - www.shopify.comjSo37Z61
-  - dog-hk.kunlun01dns.comVUjhbDrk
-  - 112.132.215.10828RCj3Sl
-  - 3.141.200.225MqSK2maj
-  - 127.0.0.53BFHNRp0M
-  - www.shopify.comDJkxzpB1
-  - 124.151.45.605YFRhWlq
-  - 127.0.0.53xFLM6dnk
-  - 112.28.141.77aedhL4Cp
-  - 3.141.200.225LctMe08l
-  - 103.236.66.49d8keAQI
-  - 103.236.66.4Miy6usJ8
-  - 112.132.215.108xubqli4A
-  - 63.180.254.10B3txYysD
-  - v33.hdacd.comnU56Ha7k
-  - 127.0.0.53MVyiYjp7
-  - 127.0.0.53lHVWOf3p
+  - 90.127.143.135BDgcynGP
+  - 112.28.141.77YU8you5w
+  - 47.83.207.148WR5iUeX8
+  - 89.42.142.63b1BPVCqU
+  - 38.107.234.57NUELXYl4
+  - 124.151.45.60qlU9grQL
+  - 127.0.0.538nLiXsIK
+  - 47.83.19.148hdI76N1g
+  - 127.0.0.53ByS5sKtD
+  - 2.27.16.177rVdUuv5j
+  - 193.23.118.195y7LMI3Qv
+  - 64.188.97.153jFenDXlW
+  - 13.140.28.46tMPYkx1b
+  - 5.188.26.85OU8M0NHn
+  - 195.19.20.80LzxMhwBe
+  - v4.hdacd.comsG1W5ZwQ
+  - ejomsxptp19apygl.v.3dns.vipSPWIzsqO
+  - 127.0.0.53EZuapTCy
+  - 194.164.192.166WKRQIl7
+  - 8.218.184.4FeyST9Et
+  - 89.127.218.61eLgGDlFQ
+  - 64.188.106.254HGoVsI2S
+  - 194.87.71.141TgHsruiM
+  - 108.165.236.142InEyrkTL
+  - 95.85.233.138QmBITA81
+  - 47.76.44.325CcqEKHv
+  - vah4urdzl3jdx5r2.v.3dns.vip2fRmpSIz
+  - 85.159.228.232sZlVLYRB
+  - 2.27.54.132j0Hyh1LM
+  - 185.230.190.29FLM4I9pB
+  - 194.226.142.120elqdBN7o
+  - 193.180.211.1559NoFkUqs
+  - 82.139.242.5EbPIdkge
+  - 217.142.138.615slWxFC3
+  - 5.255.109.47tWIsk3rT
+  - 188.114.96.19Pn3WqKeh
+  - 103.236.66.4Nxs51tjr
+  - 132.145.80.2302iGorjTt
+  - 185.233.203.113eJEDBqTH
+  - 127.0.0.53tDyzrT8s
+  - lcv8v9l7oyamxxfz.v.3dns.vipgwO7kbVE
+  - 93ucrn4i0pffuabk.v.3dns.vip6vOgFfQq
+  - 109.172.93.20viE9Lpjw
+  - ex1ogt73nzpqkac2.v.3dns.vip7myFln84
+  - 185.92.74.1082Iqmp8Wu
+  - 188.253.25.172hE2iT817
+  - 103.236.66.452v3seCZ
+  - 185.4.73.45NcoTS40q
+  - 185.137.223.71kQLugiIx
+  - 124.151.45.60sJa5V9qv
+  - 127.0.0.53EgwotzsP
+  - 127.0.0.53G6Zhf9mI
+  - 188.114.96.19DHVo4XhR
+  - 127.0.0.53wYso3Ub6
+  - 45.158.127.486VXFy0ON
+  - 36.33.35.105g2RpQjqe
+  - v10.hdacd.comUiDNkdCA
+  - 107.174.88.1286dI9c2Pf
+  - 80.93.217.193VKdAtC6q
+  - 127.0.0.53kBSLHYc3
+  - 127.0.0.53w3eNjtLh
+  - 212.43.156.143X07x3bKU
+  - 111.88.74.167JTmfxYPk
+  - 63.180.254.10LYjO4eVP
+  - 47.86.107.119VDTxmejf
+  - www.shopify.comlqxPFNc6
+  - 95.164.90.133iMdfOGvb
+  - 152.67.8.2059U14efNK
+  - 185.99.2.175SK6Jxk13
+  - 68.64.182.121pg2IPiG4
+  - 168.138.43.75B5Tdps4U
+  - i2psm3knof5qjjix.v.3dns.vipwVYcLQNI
+  - 127.0.0.53JCQ2Bt3g
+  - v10.hdacd.comCGcsJZKW
+  - 144.225.130.23xwZvuO5W
+  - www.shopify.com0oCqBkY9
+  - v10.hdacd.comfjdN7CZt
+  - 140.238.2.250zxwHuLs1
+  - wwafj5lhl6bi8au9.v.3dns.vipoHIFmps3
+  - 94.159.110.417kMz0wLB
+  - 145.63.134.175K92Q6lrc
+  - 47.83.198.38prQMOfsS
+  - 94.159.105.148dkwF5uPG
+  - 212.80.218.89NUodubI6
+  - 172.98.207.5872HecZPf
+  - 170.187.229.90A6pNlvcL
+  - 64.188.117.165IZ8nrbN6
+  - 103.236.66.4sLZvjUHK
+  - 188.114.96.19703rGYnU
+  - 3.71.182.230vysBEtHk
+  - renderer-stream-2-62.mirra.nowx9bLC42m
+  - 103.236.66.4PprlAuZF
+  - v33.hdacd.comC8MXhQwP
+  - 85.215.41.190mzrEJT6
+  - irc.jahanrocket.sbsSDFCweor
+  - 103.236.66.4B5rxFXvj
 - name: ♻️ 自动选择
   type: url-test
   url: http://maps.googleapis.com/maps/api/mapsjs/gen_204
   interval: 300
   proxies:
-  - 127.0.0.53swYrvbH2
-  - v4.hdacd.comTFuGXMUz
-  - 103.236.66.4ztNXDWRQ
-  - 124.151.45.6026HwOE9R
-  - 185.99.2.1759FZe3Cb8
-  - v4.hdacd.com6WEKwIOx
-  - 36.33.35.1052cfGtVmE
-  - 18.194.210.1779Bvz1sJ7
-  - 127.0.0.53UHWumJy0
-  - 127.0.0.53SsnkGrf7
-  - 7dba81fc3a0b.oylfmxz.cnC1VxpWBv
-  - v10.hdacd.comt23TB0Lr
-  - 103.236.66.4dwpoRZDg
-  - 127.0.0.53Y4UGqroD
-  - v10.hdacd.comGrx2Uime
-  - v10.hdacd.comZCYnKEX4
-  - 103.236.66.4HSqxfcpE
-  - d3cdy6viklzpq1.cloudfront.netKW6GEkzU
-  - 13.37.239.112iTM50KXF
-  - 127.0.0.53DhnQEXUm
-  - 127.0.0.53vKlCwqTx
-  - www.shopify.comjSo37Z61
-  - dog-hk.kunlun01dns.comVUjhbDrk
-  - 112.132.215.10828RCj3Sl
-  - 3.141.200.225MqSK2maj
-  - 127.0.0.53BFHNRp0M
-  - www.shopify.comDJkxzpB1
-  - 124.151.45.605YFRhWlq
-  - 127.0.0.53xFLM6dnk
-  - 112.28.141.77aedhL4Cp
-  - 3.141.200.225LctMe08l
-  - 103.236.66.49d8keAQI
-  - 103.236.66.4Miy6usJ8
-  - 112.132.215.108xubqli4A
-  - 63.180.254.10B3txYysD
-  - v33.hdacd.comnU56Ha7k
-  - 127.0.0.53MVyiYjp7
-  - 127.0.0.53lHVWOf3p
+  - 90.127.143.135BDgcynGP
+  - 112.28.141.77YU8you5w
+  - 47.83.207.148WR5iUeX8
+  - 89.42.142.63b1BPVCqU
+  - 38.107.234.57NUELXYl4
+  - 124.151.45.60qlU9grQL
+  - 127.0.0.538nLiXsIK
+  - 47.83.19.148hdI76N1g
+  - 127.0.0.53ByS5sKtD
+  - 2.27.16.177rVdUuv5j
+  - 193.23.118.195y7LMI3Qv
+  - 64.188.97.153jFenDXlW
+  - 13.140.28.46tMPYkx1b
+  - 5.188.26.85OU8M0NHn
+  - 195.19.20.80LzxMhwBe
+  - v4.hdacd.comsG1W5ZwQ
+  - ejomsxptp19apygl.v.3dns.vipSPWIzsqO
+  - 127.0.0.53EZuapTCy
+  - 194.164.192.166WKRQIl7
+  - 8.218.184.4FeyST9Et
+  - 89.127.218.61eLgGDlFQ
+  - 64.188.106.254HGoVsI2S
+  - 194.87.71.141TgHsruiM
+  - 108.165.236.142InEyrkTL
+  - 95.85.233.138QmBITA81
+  - 47.76.44.325CcqEKHv
+  - vah4urdzl3jdx5r2.v.3dns.vip2fRmpSIz
+  - 85.159.228.232sZlVLYRB
+  - 2.27.54.132j0Hyh1LM
+  - 185.230.190.29FLM4I9pB
+  - 194.226.142.120elqdBN7o
+  - 193.180.211.1559NoFkUqs
+  - 82.139.242.5EbPIdkge
+  - 217.142.138.615slWxFC3
+  - 5.255.109.47tWIsk3rT
+  - 188.114.96.19Pn3WqKeh
+  - 103.236.66.4Nxs51tjr
+  - 132.145.80.2302iGorjTt
+  - 185.233.203.113eJEDBqTH
+  - 127.0.0.53tDyzrT8s
+  - lcv8v9l7oyamxxfz.v.3dns.vipgwO7kbVE
+  - 93ucrn4i0pffuabk.v.3dns.vip6vOgFfQq
+  - 109.172.93.20viE9Lpjw
+  - ex1ogt73nzpqkac2.v.3dns.vip7myFln84
+  - 185.92.74.1082Iqmp8Wu
+  - 188.253.25.172hE2iT817
+  - 103.236.66.452v3seCZ
+  - 185.4.73.45NcoTS40q
+  - 185.137.223.71kQLugiIx
+  - 124.151.45.60sJa5V9qv
+  - 127.0.0.53EgwotzsP
+  - 127.0.0.53G6Zhf9mI
+  - 188.114.96.19DHVo4XhR
+  - 127.0.0.53wYso3Ub6
+  - 45.158.127.486VXFy0ON
+  - 36.33.35.105g2RpQjqe
+  - v10.hdacd.comUiDNkdCA
+  - 107.174.88.1286dI9c2Pf
+  - 80.93.217.193VKdAtC6q
+  - 127.0.0.53kBSLHYc3
+  - 127.0.0.53w3eNjtLh
+  - 212.43.156.143X07x3bKU
+  - 111.88.74.167JTmfxYPk
+  - 63.180.254.10LYjO4eVP
+  - 47.86.107.119VDTxmejf
+  - www.shopify.comlqxPFNc6
+  - 95.164.90.133iMdfOGvb
+  - 152.67.8.2059U14efNK
+  - 185.99.2.175SK6Jxk13
+  - 68.64.182.121pg2IPiG4
+  - 168.138.43.75B5Tdps4U
+  - i2psm3knof5qjjix.v.3dns.vipwVYcLQNI
+  - 127.0.0.53JCQ2Bt3g
+  - v10.hdacd.comCGcsJZKW
+  - 144.225.130.23xwZvuO5W
+  - www.shopify.com0oCqBkY9
+  - v10.hdacd.comfjdN7CZt
+  - 140.238.2.250zxwHuLs1
+  - wwafj5lhl6bi8au9.v.3dns.vipoHIFmps3
+  - 94.159.110.417kMz0wLB
+  - 145.63.134.175K92Q6lrc
+  - 47.83.198.38prQMOfsS
+  - 94.159.105.148dkwF5uPG
+  - 212.80.218.89NUodubI6
+  - 172.98.207.5872HecZPf
+  - 170.187.229.90A6pNlvcL
+  - 64.188.117.165IZ8nrbN6
+  - 103.236.66.4sLZvjUHK
+  - 188.114.96.19703rGYnU
+  - 3.71.182.230vysBEtHk
+  - renderer-stream-2-62.mirra.nowx9bLC42m
+  - 103.236.66.4PprlAuZF
+  - v33.hdacd.comC8MXhQwP
+  - 85.215.41.190mzrEJT6
+  - irc.jahanrocket.sbsSDFCweor
+  - 103.236.66.4B5rxFXvj
 - name: 🌍 国外媒体
   type: select
   proxies:
