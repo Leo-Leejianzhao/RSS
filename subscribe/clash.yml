@@ -5,12 +5,24 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-- name: guanwang.awsno.comikTbEQea
+- name: 112.132.215.108iKoJ4Syb
   type: vmess
-  server: guanwang.awsno.com
-  port: '443'
+  server: 112.132.215.108
+  port: 50002
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: www.shopify.comxDwdKSem
+  type: vmess
+  server: www.shopify.com
+  port: 443
   uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  alterId: '0'
+  alterId: 0
   cipher: auto
   network: ws
   ucp: true
@@ -18,10 +30,37 @@ proxies:
   ws-headers:
     Host: guanwang.awsno.com
   tls: true
-- name: 127.0.0.53Th9aSo1u
+- name: 3.112.209.209rx4nFA7B
+  type: ss
+  server: 3.112.209.209
+  port: 443
+  password: amazonskr05
+  alterId: 2
+  cipher: aes-256-cfb
+- name: dee2309db4944c248b6d4372c6641e7b.oylfmxz.cn3lS9sDdw
+  type: vmess
+  server: dee2309db4944c248b6d4372c6641e7b.oylfmxz.cn
+  port: '443'
+  uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: dee2309db4944c248b6d4372c6641e7b.oylfmxz.cn
+  tls: true
+- name: 112.28.141.77frkziGHY
+  type: ss
+  server: 112.28.141.77
+  port: 10006
+  password: Butterfly123@qwe9527
+  alterId: 2
+  cipher: aes-256-gcm
+- name: 127.0.0.53P02zZqSQ
   type: vmess
   server: 127.0.0.53
-  port: '83'
+  port: '87'
   uuid: 88888888-8888-8888-8888-888888888888
   alterId: 0
   cipher: auto
@@ -30,14 +69,7 @@ proxies:
   ws-path: null
   ws-headers: null
   tls: false
-- name: 103.236.66.4VneEydPa
-  type: ss
-  server: 103.236.66.4
-  port: 50001
-  password: Butterfly123@qwe9527
-  alterId: 2
-  cipher: aes-256-gcm
-- name: v10.hdacd.com25GiYpZd
+- name: v10.hdacd.com3lzsLYZU
   type: vmess
   server: v10.hdacd.com
   port: 30807
@@ -49,7 +81,7 @@ proxies:
   ws-path: null
   ws-headers: null
   tls: false
-- name: hkgb707.ifastcdncache.comVPD1r4pM
+- name: hkgb707.ifastcdncache.combhwa37ZB
   type: vmess
   server: hkgb707.ifastcdncache.com
   port: '60852'
@@ -62,50 +94,12 @@ proxies:
   ws-headers:
     Host: ''
   tls: false
-- name: 18.213.0.46nDA9GiYq
-  type: ss
-  server: 18.213.0.46
-  port: 443
-  password: amazonskr05
-  alterId: 2
-  cipher: aes-256-cfb
-- name: 127.0.0.53FWsqLC84
-  type: vmess
-  server: 127.0.0.53
-  port: '87'
-  uuid: 88888888-8888-8888-8888-888888888888
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: 36.33.35.105XVuWU3k1
-  type: ss
-  server: 36.33.35.105
-  port: 30001
-  password: Butterfly123@qwe9527
-  alterId: 2
-  cipher: aes-256-gcm
-- name: v10.hdacd.com98j3WYQ4
-  type: vmess
-  server: v10.hdacd.com
-  port: 30807
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: guanwang.awsno.com0axsAfWn
+- name: guanwang.awsno.comLUOQzdMG
   type: vmess
   server: guanwang.awsno.com
-  port: 443
+  port: '443'
   uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  alterId: 0
+  alterId: '0'
   cipher: auto
   network: ws
   ucp: true
@@ -113,94 +107,21 @@ proxies:
   ws-headers:
     Host: guanwang.awsno.com
   tls: true
-- name: 206.190.237.167hUAkfy0Q
-  type: vmess
-  server: 206.190.237.167
-  port: '17577'
-  uuid: 3ceb8486-fb82-462c-e989-89182fe660a5
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /3ceb8486
-  ws-headers: null
-  tls: false
-- name: 63.180.254.10cxTIlXQ3
+- name: 103.236.66.4C0L1BOH7
   type: ss
-  server: 63.180.254.10
-  port: 443
-  password: amazonskr05
-  alterId: 2
-  cipher: aes-256-cfb
-- name: dee2309db4944c248b6d4372c6641e7b.oylfmxz.cnE6cdxv1K
-  type: vmess
-  server: dee2309db4944c248b6d4372c6641e7b.oylfmxz.cn
-  port: '443'
-  uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /
-  ws-headers:
-    Host: dee2309db4944c248b6d4372c6641e7b.oylfmxz.cn
-  tls: true
-- name: 112.132.215.108GcR6WsSL
-  type: vmess
-  server: 112.132.215.108
-  port: 50002
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: v10.hdacd.com3LoJ0miK
-  type: vmess
-  server: v10.hdacd.com
-  port: '30807'
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: 112.28.141.77dzbD72oG
-  type: ss
-  server: 112.28.141.77
-  port: 10006
+  server: 103.236.66.4
+  port: 40002
   password: Butterfly123@qwe9527
   alterId: 2
   cipher: aes-256-gcm
-- name: 127.0.0.53KOH5r4X0
-  type: vmess
-  server: 127.0.0.53
-  port: '84'
-  uuid: 88888888-8888-8888-8888-888888888888
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: 127.0.0.538P63QcBM
-  type: vmess
-  server: 127.0.0.53
-  port: '89'
-  uuid: 88888888-8888-8888-8888-888888888888
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: 127.0.0.5319mbZBPD
+- name: 103.236.66.4id0a2vZ7
+  type: ss
+  server: 103.236.66.4
+  port: 50003
+  password: Butterfly123@qwe9527
+  alterId: 2
+  cipher: aes-256-gcm
+- name: 127.0.0.53kVfTr4DO
   type: vmess
   server: 127.0.0.53
   port: '82'
@@ -212,31 +133,88 @@ proxies:
   ws-path: null
   ws-headers: null
   tls: false
-- name: v4.hdacd.comJs1K8yPS
+- name: 206.190.237.167UHnkLhXy
   type: vmess
-  server: v4.hdacd.com
-  port: 30804
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
+  server: 206.190.237.167
+  port: 17577
+  uuid: 3ceb8486-fb82-462c-e989-89182fe660a5
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /3ceb8486
+  ws-headers: null
+  tls: false
+- name: 127.0.0.53o0lndD8T
+  type: vmess
+  server: 127.0.0.53
+  port: '80'
+  uuid: 88888888-8888-8888-8888-888888888888
+  alterId: 0
   cipher: auto
   network: tcp
   ucp: true
   ws-path: null
   ws-headers: null
   tls: false
-- name: hkgb707.ifastcdncache.comQ5EYK6wP
+- name: 127.0.0.53SIGW51pK
   type: vmess
-  server: hkgb707.ifastcdncache.com
-  port: 60852
-  uuid: f8eca8df-a1a5-4918-a194-d34112a3673f
-  alterId: 2
+  server: 127.0.0.53
+  port: '81'
+  uuid: 88888888-8888-8888-8888-888888888888
+  alterId: 0
   cipher: auto
-  network: ws
+  network: tcp
   ucp: true
   ws-path: null
   ws-headers: null
   tls: false
-- name: 112.132.215.108QuPSzrM1
+- name: 63.180.254.10Ga75vBMJ
+  type: ss
+  server: 63.180.254.10
+  port: 443
+  password: amazonskr05
+  alterId: 2
+  cipher: aes-256-cfb
+- name: 103.236.66.4Wp20fjiy
+  type: ss
+  server: 103.236.66.4
+  port: 40001
+  password: Butterfly123@qwe9527
+  alterId: 2
+  cipher: aes-256-gcm
+- name: 127.0.0.53n3PLqpoV
+  type: vmess
+  server: 127.0.0.53
+  port: '88'
+  uuid: 88888888-8888-8888-8888-888888888888
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: 103.236.66.4zgQtscfT
+  type: ss
+  server: 103.236.66.4
+  port: 10001
+  password: Butterfly123@qwe9527
+  alterId: 2
+  cipher: aes-256-gcm
+- name: 127.0.0.53zrbSNecB
+  type: vmess
+  server: 127.0.0.53
+  port: '84'
+  uuid: 88888888-8888-8888-8888-888888888888
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: 112.132.215.108YFhd7Z1r
   type: vmess
   server: 112.132.215.108
   port: '50002'
@@ -249,76 +227,11 @@ proxies:
   ws-headers:
     Host: ''
   tls: false
-- name: 103.236.66.4jaV1vF5f
-  type: ss
-  server: 103.236.66.4
-  port: 40002
-  password: Butterfly123@qwe9527
-  alterId: 2
-  cipher: aes-256-gcm
-- name: 127.0.0.53EqKkBT2D
-  type: vmess
-  server: 127.0.0.53
-  port: '80'
-  uuid: 88888888-8888-8888-8888-888888888888
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: 103.236.66.4mCRS2kJZ
-  type: ss
-  server: 103.236.66.4
-  port: 10001
-  password: Butterfly123@qwe9527
-  alterId: 2
-  cipher: aes-256-gcm
-- name: 103.236.66.4U1Ei0kAr
-  type: ss
-  server: 103.236.66.4
-  port: 40001
-  password: Butterfly123@qwe9527
-  alterId: 2
-  cipher: aes-256-gcm
-- name: 103.236.66.440DfXduh
-  type: ss
-  server: 103.236.66.4
-  port: 50003
-  password: Butterfly123@qwe9527
-  alterId: 2
-  cipher: aes-256-gcm
-- name: v10.hdacd.comrtqKQdRn
+- name: v10.hdacd.com0drEOMAx
   type: vmess
   server: v10.hdacd.com
   port: '30807'
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: '2'
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: ''
-  ws-headers:
-    Host: ''
-  tls: false
-- name: 127.0.0.5306COW7H4
-  type: vmess
-  server: 127.0.0.53
-  port: '88'
-  uuid: 88888888-8888-8888-8888-888888888888
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: v33.hdacd.comHYMyASNW
-  type: vmess
-  server: v33.hdacd.com
-  port: 30833
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   alterId: 2
   cipher: auto
   network: tcp
@@ -326,23 +239,10 @@ proxies:
   ws-path: null
   ws-headers: null
   tls: false
-- name: www.shopify.comsgCPYW8K
-  type: vmess
-  server: www.shopify.com
-  port: '443'
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /hls/cctv5phd.m3u8
-  ws-headers:
-    Host: guanwang.awsno.com
-  tls: true
-- name: 127.0.0.53hW5SRFZ7
+- name: 127.0.0.53gM6wZloJ
   type: vmess
   server: 127.0.0.53
-  port: '81'
+  port: '86'
   uuid: 88888888-8888-8888-8888-888888888888
   alterId: 0
   cipher: auto
@@ -351,20 +251,7 @@ proxies:
   ws-path: null
   ws-headers: null
   tls: false
-- name: www.shopify.comeZ63JgCx
-  type: vmess
-  server: www.shopify.com
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  alterId: 0
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /hls/cctv5phd.m3u8
-  ws-headers:
-    Host: guanwang.awsno.com
-  tls: true
-- name: dee2309db4944c248b6d4372c6641e7b.oylfmxz.cnW2HRpEjx
+- name: dee2309db4944c248b6d4372c6641e7b.oylfmxz.cnRF3SCOH4
   type: vmess
   server: dee2309db4944c248b6d4372c6641e7b.oylfmxz.cn
   port: 443
@@ -377,31 +264,14 @@ proxies:
   ws-headers:
     Host: dee2309db4944c248b6d4372c6641e7b.oylfmxz.cn
   tls: true
-- name: 127.0.0.53AhqGoSY9
-  type: vmess
-  server: 127.0.0.53
-  port: '86'
-  uuid: 88888888-8888-8888-8888-888888888888
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: 127.0.0.53HlOIr8B1
-  type: vmess
-  server: 127.0.0.53
-  port: '85'
-  uuid: 88888888-8888-8888-8888-888888888888
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: google.whatsapp.snapp.torob.basalam.fortresshost.ir.KFmvTw8H
+- name: 18.207.155.184oYu0CgmU
+  type: ss
+  server: 18.207.155.184
+  port: 443
+  password: amazonskr05
+  alterId: 2
+  cipher: aes-256-cfb
+- name: google.whatsapp.snapp.torob.basalam.fortresshost.ir.xzsNE1nf
   type: vmess
   server: google.whatsapp.snapp.torob.basalam.fortresshost.ir.
   port: '80'
@@ -414,100 +284,206 @@ proxies:
   ws-headers:
     Host: google.whatsapp.snapp.torob.basalam.fortresshost.ir.
   tls: false
-- name: 13.231.184.186pDLyCv1k
+- name: 89.125.244.241egKZ3iyR
   type: ss
-  server: 13.231.184.186
+  server: 89.125.244.241
+  port: 10090
+  password: 9cfaa78d51ac366f
+  alterId: 2
+  cipher: aes-256-gcm
+- name: www.shopify.cominQTNALw
+  type: vmess
+  server: www.shopify.com
+  port: '443'
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /hls/cctv5phd.m3u8
+  ws-headers:
+    Host: guanwang.awsno.com
+  tls: true
+- name: guanwang.awsno.comWdFiE7yL
+  type: vmess
+  server: guanwang.awsno.com
+  port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /hls/cctv5phd.m3u8
+  ws-headers:
+    Host: guanwang.awsno.com
+  tls: true
+- name: 103.236.66.4lqUNr4Yg
+  type: ss
+  server: 103.236.66.4
+  port: 50001
+  password: Butterfly123@qwe9527
+  alterId: 2
+  cipher: aes-256-gcm
+- name: 36.33.35.105hGZzNdKb
+  type: ss
+  server: 36.33.35.105
+  port: 30001
+  password: Butterfly123@qwe9527
+  alterId: 2
+  cipher: aes-256-gcm
+- name: 127.0.0.53mf9kra6A
+  type: vmess
+  server: 127.0.0.53
+  port: '89'
+  uuid: 88888888-8888-8888-8888-888888888888
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: v10.hdacd.comZqv9Wcx7
+  type: vmess
+  server: v10.hdacd.com
+  port: 30807
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: v10.hdacd.comucbnF9jV
+  type: vmess
+  server: v10.hdacd.com
+  port: '30807'
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: '2'
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: ''
+  ws-headers:
+    Host: ''
+  tls: false
+- name: 18.179.111.96zeBVCthw
+  type: ss
+  server: 18.179.111.96
   port: 443
   password: amazonskr05
   alterId: 2
   cipher: aes-256-cfb
+- name: 127.0.0.53P514A0CI
+  type: vmess
+  server: 127.0.0.53
+  port: '83'
+  uuid: 88888888-8888-8888-8888-888888888888
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: 127.0.0.53rQSxu74R
+  type: vmess
+  server: 127.0.0.53
+  port: '85'
+  uuid: 88888888-8888-8888-8888-888888888888
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
 proxy-groups:
 - name: 🔰 节点选择
   type: select
   proxies:
   - ♻️ 自动选择
   - 🎯 全球直连
-  - guanwang.awsno.comikTbEQea
-  - 127.0.0.53Th9aSo1u
-  - 103.236.66.4VneEydPa
-  - v10.hdacd.com25GiYpZd
-  - hkgb707.ifastcdncache.comVPD1r4pM
-  - 18.213.0.46nDA9GiYq
-  - 127.0.0.53FWsqLC84
-  - 36.33.35.105XVuWU3k1
-  - v10.hdacd.com98j3WYQ4
-  - guanwang.awsno.com0axsAfWn
-  - 206.190.237.167hUAkfy0Q
-  - 63.180.254.10cxTIlXQ3
-  - dee2309db4944c248b6d4372c6641e7b.oylfmxz.cnE6cdxv1K
-  - 112.132.215.108GcR6WsSL
-  - v10.hdacd.com3LoJ0miK
-  - 112.28.141.77dzbD72oG
-  - 127.0.0.53KOH5r4X0
-  - 127.0.0.538P63QcBM
-  - 127.0.0.5319mbZBPD
-  - v4.hdacd.comJs1K8yPS
-  - hkgb707.ifastcdncache.comQ5EYK6wP
-  - 112.132.215.108QuPSzrM1
-  - 103.236.66.4jaV1vF5f
-  - 127.0.0.53EqKkBT2D
-  - 103.236.66.4mCRS2kJZ
-  - 103.236.66.4U1Ei0kAr
-  - 103.236.66.440DfXduh
-  - v10.hdacd.comrtqKQdRn
-  - 127.0.0.5306COW7H4
-  - v33.hdacd.comHYMyASNW
-  - www.shopify.comsgCPYW8K
-  - 127.0.0.53hW5SRFZ7
-  - www.shopify.comeZ63JgCx
-  - dee2309db4944c248b6d4372c6641e7b.oylfmxz.cnW2HRpEjx
-  - 127.0.0.53AhqGoSY9
-  - 127.0.0.53HlOIr8B1
-  - google.whatsapp.snapp.torob.basalam.fortresshost.ir.KFmvTw8H
-  - 13.231.184.186pDLyCv1k
+  - 112.132.215.108iKoJ4Syb
+  - www.shopify.comxDwdKSem
+  - 3.112.209.209rx4nFA7B
+  - dee2309db4944c248b6d4372c6641e7b.oylfmxz.cn3lS9sDdw
+  - 112.28.141.77frkziGHY
+  - 127.0.0.53P02zZqSQ
+  - v10.hdacd.com3lzsLYZU
+  - hkgb707.ifastcdncache.combhwa37ZB
+  - guanwang.awsno.comLUOQzdMG
+  - 103.236.66.4C0L1BOH7
+  - 103.236.66.4id0a2vZ7
+  - 127.0.0.53kVfTr4DO
+  - 206.190.237.167UHnkLhXy
+  - 127.0.0.53o0lndD8T
+  - 127.0.0.53SIGW51pK
+  - 63.180.254.10Ga75vBMJ
+  - 103.236.66.4Wp20fjiy
+  - 127.0.0.53n3PLqpoV
+  - 103.236.66.4zgQtscfT
+  - 127.0.0.53zrbSNecB
+  - 112.132.215.108YFhd7Z1r
+  - v10.hdacd.com0drEOMAx
+  - 127.0.0.53gM6wZloJ
+  - dee2309db4944c248b6d4372c6641e7b.oylfmxz.cnRF3SCOH4
+  - 18.207.155.184oYu0CgmU
+  - google.whatsapp.snapp.torob.basalam.fortresshost.ir.xzsNE1nf
+  - 89.125.244.241egKZ3iyR
+  - www.shopify.cominQTNALw
+  - guanwang.awsno.comWdFiE7yL
+  - 103.236.66.4lqUNr4Yg
+  - 36.33.35.105hGZzNdKb
+  - 127.0.0.53mf9kra6A
+  - v10.hdacd.comZqv9Wcx7
+  - v10.hdacd.comucbnF9jV
+  - 18.179.111.96zeBVCthw
+  - 127.0.0.53P514A0CI
+  - 127.0.0.53rQSxu74R
 - name: ♻️ 自动选择
   type: url-test
   url: http://maps.googleapis.com/maps/api/mapsjs/gen_204
   interval: 300
   proxies:
-  - guanwang.awsno.comikTbEQea
-  - 127.0.0.53Th9aSo1u
-  - 103.236.66.4VneEydPa
-  - v10.hdacd.com25GiYpZd
-  - hkgb707.ifastcdncache.comVPD1r4pM
-  - 18.213.0.46nDA9GiYq
-  - 127.0.0.53FWsqLC84
-  - 36.33.35.105XVuWU3k1
-  - v10.hdacd.com98j3WYQ4
-  - guanwang.awsno.com0axsAfWn
-  - 206.190.237.167hUAkfy0Q
-  - 63.180.254.10cxTIlXQ3
-  - dee2309db4944c248b6d4372c6641e7b.oylfmxz.cnE6cdxv1K
-  - 112.132.215.108GcR6WsSL
-  - v10.hdacd.com3LoJ0miK
-  - 112.28.141.77dzbD72oG
-  - 127.0.0.53KOH5r4X0
-  - 127.0.0.538P63QcBM
-  - 127.0.0.5319mbZBPD
-  - v4.hdacd.comJs1K8yPS
-  - hkgb707.ifastcdncache.comQ5EYK6wP
-  - 112.132.215.108QuPSzrM1
-  - 103.236.66.4jaV1vF5f
-  - 127.0.0.53EqKkBT2D
-  - 103.236.66.4mCRS2kJZ
-  - 103.236.66.4U1Ei0kAr
-  - 103.236.66.440DfXduh
-  - v10.hdacd.comrtqKQdRn
-  - 127.0.0.5306COW7H4
-  - v33.hdacd.comHYMyASNW
-  - www.shopify.comsgCPYW8K
-  - 127.0.0.53hW5SRFZ7
-  - www.shopify.comeZ63JgCx
-  - dee2309db4944c248b6d4372c6641e7b.oylfmxz.cnW2HRpEjx
-  - 127.0.0.53AhqGoSY9
-  - 127.0.0.53HlOIr8B1
-  - google.whatsapp.snapp.torob.basalam.fortresshost.ir.KFmvTw8H
-  - 13.231.184.186pDLyCv1k
+  - 112.132.215.108iKoJ4Syb
+  - www.shopify.comxDwdKSem
+  - 3.112.209.209rx4nFA7B
+  - dee2309db4944c248b6d4372c6641e7b.oylfmxz.cn3lS9sDdw
+  - 112.28.141.77frkziGHY
+  - 127.0.0.53P02zZqSQ
+  - v10.hdacd.com3lzsLYZU
+  - hkgb707.ifastcdncache.combhwa37ZB
+  - guanwang.awsno.comLUOQzdMG
+  - 103.236.66.4C0L1BOH7
+  - 103.236.66.4id0a2vZ7
+  - 127.0.0.53kVfTr4DO
+  - 206.190.237.167UHnkLhXy
+  - 127.0.0.53o0lndD8T
+  - 127.0.0.53SIGW51pK
+  - 63.180.254.10Ga75vBMJ
+  - 103.236.66.4Wp20fjiy
+  - 127.0.0.53n3PLqpoV
+  - 103.236.66.4zgQtscfT
+  - 127.0.0.53zrbSNecB
+  - 112.132.215.108YFhd7Z1r
+  - v10.hdacd.com0drEOMAx
+  - 127.0.0.53gM6wZloJ
+  - dee2309db4944c248b6d4372c6641e7b.oylfmxz.cnRF3SCOH4
+  - 18.207.155.184oYu0CgmU
+  - google.whatsapp.snapp.torob.basalam.fortresshost.ir.xzsNE1nf
+  - 89.125.244.241egKZ3iyR
+  - www.shopify.cominQTNALw
+  - guanwang.awsno.comWdFiE7yL
+  - 103.236.66.4lqUNr4Yg
+  - 36.33.35.105hGZzNdKb
+  - 127.0.0.53mf9kra6A
+  - v10.hdacd.comZqv9Wcx7
+  - v10.hdacd.comucbnF9jV
+  - 18.179.111.96zeBVCthw
+  - 127.0.0.53P514A0CI
+  - 127.0.0.53rQSxu74R
 - name: 🌍 国外媒体
   type: select
   proxies:
