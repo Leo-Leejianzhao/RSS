@@ -5,260 +5,7 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-- name: 112.132.215.108tm1qboYn
-  type: vmess
-  server: 112.132.215.108
-  port: 50002
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: 2.27.16.177jU7Bqzfw
-  type: vmess
-  server: 2.27.16.177
-  port: '443'
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /api/v1/gpu-stream/socket
-  ws-headers:
-    Host: renderer-stream-2-62.mirra.now
-  tls: true
-- name: gd.bjnet2.comvN1IHnSw
-  type: ss
-  server: gd.bjnet2.com
-  port: 36609
-  password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
-  alterId: 2
-  cipher: aes-128-gcm
-- name: gd.bjnet2.comAIcLKJ6R
-  type: ss
-  server: gd.bjnet2.com
-  port: 36608
-  password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
-  alterId: 2
-  cipher: aes-128-gcm
-- name: 127.0.0.53XJG65LU9
-  type: vmess
-  server: 127.0.0.53
-  port: '84'
-  uuid: 88888888-8888-8888-8888-888888888888
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: gd2.bjnet2.comf2kTm18z
-  type: ss
-  server: gd2.bjnet2.com
-  port: 36602
-  password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
-  alterId: 2
-  cipher: aes-128-gcm
-- name: 127.0.0.53kbWP57n8
-  type: vmess
-  server: 127.0.0.53
-  port: '89'
-  uuid: 88888888-8888-8888-8888-888888888888
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: 20.235.220.189KSkZJOWY
-  type: vmess
-  server: 20.235.220.189
-  port: '443'
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /ws-vmess
-  ws-headers:
-    Host: 6JDvArazgU3qQR6Q.v.3dns.vip
-  tls: true
-- name: gd.bjnet2.comegkhv3UW
-  type: ss
-  server: gd.bjnet2.com
-  port: 36603
-  password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
-  alterId: 2
-  cipher: aes-128-gcm
-- name: 172.64.80.1bPZoJcMa
-  type: vmess
-  server: 172.64.80.1
-  port: '8443'
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /lMnsZUN4/
-  ws-headers:
-    Host: v2ray1.dozapp.xyz
-  tls: true
-- name: creativeboxfin.zanity.netIiGNhBnU
-  type: ss
-  server: creativeboxfin.zanity.net
-  port: 5223
-  password: xXsl5l3ZfdG9zRWGkkft1j
-  alterId: 2
-  cipher: chacha20-ietf-poly1305
-- name: 78.17.71.236JtB5Ov6f
-  type: vmess
-  server: 78.17.71.236
-  port: '33736'
-  uuid: b3a11068-1a7e-4643-85de-7c82cce46943
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /vmess-ws
-  ws-headers:
-    Host: Telegram-Leviko_v2ray
-  tls: false
-- name: www.nextkyc.comyUqPgCrj
-  type: vmess
-  server: www.nextkyc.com
-  port: '8443'
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /lMnsZUN4/
-  ws-headers:
-    Host: v2ray1.dozapp.xyz
-  tls: true
-- name: 18.205.21.144Qox59yLF
-  type: ss
-  server: 18.205.21.144
-  port: 443
-  password: amazonskr05
-  alterId: 2
-  cipher: aes-256-cfb
-- name: 5.188.26.85AE5rB4ZC
-  type: vmess
-  server: 5.188.26.85
-  port: '443'
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /api/v1/gpu-stream/socket
-  ws-headers:
-    Host: renderer-stream-2-62.mirra.now
-  tls: true
-- name: www.shopify.comS0WdyX2c
-  type: vmess
-  server: www.shopify.com
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  alterId: 0
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /hls/cctv5phd.m3u8
-  ws-headers:
-    Host: guanwang.awsno.com
-  tls: true
-- name: 64.188.97.153hQCuqWvp
-  type: vmess
-  server: 64.188.97.153
-  port: '443'
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /api/v1/gpu-stream/socket
-  ws-headers:
-    Host: renderer-stream-2-62.mirra.now
-  tls: true
-- name: 127.0.0.53xl9V7irW
-  type: vmess
-  server: 127.0.0.53
-  port: '87'
-  uuid: 88888888-8888-8888-8888-888888888888
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: 85.215.41.190ziRYLXe
-  type: vmess
-  server: 85.215.41.19
-  port: '443'
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /api/v1/gpu-stream/socket
-  ws-headers:
-    Host: renderer-stream-2-62.mirra.now
-  tls: true
-- name: 95.81.126.119jn51WxPJ
-  type: vmess
-  server: 95.81.126.119
-  port: '443'
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /api/v1/gpu-stream/socket
-  ws-headers:
-    Host: renderer-stream-2-62.mirra.now
-  tls: true
-- name: 51.20.86.152ivHkwF3R
-  type: ss
-  server: 51.20.86.152
-  port: 443
-  password: amazonskr05
-  alterId: 2
-  cipher: aes-256-cfb
-- name: gd.bjnet2.comV0puRav8
-  type: ss
-  server: gd.bjnet2.com
-  port: 36609
-  password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
-  alterId: 2
-  cipher: aes-128-gcm
-- name: 63.180.254.10Zzn1GPOX
-  type: ss
-  server: 63.180.254.10
-  port: 443
-  password: amazonskr05
-  alterId: 2
-  cipher: aes-256-cfb
-- name: 127.0.0.536Okmo8a3
-  type: vmess
-  server: 127.0.0.53
-  port: '82'
-  uuid: 88888888-8888-8888-8888-888888888888
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: v10.hdacd.comrE2YWS6X
+- name: v10.hdacd.comA90dh2zs
   type: vmess
   server: v10.hdacd.com
   port: 30807
@@ -270,145 +17,36 @@ proxies:
   ws-path: null
   ws-headers: null
   tls: false
-- name: 127.0.0.53ynlmUN4Z
+- name: v10.hdacd.comQK1VHOYz
   type: vmess
-  server: 127.0.0.53
-  port: '88'
-  uuid: 88888888-8888-8888-8888-888888888888
-  alterId: 0
+  server: v10.hdacd.com
+  port: '30807'
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
   cipher: auto
   network: tcp
   ucp: true
   ws-path: null
   ws-headers: null
   tls: false
-- name: 127.0.0.53873xyI6N
-  type: vmess
-  server: 127.0.0.53
-  port: '83'
-  uuid: 88888888-8888-8888-8888-888888888888
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: 172.67.167.78q3AEInDz
-  type: vmess
-  server: 172.67.167.78
-  port: '8443'
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /lMnsZUN4/
-  ws-headers:
-    Host: v2ray1.dozapp.xyz
-  tls: true
-- name: 127.0.0.53dACMLmxK
-  type: vmess
-  server: 127.0.0.53
-  port: '80'
-  uuid: 88888888-8888-8888-8888-888888888888
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: 13.140.28.46cKzkGMXb
-  type: vmess
-  server: 13.140.28.46
-  port: '443'
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /api/v1/gpu-stream/socket
-  ws-headers:
-    Host: renderer-stream-2-62.mirra.now
-  tls: true
-- name: 165.140.217.2vK10WxyM
-  type: vmess
-  server: 165.140.217.2
-  port: '443'
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-  alterId: '0'
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: ''
-  ws-headers:
-    Host: ''
-  tls: false
-- name: guanwang.awsno.comdYebklLB
-  type: vmess
-  server: guanwang.awsno.com
+- name: 54.227.186.25VTX1PmCp
+  type: ss
+  server: 54.227.186.25
   port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  alterId: 0
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /hls/cctv5phd.m3u8
-  ws-headers:
-    Host: guanwang.awsno.com
-  tls: true
-- name: gd.bjnet2.comwpQeROrB
+  password: amazonskr05
+  alterId: 2
+  cipher: aes-256-cfb
+- name: gd.bjnet2.comV5nfMToA
   type: ss
   server: gd.bjnet2.com
   port: 36604
   password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
   alterId: 2
   cipher: aes-128-gcm
-- name: 111.88.74.167KRvmuWPJ
-  type: vmess
-  server: 111.88.74.167
-  port: '443'
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /api/v1/gpu-stream/socket
-  ws-headers:
-    Host: renderer-stream-2-62.mirra.now
-  tls: true
-- name: 31.77.223.21GR4ZmWaU
-  type: vmess
-  server: 31.77.223.21
-  port: '443'
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /api/v1/gpu-stream/socket
-  ws-headers:
-    Host: renderer-stream-2-62.mirra.now
-  tls: true
-- name: gd.bjnet2.comUbyWovVw
-  type: ss
-  server: gd.bjnet2.com
-  port: 36604
-  password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
-  alterId: 2
-  cipher: aes-128-gcm
-- name: gd2.bjnet2.comkAvPesZr
-  type: ss
-  server: gd2.bjnet2.com
-  port: 36602
-  password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
-  alterId: 2
-  cipher: aes-128-gcm
-- name: 127.0.0.53oPajuvs2
+- name: 127.0.0.53qCgrfzia
   type: vmess
   server: 127.0.0.53
-  port: '86'
+  port: '82'
   uuid: 88888888-8888-8888-8888-888888888888
   alterId: 0
   cipher: auto
@@ -417,72 +55,28 @@ proxies:
   ws-path: null
   ws-headers: null
   tls: false
-- name: 13.51.242.39kjf2hSUT
-  type: ss
-  server: 13.51.242.39
-  port: 443
-  password: amazonskr05
-  alterId: 2
-  cipher: aes-256-cfb
-- name: 89.127.218.61qUBSz7sR
-  type: vmess
-  server: 89.127.218.61
-  port: '443'
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /api/v1/gpu-stream/socket
-  ws-headers:
-    Host: renderer-stream-2-62.mirra.now
-  tls: true
-- name: 127.0.0.53neRz8oAt
-  type: vmess
-  server: 127.0.0.53
-  port: '85'
-  uuid: 88888888-8888-8888-8888-888888888888
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: gd.bjnet2.commpD4VU1B
+- name: gd.bjnet2.comXSdTn0ji
   type: ss
   server: gd.bjnet2.com
-  port: 36602
+  port: 36609
   password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
   alterId: 2
   cipher: aes-128-gcm
-- name: 51.20.122.188Sm9tahln
+- name: gd.bjnet2.comhuyLHkxN
   type: ss
-  server: 51.20.122.188
-  port: 443
-  password: amazonskr05
-  alterId: 2
-  cipher: aes-256-cfb
-- name: gd2.bjnet2.comEbkyU70l
-  type: ss
-  server: gd2.bjnet2.com
-  port: 36608
+  server: gd.bjnet2.com
+  port: 36609
   password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
   alterId: 2
   cipher: aes-128-gcm
-- name: 24864168545164.oylfmxz.cnuT9lJRNb
-  type: vmess
-  server: 24864168545164.oylfmxz.cn
-  port: 443
-  uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
-  alterId: 0
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: true
-- name: 24864168545164.oylfmxz.cnwJh14X25
+- name: namrcg001640lrm.cybervena.comuUmV2DHK
+  type: ss
+  server: namrcg001640lrm.cybervena.com
+  port: 50099
+  password: 7b56aeaa-8e2d-4bdf-b1d7-233ecca15f56
+  alterId: 2
+  cipher: chacha20-ietf-poly1305
+- name: 24864168545164.oylfmxz.cn8Qx4qJgF
   type: vmess
   server: 24864168545164.oylfmxz.cn
   port: '443'
@@ -495,37 +89,36 @@ proxies:
   ws-headers:
     Host: 24864168545164.oylfmxz.cn
   tls: true
-- name: 95.85.233.138fUO7Aqp4
-  type: vmess
-  server: 95.85.233.138
-  port: '443'
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /api/v1/gpu-stream/socket
-  ws-headers:
-    Host: renderer-stream-2-62.mirra.now
-  tls: true
-- name: gd.bjnet2.comXD42zMFW
+- name: 13.49.64.122c7oevH1w
+  type: ss
+  server: 13.49.64.122
+  port: 443
+  password: amazonskr05
+  alterId: 2
+  cipher: aes-256-cfb
+- name: gd.bjnet2.comvngjPJ3q
   type: ss
   server: gd.bjnet2.com
   port: 36603
   password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
   alterId: 2
   cipher: aes-128-gcm
-- name: gd2.bjnet2.comMNy1ICDG
-  type: ss
-  server: gd2.bjnet2.com
-  port: 36608
-  password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
-  alterId: 2
-  cipher: aes-128-gcm
-- name: v10.hdacd.comRsz6atwB
+- name: 127.0.0.53ZOAHRWct
   type: vmess
-  server: v10.hdacd.com
-  port: '30807'
+  server: 127.0.0.53
+  port: '81'
+  uuid: 88888888-8888-8888-8888-888888888888
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: v36.hdacd.comh5rLfMpy
+  type: vmess
+  server: v36.hdacd.com
+  port: 30836
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   alterId: 2
   cipher: auto
@@ -534,50 +127,283 @@ proxies:
   ws-path: null
   ws-headers: null
   tls: false
-- name: gd.bjnet2.comO03sBuK5
+- name: v4.hdacd.comlhnq8ZyT
+  type: vmess
+  server: v4.hdacd.com
+  port: 30804
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: namrcg001640lrm.cybervena.combNda6Ipy
+  type: ss
+  server: namrcg001640lrm.cybervena.com
+  port: '50099'
+  password: a9a0d092-6f0e-4701-81ee-454643d6d506
+  alterId: 2
+  cipher: chacha20-ietf-poly1305
+- name: 129.226.157.220OYwDE57s
+  type: vmess
+  server: 129.226.157.220
+  port: '59121'
+  uuid: d9865d63-d95c-454b-ba07-8e88b838a801
+  alterId: '0'
+  cipher: auto
+  network: http
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: ''
+  tls: false
+- name: 147.78.242.19X9k4UJCB
+  type: vmess
+  server: 147.78.242.19
+  port: 81
+  uuid: 357b37cc-d0d2-47ef-aa1a-0a668447999e
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /
+  ws-headers: null
+  tls: false
+- name: gd.bjnet2.combLhU21k0
   type: ss
   server: gd.bjnet2.com
   port: 36608
   password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
   alterId: 2
   cipher: aes-128-gcm
-- name: 80.240.252.241srNYLQv0
+- name: 127.0.0.53WcO3ZQol
   type: vmess
-  server: 80.240.252.241
-  port: '443'
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  alterId: '0'
+  server: 127.0.0.53
+  port: '86'
+  uuid: 88888888-8888-8888-8888-888888888888
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: 127.0.0.536YEjxseM
+  type: vmess
+  server: 127.0.0.53
+  port: '88'
+  uuid: 88888888-8888-8888-8888-888888888888
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: guanwang.awsno.comXSZQ6rMY
+  type: vmess
+  server: guanwang.awsno.com
+  port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  alterId: 0
   cipher: auto
   network: ws
   ucp: true
-  ws-path: /api/v1/gpu-stream/socket
+  ws-path: /hls/cctv5phd.m3u8
   ws-headers:
-    Host: renderer-stream-2-62.mirra.now
+    Host: guanwang.awsno.com
   tls: true
-- name: gd.bjnet2.comAF7qv6D4
+- name: 127.0.0.53D2OJp4ha
+  type: vmess
+  server: 127.0.0.53
+  port: '83'
+  uuid: 88888888-8888-8888-8888-888888888888
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: gd2.bjnet2.com0G1xSn7M
+  type: ss
+  server: gd2.bjnet2.com
+  port: 36602
+  password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
+  alterId: 2
+  cipher: aes-128-gcm
+- name: gd2.bjnet2.comjWrRlTGQ
+  type: ss
+  server: gd2.bjnet2.com
+  port: 36608
+  password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
+  alterId: 2
+  cipher: aes-128-gcm
+- name: v6.hdacd.com8QPy3rWo
+  type: vmess
+  server: v6.hdacd.com
+  port: 30806
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: gd.bjnet2.comI9jtZiuR
+  type: ss
+  server: gd.bjnet2.com
+  port: 36603
+  password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
+  alterId: 2
+  cipher: aes-128-gcm
+- name: v10.hdacd.comRwMc5Yd2
+  type: vmess
+  server: v10.hdacd.com
+  port: 30807
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: gd.bjnet2.comSc0ZxDHG
   type: ss
   server: gd.bjnet2.com
   port: 36602
   password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
   alterId: 2
   cipher: aes-128-gcm
-- name: 124.151.45.60HgAryMK7
+- name: 127.0.0.53BYvtQZsI
   type: vmess
-  server: 124.151.45.60
-  port: '38320'
-  uuid: d643d6ea-2e48-4ad5-b96e-d11b889cc6a6
-  alterId: '0'
+  server: 127.0.0.53
+  port: '87'
+  uuid: 88888888-8888-8888-8888-888888888888
+  alterId: 0
   cipher: auto
   network: tcp
   ucp: true
-  ws-path: ''
-  ws-headers:
-    Host: ''
+  ws-path: null
+  ws-headers: null
   tls: false
-- name: 127.0.0.539ZRsfVcW
+- name: gd.bjnet2.com7EVcXIhv
+  type: ss
+  server: gd.bjnet2.com
+  port: 36602
+  password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
+  alterId: 2
+  cipher: aes-128-gcm
+- name: gd2.bjnet2.comKS47AyTG
+  type: ss
+  server: gd2.bjnet2.com
+  port: 36602
+  password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
+  alterId: 2
+  cipher: aes-128-gcm
+- name: 127.0.0.53GgneXLZj
   type: vmess
   server: 127.0.0.53
-  port: '81'
+  port: '84'
+  uuid: 88888888-8888-8888-8888-888888888888
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: 63.180.254.10RtldZcpu
+  type: ss
+  server: 63.180.254.10
+  port: 443
+  password: amazonskr05
+  alterId: 2
+  cipher: aes-256-cfb
+- name: gd.bjnet2.comiC65TABY
+  type: ss
+  server: gd.bjnet2.com
+  port: 36608
+  password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
+  alterId: 2
+  cipher: aes-128-gcm
+- name: 127.0.0.53tUuRFpiB
+  type: vmess
+  server: 127.0.0.53
+  port: '80'
+  uuid: 88888888-8888-8888-8888-888888888888
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: namrcg001640lrm.cybervena.comHBVXEy1Z
+  type: ss
+  server: namrcg001640lrm.cybervena.com
+  port: 50099
+  password: a9a0d092-6f0e-4701-81ee-454643d6d506
+  alterId: 2
+  cipher: chacha20-ietf-poly1305
+- name: 127.0.0.53GUPEB2uZ
+  type: vmess
+  server: 127.0.0.53
+  port: '85'
+  uuid: 88888888-8888-8888-8888-888888888888
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: gd2.bjnet2.comqZH1nYR8
+  type: ss
+  server: gd2.bjnet2.com
+  port: 36608
+  password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
+  alterId: 2
+  cipher: aes-128-gcm
+- name: 112.132.215.108fZimk26X
+  type: vmess
+  server: 112.132.215.108
+  port: 50002
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: v33.hdacd.com2v4j3UWI
+  type: vmess
+  server: v33.hdacd.com
+  port: 30833
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: gd.bjnet2.com2Ys7Z8iz
+  type: ss
+  server: gd.bjnet2.com
+  port: 36604
+  password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
+  alterId: 2
+  cipher: aes-128-gcm
+- name: 127.0.0.53P2NSHjlL
+  type: vmess
+  server: 127.0.0.53
+  port: '89'
   uuid: 88888888-8888-8888-8888-888888888888
   alterId: 0
   cipher: auto
@@ -592,121 +418,95 @@ proxy-groups:
   proxies:
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 112.132.215.108tm1qboYn
-  - 2.27.16.177jU7Bqzfw
-  - gd.bjnet2.comvN1IHnSw
-  - gd.bjnet2.comAIcLKJ6R
-  - 127.0.0.53XJG65LU9
-  - gd2.bjnet2.comf2kTm18z
-  - 127.0.0.53kbWP57n8
-  - 20.235.220.189KSkZJOWY
-  - gd.bjnet2.comegkhv3UW
-  - 172.64.80.1bPZoJcMa
-  - creativeboxfin.zanity.netIiGNhBnU
-  - 78.17.71.236JtB5Ov6f
-  - www.nextkyc.comyUqPgCrj
-  - 18.205.21.144Qox59yLF
-  - 5.188.26.85AE5rB4ZC
-  - www.shopify.comS0WdyX2c
-  - 64.188.97.153hQCuqWvp
-  - 127.0.0.53xl9V7irW
-  - 85.215.41.190ziRYLXe
-  - 95.81.126.119jn51WxPJ
-  - 51.20.86.152ivHkwF3R
-  - gd.bjnet2.comV0puRav8
-  - 63.180.254.10Zzn1GPOX
-  - 127.0.0.536Okmo8a3
-  - v10.hdacd.comrE2YWS6X
-  - 127.0.0.53ynlmUN4Z
-  - 127.0.0.53873xyI6N
-  - 172.67.167.78q3AEInDz
-  - 127.0.0.53dACMLmxK
-  - 13.140.28.46cKzkGMXb
-  - 165.140.217.2vK10WxyM
-  - guanwang.awsno.comdYebklLB
-  - gd.bjnet2.comwpQeROrB
-  - 111.88.74.167KRvmuWPJ
-  - 31.77.223.21GR4ZmWaU
-  - gd.bjnet2.comUbyWovVw
-  - gd2.bjnet2.comkAvPesZr
-  - 127.0.0.53oPajuvs2
-  - 13.51.242.39kjf2hSUT
-  - 89.127.218.61qUBSz7sR
-  - 127.0.0.53neRz8oAt
-  - gd.bjnet2.commpD4VU1B
-  - 51.20.122.188Sm9tahln
-  - gd2.bjnet2.comEbkyU70l
-  - 24864168545164.oylfmxz.cnuT9lJRNb
-  - 24864168545164.oylfmxz.cnwJh14X25
-  - 95.85.233.138fUO7Aqp4
-  - gd.bjnet2.comXD42zMFW
-  - gd2.bjnet2.comMNy1ICDG
-  - v10.hdacd.comRsz6atwB
-  - gd.bjnet2.comO03sBuK5
-  - 80.240.252.241srNYLQv0
-  - gd.bjnet2.comAF7qv6D4
-  - 124.151.45.60HgAryMK7
-  - 127.0.0.539ZRsfVcW
+  - v10.hdacd.comA90dh2zs
+  - v10.hdacd.comQK1VHOYz
+  - 54.227.186.25VTX1PmCp
+  - gd.bjnet2.comV5nfMToA
+  - 127.0.0.53qCgrfzia
+  - gd.bjnet2.comXSdTn0ji
+  - gd.bjnet2.comhuyLHkxN
+  - namrcg001640lrm.cybervena.comuUmV2DHK
+  - 24864168545164.oylfmxz.cn8Qx4qJgF
+  - 13.49.64.122c7oevH1w
+  - gd.bjnet2.comvngjPJ3q
+  - 127.0.0.53ZOAHRWct
+  - v36.hdacd.comh5rLfMpy
+  - v4.hdacd.comlhnq8ZyT
+  - namrcg001640lrm.cybervena.combNda6Ipy
+  - 129.226.157.220OYwDE57s
+  - 147.78.242.19X9k4UJCB
+  - gd.bjnet2.combLhU21k0
+  - 127.0.0.53WcO3ZQol
+  - 127.0.0.536YEjxseM
+  - guanwang.awsno.comXSZQ6rMY
+  - 127.0.0.53D2OJp4ha
+  - gd2.bjnet2.com0G1xSn7M
+  - gd2.bjnet2.comjWrRlTGQ
+  - v6.hdacd.com8QPy3rWo
+  - gd.bjnet2.comI9jtZiuR
+  - v10.hdacd.comRwMc5Yd2
+  - gd.bjnet2.comSc0ZxDHG
+  - 127.0.0.53BYvtQZsI
+  - gd.bjnet2.com7EVcXIhv
+  - gd2.bjnet2.comKS47AyTG
+  - 127.0.0.53GgneXLZj
+  - 63.180.254.10RtldZcpu
+  - gd.bjnet2.comiC65TABY
+  - 127.0.0.53tUuRFpiB
+  - namrcg001640lrm.cybervena.comHBVXEy1Z
+  - 127.0.0.53GUPEB2uZ
+  - gd2.bjnet2.comqZH1nYR8
+  - 112.132.215.108fZimk26X
+  - v33.hdacd.com2v4j3UWI
+  - gd.bjnet2.com2Ys7Z8iz
+  - 127.0.0.53P2NSHjlL
 - name: ♻️ 自动选择
   type: url-test
   url: http://maps.googleapis.com/maps/api/mapsjs/gen_204
   interval: 300
   proxies:
-  - 112.132.215.108tm1qboYn
-  - 2.27.16.177jU7Bqzfw
-  - gd.bjnet2.comvN1IHnSw
-  - gd.bjnet2.comAIcLKJ6R
-  - 127.0.0.53XJG65LU9
-  - gd2.bjnet2.comf2kTm18z
-  - 127.0.0.53kbWP57n8
-  - 20.235.220.189KSkZJOWY
-  - gd.bjnet2.comegkhv3UW
-  - 172.64.80.1bPZoJcMa
-  - creativeboxfin.zanity.netIiGNhBnU
-  - 78.17.71.236JtB5Ov6f
-  - www.nextkyc.comyUqPgCrj
-  - 18.205.21.144Qox59yLF
-  - 5.188.26.85AE5rB4ZC
-  - www.shopify.comS0WdyX2c
-  - 64.188.97.153hQCuqWvp
-  - 127.0.0.53xl9V7irW
-  - 85.215.41.190ziRYLXe
-  - 95.81.126.119jn51WxPJ
-  - 51.20.86.152ivHkwF3R
-  - gd.bjnet2.comV0puRav8
-  - 63.180.254.10Zzn1GPOX
-  - 127.0.0.536Okmo8a3
-  - v10.hdacd.comrE2YWS6X
-  - 127.0.0.53ynlmUN4Z
-  - 127.0.0.53873xyI6N
-  - 172.67.167.78q3AEInDz
-  - 127.0.0.53dACMLmxK
-  - 13.140.28.46cKzkGMXb
-  - 165.140.217.2vK10WxyM
-  - guanwang.awsno.comdYebklLB
-  - gd.bjnet2.comwpQeROrB
-  - 111.88.74.167KRvmuWPJ
-  - 31.77.223.21GR4ZmWaU
-  - gd.bjnet2.comUbyWovVw
-  - gd2.bjnet2.comkAvPesZr
-  - 127.0.0.53oPajuvs2
-  - 13.51.242.39kjf2hSUT
-  - 89.127.218.61qUBSz7sR
-  - 127.0.0.53neRz8oAt
-  - gd.bjnet2.commpD4VU1B
-  - 51.20.122.188Sm9tahln
-  - gd2.bjnet2.comEbkyU70l
-  - 24864168545164.oylfmxz.cnuT9lJRNb
-  - 24864168545164.oylfmxz.cnwJh14X25
-  - 95.85.233.138fUO7Aqp4
-  - gd.bjnet2.comXD42zMFW
-  - gd2.bjnet2.comMNy1ICDG
-  - v10.hdacd.comRsz6atwB
-  - gd.bjnet2.comO03sBuK5
-  - 80.240.252.241srNYLQv0
-  - gd.bjnet2.comAF7qv6D4
-  - 124.151.45.60HgAryMK7
-  - 127.0.0.539ZRsfVcW
+  - v10.hdacd.comA90dh2zs
+  - v10.hdacd.comQK1VHOYz
+  - 54.227.186.25VTX1PmCp
+  - gd.bjnet2.comV5nfMToA
+  - 127.0.0.53qCgrfzia
+  - gd.bjnet2.comXSdTn0ji
+  - gd.bjnet2.comhuyLHkxN
+  - namrcg001640lrm.cybervena.comuUmV2DHK
+  - 24864168545164.oylfmxz.cn8Qx4qJgF
+  - 13.49.64.122c7oevH1w
+  - gd.bjnet2.comvngjPJ3q
+  - 127.0.0.53ZOAHRWct
+  - v36.hdacd.comh5rLfMpy
+  - v4.hdacd.comlhnq8ZyT
+  - namrcg001640lrm.cybervena.combNda6Ipy
+  - 129.226.157.220OYwDE57s
+  - 147.78.242.19X9k4UJCB
+  - gd.bjnet2.combLhU21k0
+  - 127.0.0.53WcO3ZQol
+  - 127.0.0.536YEjxseM
+  - guanwang.awsno.comXSZQ6rMY
+  - 127.0.0.53D2OJp4ha
+  - gd2.bjnet2.com0G1xSn7M
+  - gd2.bjnet2.comjWrRlTGQ
+  - v6.hdacd.com8QPy3rWo
+  - gd.bjnet2.comI9jtZiuR
+  - v10.hdacd.comRwMc5Yd2
+  - gd.bjnet2.comSc0ZxDHG
+  - 127.0.0.53BYvtQZsI
+  - gd.bjnet2.com7EVcXIhv
+  - gd2.bjnet2.comKS47AyTG
+  - 127.0.0.53GgneXLZj
+  - 63.180.254.10RtldZcpu
+  - gd.bjnet2.comiC65TABY
+  - 127.0.0.53tUuRFpiB
+  - namrcg001640lrm.cybervena.comHBVXEy1Z
+  - 127.0.0.53GUPEB2uZ
+  - gd2.bjnet2.comqZH1nYR8
+  - 112.132.215.108fZimk26X
+  - v33.hdacd.com2v4j3UWI
+  - gd.bjnet2.com2Ys7Z8iz
+  - 127.0.0.53P2NSHjlL
 - name: 🌍 国外媒体
   type: select
   proxies:
