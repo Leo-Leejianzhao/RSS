@@ -371,6 +371,7 @@ if __name__ == '__main__':
     # proxies.extend(load_subscribe_url('https://getinfo.bigwatermelon.org/api/v1/client/subscribe?token=8fe4290ba47b6fe0e207ead380a2396a'))
 
     proxies.extend(load_subscribe_url_txt('https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt'))
+
     # proxies.extend(load_subscribe_url('https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2'))
     # proxies.extend(load_subscribe_url_txt('https://raw.githubusercontent.com/weizai2023/TG-wz2023jd/main/TG%40wz2023jd/V2.txt'))
     # proxies.extend(load_subscribe_url_txt('https://raw.githubusercontent.com/drunksoul2021/vless-sub/refs/heads/main/list_raw.txt'))
@@ -418,6 +419,11 @@ if __name__ == '__main__':
     # proxies.extend(load_subscribe_url('https://flat-frost-62ae.leejianzhao.workers.dev/271828?sub=owo.o00o.ooo/ooo'))    
    
     # proxies.extend(load_subscribe_url('https://alvless.comorg.us.kg/TCorg'))
+
+    proxies.extend(load_subscribe_url_txt('https://raw.githubusercontent.com/Danialsamadi/v2go/main/AllConfigsSub.txt'))
+    proxies.extend(load_subscribe_url('https://raw.githubusercontent.com/yy1588133/proxy-pool/main/v2ray.txt'))
+    proxies.extend(load_subscribe_url_txt('https://raw.githubusercontent.com/yafeisun/v2raynode/refs/heads/main/result/nodetotal.txt'))
+    proxies.extend(load_subscribe_url_txt('https://cdn.jsdelivr.net/gh/free18/v2ray@main/v.txt'))
 
     proxies=list(set(proxies))
     gen_v2ray_subscribe(proxies)
