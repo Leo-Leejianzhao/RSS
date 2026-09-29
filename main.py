@@ -423,7 +423,7 @@ if __name__ == '__main__':
     proxies.extend(load_subscribe_url_txt('https://raw.githubusercontent.com/Danialsamadi/v2go/main/AllConfigsSub.txt'))
     proxies.extend(load_subscribe_url('https://raw.githubusercontent.com/yy1588133/proxy-pool/main/v2ray.txt'))
     proxies.extend(load_subscribe_url_txt('https://raw.githubusercontent.com/yafeisun/v2raynode/refs/heads/main/result/nodetotal.txt'))
-    proxies.extend(load_subscribe_url_txt('https://cdn.jsdelivr.net/gh/free18/v2ray@main/v.txt'))
+    proxies.extend(load_subscribe_url('https://cdn.jsdelivr.net/gh/free18/v2ray@main/v.txt'))
 
     proxies=list(set(proxies))
     gen_v2ray_subscribe(proxies)
