@@ -371,7 +371,8 @@ if __name__ == '__main__':
     # proxies.extend(load_subscribe_url('https://getinfo.bigwatermelon.org/api/v1/client/subscribe?token=8fe4290ba47b6fe0e207ead380a2396a'))
 
     proxies.extend(load_subscribe_url_txt('https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt'))
-
+    proxies.extend(load_subscribe_url('https://raw.githubusercontent.com/free-nodes/v2rayfree/main/sub'))
+    
     # proxies.extend(load_subscribe_url('https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2'))
     # proxies.extend(load_subscribe_url_txt('https://raw.githubusercontent.com/weizai2023/TG-wz2023jd/main/TG%40wz2023jd/V2.txt'))
     # proxies.extend(load_subscribe_url_txt('https://raw.githubusercontent.com/drunksoul2021/vless-sub/refs/heads/main/list_raw.txt'))
@@ -379,7 +380,8 @@ if __name__ == '__main__':
     # proxies.extend(load_subscribe_url_txt('https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/airport_sub_merge.txt'))        
     # proxies.extend(load_subscribe_url_txt('https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/sub_merge.txt')) # import 5584 servers，太多垃圾
 
-    proxies.extend(load_subscribe_url('https://raw.githubusercontent.com/Pawdroid/Free-servers/refs/heads/main/sub'))
+    proxies.extend(load_subscribe_url('https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub'))
+                                       
     proxies.extend(load_subscribe_url('https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray'))
 
     
@@ -422,7 +424,7 @@ if __name__ == '__main__':
 
     proxies.extend(load_subscribe_url_txt('https://raw.githubusercontent.com/Danialsamadi/v2go/main/AllConfigsSub.txt'))
     proxies.extend(load_subscribe_url('https://raw.githubusercontent.com/yy1588133/proxy-pool/main/v2ray.txt'))
-    proxies.extend(load_subscribe_url_txt('https://raw.githubusercontent.com/yafeisun/v2raynode/refs/heads/main/result/nodetotal.txt'))
+    # proxies.extend(load_subscribe_url_txt('https://raw.githubusercontent.com/yafeisun/v2raynode/refs/heads/main/result/nodetotal.txt'))
     # proxies.extend(load_subscribe_url('https://cdn.jsdelivr.net/gh/free18/v2ray@main/v.txt'))
 
     proxies=list(set(proxies))
